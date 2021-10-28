@@ -49,6 +49,11 @@ translations:
     - key: sections.animations_transforms.description
       t: Animarea și transformarea elementelor.
 
+    - key: sections.accessibility.title
+      t: Accesibilitate
+    - key: sections.accessibility.description
+      t: Funcționalități și tehnici de accesibilitate.
+
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
@@ -152,12 +157,63 @@ translations:
     - key: options.css_for_email.3.short
       t: De cele mai multe ori
 
-    ###########################################################################
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: Site-uri de marketing & landing pages
+    - key: options.what_do_you_use_css_for.design_systems
+      t: Design systems
+    - key: options.what_do_you_use_css_for.blogs
+      t: Blog-uri sau alte site-uri cu mult conținut text
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Aplicații web
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: Aplicații mobile
+    - key: options.what_do_you_use_css_for.css_art
+      t: Artă & ilustrații CSS
+    - key: options.what_do_you_use_css_for.emails
+      t: Email-uri
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: Documente tipărite
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: Compatibilitate browser
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Diferențe între Chrome, Safari, Firefox, etc.
+    - key: options.css_pain_points.interactions
+      t: Interacțiuni
+    - key: options.css_pain_points.interactions.description
+      t: Răspuns la input-ul utilizatorului sau la alte evenimente (scroll, hover, etc.).
+    - key: options.css_pain_points.architecture
+      t: Arhitectură & mentenanță
+    - key: options.css_pain_points.architecture.description
+      t: Organizarea fișierelor, eliminarea codului nefolosit, refactorizarea, etc.
+    - key: options.css_pain_points.layout_positioning
+      t: Layout & poziționare
+    - key: options.css_pain_points.layout_positioning.description
+      t: Configurarea layout-urilor și asigurarea că elementele sunt poziționate în locul dorit.
+    - key: options.css_pain_points.scoping_specificity
+      t: Scoping & specificitate
+    - key: options.css_pain_points.scoping_specificity.description
+      t: Confruntarea cu cascadarea, suprascrierea stilizărilor, etc.
+    - key: options.css_pain_points.responsive_design
+      t: Responsive Design
+    - key: options.css_pain_points.responsive_design.description
+      t: Adaptarea layout-urilor și a design-ului la diferiți factori de formă.
+    - key: options.css_pain_points.form_elements_styling
+      t: Stilizarea elementelor de formular
+    - key: options.css_pain_points.form_elements_styling.description
+      t: Personalizarea modului în care arată și se comportă elementele de formular.
+    - key: options.css_pain_points.performance_issues
+      t: Probleme de performanță
+    - key: options.css_pain_points.performance_issues.description
+      t: Confruntarea cu scrolling jank, crearea animațiilor fluide, etc.
+
+  ###########################################################################
     # Features
     ###########################################################################
 
     # layout
-
     - key: features.grid
       t: CSS Grid
     - key: features.subgrid
@@ -182,6 +238,17 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Proprietatea gap pentru flexbox
+    - key: features.break_rules
+      t: Break rules
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: Query-uri de container
+    - key: features.at_container.description
+      t: Query-ul <code>@container</code>
+
 
     # shapes & graphics
     - key: features.shapes
@@ -201,6 +268,20 @@ translations:
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
+    - key: features.intrinsic_sizing
+      t: Dimensionare intrinsecă
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
+
     # interactions
     - key: features.scroll_snap
       t: CSS Scroll Snap
@@ -212,6 +293,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+     t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -249,7 +332,7 @@ translations:
     - key: features.perspective
       t: <code>perspective</code>
 
-    # media queries
+    # media queries/accessibility
     - key: features.feature_support_queries
       t: Query-uri pentru suportul funcționalităților (<code>@supports</code>)
     - key: features.prefers_reduced_motion
@@ -258,6 +341,24 @@ translations:
       t: <code>prefers-color-scheme</code>
     - key: features.color_gamut
       t: <code>color-gamut</code>
+
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: Atributul HTML <code>tabindex</code>
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: Atributele ARIA HTML
+    - key: features.aria_attributes.description
+      t: <code>role</code>, <code>aria-label</code>, etc.
 
     # other features
     - key: features.variables
@@ -275,7 +376,52 @@ translations:
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code> și <code>clamp()</code>
 
-    ###########################################################################
+    - key: features.at_property
+      t: Proprietăți personalizate Houdini
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: Pseudo-elementul <code>::marker</code>
+
+  # missing features
+    - key: features.nesting
+      t: Nesting
+    - key: features.nesting.description
+      t: Being able to nest styles in native CSS.
+    - key: features.parent_selector
+      t: Selector pentru părinte
+    - key: features.parent_selector.description
+      t: Posibilitatea de a selecta un element părinte pe baza copiilor acestuia.
+    - key: features.browser_support
+      t: Suport pentru browser
+    - key: features.browser_support.description
+      t: Suport mai bun pentru browser în cazul funcționalităților existente.
+    - key: features.mixins
+      t: Mixins
+    - key: features.mixins.description
+      t: Gruparea și reutilizarea definițiilor în mod dinamic.
+    - key: features.color_functions
+      t: Funcții de culoare
+    - key: features.color_functions.description
+      t: Funcții pentru manipularea valorilor de culoare.
+    - key: features.container_queries
+      t: Query-uri de container
+    - key: features.container_queries.description
+      t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
+    - key: features.scoping
+      t: Scoping
+    - key: features.scoping.description
+      t: Posibilitatea de a fi mai specific cu privire la locul în care aplici stilizări.
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: Nesting deeper-level subgrids into a parent grid.
+
+  ###########################################################################
     # Units & Selectors
     ###########################################################################
 
@@ -473,6 +619,15 @@ translations:
     - key: environments.form_factors.description
       t: Ce form factors folosești pentru testare?
 
+    - key: environments.accessibility_features
+      t: Funcționalități de accesibilitate
+    - key: environments.accessibility_features.description
+      t: Ce funcționalități de accesibilitate implementezi de obicei?
+    - key: environments.accessibility_features.others
+      t: Alte funcționalități de accesibilitate
+    - key: environments.accessibility_features.others
+      t: Alte funcționalități de accesibilitate pe care le implementezi de obicei
+
     - key: environments.css_for_print
       t: CSS pentru versiuni tipărite
     - key: environments.css_for_print.description
@@ -483,10 +638,22 @@ translations:
     - key: environments.css_for_email.description
       t: Scrii CSS pentru clienți de email?
 
+    - key: environments.what_do_you_use_css_for
+      t: De obicei, pentru ce folosești CSS?
+    - key: environments.what_do_you_use_css_for.description
+      t: De obicei, pentru ce tip de proiect folosești CSS?
+    - key: environments.what_do_you_use_css_for.others
+      t: Alte tipuri de proiecte
+
     - key: charts.axis_legends.css_for_print
       t: Frecvență
     - key: charts.axis_legends.css_for_email
       t: Frecvență
+
+    - key: tools_others.tool_evaluation
+      t: Evaluarea librăriei
+    - key: tools_others.tool_evaluation.description
+      t: Pentru fiecare pereche, alege factorul pe care îl prioritizezi atunci când evaluezi o nouă librărie.
 
     ###########################################################################
     # Opinions
@@ -522,10 +689,30 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Mulțumire
 
-    - key: opinions_others.currently_missing_from_css.others
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: Incompatibilități pe browsere
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+        Există funcționalități CSS cu care întâmpini dificultăți 
+        din cauza diferențelor dintre browsere? 
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: Puncte slabe în CSS
+    - key: opinions.css_pain_points.description
+      t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în CSS.
+
+    - key: opinions_others.css_pain_points.others
+      t: Alte puncte slabe în CSS
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
       t: Ce simți că lipsește în CSS în acest moment?
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: Funcționalități CSS pe care ai vrea să le vezi într-o zi.
+    - key: opinions.currently_missing_from_css.description
+      t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să poți folosi astăzi în CSS.
+    - key: opinions_others.currently_missing_from_css.others
+      t: Alte funcționalități care lipsesc
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
@@ -541,3 +728,12 @@ translations:
 
     - key: happiness.state_of_css
       t: Cât de mulțumit(ă) ești de starea generală a CSS?
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps
+      t: Primii pași în CSS
+    - key: resources.first_steps.description
+      t: Când erai la început, cum ai învățat CSS?
