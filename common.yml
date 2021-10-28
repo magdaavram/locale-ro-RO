@@ -24,9 +24,15 @@ translations:
     - key: general.survey_read_only
       t: >
           Vizualizezi acest sondaj în mod read-only.
-    - key: general.survey_read_only_back
+    - key: general.survey_preview
       t: >
+        Acest sondaj este în modul previzualizare. Întrebările pot suferi modificări și toate datele 
+        introduse se vor pierde atunci când sondajul propriu-zis începe.
+    - key: general.survey_read_only_back
+        t: >
           <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
+    - key: general.take_survey
+      t: Completează sondajul {name} din {year}
 
     # surveys
     - key: general.open_surveys
@@ -51,6 +57,10 @@ translations:
       t: Previzualizează sondaj »
     - key: general.finish_survey
       t: Finalizează sondaj »
+    - key: general.next_section
+      t: Secțiunea următoare
+    - key: general.prev_section
+      t: Secțiunea anterioară
     - key: general.survey_closed
       t: Acest sondaj s-a încheiat.
     - key: general.survey_results
@@ -63,6 +73,22 @@ translations:
       t: Traducători
     - key: general.translation_help
       t: Suport pentru traducere
+    - key: general.newly_added
+     t: Nou adăugat anul acesta
+
+    # credits
+    - key: credits.thanks
+      t: Mulțumiri speciale
+    - key: credits.accessibility
+      t: Consultanță Accesibilitate
+    - key: credits.survey_design
+      t: Design Sondaj
+    - key: credits.logo_design
+      t: Design Logo
+
+    # support
+    - key: general.support_from
+      t: Cu susținerea
 
     # footer
     - key: general.privacy_policy
@@ -80,6 +106,14 @@ translations:
           Notă: întrebările sunt opționale, completarea în totalitate nu este necesară.
     - key: general.data_is_saved
       t: Răspunsurile tale sunt salvate atunci când navighezi între secțiuni.
+    - key: general.close_nav
+      t: Închide meniu
+    - key: general.open_nav
+      t: Deschide meniu
+    - key: general.more_actions
+      t: Mai multe acțiuni
+    - key: general.skip_to_content
+      t: Salt la conținut
 
     # thanks
     - key: general.back
@@ -107,6 +141,7 @@ translations:
     - key: thanks.share_score_message
       t: >
           Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
+
     # share
     - key: general.share_subject
       t: >
@@ -118,6 +153,8 @@ translations:
     # forms
     - key: forms.select_option
       t: Selectează opțiune
+    - key: forms.clear_field
+      t: Golește câmpul
 
     # partners
     - key: partners.our_partners
@@ -292,6 +329,24 @@ translations:
     - key: options.opinions.4
       t: Acord total
 
+    # age
+    - key: options.age.range_less_than_10
+      t: Sub 10 ani
+    - key: options.age.range_10_18
+      t: 10-18 ani
+    - key: options.age.range_18_24
+      t: 18-24 ani
+    - key: options.age.range_25_34
+      t: 24-34 ani
+    - key: options.age.range_35_44
+      t: 35-44 ani
+    - key: options.age.range_45_54
+      t: 45-54 ani
+    - key: options.age.range_55_64
+      t: 55-64 ani
+    - key: options.age.range_more_than_65
+      t: 65 de ani sau mai mult
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: Mai puțin de un an
@@ -457,22 +512,24 @@ translations:
       t: Expert
 
     # Gender
-
     - key: options.gender.female
       t: Feminin
     - key: options.gender.male
       t: Masculin
     - key: options.gender.non_binary
+      t: Non-binar sau non-conform
+    - key: options.gender.questioning
+      t: Questioning
+    - key: options.gender.not_listed
       t: Altul
-    - key: options.gender.prefer_not_to_say
-      t: Prefer să nu răspund
 
     # Race & Ethnicity
-
     - key: options.race_ethnicity.white_european
-      t: Alb sau din descendenți europeni
+      t: Alb
     - key: options.race_ethnicity.south_asian
       t: Din Asia de Sud
+    - key: options.race_ethnicity.south_east_asian
+      t: Din Asia de Sud-Est
     - key: options.race_ethnicity.hispanic_latin
       t: Hispanic sau latin
     - key: options.race_ethnicity.east_asian
@@ -487,10 +544,31 @@ translations:
       t: Birasial
     - key: options.race_ethnicity.native_american_islander_australian
       t: American nativ, din Insulele Pacificului sau indigen australian
+    - key: options.race_ethnicity.not_listed
+      t: Altul
+
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Deficiențe de vedere (cum ar fi: orbire, daltonism, etc.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Deficiențe de auz (cum ar fi: surditate, tinitus, etc.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Deficiențe locomotorii (cum ar fi: artrită, sindrom de tunel carpian, etc.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Deficiențe cognitive (cum ar fi: anxietate, dislexie, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        Altul
 
     # Form Factors
     - key: options.form_factors.desktop
       t: Desktop
+    - key: options.form_factors.keyboard_only
+      t: Desktop doar cu tastatură
     - key: options.form_factors.smartphone
       t: Smartphone
     - key: options.form_factors.feature_phone
@@ -507,6 +585,10 @@ translations:
       t: Soft de citire a ecranului
     - key: options.form_factors.print
       t: Versiune tipărită
+    - key: options.form_factors.testing_tools
+      t: Tool-uri de testare (Axe, Lighthouse, etc.)
+    - key: options.form_factors.vision_simulator
+      t: Simulator pentru vedere scăzută (daltonism, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -560,6 +642,90 @@ translations:
     - key: options.industry_sector.manufacturing
       t: Manufactură
 
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: Documentare
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: Este ușor de învățat și/sau este bine documentat?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Vizibilitate și popularitate
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: Se vorbește mult despre el în prezent?
+    - key: options.tool_evaluation.user_base_size
+      t: Dimensiunea comunității de utilizatori
+    - key: options.tool_evaluation.user_base_size.description
+      t: Este o opțiune stabilă, cu un istoric îndelungat?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: Experiența developer-ului
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: Oferă instrumente de dezvoltare bune, un ecosistem mare de plugin-uri, etc.?
+    - key: options.tool_evaluation.performance_user_experience
+      t: User Experience
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: Te ajută să creezi experiențe fluide și performante?
+    - key: options.tool_evaluation.creator_team
+      t: Autor & echipă
+    - key: options.tool_evaluation.creator_team.description
+      t: Este susținut de o echipă renumită, bine finanțată sau experimentată?
+    - key: options.tool_evaluation.accessibility_features
+      t: Funcționalități de accesibilitate
+    - key: options.tool_evaluation.accessibility_features.description
+      t: Este potrivit pentru a crea experiențe accesibile tuturor utilizatorilor?
+    - key: options.tool_evaluation.community_inclusivity
+      t: Comunitate & inclusivitate
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: Are o comunitate primitoare și vibrantă construită în jurul său?
+
+    # accessibility features
+    - key: options.accessibility_features.keyboard_navigation
+      t: Navigare prin intermediul tastaturii
+    - key: options.accessibility_features.compliant_contrast
+      t: Contrast conform WCAG
+    - key: options.accessibility_features.focus_indicators
+      t: Indicatori de focalizare
+    - key: options.accessibility_features.skip_to_content_link
+      t: Link de „Salt la conținut”
+    - key: options.accessibility_features.color_themes
+      t: Teme de culoare (mod întunecat, mod contrast ridicat, etc.)
+    - key: options.accessibility_features.prefers_reduced_motion
+      t: Prefers-reduced-motion
+    - key: options.accessibility_features.alt_text
+      t: Texte alternative
+    - key: options.accessibility_features.semantic_markup
+      t: Etichete semantice
+    - key: options.accessibility_features.aria_attributes
+      t: Atribute ARIA HTML
+
+    # learning methods
+    - key: options.first_steps.books
+      t: Cărți
+    - key: options.first_steps.videos
+      t: Video-uri & screencast-uri
+    - key: options.first_steps.school
+      t: Școală și învățământ superior
+    - key: options.first_steps.courses_free
+      t: Cursuri online (gratuite)
+    - key: options.first_steps.courses_paid
+      t: Cursuri online (contra-cost)
+    - key: options.first_steps.podcasts
+      t: Podcast-uri
+    - key: options.first_steps.bootcamp
+      t: Bootcamp de programare
+    - key: options.first_steps.on_the_job
+      t: Training la locul de muncă
+    - key: options.first_steps.self_directed
+      t: Învățare autodidactă (Google, Stack Overflow, etc.)
+    - key: options.first_steps.mentoring
+      t: Mentorat
+
+    # degree
+    - key: options.higher_education_degree.no_degree
+      t: Nu
+    - key: options.higher_education_degree.yes_related
+      t: Da, într-un domeniu care are legătură cu profesia mea actuală
+    - key: options.higher_education_degree.yes_unrelated
+      t: Da, dar într-un domeniu fără legătură cu profesia mea actuală
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -578,6 +744,10 @@ translations:
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
+
+    # age
+    - key: user_info.age
+      t: Vârstă
 
     # years of experience
     - key: user_info.years_of_experience
@@ -624,10 +794,27 @@ translations:
     # gender
     - key: user_info.gender
       t: Gen
+    - key: user_info.gender.description
+      t: >
+        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului. 
 
-    # skin tone/appearance
+    # race & ethnicity
     - key: user_info.race_ethnicity
       t: Rasă și etnie
+    - key: user_info.race_ethnicity.description
+      t: >
+        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului. 
+
+    # disability status
+    - key: user_info.disability_status
+      t: Dizabilități
+    - key: user_info.disability_status.description
+      t: >
+        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului.
+
+    # disability status (other)
+    - key: user_info.disability_status.others
+      t: Alte dizabilități
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
@@ -643,6 +830,15 @@ translations:
         În viitor, am putea folosi username-uri de GitHub pentru
         a analiza repository-uri sau pentru a face mențiuni
         către informații publice disponibile.
+
+    - key: user_info.twitter_username
+      t: Username pe Twitter
+    - key: user_info.twitter_username.description
+      t: >
+        În viitor, am putea folosi username-uri de Twitter pentru
+        a analiza activitatea și pentru a face referințe către informații publice
+        (cum ar fi lista de utilizatori pe care îi urmărești). 
+
     - key: user_info.industry_sector
       t: Sector industrial
     - key: user_info.industry_sector.description
@@ -651,6 +847,12 @@ translations:
       t: Alte sectoare industriale
     - key: user_info.industry_sector.others.description
       t: Alt sector industrial în care lucrezi, nemenționat.
+
+    # degree
+    - key: user_info.higher_education_degree
+      t: Studii superioare
+    - key: user_info.higher_education_degree.description
+      t: Ai o diplomă de studii superioare?
 
     ###########################################################################
     # Other Tools
@@ -714,6 +916,16 @@ translations:
     # Resources
     ###########################################################################
 
+    # learning method
+    - key: resources.first_steps
+      t: Primele metode de învățare
+    - key: resources.first_steps.description
+      t: Cum ai început procesul de învățare?
+    - key: resources.first_steps.others
+      t: Alte metode de învățare folosite la început
+    - key: resources.first_steps.others.description
+      t: Alte răspunsuri (câmp deschis).
+
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: Blog-uri și reviste
@@ -743,3 +955,19 @@ translations:
       t: Alte podcast-uri
     - key: resources.podcasts.others.description
       t: Alte răspunsuri (câmp deschis).
+
+    # people
+    - key: resources.people
+      t: Persoane
+    - key: resources.people.description
+      t: Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră.
+    # - key: resources.people.others
+    #   t: Alte persoane
+    # - key: resources.people.others.description
+    #   t: Alte răspunsuri (câmp deschis).
+    - key: resources.people.others
+      t: Persoane
+    - key: resources.people.others.description
+      t: >
+        Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră pentru activitatea lor 
+        (câmp deschis, nume separate prin virgulă).
