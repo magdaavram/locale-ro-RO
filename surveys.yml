@@ -22,7 +22,7 @@ translations:
     - key: faq.anonymous_survey
       t: Pot participa la sondaj în mod anonim?
     - key: faq.anonymous_survey.description
-      t: Da, poți folosi un email fals (something@example.com) sau unul după care nu poți fi identificat atunci când completezi sondajul, atât timp cât îl salvezi pentru a avea avea acces la el și ulterior.
+      t: Da, poți folosi un email fals (something@example.com) sau unul după care nu poți fi identificat atunci când completezi sondajul, atât timp cât îl salvezi pentru a-l putea folosi și ulterior.
     - key: faq.questions_required
       t: Este necesar să răspund la fiecare întrebare?
     - key: faq.questions_required.description
@@ -32,7 +32,7 @@ translations:
     - key: faq.data_published.description
       t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri, etc.).
     - key: faq.survey_design
-      t: Cum au fost sondajele create?
+      t: Cum au fost create sondajele?
     - key: faq.survey_design.description
       t: Sondajele sunt concepute pe baza feedback-ului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
     - key: faq.results_released
@@ -58,7 +58,7 @@ translations:
       t: Începe din nou
     - key: bracket.winner
       t: >
-      Winner:
+      Câștigător:
     - key: bracket.round
       t: Round
     - key: bracket.empty_bracket

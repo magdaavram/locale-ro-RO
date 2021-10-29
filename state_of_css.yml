@@ -203,7 +203,7 @@ translations:
     - key: options.css_pain_points.form_elements_styling
       t: Stilizarea elementelor de formular
     - key: options.css_pain_points.form_elements_styling.description
-      t: Personalizarea modului în care arată și se comportă elementele de formular.
+      t: Personalizarea modului în care arată și se comportă elementele din formulare.
     - key: options.css_pain_points.performance_issues
       t: Probleme de performanță
     - key: options.css_pain_points.performance_issues.description
@@ -710,7 +710,7 @@ translations:
     - key: opinions.currently_missing_from_css
       t: Ce simți că lipsește în CSS în acest moment?
     - key: opinions.currently_missing_from_css.description
-      t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să poți folosi astăzi în CSS.
+      t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
     - key: opinions_others.currently_missing_from_css.others
       t: Alte funcționalități care lipsesc
     - key: opinions_others.currently_missing_from_css.others.note
@@ -736,4 +736,4 @@ translations:
     - key: resources.first_steps
       t: Primii pași în CSS
     - key: resources.first_steps.description
-      t: Când erai la început, cum ai învățat CSS?
+      t: Cum ai învățat CSS atunci când erai la început de drum?

@@ -80,11 +80,11 @@ translations:
     - key: credits.thanks
       t: Mulțumiri speciale
     - key: credits.accessibility
-      t: Consultanță Accesibilitate
+      t: Consultanță accesibilitate
     - key: credits.survey_design
-      t: Design Sondaj
+      t: Design sondaj
     - key: credits.logo_design
-      t: Design Logo
+      t: Design logo
 
     # support
     - key: general.support_from
@@ -545,7 +545,7 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: American nativ, din Insulele Pacificului sau indigen australian
     - key: options.race_ethnicity.not_listed
-      t: Altul
+      t: Alta
 
     # Disability Status
     - key: options.disability_status.visual_impairments
@@ -562,7 +562,7 @@ translations:
         Deficiențe cognitive (cum ar fi: anxietate, dislexie, etc.)
     - key: options.disability_status.not_listed
       t: >
-        Altul
+        Altele
 
     # Form Factors
     - key: options.form_factors.desktop
