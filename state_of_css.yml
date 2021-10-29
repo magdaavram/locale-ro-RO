@@ -209,7 +209,7 @@ translations:
     - key: options.css_pain_points.performance_issues.description
       t: Confruntarea cu scrolling jank, crearea animațiilor fluide, etc.
 
-  ###########################################################################
+    ###########################################################################
     # Features
     ###########################################################################
 
@@ -294,7 +294,7 @@ translations:
     - key: features.pointer_events
       t: <code>pointer-events</code>
     - key: features.scroll_timeline
-     t: <code>scroll-timeline</code>
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -387,7 +387,7 @@ translations:
     - key: features.marker
       t: Pseudo-elementul <code>::marker</code>
 
-  # missing features
+    # missing features
     - key: features.nesting
       t: Nesting
     - key: features.nesting.description
@@ -421,7 +421,7 @@ translations:
     - key: features.subgrid.description
       t: Nesting deeper-level subgrids into a parent grid.
 
-  ###########################################################################
+    ###########################################################################
     # Units & Selectors
     ###########################################################################
 
