@@ -6,3 +6,89 @@ translations:
 
     - key: general.no_preview_surveys
       t: Niciun sondaj disponibil
+    - key: general.global_nav
+      t: General
+
+    ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: FAQ
+    - key: faq.create_account
+      t: De ce trebuie să-mi creez cont?
+    - key: faq.create_account.description
+      t: Te rugăm să îți creezi cont pentru a evita răspunsurile duplicate, pentru a salva progresul răspunsurilor tale și pentru a te putea anunța atunci când publicăm rezultatele.
+    - key: faq.anonymous_survey
+      t: Pot participa la sondaj în mod anonim?
+    - key: faq.anonymous_survey.description
+      t: Da, poți folosi un email fals (something@example.com) sau unul după care nu poți fi identificat atunci când completezi sondajul, atât timp cât îl salvezi pentru a-l putea folosi și ulterior.
+    - key: faq.questions_required
+      t: Este necesar să răspund la fiecare întrebare?
+    - key: faq.questions_required.description
+      t: Nu, toate întrebările din sondaj sunt opționale.
+    - key: faq.data_published
+      t: Veți face publice datele mele?
+    - key: faq.data_published.description
+      t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri, etc.).
+    - key: faq.survey_design
+      t: Cum au fost create sondajele?
+    - key: faq.survey_design.description
+      t: Sondajele sunt concepute pe baza feedback-ului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    - key: faq.results_released
+      t: Când vor fi publicate rezultatele?
+    - key: faq.results_released.description
+      t: Rezultatele sunt de regulă publicate la câteva săptămâni după încheierea sondajului.
+    - key: faq.survey_deadline
+      t: Când se va închide sondajul?
+    - key: faq.survey_deadline.description
+      t: Acest sondaj este deschis până pe {date}
+    - key: faq.team
+      t: Cine se ocupă de aceste sondaje?
+    - key: faq.team.description
+      t: Sondajele sunt în principal sub tutela [mea](http://sachagreif.com), în parteneriat cu colaboratori, traducători și voluntari.
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: Începe din nou
+    - key: bracket.winner
+      t: >
+      Câștigător:
+    - key: bracket.round
+      t: Round
+    - key: bracket.empty_bracket
+      t: Rezultat în așteptare (mai întâi, completează runda anterioară)
+    - key: bracket.result
+      t: Rezultat
+    - key: bracket.cancel
+      t: Anulare
+
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    - key: user_info.gender.description
+      t: >
+        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)?
+        
+        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și 
+        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.
+    - key: user_info.race_ethnicity.description
+      t: >
+        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)? Te rugăm să bifezi toate opțiunile care se aplică.
+        
+        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și 
+        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.
+    - key: user_info.disability_status.description
+      t: >
+        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)? Te rugăm să bifezi toate opțiunile care se aplică.
+        De reținut că asta poate include dizabilități temporare sau răni. 
+        
+        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și
+        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.
