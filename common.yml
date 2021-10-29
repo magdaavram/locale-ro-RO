@@ -29,7 +29,7 @@ translations:
         Acest sondaj este în modul previzualizare. Întrebările pot suferi modificări și toate datele 
         introduse se vor pierde atunci când sondajul propriu-zis începe.
     - key: general.survey_read_only_back
-        t: >
+      t: >
         <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
     - key: general.take_survey
       t: Completează sondajul {name} din {year}
