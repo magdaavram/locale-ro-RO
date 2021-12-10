@@ -342,7 +342,7 @@ translations:
         de starea generală a acestei categorii?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Rămâi aproape
     - key: blocks.newsletter.description
       t: |
