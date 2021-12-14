@@ -85,6 +85,16 @@ translations:
       t: Design sondaj
     - key: credits.logo_design
       t: Design logo
+    - key: credits.mobile_testing
+      t: Testare pe mobil
+    - key: credits.data_visualizations
+      t: Vizualizare date
+    - key: credits.repo_architecture
+      t: Arhitectura repo
+    - key: credits.code_refactoring
+      t: Refactorizarea codului
+    - key: credits.data_processing
+      t: Procesarea datelor
 
     # support
     - key: general.support_from
@@ -347,6 +357,24 @@ translations:
     - key: options.age.range_more_than_65
       t: 65 de ani sau mai mult
 
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<10'
+    - key: options.age.range_10_18.short
+      t: 10-18
+    - key: options.age.range_18_24.short
+      t: 18-24
+    - key: options.age.range_25_34.short
+      t: 24-34
+    - key: options.age.range_35_44.short
+      t: 35-44
+    - key: options.age.range_45_54.short
+      t: 45-54
+    - key: options.age.range_55_64.short
+      t: 55-64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
+
     # years of experience
     - key: options.years_of_experience.range_less_than_1
       t: Mai puțin de un an
@@ -363,17 +391,17 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1'
+      t: '<1 an'
     - key: options.years_of_experience.range_1_2.short
-      t: 1-2
+      t: 1-2 ani
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5
+      t: 2-5 ani
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10
+      t: 5-10 ani
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20
+      t: 10-20 ani
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20'
+      t: '>20 ani'
 
     # company size
     - key: options.company_size.range_1
@@ -429,19 +457,19 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '0'
+      t: '$0'
     - key: options.yearly_salary.range_0_10.short
-      t: 0~10k
+      t: $0~10k
     - key: options.yearly_salary.range_10_30.short
-      t: 10~30k
+      t: $10~30k
     - key: options.yearly_salary.range_30_50.short
-      t: 30~50k
+      t: $30~50k
     - key: options.yearly_salary.range_50_100.short
-      t: 50~100k
+      t: $50~100k
     - key: options.yearly_salary.range_100_200.short
-      t: 100~200k
+      t: $100~200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>200k'
+      t: '>$200k'
 
     # job titles
     - key: options.job_title.cto
@@ -520,20 +548,36 @@ translations:
       t: Non-binar sau non-conform
     - key: options.gender.questioning
       t: Questioning
+    - key: options.gender.prefer_not_to_say
+      t: Prefer să nu răspund
     - key: options.gender.not_listed
+      t: Altul
+
+    # Gender (short)
+    - key: options.gender.female.short
+      t: Feminin
+    - key: options.gender.male.short
+      t: Masculin
+    - key: options.gender.non_binary.short
+      t: Non-binar sau non-conform
+    - key: options.gender.questioning.short
+      t: Questioning
+    - key: options.gender.prefer_not_to_say.short
+      t: Prefer să nu răspund
+    - key: options.gender.not_listed.short
       t: Altul
 
     # Race & Ethnicity
     - key: options.race_ethnicity.white_european
       t: Alb
     - key: options.race_ethnicity.south_asian
-      t: Din Asia de Sud
+      t: Din Asia de sud
     - key: options.race_ethnicity.south_east_asian
-      t: Din Asia de Sud-Est
+      t: Din Asia de sud-est
     - key: options.race_ethnicity.hispanic_latin
       t: Hispanic sau latin
     - key: options.race_ethnicity.east_asian
-      t: Din Asia de Est
+      t: Din Asia de est
     - key: options.race_ethnicity.middle_eastern
       t: Din Orientul Mijlociu
     - key: options.race_ethnicity.black_african
@@ -545,6 +589,30 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: American nativ, din Insulele Pacificului sau indigen australian
     - key: options.race_ethnicity.not_listed
+      t: Alta
+
+    # Race & Ethnicity (short)
+    - key: options.race_ethnicity.white_european.short
+      t: Alb
+    - key: options.race_ethnicity.south_asian.short
+      t: Din sudul Asiei
+    - key: options.race_ethnicity.south_east_asian.short
+      t: Din sud-estul Asiei
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Hispanic/latin
+    - key: options.race_ethnicity.east_asian.short
+      t: Din estul Asiei
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Din Orientul Mijlociu
+    - key: options.race_ethnicity.black_african.short
+      t: Negru/din descendenți africani
+    - key: options.race_ethnicity.multiracial.short
+      t: Multirasial
+    - key: options.race_ethnicity.biracial.short
+      t: Birasial
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: American nativ/din Insulele Pacificului/indigen australian
+    - key: options.race_ethnicity.not_listed.short
       t: Alta
 
     # Disability Status
@@ -560,6 +628,23 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         Deficiențe cognitive (cum ar fi: anxietate, dislexie, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        Altele
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Deficiențe de vedere
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Deficiențe de auz
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Deficiențe locomotorii
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Deficiențe cognitive
     - key: options.disability_status.not_listed
       t: >
         Altele
@@ -726,6 +811,22 @@ translations:
     - key: options.higher_education_degree.yes_unrelated
       t: Da, dar într-un domeniu fără legătură cu profesia mea actuală
 
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: Nu
+    - key: options.higher_education_degree.yes_related.short
+      t: Da, domeniu conex
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Da, domeniu neînrudit
+
+    # bracket
+    - key: options.bracket.round1
+      t: Victorii în runda 1
+    - key: options.bracket.round2
+      t: Victorii în runda 2
+    - key: options.bracket.round3
+      t: Victorii în runda 3
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -748,24 +849,26 @@ translations:
     # age
     - key: user_info.age
       t: Vârstă
+    - key: user_info.age.description
+      t: Ce vârstă ai?
 
     # years of experience
     - key: user_info.years_of_experience
       t: Ani de experiență
     - key: user_info.years_of_experience.description
-      t: De cât timp lucrezi sau studiezi acest domeniu.
+      t: De câți ani lucrezi sau studiezi acest domeniu?
 
     # company size
     - key: user_info.company_size
       t: Dimensiunea companiei
     - key: user_info.company_size.description
-      t: Cât de mare este compania în care lucrezi.
+      t: Câți angajați are compania în care lucrezi?
 
     # salary ranges
     - key: user_info.yearly_salary
       t: Salariu anual
     - key: user_info.yearly_salary.description
-      t: În USD.
+      t: Salariul tău anual, exprimat în dolari (USD).
 
     # job title
     - key: user_info.job_title
@@ -796,21 +899,32 @@ translations:
       t: Gen
     - key: user_info.gender.description
       t: >
-        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului. 
+        Care dintre următoarele opțiuni te descrie (dacă există)? Te rugăm să bifezi o opțiune.
+    - key: user_info.gender.note
+      t: >
+        Realizăm că prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
+        credem că este important să colectăm aceste date pentru a ne ajuta să măsurăm și să îmbunătățim
+        sondajul din punct de vedere al inclusivității și reprezentativității.
 
     # race & ethnicity
     - key: user_info.race_ethnicity
       t: Rasă și etnie
     - key: user_info.race_ethnicity.description
       t: >
-        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului. 
+        Care dintre următoarele opțiuni te descrie (dacă există)? Te rugăm să bifezi toate opțiunile care se aplică.
+    - key: user_info.race_ethnicity.note
+      t: >
+        Realizăm că prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
+        credem că este important să colectăm aceste date pentru a ne ajuta să măsurăm și să îmbunătățim
+        sondajul din punct de vedere al inclusivității și reprezentativității.  
 
     # disability status
     - key: user_info.disability_status
       t: Dizabilități
     - key: user_info.disability_status.description
       t: >
-        Folosim aceste date pentru a analiza și îmbunătăți reprezentativitatea sondajului.
+        Cu care dintre aceste dizabilități te confrunți (dacă există)? Te rugăm să bifezi toate opțiunile care se aplică.
+        Răspunsul poate include dizabilități temporare sau accidentări. 
 
     # disability status (other)
     - key: user_info.disability_status.others
@@ -823,6 +937,9 @@ translations:
       t: Adresa de email
     - key: user_info.country
       t: Țară sau regiune
+    - key: user_info.country.description
+      t: Care este reședința ta curentă?
+
     - key: user_info.github_username
       t: Username pe GitHub
     - key: user_info.github_username.description
