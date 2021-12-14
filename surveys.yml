@@ -68,27 +68,6 @@ translations:
     - key: bracket.cancel
       t: Anulare
 
-
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
-
-    - key: user_info.gender.description
-      t: >
-        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)?
-        
-        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și 
-        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.
-    - key: user_info.race_ethnicity.description
-      t: >
-        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)? Te rugăm să bifezi toate opțiunile care se aplică.
-        
-        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și 
-        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.
-    - key: user_info.disability_status.description
-      t: >
-        Care dintre următoarele afirmații te descriu (dacă se aplică vreuna)? Te rugăm să bifezi toate opțiunile care se aplică.
-        De reținut că asta poate include dizabilități temporare sau răni. 
-        
-        Folosim aceste date pentru a urmări și îmbunătăți inclusivitatea și
-        reprezentativitatea sondajului. La fel ca orice altă întrebare, și aceasta este opțională.

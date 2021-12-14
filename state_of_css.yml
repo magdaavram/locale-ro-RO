@@ -70,12 +70,12 @@ translations:
       t: Testează-ți cunoștințele despre unități și selectori CSS.
 
     - key: sections.pre_post_processors.title
-      t: Pre-/Post-processors
+      t: Pre-/Post-procesoare
     - key: sections.pre_post_processors.description
       t: Utilitare care extind CSS-ul.
 
     - key: sections.pre_post_processors_others.title
-      t: Alte pre-/post-processors
+      t: Alte pre-/post-procesoare
 
     - key: sections.css_frameworks.title
       t: Framework-uri CSS
@@ -209,6 +209,40 @@ translations:
     - key: options.css_pain_points.performance_issues.description
       t: Confruntarea cu scrolling jank, crearea animațiilor fluide, etc.
 
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: Nesting
+    - key: options.currently_missing_from_css.nesting.description
+      t: Being able to nest styles in native CSS.
+    - key: options.currently_missing_from_css.parent_selector
+      t: Selectorul părinte
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: Posibilitatea de a selecta un părinte pe baza copiilor săi.
+    - key: options.currently_missing_from_css.browser_support
+      t: Suport pentru browsere
+    - key: options.currently_missing_from_css.browser_support.description
+      t: Suport mai bun al funcționalităților existente pe browsere.
+    - key: options.currently_missing_from_css.mixins
+      t: Mixins
+    - key: options.currently_missing_from_css.mixins.description
+      t: Gruparea și reutilizarea definițiilor în mod dinamic.
+    - key: options.currently_missing_from_css.color_functions
+      t: Color Functions
+    - key: options.currently_missing_from_css.color_functions.description
+      t: Funcții de manipulare a valorilor de culoare.
+    - key: options.currently_missing_from_css.container_queries
+      t: Container Queries
+    - key: options.currently_missing_from_css.container_queries.description
+      t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
+    - key: options.currently_missing_from_css.scoping
+      t: Scoping
+    - key: options.currently_missing_from_css.scoping.description
+      t: Posibilitatea de a fi mai specific în privința locului în care sunt aplicate stilizările.
+    - key: options.currently_missing_from_css.subgrid
+      t: Subgrid
+    - key: options.currently_missing_from_css.subgrid.description
+      t: Nesting deeper-level subgrids into a parent grid.
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -245,9 +279,9 @@ translations:
     - key: features.break_rules.description
       t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
     - key: features.at_container
-      t: Query-uri de container
+      t: Container Queries
     - key: features.at_container.description
-      t: Query-ul <code>@container</code>
+      t: <code>@container</code> query
 
 
     # shapes & graphics
@@ -299,7 +333,7 @@ translations:
     # typography
     - key: features.web_fonts
       t: Fonturi web (@font-face)
-    - key: features.variables_fonts
+    - key: features.variable_fonts
       t: Fonturi variabile
     - key: features.line_breaking
       t: Proprietăți pentru line breaking
@@ -372,7 +406,7 @@ translations:
     - key: features.houdini
       t: Houdini
     - key: features.comparison_functions
-      t: Funcții CSS pentru comparare
+      t: Funcții CSS de comparare
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code> și <code>clamp()</code>
 
@@ -387,7 +421,7 @@ translations:
     - key: features.marker
       t: Pseudo-elementul <code>::marker</code>
 
-    # missing features
+    # missing features (see also options)
     - key: features.nesting
       t: Nesting
     - key: features.nesting.description
@@ -722,6 +756,13 @@ translations:
       t: CSS într-un cuvânt
     - key: opinions.sum_up_one_word_css.description
       t: Cum ai rezuma părerea ta despre CSS într-un singur cuvânt?
+
+    - key: happiness.pre_post_processors
+      t: Cât de mulțumit(ă) ești de pre-/post-procesoare?
+    - key: happiness.css_in_js
+      t: Cât de mulțumit(ă) ești de starea librăriilor CSS-in-JS?
+    - key: happiness.css_frameworks
+      t: Cât de mulțumit(ă) ești de framework-urile CSS?
 
     - key: happiness.state_of_the_web
       t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
