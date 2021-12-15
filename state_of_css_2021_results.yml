@@ -136,7 +136,7 @@ translations:
       
       - State of CSS: lista abonaților State of CSS; include și `email`, `după email`, etc.
       
-      - Locul de muncă: include `locul de muncă`, `colegi`, `colegi de muncă`, etc.
+      - Work: include `locul de muncă`, `colegi`, `colegi de muncă`, etc.
 
   ###########################################################################
   # Awards
@@ -164,7 +164,7 @@ translations:
 
   - key: sections.conclusion.description
     t: |
-      <span class="first-line">Modul în care scrii CSS este pe cale să se schimbe pentru totdeauna.</span>
+      <span class="first-line">Modul în care scrii CSS este pe cale să se schimbe pentru totdeauna</span>
       
       De mulți ani încoace, multe dintre inovațiile legate de stilizările pentru web au avut loc în alte arii: în 
       pre-procesoare, framework-uri JavaScript sau compilatoare. Cu siguranță, și CSS-ul în sine a avut parte de câteva 
@@ -251,7 +251,7 @@ translations:
     t: Developer frontend și creator de conținut.
   - key: picks.lauragift_.description
     t: |
-      Kevin creează conținut despre CSS pe Youtube, iar mie îmi face mare plăcere să-i urmăresc clipurile. Face o treabă 
+      Kevin creează conținut despre CSS pe YouTube, iar mie îmi face mare plăcere să-i urmăresc clipurile. Face o treabă 
       foarte bună predând concepte CSS într-un mod care este ușor și distractiv de înțeles.
 
   - key: picks.ericwbailey.name

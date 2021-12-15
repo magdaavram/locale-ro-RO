@@ -826,6 +826,8 @@ translations:
       t: Victorii în runda 2
     - key: options.bracket.round3
       t: Victorii în runda 3
+    - key: options.bracket.combined
+      t: Per total
 
     ###########################################################################
     # Tools
