@@ -1,0 +1,410 @@
+locale: ro-RO
+namespace: css
+translations:
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: sections.introduction.description
+    t: |
+      
+      <span class="first-letter">S</span>unt tâmplarii nevoiți să învețe un mod mai bun de a tăia o placă o dată la 
+      câțiva ani? Au pictorii sindromul impostorului pentru că încă mai pictează în ulei? Sau suntem doar noi front-end 
+      developerii cei care experimentează constant această stare de schimbare?
+      
+      Având container queries și multe alte funcționalități chiar după colț, putem spune cu siguranță că lucrurile se 
+      mișcă cu rapiditate. Și, din moment ce trebuie să ținem pasul cu ele, ne-am făcut timp să aducem și câteva 
+      îmbunătățiri rezultatelor sondajului! 
+      
+      În practică, asta înseamnă că putem face referințe încrucișate între doi indicatori, cum ar fi salariul anual și 
+      nivelul de experiență; sau genul în funcție de țară. Vei vedea unele dintre aceste defalcări incluse în rezultate, 
+      dar te încurajăm să explorezi datele și mai în profunzime folosind [API-ul nostru](https://api.stateofjs.com/) sau 
+      [descărcându-le](https://www.kaggle.com/sachag/state-of-css). Dă-ne de veste dacă îți faci propria vizualizare de 
+      date!
+      
+      Și acum să vedem ce a mai făcut CSS anul acesta!
+      
+      *Notă: Suntem nevoiți să amânăm sondajul [State of JavaScript 2021](http://stateofjs.com/) până în ianuarie 2022 
+      din cauza lipsei de timp. Ne revedem după sărbători!*
+      
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tricou
+
+  - key: sections.tshirt.description
+    t: |
+      ## Susține sondajul cu tricoul State of CSS
+      
+      Între calitatea video scăzută, casetele voluminoase și faptul că trebuia să derulezi înapoi, nu sunt prea multe 
+      de care să-ți fie dor din era VHS. Dar un lucru care *ne* lipsește sunt imaginile minunate din anii '90 cu care 
+      obișnuiau să fie decorate casetele VHS nescrise. 
+      
+      Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind 
+      în același timp și dragostea pentru CSS!
+
+  - key: tshirt.about
+    t: Despre tricou
+
+  - key: tshirt.description
+    t: |
+      Folosim un tricou dintr-un material înalt calitativ, foarte moale, care are un croi slim fit, imprimat de 
+      partenerii noștri de la Cotton Bureau. 
+
+  - key: tshirt.getit
+    t: Cumpără-l
+
+  - key: tshirt.price
+    t: $29 + transport
+
+  - key: tshirt.designer.heading
+    t: Despre designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
+      extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o 
+      privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      Sondajul din acest an a ajuns la **8.714** developeri din întreaga lume și, pentru a
+      evidenția diverse voci și perspective mai profunde, am depus un efort deosebit
+      în a oferi noi moduri de a descompune datele. 
+
+  - key: sections.features.description
+    t: |
+      Dinamismul CSS nu dă niciun semn de oprire, în timp ce developerii depun efort în adoptarea noii
+      „recolte” de funcționalități și așteaptă cu nerăbdare inovațiile din anii următori. 
+
+  - key: sections.technologies.description
+    t: |
+      Având în vedere că aproape 50% dintre respondenți folosesc cu plăcere una sau mai multe librării CSS-in-JS, este 
+      sigur să spunem că această categorie a reușit să-și crească nișa. Poate cele două părți ale universului front-end 
+      nu sunt până la urmă atât de îndepărtate?
+
+  - key: sections.tools_others.description
+    t: |
+      Selectarea unei tehnologii poate adesea implica o serie de alegeri dificile între priorități concurente. În acest 
+      an am încercat să surprindem acest proces folosind un nou format de întrebări eliminatorii (tournament bracket). 
+
+  - key: sections.environments.description
+    t: |
+      Accesibiltatea a fost mult timp în dezvoltarea web o temă de gândire ulterioară, dar mulți developeri își dau 
+      seama acum că ar trebui să fie de fapt fundația pe care se sprijină toate celelalte. 
+
+  - key: sections.resources.description
+    t: |
+      Punerea în lumină a blog-urilor, podcast-urilor și site-urilor este benefică, dar în acest an am decis să facem un 
+      pas mai departe și să prezentăm efectiv oamenii care fac parte din comunitatea CSS! 
+
+  - key: sections.opinions.description
+    t: |
+      Fie că e vorba de punctele dureroase care te țin în loc astăzi sau de funcționalitățile lipsă pe care sperai să le 
+      folosești mâine, aceasta a fost șansa voastră de a dezvălui și împărtăși nemulțumiri legate de CSS!
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Dacă ești interesat să afli mai multe, [am scris un articol pe blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) 
+      care abordează dinamica de gen a sondajului.
+
+  - key: blocks.currently_missing_from_css.note
+    t: |
+      Poți explora întregul set de date obținute din răspunsurile la această întrebare în [acest side project](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+      
+      Acest grafic agregă o combinație de referințe, parametri URL și răspunsuri libere. 
+      
+      - State of JS: lista abonaților [State of JS](https://stateofjs.com).
+      
+      - State of CSS: lista abonaților State of CSS; include și `email`, `după email`, etc.
+      
+      - Locul de muncă: include `locul de muncă`, `colegi`, `colegi de muncă`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Cu o evoluție de **{value}** în 2021, funcțiile CSS de comparare devin o parte esențială din toolkit-ul fiecărui developer CSS.
+
+  #  - key: award.tool_usage_delta_award.comment
+  #    t: Nici un alt instrument nu se apropie măcar de evoluția dramatică de **{value}** pe care Tailwind CSS a avut-o în ultimul an.
+
+  - key: award.tool_satisfaction_award.comment
+    t: PostCSS ocupă din nou primul loc, cu un raport al satisfacției de **{value}**.
+
+  - key: award.tool_interest_award.comment
+    t: Cu un raport de **{value}**, CSS Modules a generat și în acest an cel mai mare interes în rândul developerilor.
+
+  #  - key: award.most_write_ins_award.comment
+  #    t: Multe întrebări au acceptat și răspunsuri libere, iar PhpStorm a fost cel mai popular, cu **{value}** mențiuni.
+
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: sections.conclusion.description
+    t: |
+      <span class="first-line">Modul în care scrii CSS este pe cale să se schimbe pentru totdeauna.</span>
+      
+      De mulți ani încoace, multe dintre inovațiile legate de stilizările pentru web au avut loc în alte arii: în 
+      pre-procesoare, framework-uri JavaScript sau compilatoare. Cu siguranță, și CSS-ul în sine a avut parte de câteva 
+      îmbunătățiri, cum sunt [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) sau 
+      [proprietățile personalizate](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Cu toate acestea, încă apelăm 
+      zilnic la diverse librării și la alte helpere. 
+      
+      Dar urmează o schimbare. Limbajul de bază CSS este zguduit și reînnoit, iar noi suntem chiar în fruntea evoluției rapide. 
+      
+      [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) ne va duce într-o eră 
+      complet nouă a design-ului responsive, iar [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) 
+      va ușura semnificativ utilizarea framework-urilor, a temelor și gestionarea unui codebase complex. 
+      
+      Dacă privim puțin mai departe, putem remarca și apariția [condiționalului @when/else](https://css-tricks.com/proposal-for-css-when/), 
+      care ne va permite să combinăm query-uri media, container și de suport într-o singură construcție @.
+      
+      Și ținem pumnii ca 2022 să fie anul în care vom vedea în sfârșit ceva mișcare pe partea de CSS nesting nativ. 
+      Aceia dintre noi care lucrează cu instrumente ca Sass și PostCSS deja nu-și mai pot imagina un alt mod de lucru.
+      
+      Toate acestea înseamnă că 2022 va fi cel mai probabil un an în care modul în care scrii CSS se va schimba 
+      fundamental. Este o perioadă incredibil de interesantă, iar noi așteptăm cu nerăbdare toate aceste implementări 
+      extraordinare din anul care vine.
+
+  - key: conclusion.bio
+    t: Developer Web developer și creator al Polypane
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: 'Alegerea mea în 2021: '
+  - key: picks.intro
+    t: Am rugat membrii comunității CSS să ne spună care este „alegerea anului” din perspectiva lor
+
+  - key: picks.georgedoescode.name
+    t: API-ul CSS Paint
+  - key: picks.georgedoescode.bio
+    t: Developer, scriitor și artist generativ.
+  - key: picks.georgedoescode.description
+    t: |
+      API-ul Paint ne permite să creăm imagini în mod programatic, pe care le putem utiliza în CSS-ul nostru. Dezvăluie 
+      o întreagă lume a creativității, iar eu sunt foarte încântat de asta! 
+
+  - key: picks.cassidoo.name
+    t: Lynn Fisher
+  - key: picks.cassidoo.bio
+    t: Developer advocate, educator și consilier de startup-uri.
+  - key: picks.cassidoo.description
+    t: |
+      Mi-ar plăcea să o aleg pe Lynn Fisher. Ea a surprins și încântat comunitatea CSS în mod constant cu proiectele și 
+      experimentele ei creative. Îmi place cât de multe pot învăța oamenii de la ea!
+
+  - key: picks.joshwcomeau.name
+    t: Amelia Wattenberger
+  - key: picks.joshwcomeau.bio
+    t: Developer software și creator al [CSS for JavaScript Developers](https://css-for-js.dev/).
+  - key: picks.joshwcomeau.description
+    t: |
+      Amelia creează unele dintre cele mai uimitoare articole de blog interactive despre CSS și JS. Citește acest 
+      articol despre cum funcționează procentele în CSS!
+
+  - key: picks.kevinjpowell.name
+    t: Stephanie Eckles
+  - key: picks.kevinjpowell.bio
+    t: Evanghelist CSS.
+  - key: picks.kevinjpowell.description
+    t: |
+      Sunt în mod constant uluit de inițiativele continue ale Stephaniei care ajută la împărtășirea cunoștințelor ei 
+      despre tehnicile moderne CSS, precum și de entuziasmul ei contagios pentru domeniu.
+
+  - key: picks.mmatuzo.name
+    t: aspect-ratio
+  - key: picks.mmatuzo.bio
+    t: Developer front-end din Viena și creator al [htmhell.dev](https://htmhell.dev).
+  - key: picks.mmatuzo.description
+    t: |
+      Toate marile browsere au oferit suport pentru aspect-ratio în 2021. La început l-am subestimat, dar sunt atâtea 
+      situațiile în care această proprietate este utilă!
+
+  - key: picks.lauragift_.name
+    t: Kevin Powell
+  - key: picks.lauragift_.bio
+    t: Developer frontend și creator de conținut.
+  - key: picks.lauragift_.description
+    t: |
+      Kevin creează conținut despre CSS pe Youtube, iar mie îmi face mare plăcere să-i urmăresc clipurile. Face o treabă 
+      foarte bună predând concepte CSS într-un mod care este ușor și distractiv de înțeles.
+
+  - key: picks.ericwbailey.name
+    t: Miriam Suzanne
+  - key: picks.ericwbailey.bio
+    t: Design inclusiv și susținător \#a11y.
+  - key: picks.ericwbailey.description
+    t: |
+      CSS-ul e pe cale să treacă de la bun la excepțional. Preocuparea lui Miriam pentru Container Queries și Cascade 
+      Layers va revoluționa modul în care scriem CSS.
+
+  - key: picks.samuelkraft.name
+    t: Vanilla Extract
+  - key: picks.samuelkraft.bio
+    t: Frontend & design.
+  - key: picks.samuelkraft.description
+    t: |
+      În ultima vreme, mi-a plăcut să lucrez cu Vanilla Extract. Este la fel ca CSS Modules, dar scris cu o experiență 
+      de programator magică.
+
+  - key: picks.sachagreif.name
+    t: Open Props
+  - key: picks.sachagreif.bio
+    t: Creator al State of JS și State of CSS.
+  - key: picks.sachagreif.description
+    t: |
+      E foarte tare să vezi cum funcționează bucla de feedback dintre noile funcționalități CSS și noile proiecte care 
+      se folosesc de acestea! Cred că un bun exemplu de utilizare excepțională a proprietăților personalizate (variabile 
+      CSS) este Open Props al lui Adam Argyle.
+
+  - key: picks.shadeed9.name
+    t: Container Queries
+  - key: picks.shadeed9.bio
+    t: Autor al [Debugging CSS](https://debuggingcss.com/) și al [ishadeed.com](http://ishadeed.com).
+  - key: picks.shadeed9.description
+    t: |
+      CSS container queries din nou! Am avut șansa să ne jucăm cu ele într-un browser. Mulțumim, Miriam Suzanne, pentru 
+      că ai făcut ca lucrurile să avanseze! De abia aștept să le folosesc fără flag.
+
+  - key: picks.argyleink.name
+    t: CSS Noise
+  - key: picks.argyleink.bio
+    t: CSS la Google.
+  - key: picks.argyleink.description
+    t: |
+      Textura și efectul neregulat generate de CSS creează în design-ul tău efecte interesante și unice. Instrumentele 
+      Noise au făcut tehnica accesibilă.
+
+  - key: picks.walterstephanie.name
+    t: Miriam Suzanne
+  - key: picks.walterstephanie.bio
+    t: Cercetător UX și iubitor de CSS.
+  - key: picks.walterstephanie.description
+    t: |
+      Miriam este o artistă și o activistă ce creează software și artă care celebrează complexitatea queer a experienței 
+      umane. Este un expert CSS și face o treabă uimitoare în ceea ce privește specificațiile pentru CSS Container Queries.
+
+  - key: picks.kilianvalkhof.name
+    t: prefers-reduced-data
+  - key: picks.kilianvalkhof.bio
+    t: Developer web și creator al Polypane.
+  - key: picks.kilianvalkhof.description
+    t: |
+      Avem nevoie de mai mulți developeri care să ceară browserelor această funcționalitate și care să realizeze ce 
+      diferență mare poate face. Cu toate acestea, 64% dintre respondenți nu știu despre ea; avem de lucru!
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: partners.frontendmasters.description
+    t: Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
+  - key: partners.polypane.description
+    t: Browserul developerilor ambițioși. Creează cu ușurință website-uri responsive, accesibile și rapide.
+  - key: partners.google_chrome.description
+    t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
+
+###########################################################################
+# FAQ/About
+###########################################################################
+
+  - key: about.content
+    t: >
+          Sondajul State of CSS din 2021 a avut loc între 5 octombrie și 2 noiembrie 2021 și a colectat 8.714 răspunsuri. 
+          Sondajul a fost organizat de mine, [Sacha Greif](https://sachagreif.com/), cu ajutorul unei echipe de colaboratori 
+          și consultanți open-source.
+          Logo-ul și tricoul din acest an au fost create și animate de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+          
+          ### Survey Goals
+          
+          Acest sondaj, împreună cu sondajul [State of JavaScript](https://stateofjs.com/), a fost creat pentru a identifica 
+          tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
+          Prin urmare, aceste sondaje se concentrează mai degrabă pe anticiparea a ceea ce va avea loc în următorii câțiva 
+          ani decât pe analizarea a ceea ce se bucură acum de succes. Din acest motiv, funcționalitățile și tehnologiile 
+          care sunt în prezent cele mai răspândite nu sunt întotdeauna incluse. 
+          
+          ### Survey Design
+          
+          Sondajul a fost creat parțial pe baza sondajului de anul trecut, cu o perioadă deschisă de feedback în care schița 
+          acestuia a fost pusă în discuție [pe GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+          
+          Toate întrebările sondajului au fost opționale. 
+          
+          ### Survey Audience
+    
+          Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții 
+          au fost în mare parte o combinație de respondenți ai sondajelor anterioare (anunțați pe baza unei liste dedicate 
+          de email-uri) și trafic din social media. 
+          
+          ### Representativeness & Inclusivity
+          
+          Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e 
+          acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează 
+          prin sisteme care au deja propriile biasuri inerente.
+    
+          Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
+          - **Extinderea**: anul acesta am contactat 23 de organizații care reprezintă developerii BIPOC și LGBTQ în speranța 
+            unei colaborări. Deși foarte puține dintre acestea au răspuns, vom continua să căutăm noi moduri prin care să 
+            ajungem dincolo de audiența noastră curentă.
+          
+          - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în 
+            evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
+          
+          - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză, 
+            etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o 
+            plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public 
+            mai divers.
+          
+          ### Project Funding
+          
+          Finanțarea acestui proiect provine dintr-o varietate de surse:
+          
+          - **Vânzarea de tricouri**.
+          
+          - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de 
+            partenerul nostru [Frontend Masters](https://frontendmasters.com/).
+          
+          - **Alte finanțări**: în acest an, echipa [Google Chrome](https://www.google.com/chrome/) a alocat un mic buget 
+            pentru a ne ajuta să angajăm un [consultant în accesibilitate](https://fossheim.io/) care să lucreze la sondaj.
+            Cu toate aceste finanțări, sondajul rămâne în mare parte un proiect autofinanțat, așadar orice contribuție sau 
+            sponsorizare este foarte apreciată. Mi-aș dori să lucrez mai mult în special cu furnizorii de browsere deoarece 
+            joacă un rol esențial în ecosistemul web.
+          
+          ### Technical Overview
+          
+          Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+          - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
+          - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
+          
+          - **Data API**: API Node.js GraphQL.
+          
+          - **Site-ul cu rezultate**: [Gatsby](https://www.gatsbyjs.com/) React app.
+          
+          - **Vizualizarea datelor**: [Nivo](https://nivo.rocks/) React dataviz library. 
+          
+          - **Font**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) și [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
