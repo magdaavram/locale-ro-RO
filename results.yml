@@ -191,7 +191,7 @@ translations:
   - key: user_info.locale.note
     t: >
       Aceste date sunt colectate automat pe baza setărilor pe care respondenții le aveau atunci când au completat sondajul; 
-      Limbile cu mai puțin de 20 de respondenți nu sunt afișate.
+      limbile cu mai puțin de 20 de respondenți nu sunt afișate.
 
   - key: user_info.source
     t: Sursă
@@ -498,6 +498,30 @@ translations:
   - key: export.export_graphql
     t: Descarcă query-ul GraphQL
 
+  - key: custom_data.heading
+    t: Grafic personalizat
+  - key: custom_data.custom_data
+    t: Date personalizate
+  - key: custom_data.graphql_query
+    t: GraphQL Query
+  - key: custom_data.chart_title
+    t: Grafic personalizat
+  - key: custom_data.submit
+    t: Trimite
+  - key: custom_data.edit_title
+    t: Editează titlul graficului
+  - key: custom_data.customize
+    t: Personalizează datele
+  - key: custom_data.details
+    t: >
+        1. Copiază conținutul câmpului "GraphQL Query" și introdu-l în panelul din mijloc al [explorer-ului GraphQL API](https://graphiql.stateofjs.com/).
+        
+        2. Modifică query-ul adăugând unul sau mai multe **filtre** folosind explorer-ul din partea stângă. Asigură-te că păstrezi aceeași structură generală a datelor.
+        
+        3. Dă click pe butonul de Play ("Execute Query").
+        
+        4. Copiază rezultatele (`{ data: … }` ) în câmpul "Custom Data" și dă click pe "Update".
+
   # Tools usage variations
   - key: blocks.tools_usage_variations
     t: Variația utilizării
@@ -557,7 +581,7 @@ translations:
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} respondenți la întrebare ({percentage}% procent de completare)"
+    t: "{count} de respondenți la întrebare ({percentage}% procent de completare)"
   - key: chart_units.percentage
     t: Procent
   - key: chart_units.count
@@ -705,11 +729,11 @@ translations:
   - key: share.email
     t: Distribuie pe email
   - key: share.image
-    t: Obține imagine
+    t: Copiază imagine
   - key: share.link
     t: Link către secțiune
   - key: share.url
-    t: Obține link
+    t: Copiază link
   - key: share.close
     t: Închide
 
