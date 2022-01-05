@@ -90,11 +90,11 @@ translations:
     - key: credits.data_visualizations
       t: Vizualizare date
     - key: credits.repo_architecture
-      t: Arhitectura repo
+      t: Arhitectură repo
     - key: credits.code_refactoring
-      t: Refactorizarea codului
+      t: Refactorizare cod
     - key: credits.data_processing
-      t: Procesarea datelor
+      t: Procesare date
 
     # support
     - key: general.support_from
@@ -904,7 +904,7 @@ translations:
         Care dintre următoarele opțiuni te descrie (dacă există)? Te rugăm să bifezi o opțiune.
     - key: user_info.gender.note
       t: >
-        Realizăm că prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
+        Prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
         credem că este important să colectăm aceste date pentru a ne ajuta să măsurăm și să îmbunătățim
         sondajul din punct de vedere al inclusivității și reprezentativității.
 
@@ -916,7 +916,7 @@ translations:
         Care dintre următoarele opțiuni te descrie (dacă există)? Te rugăm să bifezi toate opțiunile care se aplică.
     - key: user_info.race_ethnicity.note
       t: >
-        Realizăm că prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
+        Prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
         credem că este important să colectăm aceste date pentru a ne ajuta să măsurăm și să îmbunătățim
         sondajul din punct de vedere al inclusivității și reprezentativității.  
 

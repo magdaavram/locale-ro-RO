@@ -673,7 +673,7 @@ translations:
       t: Scrii CSS pentru clienți de email?
 
     - key: environments.what_do_you_use_css_for
-      t: De obicei, pentru ce folosești CSS?
+      t: Pentru ce folosești CSS de obicei?
     - key: environments.what_do_you_use_css_for.description
       t: De obicei, pentru ce tip de proiect folosești CSS?
     - key: environments.what_do_you_use_css_for.others
