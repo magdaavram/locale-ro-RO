@@ -19,12 +19,12 @@ translations:
       În practică, asta înseamnă că putem face referințe încrucișate între doi indicatori, cum ar fi salariul anual și 
       nivelul de experiență; sau genul în funcție de țară. Vei vedea unele dintre aceste defalcări incluse în rezultate, 
       dar te încurajăm să explorezi datele și mai în profunzime folosind [API-ul nostru](https://api.stateofjs.com/) sau 
-      [descărcându-le](https://www.kaggle.com/sachag/state-of-css). Dă-ne de veste dacă îți faci propria vizualizare de 
-      date!
+      [descărcându-le](https://www.kaggle.com/sachag/state-of-css). Dă-ne de veste dacă îți faci propria vizualizare a 
+      datelor!
       
       Și acum să vedem ce a mai făcut CSS anul acesta!
       
-      *Notă: Suntem nevoiți să amânăm sondajul [State of JavaScript 2021](http://stateofjs.com/) până în ianuarie 2022 
+      *Notă: Suntem nevoiți să amânăm sondajul [State of JavaScript](http://stateofjs.com/) 2021 până în ianuarie 2022 
       din cauza lipsei de timp. Ne revedem după sărbători!*
       
       <span class="conclusion__byline">– Sacha Greif</span>
@@ -56,7 +56,7 @@ translations:
       partenerii noștri de la Cotton Bureau. 
 
   - key: tshirt.getit
-    t: Cumpără-l
+    t: Cumpără
 
   - key: tshirt.price
     t: $29 + transport
@@ -340,7 +340,7 @@ translations:
           și consultanți open-source.
           Logo-ul și tricoul din acest an au fost create și animate de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
           
-          ### Survey Goals
+          ### Obiectiv
           
           Acest sondaj, împreună cu sondajul [State of JavaScript](https://stateofjs.com/), a fost creat pentru a identifica 
           tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
@@ -348,26 +348,27 @@ translations:
           ani decât pe analizarea a ceea ce se bucură acum de succes. Din acest motiv, funcționalitățile și tehnologiile 
           care sunt în prezent cele mai răspândite nu sunt întotdeauna incluse. 
           
-          ### Survey Design
+          ### Design
           
           Sondajul a fost creat parțial pe baza sondajului de anul trecut, cu o perioadă deschisă de feedback în care schița 
           acestuia a fost pusă în discuție [pe GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
           
           Toate întrebările sondajului au fost opționale. 
           
-          ### Survey Audience
+          ### Audiență
     
           Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții 
           au fost în mare parte o combinație de respondenți ai sondajelor anterioare (anunțați pe baza unei liste dedicate 
           de email-uri) și trafic din social media. 
           
-          ### Representativeness & Inclusivity
+          ### Reprezentativitate și inclusivitate
           
           Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e 
           acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează 
           prin sisteme care au deja propriile biasuri inerente.
     
           Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
+          
           - **Extinderea**: anul acesta am contactat 23 de organizații care reprezintă developerii BIPOC și LGBTQ în speranța 
             unei colaborări. Deși foarte puține dintre acestea au răspuns, vom continua să căutăm noi moduri prin care să 
             ajungem dincolo de audiența noastră curentă.
@@ -380,7 +381,7 @@ translations:
             plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public 
             mai divers.
           
-          ### Project Funding
+          ### Finanțarea proiectului
           
           Finanțarea acestui proiect provine dintr-o varietate de surse:
           
@@ -391,14 +392,17 @@ translations:
           
           - **Alte finanțări**: în acest an, echipa [Google Chrome](https://www.google.com/chrome/) a alocat un mic buget 
             pentru a ne ajuta să angajăm un [consultant în accesibilitate](https://fossheim.io/) care să lucreze la sondaj.
+            
             Cu toate aceste finanțări, sondajul rămâne în mare parte un proiect autofinanțat, așadar orice contribuție sau 
             sponsorizare este foarte apreciată. Mi-aș dori să lucrez mai mult în special cu furnizorii de browsere deoarece 
             joacă un rol esențial în ecosistemul web.
           
-          ### Technical Overview
+          ### Prezentare tehnică
           
           Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+          
           - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
+          
           - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
           
           - **Data API**: API Node.js GraphQL.
