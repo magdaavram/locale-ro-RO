@@ -86,14 +86,121 @@ translations:
     - key: sections.build_tools.description
       t: Compilarea și împachetarea codului
 
+    - key: sections.monorepo_tools.title
+      t: Instrumente monorepo
+    - key: sections.monorepo_tools.description
+      t: Instrumente folosite pentru a gestiona monorepo-uri JavaScript.
+
     - key: sections.tools_others.title
       t: Alte instrumente
     - key: sections.tools_others.description
-      t: Alte instrumente JavaScript.
+      t: Alte instrumente JavaScript
+
+    - key: sections.other_tools.title
+      t: Alte instrumente
+    - key: sections.other_tools.description
+      t: În cazul acestor instrumente și tehnologii, bifează-le pe cele pe care le folosești regulat.
 
     ###########################################################################
     # Options
     ###########################################################################
+
+  # JS pain points
+  # - key: options.js_pain_points.browser_interoperability
+  #   t: Browser Compatibility
+  # - key: options.js_pain_points.browser_interoperability.description
+  #   t: Differences between Chrome, Safari, Firefox, etc.
+  # - key: options.js_pain_points.animations
+  #   t: Animations
+  # - key: options.js_pain_points.animations.description
+  #   t: Managing animations, transitions, etc. using JavaScript.
+  # - key: options.js_pain_points.form_handling
+  #   t: Form Handling
+  # - key: options.js_pain_points.form_handling.description
+  #   t: Creating forms, managing their state and errors, and saving their data.
+    - key: options.js_pain_points.state_management
+      t: State Management
+    - key: options.js_pain_points.state_management.description
+      t: Gestionarea state-ului global în cazul aplicațiilor complexe.
+  # - key: options.js_pain_points.performance_issues
+  #   t: Performance Issues
+  # - key: options.js_pain_points.performance_issues.description
+  #   t: Bundle sizes, slow loading, and other performance issues.
+    - key: options.js_pain_points.managing_dependencies
+      t: Gestionarea dependențelor
+    - key: options.js_pain_points.managing_dependencies.description
+      t: Gestionarea dependențelor, a versiunii pachetelor și a dimensiunii bundle-urilor.
+    - key: options.js_pain_points.architecture
+      t: Arhitectura codului
+    - key: options.js_pain_points.architecture.description
+      t: Organizarea și menținerea codebase-ului.
+    - key: options.js_pain_points.finding_packages
+      t: Găsirea pachetelor
+    - key: options.js_pain_points.finding_packages.description
+      t: Găsirea și evaluarea pachetelor JavaScript.
+    - key: options.js_pain_points.writing_modules
+      t: Scrierea modulelor
+    - key: options.js_pain_points.writing_modules.description
+      t: Scrierea modulelor JavaScript și publicarea lor ca pachete.
+    - key: options.js_pain_points.debugging
+      t: Remedierea erorilor
+    - key: options.js_pain_points.debugging.description
+      t: Identificarea și rezolvarea problemelor legate de cod.
+    - key: options.js_pain_points.async_code
+      t: Cod asincron
+    - key: options.js_pain_points.async_code.description
+      t: Gestionarea funcțiilor asincrone.
+    - key: options.js_pain_points.modules_management
+      t: Managementul modulelor
+    - key: options.js_pain_points.modules_management.description
+      t: Scrierea și importarea modulelor.
+    - key: options.js_pain_points.date_management
+      t: Managementul datelor
+    - key: options.js_pain_points.date_management.description
+      t: Gestionarea și manipularea datelor și a orelor.
+  # - key: options.js_pain_points.xxx
+  #   t:
+  # - key: options.js_pain_points.xxx.description
+  #   t:
+
+
+  # JS missing features
+    - key: options.currently_missing_from_js.static_typing
+      t: Static Typing
+    - key: options.currently_missing_from_js.static_typing.description
+      t: Tipuri native (similar cu ceea ce TypeScript oferă).
+    - key: options.currently_missing_from_js.standard_library
+      t: Librărie standard
+    - key: options.currently_missing_from_js.standard_library.description
+      t: O librărie standard de utilități comune
+    - key: options.currently_missing_from_js.pattern_matching
+      t: Pattern Matching
+    - key: options.currently_missing_from_js.pattern_matching.description
+      t: Un nou keyword `match` pentru obiecte pattern-matching.
+    - key: options.currently_missing_from_js.pipe_operator
+      t: Pipe Operator
+    - key: options.currently_missing_from_js.pipe_operator.description
+      t: Un nou operator `|>` pentru pasarea rezultatului unei funcții către o altă funcție.
+    - key: options.currently_missing_from_js.decorators
+      t: Decoratori
+    - key: options.currently_missing_from_js.decorators.description
+      t: Decoratori folosiți pentru a metaprograma și a adăuga funcționalitate unei valori.
+    - key: options.currently_missing_from_js.immutable_data_structures
+      t: Structuri de date imuabile
+    - key: options.currently_missing_from_js.immutable_data_structures.description
+      t: Noi structuri de date imuabile, cum sunt `Record` și `Tuple`.
+    - key: options.currently_missing_from_js.better_date_management
+      t: Un management mai bun al datelor
+    - key: options.currently_missing_from_js.better_date_management.description
+      t: Un nou obiect `Temporal` folosit pentru a lucra cu date și ore.
+    - key: options.currently_missing_from_js.observable
+      t: Observable
+    - key: options.currently_missing_from_js.observable.description
+      t: Un nou tip `Observable`` folosit pentru a modela sursele de date push-based.
+  # - key: options.currently_missing_from_js.xxx
+  #   t:
+  # - key: options.currently_missing_from_js.xxx.description
+  #   t:
 
     ###########################################################################
     # Features
@@ -197,6 +304,22 @@ translations:
     - key: features.reactive_programming
       t: Reactive Programming
 
+    # upcoming features
+#    - key: features.static_typing
+#      t: Static Typing
+
+#    - key: features.standard_library
+#      t: Standard Library
+
+#    - key: features.pattern_matching
+#      t: Pattern Matching
+
+#    - key: features.pipe_operator
+#      t: Pipe Operator
+
+#    - key: features.immutable_data_structures
+#      t: Immutable Data Structures
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -227,6 +350,11 @@ translations:
       t: Alte package registries
     - key: tools_others.package_registries.others.description
       t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.form_factors
+      aliasFor: environments.form_factors
+    - key: tools_others.form_factors.description
+      aliasFor: environments.form_factors.description
 
     ###########################################################################
     # Opinions
@@ -260,3 +388,29 @@ translations:
 
     - key: happiness.state_of_js
       t: Cât de mulțumit(ă) ești de starea generală a JavaScript?
+
+    # Pain Points
+    - key: opinions.js_pain_points
+      t: Puncte slabe în JavaScript
+    - key: opinions.js_pain_points.description
+      t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în JavaScript.
+
+    - key: opinions_others.js_pain_points.others
+      t: Alte puncte slabe în JavaScript
+
+    # Missing Features
+    - key: opinions.currently_missing_from_js
+      t: Ce simți că lipsește în JavaScript în acest moment?
+    - key: opinions.currently_missing_from_js.description
+      t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în JavaScript.
+    - key: opinions_others.currently_missing_from_js.others
+      t: Alte funcționalități care lipsesc
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+
+    - key: resources.first_steps
+      t: Primii pași în JavaScript
+    - key: resources.first_steps.description
+      t: Cum ai învățat JavaScript atunci când erai la început de drum?

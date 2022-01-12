@@ -309,6 +309,16 @@ translations:
       Miriam este o artistă și o activistă ce creează software și artă care celebrează complexitatea queer a experienței 
       umane. Este un expert CSS și face o treabă uimitoare în ceea ce privește specificațiile pentru CSS Container Queries.
 
+  - key: picks.michebarks.name
+    t: “Building a Color Scheme” de Adam Argyle
+  - key: picks.michebarks.bio
+    t: Senior Front End Developer
+  - key: picks.michebarks.description
+    t: |
+      Îmi place acest articol pentru că, deși proprietățile personalizate există de ceva vreme, le duce cu adevărat la 
+      un alt nivel și le arată puterea. Sper că îi face pe unii oameni să se gândească la ele într-un mod diferit, mai 
+      mult decât simple variabile.
+
   - key: picks.kilianvalkhof.name
     t: prefers-reduced-data
   - key: picks.kilianvalkhof.bio
@@ -329,9 +339,9 @@ translations:
   - key: partners.google_chrome.description
     t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
 
-###########################################################################
-# FAQ/About
-###########################################################################
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
 
   - key: about.content
     t: >

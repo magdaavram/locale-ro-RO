@@ -54,6 +54,10 @@ translations:
       t: Înregistrare
     - key: accounts.sign_in
       t: Autentificare
+    - key: accounts.switch_to_sign_up
+      t: Nu ai cont? Înregistrează-te
+    - key: accounts.switch_to_sign_in
+      t: Ai deja cont? Autentifică-te
     - key: accounts.sign_out
       t: Ieșire cont
     - key: accounts.cancel
