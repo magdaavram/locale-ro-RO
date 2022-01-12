@@ -514,13 +514,13 @@ translations:
     t: Personalizează datele
   - key: custom_data.details
     t: >
-        1. Copiază conținutul câmpului "GraphQL Query" și introdu-l în panelul din mijloc al [explorer-ului GraphQL API](https://graphiql.stateofjs.com/).
+        1. Copiază conținutul câmpului „GraphQL Query” și introdu-l în panelul din mijloc al [explorer-ului GraphQL API](https://graphiql.stateofjs.com/).
         
         2. Modifică query-ul adăugând unul sau mai multe **filtre** folosind explorer-ul din partea stângă. Asigură-te că păstrezi aceeași structură generală a datelor.
         
-        3. Dă click pe butonul de Play ("Execute Query").
+        3. Dă click pe butonul de Play („Execute Query”) din fereastra explorer.
         
-        4. Copiază rezultatele (`{ data: … }` ) în câmpul "Custom Data" și dă click pe "Update".
+        4. Copiază rezultatele query-ului modificat (`{ data: … }` ) în câmpul „Custom Data” și dă click pe „Customize Data”.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations

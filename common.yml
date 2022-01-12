@@ -32,7 +32,7 @@ translations:
       t: >
         <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
     - key: general.take_survey
-      t: Completează sondajul {name} din {year}
+      t: Completează sondajul {name}
 
     # surveys
     - key: general.open_surveys
@@ -75,6 +75,8 @@ translations:
       t: Suport pentru traducere
     - key: general.newly_added
       t: Nou adăugat anul acesta
+    - key: general.new
+      t: Nou
 
     # credits
     - key: credits.thanks
@@ -1029,6 +1031,15 @@ translations:
     - key: tools_others.non_js_languages.others
       t: Alte limbaje
     - key: tools_others.non_js_languages.others.description
+      t: Alte răspunsuri (câmp deschis).
+
+    - key: tools_others.javascript_flavors
+      t: JavaScript Flavors
+    - key: tools_others.javascript_flavors.description
+      t: Limbaje care compilează în JavaScript
+    - key: tools_others.javascript_flavors.others
+      t: Alte JavaScript Flavors
+    - key: tools_others.javascript_flavors.others.description
       t: Alte răspunsuri (câmp deschis).
 
     ###########################################################################
