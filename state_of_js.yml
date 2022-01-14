@@ -127,9 +127,9 @@ translations:
   # - key: options.js_pain_points.performance_issues.description
   #   t: Bundle sizes, slow loading, and other performance issues.
     - key: options.js_pain_points.managing_dependencies
-      t: Gestionarea dependențelor
+      t: Gestionarea dependințelor
     - key: options.js_pain_points.managing_dependencies.description
-      t: Gestionarea dependențelor, a versiunii pachetelor și a dimensiunii bundle-urilor.
+      t: Gestionarea dependințelor, a versiunii pachetelor și a dimensiunii bundle-urilor.
     - key: options.js_pain_points.architecture
       t: Arhitectura codului
     - key: options.js_pain_points.architecture.description
