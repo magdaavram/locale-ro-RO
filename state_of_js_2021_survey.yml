@@ -15,3 +15,17 @@ translations:
       Dar, deși anul poate fi off-by-one, sperăm că datele oferite de sondaj 
       vor fi la fel de informative și intuitive ca întotdeauna. 
       Și nu-ți face griji, vom organiza un nou sondaj spre sfârșitul anului ca să îndreptăm lucrurile!
+      
+  ###########################################################################
+  # Survey
+  ###########################################################################
+
+  - key: features.features_intro
+    t: >
+      Bun venit la sondaj! În această primă parte, ne dorim să înțelegem
+      care sunt **funcționalitățile** JavaScript de care ai auzit.
+      Este în regulă și dacă ai auzit despre una dintre ele, dar nu ai folosit-o încă.
+  - key: tools.tools_intro
+    t: >
+      Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** care 
+      alcătuiesc ecosistemul JavaScript. Spune-ne ce te-a entuziasmat! 
