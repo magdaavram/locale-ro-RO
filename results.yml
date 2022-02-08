@@ -160,6 +160,9 @@ translations:
   - key: sections.technologies.title
     t: Tehnologii
 
+  - key: sections.libraries.title
+    t: Librării
+
   - key: sections.conclusion.title
     t: Concluzii
 
@@ -417,6 +420,18 @@ translations:
 
         Grosimea barei reprezintă numărul de respondenți care știu de existența tehnologiei respective.
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Topul librăriilor
+  - key: blocks.tools_tier_list.description
+    t: |
+      Acest grafic ilustrează topul librăriilor în funcție de rata de satisfacție (procentul utilizatorilor
+      care ar folosi o librărie din nou). Librăriile care sunt folosite de mai puțin de 10% din respondenții sondajului  
+      nu sunt incluse.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: Experiența în timp
@@ -556,26 +571,6 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Ce prioritizați atunci când evaluați o nouă librărie? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: Puncte dureroase în CSS
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Care dintre aspectele CSS îți dă cele mai multe bătăi de cap? Rezultatele sunt clasificate în funcție de numărul de runde câștigate.
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: Puncte dureroase în CSS (Confruntări)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Cu care dintre aspectele CSS te lupți cel mai des? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Funcționalități care lipsesc în CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Rezultatele sunt clasificate după numărul de runde câștigate.
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Funcționalități care lipsesc în CSS (Confruntări)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
-
   ###########################################################################
   # Charts
   ###########################################################################
@@ -678,23 +673,6 @@ translations:
     t: Popularitate în creștere
   - key: charts.tools_arrows.negative
     t: Popularitate în scădere
-
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
 
   ###########################################################################
   # Sharing
