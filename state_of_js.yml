@@ -383,6 +383,19 @@ translations:
     - key: opinions_others.missing_from_js.others.description
       t: Funcționalități JavaScript pe care ai vrea să le vezi într-o zi.
 
+    - key: happiness.front_end_frameworks
+      t: Cât de mulțumit(ă) ești de framework-urile front end?
+    - key: happiness.back_end_frameworks
+      t: Cât de mulțumit(ă) ești de framework-urile back end?
+    - key: happiness.testing
+      t: Cât de mulțumit(ă) ești de instrumentele de testare?
+    - key: happiness.mobile_desktop
+      t: Cât de mulțumit(ă) ești de framework-urile mobile și desktop?
+    - key: happiness.build_tools
+      t: Cât de mulțumit(ă) ești de instrumentele pentru build?
+    - key: happiness.monorepo_tools
+      t: Cât de mulțumit(ă) ești de instrumentele monorepo?
+
     - key: happiness.state_of_the_web
       t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
 
@@ -405,6 +418,27 @@ translations:
       t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în JavaScript.
     - key: opinions_others.currently_missing_from_js.others
       t: Alte funcționalități care lipsesc
+
+  # pain points/currently missing (results)
+    - key: js_pain_points.js_pain_points_wins
+      t: Puncte dureroase în JavaScript
+    - key: js_pain_points.js_pain_points_wins.description
+      t: Care dintre aspectele JavaScript îți dă cele mai multe bătăi de cap? Rezultatele sunt clasificate în funcție de numărul de runde câștigate.
+
+    - key: js_pain_points.js_pain_points_matchups
+      t: Puncte dureroase în JavaScript (Confruntări)
+    - key: js_pain_points.js_pain_points_matchups.description
+      t: Cu care dintre aspectele JavaScript te lupți cel mai des? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+    - key: currently_missing_from_js.currently_missing_from_js_wins
+      t: Funcționalități care lipsesc în JavaScript
+    - key: currently_missing_from_js.currently_missing_from_js_wins.description
+      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în JavaScript astăzi? Rezultatele sunt clasificate după numărul de runde câștigate.
+
+    - key: currently_missing_from_js.currently_missing_from_js_matchups
+      t: Funcționalități care lipsesc în JavaScript (Confruntări)
+    - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în JavaScript astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
 
     ###########################################################################
     # Resources

@@ -770,6 +770,28 @@ translations:
     - key: happiness.state_of_css
       t: Cât de mulțumit(ă) ești de starea generală a CSS?
 
+    # pain points/currently missing (results)
+    - key: css_pain_points.css_pain_points_wins
+      t: Puncte dureroase în CSS
+    - key: css_pain_points.css_pain_points_wins.description
+      t: Care dintre aspectele CSS îți dă cele mai multe bătăi de cap? Rezultatele sunt clasificate în funcție de numărul de runde câștigate.
+
+    - key: css_pain_points.css_pain_points_matchups
+      t: Puncte dureroase în CSS (Confruntări)
+    - key: css_pain_points.css_pain_points_matchups.description
+      t: Cu care dintre aspectele CSS te lupți cel mai des? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+    - key: currently_missing_from_css.currently_missing_from_css_wins
+      t: Funcționalități care lipsesc în CSS
+    - key: currently_missing_from_css.currently_missing_from_css_wins.description
+      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Rezultatele sunt clasificate după numărul de runde câștigate.
+
+    - key: currently_missing_from_css.currently_missing_from_css_matchups
+      t: Funcționalități care lipsesc în CSS (Confruntări)
+    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+
     ###########################################################################
     # Resources
     ###########################################################################
