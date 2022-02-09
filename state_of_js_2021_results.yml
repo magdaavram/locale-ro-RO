@@ -162,8 +162,7 @@ translations:
     t: Cu o rată de interes de **{value}**, Vite câștigă din nou aurul!
 
   - key: award.most_write_ins_award.comment
-    t: Multe întrebări au acceptat și răspunsuri deschise, iar cu **{value}** de mențiuni, Elm a fost cel mai popular
-    element în general.
+    t: Multe întrebări au acceptat și răspunsuri deschise, iar cu **{value}** de mențiuni, Elm a fost cel mai popular element în general.
 
   ###########################################################################
   # Conclusion
