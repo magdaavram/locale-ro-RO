@@ -150,8 +150,7 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: Cu o evoluție de **{value}** în 2021, nullish coalescing operator (operatorul ??) a devenit rapid o parte
-    integrantă a JavaScript.
+    t: Cu o evoluție de **{value}** în 2021, operatorul ?? (nullish coalescing operator) a devenit rapid o parte integrantă a JavaScript.
 
   - key: award.tool_usage_delta_award.comment
     t: esbuild are doar 2 ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
