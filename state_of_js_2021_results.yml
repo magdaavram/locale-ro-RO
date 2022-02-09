@@ -154,7 +154,7 @@ translations:
     integrantă a JavaScript.
 
   - key: award.tool_usage_delta_award.comment
-    t: esbuild are doar doi ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
+    t: esbuild are doar 2 ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
 
   - key: award.tool_satisfaction_award.comment
     t: Vite ocupă primul loc cu un uriaș raport al satisfacției de **{value}**.
