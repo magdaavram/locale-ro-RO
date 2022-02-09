@@ -105,27 +105,27 @@ translations:
     # Options
     ###########################################################################
 
-  # JS pain points
-  # - key: options.js_pain_points.browser_interoperability
-  #   t: Browser Compatibility
-  # - key: options.js_pain_points.browser_interoperability.description
-  #   t: Differences between Chrome, Safari, Firefox, etc.
-  # - key: options.js_pain_points.animations
-  #   t: Animations
-  # - key: options.js_pain_points.animations.description
-  #   t: Managing animations, transitions, etc. using JavaScript.
-  # - key: options.js_pain_points.form_handling
-  #   t: Form Handling
-  # - key: options.js_pain_points.form_handling.description
-  #   t: Creating forms, managing their state and errors, and saving their data.
+    # JS pain points
+    # - key: options.js_pain_points.browser_interoperability
+    #   t: Browser Compatibility
+    # - key: options.js_pain_points.browser_interoperability.description
+    #   t: Differences between Chrome, Safari, Firefox, etc.
+    # - key: options.js_pain_points.animations
+    #   t: Animations
+    # - key: options.js_pain_points.animations.description
+    #   t: Managing animations, transitions, etc. using JavaScript.
+    # - key: options.js_pain_points.form_handling
+    #   t: Form Handling
+    # - key: options.js_pain_points.form_handling.description
+    #   t: Creating forms, managing their state and errors, and saving their data.
     - key: options.js_pain_points.state_management
       t: State Management
     - key: options.js_pain_points.state_management.description
       t: Gestionarea state-ului global în cazul aplicațiilor complexe.
-  # - key: options.js_pain_points.performance_issues
-  #   t: Performance Issues
-  # - key: options.js_pain_points.performance_issues.description
-  #   t: Bundle sizes, slow loading, and other performance issues.
+    # - key: options.js_pain_points.performance_issues
+    #   t: Performance Issues
+    # - key: options.js_pain_points.performance_issues.description
+    #   t: Bundle sizes, slow loading, and other performance issues.
     - key: options.js_pain_points.managing_dependencies
       t: Gestionarea dependințelor
     - key: options.js_pain_points.managing_dependencies.description
@@ -158,13 +158,13 @@ translations:
       t: Managementul datelor
     - key: options.js_pain_points.date_management.description
       t: Gestionarea și manipularea datelor și a orelor.
-  # - key: options.js_pain_points.xxx
-  #   t:
-  # - key: options.js_pain_points.xxx.description
-  #   t:
+    # - key: options.js_pain_points.xxx
+    #   t:
+    # - key: options.js_pain_points.xxx.description
+    #   t:
 
 
-  # JS missing features
+    # JS missing features
     - key: options.currently_missing_from_js.static_typing
       t: Static Typing
     - key: options.currently_missing_from_js.static_typing.description
@@ -197,10 +197,10 @@ translations:
       t: Observable
     - key: options.currently_missing_from_js.observable.description
       t: Un nou tip `Observable`` folosit pentru a modela sursele de date push-based.
-  # - key: options.currently_missing_from_js.xxx
-  #   t:
-  # - key: options.currently_missing_from_js.xxx.description
-  #   t:
+    # - key: options.currently_missing_from_js.xxx
+    #   t:
+    # - key: options.currently_missing_from_js.xxx.description
+    #   t:
 
     ###########################################################################
     # Features
@@ -305,20 +305,20 @@ translations:
       t: Reactive Programming
 
     # upcoming features
-#    - key: features.static_typing
-#      t: Static Typing
+    #    - key: features.static_typing
+    #      t: Static Typing
 
-#    - key: features.standard_library
-#      t: Standard Library
+    #    - key: features.standard_library
+    #      t: Standard Library
 
-#    - key: features.pattern_matching
-#      t: Pattern Matching
+    #    - key: features.pattern_matching
+    #      t: Pattern Matching
 
-#    - key: features.pipe_operator
-#      t: Pipe Operator
+    #    - key: features.pipe_operator
+    #      t: Pipe Operator
 
-#    - key: features.immutable_data_structures
-#      t: Immutable Data Structures
+    #    - key: features.immutable_data_structures
+    #      t: Immutable Data Structures
 
     ###########################################################################
     # Tools
@@ -419,7 +419,7 @@ translations:
     - key: opinions_others.currently_missing_from_js.others
       t: Alte funcționalități care lipsesc
 
-  # pain points/currently missing (results)
+    # pain points/currently missing (results)
     - key: js_pain_points.js_pain_points_wins
       t: Puncte dureroase în JavaScript
     - key: js_pain_points.js_pain_points_wins.description
