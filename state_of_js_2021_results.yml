@@ -115,6 +115,15 @@ translations:
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
 
+  - key: blocks.tools_quadrant.description
+    t: |
+      Acest grafic ilustrează **rata de satisfacție** (sau **rata de interes**) a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
+      Poate fi împărțit în patru cadrane:
+        - **1**: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
+        - **2**: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
+        - **3**: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care sunt greu de recomandat în acest moment.
+        - **4**: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+
   ###########################################################################
   # Notes
   ###########################################################################
@@ -141,20 +150,21 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: Cu o evoluție de **{value}** în 2021, funcțiile CSS de comparare devin o parte esențială din toolkit-ul fiecărui developer CSS.
+    t: Cu o evoluție de **{value}** în 2021, operatorul ?? (nullish coalescing operator) a devenit rapid o parte
+    integrantă a JavaScript.
 
-  # - key: award.tool_usage_delta_award.comment
-  #   t: Nici un alt instrument nu se apropie măcar de evoluția dramatică de **{value}** pe care Tailwind CSS a avut-o în ultimul an.
+  - key: award.tool_usage_delta_award.comment
+    t: esbuild are doar doi ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
 
   - key: award.tool_satisfaction_award.comment
-    t: PostCSS ocupă din nou primul loc, cu un raport al satisfacției de **{value}**.
+    t: Vite ocupă primul loc cu un uriaș raport al satisfacției de **{value}**.
 
   - key: award.tool_interest_award.comment
-    t: Cu un raport de **{value}**, CSS Modules a generat și în acest an cel mai mare interes în rândul developerilor.
+    t: Cu o rată de interes de **{value}**, Vite câștigă din nou aurul!
 
-  # - key: award.most_write_ins_award.comment
-  #   t: Multe întrebări au acceptat și răspunsuri libere, iar PhpStorm a fost cel mai popular, cu **{value}** mențiuni.
-
+  - key: award.most_write_ins_award.comment
+    t: Multe întrebări au acceptat și răspunsuri deschise, iar cu **{value}** de mențiuni, Elm a fost cel mai popular
+    element în general.
 
   ###########################################################################
   # Conclusion
@@ -312,12 +322,24 @@ translations:
       Joe lucrează la Next.js în cadrul Vercel și caută în permanență să-și demonstreze 
       abilitățile, în timp ce ascultă în mod activ feedbackul din partea comunității  
       din dorința de a-i sprijini cât mai bine.
-  - key: picks.xxxx.name
-    t:
-  - key: picks.xxxx.bio
-    t:
-  - key: picks.xxxx.description
+
+  - key: picks.wes_bos.name
+    t: TC39 Proposals
+  - key: picks.wes_bos.bio
+    t: Profesor JavaScript și gazdă podcast
+  - key: picks.wes_bos.description
     t: |
+      Un repo Git cu toate propunerile de îmbunătățiri în JavaScript. Este foarte distractiv să citești toate ideile pe 
+      care oamenii le au pentru limbaj și să le vezi trecând de la o etapă la alta.
+
+  - key: picks.scott_tolinkski.name
+    t: SvelteKit
+  - key: picks.scott_tolinkski.bio
+    t: Creator al Level-Up Tuts, co-host al Syntax
+  - key: picks.scott_tolinkski.description
+    t: |
+      Svelte Kit oferă experiența uimitoare a lui Svelte, cu toate 
+      funcționalitățile moderne pe care le aștepți de la o platformă web. 
 
   - key: picks.xxxx.name
     t:
@@ -326,12 +348,6 @@ translations:
   - key: picks.xxxx.description
     t: |
 
-  - key: picks.xxxx.name
-    t:
-  - key: picks.xxxx.bio
-    t:
-  - key: picks.xxxx.description
-    t: |
     ###########################################################################
   # Sponsors
   ###########################################################################

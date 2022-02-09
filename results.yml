@@ -101,7 +101,7 @@ translations:
     t: ADOPTARE
   - key: options.quadrant.adopt.long
     t: |
-      ADOPTARE: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adopție.
+      ADOPTARE: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
   - key: options.quadrant.avoid
     t: EVITARE
   - key: options.quadrant.avoid.long
@@ -112,6 +112,27 @@ translations:
   - key: options.quadrant.analyze.long
     t: |
       ANALIZARE: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care sunt greu de recomandat.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
   - key: ranges.selector.years_of_experience
     t: Experiență
@@ -143,6 +164,14 @@ translations:
     t: Epilepsie
   - key: options.disability_status_others.aspergers
     t: Sindromul Asperger
+  - key: options.disability_status_others.color_blindness
+    t: Daltonism
+  - key: options.disability_status_others.anxiety
+    t: Anxietate
+  - key: options.disability_status_others.dyslexia
+    t: Dislexie
+  - key: options.disability_status_others.diabetes
+    t: Diabet
 
   ###########################################################################
   # Sections
@@ -671,8 +700,11 @@ translations:
     t: Utilizare frecventă
   - key: charts.tools_arrows.popularity_positive
     t: Popularitate în creștere
-  - key: charts.tools_arrows.negative
+  - key: charts.tools_arrows.popularity_negative
     t: Popularitate în scădere
+
+  - key: charts.no_answer
+    t: Nici un răspuns
 
   ###########################################################################
   # Sharing
