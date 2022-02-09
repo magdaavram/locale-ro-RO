@@ -164,7 +164,7 @@ translations:
     #   t:
 
 
-  # JS missing features
+    # JS missing features
     - key: options.currently_missing_from_js.static_typing
       t: Static Typing
     - key: options.currently_missing_from_js.static_typing.description
