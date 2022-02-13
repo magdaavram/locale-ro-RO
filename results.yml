@@ -927,3 +927,74 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">Următorul grafic prezintă rezultatele unui turneu eliminatoriu dintre 8 „jucători” în cadrul căruia
       respondenții au fost rugați să aleagă câștigătorul fiecărei confruntări până când rămâne doar un singur câștigător.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sponsor.sponsor_button
+    t: Susține acest grafic
+
+  - key: sponsor.sponsor_chart.title
+    t: Susține graficul "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Susține un grafic cu 10$ sau mai mult și îți vom afișa avatar-ul de Twitter  
+      lângă acesta!
+  - key: sponsor.chart_id
+    t: 'ID-ul graficului: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Susține acest grafic (+{baseAmount}$)
+
+  - key: sponsor.how_it_works.title
+    t: Cum funcționează
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Când dai **click pe butonul "Susține acest grafic"**, vei fi redirecționat către pagina de plată a partenerului nostru [SendOwl](https://www.sendowl.com/). 
+      
+      
+      2. Apoi, poți **ajusta suma** cu care dorești să susții sondajul, începând de la 10 dolari.  
+      
+      
+      3. Odată ce tranzacția a fost finalizată, va trebui să **introduci username-ul de Twitter**. 
+      
+      
+      4. Vei vedea o pagină de **File Download**, dar o poți ignora în siguranță. 
+      
+      
+      5. Site-ul se va actualiza în background, iar username-ul și donația ta **vor apărea lângă grafic după 10-15 minute**.
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.public.title
+    t: Donația mea va fi publică?
+
+  - key: sponsor.faq.public.description
+    t: Da, **username-ul de Twitter**, precum și **suma donată** vor fi publicate lângă grafic.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: Care este politica de returnare a banilor?
+
+  - key: sponsor.faq.refund.description
+    t: Toate donațiile sunt rambursabile în decurs de o săptămână. Suma returnată nu va include și taxele de tranzacționare.
+
+  - key: sponsor.faq.influence.title
+    t: Influențează donațiile conținutul sondajului?
+
+  - key: sponsor.faq.influence.description
+    t: Donațiile au loc odată ce sondajul este publicat, iar donatorii nu au nici o influență asupra conținutului sondajului.
+
+  - key: sponsor.faq.feedback.title
+    t: Unde pot lăsa feedback sau pune întrebări?
+
+  - key: sponsor.faq.feedback.description
+    t: Poți face asta [pe GitHub](https://github.com/StateOfJS/Monorepo/issues/69) sau [pe Discord](https://discord.gg/tuWRUWVyJs).
