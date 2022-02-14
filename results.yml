@@ -391,7 +391,7 @@ translations:
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
       Pentru fiecare secțiune, ce procent de respondenți **folosește** 
-      (a răspuns „aș folosi din nou”) una, două, trei, etc. tehnologii.
+      (a răspuns „aș folosi din nou”) una, două, trei etc. tehnologii.
       Bara cea mai de jos reprezintă suma tuturor celorlalte bare.
 
   - key: blocks.cardinality.max
@@ -932,6 +932,18 @@ translations:
   # Sponsor Chart
   ###########################################################################
 
+  - key: sections.sponsor_finish.title
+    t: Mulțumim
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Îți mulțumim pentru că susții sondajul. Avatar-ul tău ar trebui să apară lângă graficul pe care l-ai ales în 
+      următoarea oră. Dacă acest lucru nu se întâmplă, te rugăm să [ne scrii](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** a donat **{amount}$** pentru a susține acest grafic
+
   - key: sponsor.sponsor_button
     t: Susține acest grafic
 
@@ -940,8 +952,8 @@ translations:
 
   - key: sponsor.sponsor_chart.description
     t: >
-      Susține un grafic cu 10$ sau mai mult și îți vom afișa avatar-ul de Twitter  
-      lângă acesta!
+      Susține acest sondaj donând 10$ sau mai mult și îți vom afișa avatar-ul de Twitter  
+      lângă un grafic!
   - key: sponsor.chart_id
     t: 'ID-ul graficului: '
 
@@ -959,21 +971,27 @@ translations:
       2. Apoi, poți **ajusta suma** cu care dorești să susții sondajul, începând de la 10 dolari.  
       
       
-      3. Odată ce tranzacția a fost finalizată, va trebui să **introduci username-ul de Twitter**. 
+      3. Odată ce tranzacția a fost finalizată, vei putea să-ți **introduci username-ul de Twitter**. 
       
       
       4. Vei vedea o pagină de **File Download**, dar o poți ignora în siguranță. 
       
       
-      5. Site-ul se va actualiza în background, iar username-ul și donația ta **vor apărea lângă grafic după 10-15 minute**.
+      5. Site-ul se va actualiza în background, iar username-ul și donația ta **vor apărea lângă grafic în următoarea oră**.
   - key: sponsor.faq.title
     t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: La ce va fi folosită donația mea?
+
+  - key: sponsor.faq.usage.description
+    t: Donația ta ar trebui să ajute la acoperirea cheltuielilor [mele](https://sachagreif.com/) de trai, precum și la angajarea mai multor colaboratori (ilustratori, experți în accesibilitate și diversitate etc.).
 
   - key: sponsor.faq.public.title
     t: Donația mea va fi publică?
 
   - key: sponsor.faq.public.description
-    t: Da, **username-ul de Twitter**, precum și **suma donată** vor fi publicate lângă grafic.
+    t: Da. **Username-ul de Twitter**, precum și **suma donată** vor fi publicate lângă grafic.
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
