@@ -13,7 +13,7 @@ translations:
       noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)) 
       cum ar fi noi tipuri de întrebări, posibilitatea de a face referințe încrucișate între doi indicatori (de exemplu, 
       salariile anuale și nivelul de experiență), și chiar și o modalitate de a personaliza graficele pentru a obține 
-      propria perspectivă asupra datelor!
+      propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (Engleză).
       Totuși, nu a fost un parcurs ușor! Ne-am confruntat cu o [scurgere de date](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) 
       care, din fericire nu a părut să aibă consecințe negative. Și depunem în mod constant eforturi pentru a face 
       sondajul mai incluziv, mai accesibil și mai corect. 
@@ -30,7 +30,7 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Susține sondajul cu tricoul State of CSS
+      ## Susține sondajul cu tricoul State of JavaScript
       Între calitatea video scăzută, casetele voluminoase și faptul că trebuia să derulezi înapoi, nu sunt prea multe 
       de care să-ți fie dor din era VHS. Dar un lucru care *ne* lipsește sunt imaginile minunate din anii '90 cu care 
       obișnuiau să fie decorate casetele VHS nescrise. 
@@ -142,8 +142,8 @@ translations:
       
       Acest grafic agregă o combinație de referințe, parametri URL și răspunsuri libere. 
       - State of JS: lista abonaților [State of JS](https://stateofjs.com).
-      - State of CSS: lista abonaților State of CSS; include și `email`, `după email`, etc.
-      - Work: include `locul de muncă`, `colegi`, `colegi de muncă`, etc.
+      - State of CSS: lista abonaților State of CSS; include și `email`, `după email` etc.
+      - Work: include `locul de muncă`, `colegi`, `colegi de muncă` etc.
 
   ###########################################################################
   # Awards
@@ -170,32 +170,36 @@ translations:
 
   - key: sections.conclusion.description
     t: |
-      <span class="first-line">Modul în care scrii CSS este pe cale să se schimbe pentru totdeauna</span>
+      <span class="first-line">JavaScript e într-o poziție extraordinar de bună astăzi comparativ cu anul 2016.</span>
       
-      De mulți ani încoace, multe dintre inovațiile legate de stilizările pentru web au avut loc în alte arii: în 
-      pre-procesoare, framework-uri JavaScript sau compilatoare. Cu siguranță, și CSS-ul în sine a avut parte de câteva 
-      îmbunătățiri, cum sunt [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) sau 
-      [proprietățile personalizate](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Cu toate acestea, încă apelăm 
-      zilnic la diverse librării și la alte helpere. 
+      Când am organizat prima ediție a sondajului State of JS, doar 21% foloseau TypeScript, comparativ cu cei 69% din 
+      prezent. În timp ce obișnuiam să glumim despre lansarea unui nou framework front end în fiecare zi, **React** și 
+      **Vue** domină deja de 6 ani consecutivi. Iar procentul celor care declară că „JS se mișcă prea repede” a scăzut 
+      de la 59% la 38%.
       
-      Dar urmează o schimbare. Limbajul de bază CSS este zguduit și reînnoit, iar noi suntem chiar în fruntea evoluției rapide. 
+      Asta nu înseamnă că limbajul a stagnat. API-urile **Optional Chaining** și **Nullish Coalescing** au devenit cele 
+      mai folosite API-uri noi ale sondajului nostru, în ciuda faptului că au doar 2 ani. Și multe alte lucruri bune 
+      sunt pe drum din partea TC39: ați raportat că gestionarea datelor este o funcționalitate de top care lipsește, iar 
+      API-ul Temporal a intrat recent în [Etapa 3](https://github.com/tc39/proposal-temporal).
       
-      [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) ne va duce într-o eră 
-      complet nouă a design-ului responsive, iar [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) 
-      va ușura semnificativ utilizarea framework-urilor, a temelor și gestionarea unui codebase complex. 
+      Ecosistemul instrumentelor înregistrează de asemenea o evoluție rapidă și este corect să spunem că 2021 a fost 
+      anul **Vite**. Vite nu doar că a debutat la o rată a satisfacției de 98%, dar gradul de utilizare este deja la 30% 
+      la prima sa prezență în sondajul nostru, eclipsând chiar și esbuild. Vite nu este singurul care încearcă să 
+      îmbunătățească instrumentele pentru build JavaScript - 8 din cele 12 instrumente pe care le monitorizăm astăzi 
+      sunt lansate de mai puțin de 2 ani! Iar în timp ce **pnpm**, **Turborepo** și **Nx** au fost în top în primul an 
+      în care am început să monitorizăm instrumentele monorepo, doar 25% raportează că sunt mulțumiți de condiția acelei 
+      categorii, demonstrând că încă mai rămân multe de făcut.
       
-      Dacă privim puțin mai departe, putem remarca și apariția [condiționalului @when/else](https://css-tricks.com/proposal-for-css-when/), 
-      care ne va permite să combinăm query-uri media, container și de suport într-o singură construcție @.
+      De asemenea notabil: mulți participanți noi, cum sunt **Deno**, **Rome**, **Astro**, **Remix** și alții, sunt acum 
+      susținuți de companii venture-backed, găsind poate o alternativă viabilă pentru fragilul mediu de finanțare 
+      open-source.
       
-      Și ținem pumnii ca 2022 să fie anul în care vom vedea în sfârșit ceva mișcare pe partea de CSS nesting nativ. 
-      Aceia dintre noi care lucrează cu instrumente ca Sass și PostCSS deja nu-și mai pot imagina un alt mod de lucru.
-      
-      Toate acestea înseamnă că 2022 va fi cel mai probabil un an în care modul în care scrii CSS se va schimba 
-      fundamental. Este o perioadă incredibil de interesantă, iar noi așteptăm cu nerăbdare toate aceste implementări 
-      extraordinare din anul care vine.
+      Pe măsură ce [Third Age of JavaScript](https://www.swyx.io/js-third-age/) intră în al treilea an, oportunitățile 
+      pentru aspiranții open source și antreprenori continuă să iasă la iveală, iar eu sunt nerăbdător să văd ce vor 
+      aduce următorii ani!
 
   - key: conclusion.bio
-    t: Developer Web developer și creator al Polypane
+    t: Head of DX at Temporal
 
   ###########################################################################
   # Picks
@@ -363,23 +367,26 @@ translations:
 
   - key: about.content
     t: >
-      Sondajul State of CSS din 2021 a avut loc între 5 octombrie și 2 noiembrie 2021 și a colectat 8.714 răspunsuri.
+      Sondajul State of JavaScript din 2021 a avut loc în perioada 13 ianuarie - 2 februarie **2022** și a colectat 16.085 de răspunsuri.
       Sondajul a fost organizat de mine, [Sacha Greif](https://sachagreif.com/), cu ajutorul unei echipe de colaboratori 
       și consultanți open-source.
-      Logo-ul și tricoul din acest an au fost create și animate de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Logo-ul și tricoul din acest an au fost create de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
       ### Obiectiv
 
-      Acest sondaj, împreună cu sondajul [State of JavaScript](https://stateofjs.com/), a fost creat pentru a identifica 
+      Acest sondaj, împreună cu sondajul [State of CSS](https://stateofcss.com/), a fost creat pentru a identifica 
       tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
       Prin urmare, aceste sondaje se concentrează mai degrabă pe anticiparea a ceea ce va avea loc în următorii câțiva 
       ani decât pe analizarea a ceea ce se bucură acum de succes. Din acest motiv, funcționalitățile și tehnologiile 
       care sunt în prezent cele mai răspândite nu sunt întotdeauna incluse. 
 
+      De asemenea, acestea ar trebui privite ca un **snapshot al unui anumit grup de developeri**, nefiind menite să 
+      vorbească în numele întregului ecosistem.
+
       ### Design
 
       Sondajul a fost creat parțial pe baza sondajului de anul trecut, cu o perioadă deschisă de feedback în care schița 
-      acestuia a fost pusă în discuție [pe GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+      acestuia a fost pusă în discuție [pe GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
 
       Toate întrebările sondajului au fost opționale. 
 
@@ -389,6 +396,10 @@ translations:
       au fost în mare parte o combinație de respondenți ai sondajelor anterioare (anunțați pe baza unei liste dedicate 
       de email-uri) și trafic din social media. 
 
+      Trebuie menționat că framework-urile, libăriile etc. au fost libere să-și încurajeze comunitatea să participe la 
+      sondaj, iar unele dintre ele au profitat de acest avantaj prin bannere, tweet-uri etc. O defalcare detaliată a 
+      surselor de trafic este inclusă în graficul „Surse”.
+
       ### Reprezentativitate și inclusivitate
 
       Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e 
@@ -397,14 +408,13 @@ translations:
 
       Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
 
-      - **Extinderea**: anul acesta am contactat 23 de organizații care reprezintă developerii BIPOC și LGBTQ în speranța 
-        unei colaborări. Deși foarte puține dintre acestea au răspuns, vom continua să căutăm noi moduri prin care să 
-        ajungem dincolo de audiența noastră curentă.
+      - **Extinderea**: încercăm în permanență să luăm legătura cu diverse organizații (cum sunt organizațiile 
+        specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
 
       - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în 
         evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
 
-      - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză, 
+      - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză 
         etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o 
         plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public 
         mai divers.
@@ -415,11 +425,14 @@ translations:
 
       - **Vânzarea de tricouri**.
 
+      - **Sponsorizările graficelor**: membrii comunității pot dona pentru sondaj, iar numele lor va fi afișat în raport.
+
       - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de 
         partenerul nostru [Frontend Masters](https://frontendmasters.com/).
 
       - **Alte finanțări**: în acest an, echipa [Google Chrome](https://www.google.com/chrome/) a alocat un mic buget 
-        pentru a ne ajuta să angajăm un [consultant în accesibilitate](https://fossheim.io/) care să lucreze la sondaj.
+        pentru a ne ajuta să angajăm un [consultant în accesibilitate](https://fossheim.io/) care să lucreze la 
+        sondajele CSS și JS.
 
         Cu toate aceste finanțări, sondajul rămâne în mare parte un proiect autofinanțat, așadar orice contribuție sau 
         sponsorizare este foarte apreciată. Mi-aș dori să lucrez mai mult în special cu furnizorii de browsere deoarece 
