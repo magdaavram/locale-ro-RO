@@ -10,12 +10,12 @@ translations:
       2022! 
       Între o mulțime de instrumente pentru build mai rapide și o nouă serie de framework-uri back-end, lumea JavaScript 
       a continuat să evolueze. Iar noi am făcut tot posibilul să ținem pasul cu schimbările, aducând sondajului câteva 
-      noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)) 
+      noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)), 
       cum ar fi noi tipuri de întrebări, posibilitatea de a face referințe încrucișate între doi indicatori (de exemplu, 
-      salariile anuale și nivelul de experiență), și chiar și o modalitate de a personaliza graficele pentru a obține 
+      salariile anuale și nivelul de experiență) și chiar și o modalitate de a personaliza graficele pentru a obține 
       propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (Engleză).
       Totuși, nu a fost un parcurs ușor! Ne-am confruntat cu o [scurgere de date](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) 
-      care, din fericire nu a părut să aibă consecințe negative. Și depunem în mod constant eforturi pentru a face 
+      care, din fericire, nu a părut să aibă consecințe negative. Și depunem în mod constant eforturi pentru a face 
       sondajul mai incluziv, mai accesibil și mai corect. 
       
       Totuși, chiar dacă sondajul nu poate reprezenta decât o foarte mică parte din ecosistemul JavaScript, sperăm că 
@@ -49,7 +49,7 @@ translations:
     t: Cumpără-l
 
   - key: tshirt.price
-    t: $29 + transport
+    t: 29$ + transport
 
   - key: tshirt.designer.heading
     t: Despre designer
@@ -150,7 +150,7 @@ translations:
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: Cu o evoluție de **{value}** în 2021, operatorul ?? (nullish coalescing operator) a devenit rapid o parte integrantă a JavaScript.
+    t: Cu o evoluție de **{value}** în 2021, operatorul ?? (nullish coalescing) a devenit rapid o parte integrantă a JavaScript.
 
   - key: award.tool_usage_delta_award.comment
     t: esbuild are doar 2 ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
@@ -267,7 +267,7 @@ translations:
   - key: picks.mark_erikson.description
     t: |
       Framework-ul reactive SolidJS al lui Ryan a ajuns la versiunea 1.0. 
-      El a scris numeroase articole în care analizează concepte avansate  
+      El a scris numeroase articole în care analizează concepte avansate 
       de implementare a framework-ului JS.
 
   - key: picks.miguel_angel_duran.name
@@ -276,7 +276,7 @@ translations:
     t: Front End Dev & Twitch Coding Streamer
   - key: picks.miguel_angel_duran.description
     t: |
-      Pe lângă esbuild și swc, instrumente fantastice care fac ecosistemul să avanseze,  
+      Pe lângă esbuild și swc, instrumente fantastice care fac ecosistemul să avanseze, 
       îmi place Vite. Oferă un DX încântător și multiple funcționalități. 
 
   - key: picks.alyssa_nicoll.name
@@ -286,8 +286,8 @@ translations:
   - key: picks.alyssa_nicoll.description
     t: |
       Mike Brocchi și-a început recent activitatea pe Twitch. Este un programator, 
-      developer și, cel mai important, profesor strălucit. 
-      Mă distrez și învăț întotdeauna când îi urmăresc videourile.
+      un developer și, cel mai important, un profesor strălucit. Mă distrez și învăț întotdeauna când îi urmăresc 
+      videourile.
 
   - key: picks.michael_jackson.name
     t: esbuild
@@ -295,7 +295,7 @@ translations:
     t: Cofondator Remix
   - key: picks.michael_jackson.description
     t: |
-      Am construit compilatorul Remix folosind esbuild și putem spune că,  
+      Am construit compilatorul Remix folosind esbuild și putem spune că, 
       în mod evident, a ridicat ștacheta în ceea ce privește pachetele JS. 
       Este incredibil de rapid, iar plugin-ul API ne permite să facem aproape orice ne dorim.
   - key: picks.david_khourshid.name
@@ -313,7 +313,7 @@ translations:
     t: Director of Developer Experience, Remix
   - key: picks.kent_c_dodds.description
     t: |
-      Deși sunt un inginer frontend care desconsideră DevOps, Fly mi-a permis  
+      Deși sunt un inginer frontend care desconsideră DevOps, Fly mi-a permis 
       să fac cu încredere deploy în producție unei aplicații reale, distribuită la nivel global.
   - key: picks.tejas_kumar.name
     t: Joe Haddad
@@ -322,8 +322,8 @@ translations:
   - key: picks.tejas_kumar.description
     t: |
       Joe lucrează la Next.js în cadrul Vercel și caută în permanență să-și demonstreze 
-      abilitățile, în timp ce ascultă în mod activ feedbackul din partea comunității  
-      din dorința de a-i sprijini cât mai bine.
+      abilitățile, în timp ce ascultă în mod activ feedbackul din partea comunității 
+      din dorința de a o sprijini cât mai bine.
 
   - key: picks.wes_bos.name
     t: TC39 Proposals
