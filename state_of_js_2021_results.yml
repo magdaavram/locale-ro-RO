@@ -1,6 +1,13 @@
 locale: ro-RO
 translations:
   ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ediția 2021 a sondajului anual despre cele mai recente tendințe din ecosistemul JavaScript.
+
+  ###########################################################################
   # Introduction
   ###########################################################################
 
@@ -13,7 +20,7 @@ translations:
       noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)), 
       cum ar fi noi tipuri de întrebări, posibilitatea de a face referințe încrucișate între doi indicatori (de exemplu, 
       salariile anuale și nivelul de experiență) și chiar și o modalitate de a personaliza graficele pentru a obține 
-      propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (Engleză).
+      propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (engleză).
       Totuși, nu a fost un parcurs ușor! Ne-am confruntat cu o [scurgere de date](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) 
       care, din fericire, nu a părut să aibă consecințe negative. Și depunem în mod constant eforturi pentru a face 
       sondajul mai incluziv, mai accesibil și mai corect. 
@@ -36,7 +43,7 @@ translations:
       obișnuiau să fie decorate casetele VHS nescrise. 
       
       Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind 
-      în același timp și dragostea pentru CSS!
+      în același timp și dragostea pentru JS!
 
   - key: tshirt.about
     t: Despre tricou
@@ -247,7 +254,7 @@ translations:
   - key: picks.sarah_drasner.name
     t: Pawel Kozlowski
   - key: picks.sarah_drasner.bio
-    t:
+    t: Director of Engineering & Web at Google
   - key: picks.sarah_drasner.description
     t: |
       Pawel Kozlowski este genul de developer care poate fi deschis la diferite abordări 
@@ -295,8 +302,8 @@ translations:
     t: Cofondator Remix
   - key: picks.michael_jackson.description
     t: |
-      Am construit compilatorul Remix folosind esbuild și putem spune că, 
-      în mod evident, a ridicat ștacheta în ceea ce privește pachetele JS. 
+      Am construit compilatorul Remix folosind esbuild și putem spune că a ridicat în 
+      mod evident ștacheta în ceea ce privește pachetele JS. 
       Este incredibil de rapid, iar plugin-ul API ne permite să facem aproape orice ne dorim.
   - key: picks.david_khourshid.name
     t: Remix
@@ -400,7 +407,7 @@ translations:
       sondaj, iar unele dintre ele au profitat de acest avantaj prin bannere, tweet-uri etc. O defalcare detaliată a 
       surselor de trafic este inclusă în graficul „Surse”.
 
-      ### Reprezentativitate și inclusivitate
+      ### Reprezentativitate și incluziune
 
       Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e 
       acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează 
@@ -408,7 +415,7 @@ translations:
 
       Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
 
-      - **Extinderea**: încercăm în permanență să luăm legătura cu diverse organizații (cum sunt organizațiile 
+      - **Extinderea**: încercăm în permanență să luăm legătura cu diferite organizații (cum sunt cele 
         specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
 
       - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în 
