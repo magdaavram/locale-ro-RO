@@ -34,7 +34,7 @@ translations:
     - key: faq.survey_design
       t: Cum au fost create sondajele?
     - key: faq.survey_design.description
-      t: Sondajele sunt concepute pe baza feedback-ului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      t: Sondajele sunt concepute pe baza feedbackului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
     - key: faq.results_released
       t: Când vor fi publicate rezultatele?
     - key: faq.results_released.description
