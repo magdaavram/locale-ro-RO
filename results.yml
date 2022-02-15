@@ -455,7 +455,7 @@ translations:
   - key: blocks.tools_tier_list.description
     t: |
       Acest grafic ilustrează topul librăriilor în funcție de rata de satisfacție (procentul utilizatorilor
-      care ar folosi o librărie din nou). Librăriile care sunt folosite de mai puțin de 10% din respondenții sondajului  
+      care ar folosi o librărie din nou). Librăriile care sunt folosite de mai puțin de 10% din respondenții sondajului 
       nu sunt incluse.
   - key: blocks.tools_tier_list.bounds
     t: >
@@ -873,7 +873,7 @@ translations:
 
   - key: hints.hint_hint
     t: >
-        Vei găsi mici indicii, ca acesta, pe parcursul rezultatelor sondajului,
+        Vei găsi mici indicii ca acesta pe parcursul rezultatelor sondajului,
         care vor oferi mai multe detalii.
 
   - key: hints.units_switcher_hint
@@ -948,7 +948,7 @@ translations:
     t: Susține acest grafic
 
   - key: sponsor.sponsor_chart.title
-    t: Susține graficul "{title}"
+    t: Susține graficul „{title}”
 
   - key: sponsor.sponsor_chart.description
     t: >
