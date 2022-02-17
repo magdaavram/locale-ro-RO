@@ -43,7 +43,7 @@ translations:
       obișnuiau să fie decorate casetele VHS nescrise. 
       
       Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind 
-      în același timp și dragostea pentru JS!
+      în același timp și dragostea pentru JavaScript!
 
   - key: tshirt.about
     t: Despre tricou
@@ -215,7 +215,7 @@ translations:
   - key: picks.my_pick
     t: 'Alegerea mea în 2021: '
   - key: picks.intro
-    t: Am rugat membrii comunității CSS să ne spună care este „alegerea anului” din perspectiva lor
+    t: Am rugat membrii comunității JavaScript să ne spună care este „alegerea anului” din perspectiva lor
 
   - key: picks.lee_robinson.name
     t: SvelteKit
@@ -254,7 +254,7 @@ translations:
   - key: picks.sarah_drasner.name
     t: Pawel Kozlowski
   - key: picks.sarah_drasner.bio
-    t: Director of Engineering & Web at Google
+    t: Director of Engineering, Core Developer Web at Google
   - key: picks.sarah_drasner.description
     t: |
       Pawel Kozlowski este genul de developer care poate fi deschis la diferite abordări 

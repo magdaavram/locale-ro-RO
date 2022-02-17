@@ -552,6 +552,8 @@ translations:
     t: Grafic personalizat
   - key: custom_data.submit
     t: Trimite
+  - key: custom_data.empty_contents
+    t: Te rugăm să completezi câmpul „Custom Data”.
   - key: custom_data.edit_title
     t: Editează titlul graficului
   - key: custom_data.customize
