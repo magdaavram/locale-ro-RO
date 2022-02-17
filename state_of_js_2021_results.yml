@@ -17,10 +17,10 @@ translations:
       2022! 
       Între o mulțime de instrumente pentru build mai rapide și o nouă serie de framework-uri back-end, lumea JavaScript 
       a continuat să evolueze. Iar noi am făcut tot posibilul să ținem pasul cu schimbările, aducând sondajului câteva 
-      noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)), 
+      noi îmbunătățiri ([citește mai multe despre noutăți](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)), 
       cum ar fi noi tipuri de întrebări, posibilitatea de a face referințe încrucișate între doi indicatori (de exemplu, 
       salariile anuale și nivelul de experiență) și chiar și o modalitate de a personaliza graficele pentru a obține 
-      propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (engleză).
+      propria perspectivă asupra datelor! Citește mai multe despre [ce e nou anul acesta](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (engleză).
       Totuși, nu a fost un parcurs ușor! Ne-am confruntat cu o [scurgere de date](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) 
       care, din fericire, nu a părut să aibă consecințe negative. Și depunem în mod constant eforturi pentru a face 
       sondajul mai incluziv, mai accesibil și mai corect. 
@@ -43,7 +43,7 @@ translations:
       obișnuiau să fie decorate casetele VHS nescrise. 
       
       Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind 
-      în același timp și dragostea pentru JS!
+      în același timp și dragostea pentru JavaScript!
 
   - key: tshirt.about
     t: Despre tricou
@@ -215,7 +215,7 @@ translations:
   - key: picks.my_pick
     t: 'Alegerea mea în 2021: '
   - key: picks.intro
-    t: Am rugat membrii comunității CSS să ne spună care este „alegerea anului” din perspectiva lor
+    t: Am rugat membrii comunității JavaScript să ne spună care este „alegerea anului” din perspectiva lor
 
   - key: picks.lee_robinson.name
     t: SvelteKit
@@ -254,7 +254,7 @@ translations:
   - key: picks.sarah_drasner.name
     t: Pawel Kozlowski
   - key: picks.sarah_drasner.bio
-    t: Director of Engineering & Web at Google
+    t: Director of Engineering, Core Developer Web at Google
   - key: picks.sarah_drasner.description
     t: |
       Pawel Kozlowski este genul de developer care poate fi deschis la diferite abordări 
