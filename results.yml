@@ -172,6 +172,8 @@ translations:
     t: Dislexie
   - key: options.disability_status_others.diabetes
     t: Diabet
+  - key: options.disability_status_others.carpal_tunnel
+    t: Sindrom de tunel carpian
 
   ###########################################################################
   # Sections
