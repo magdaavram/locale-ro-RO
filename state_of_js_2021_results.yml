@@ -7,6 +7,10 @@ translations:
   - key: general.results.description
     t: Ediția 2021 a sondajului anual despre cele mai recente tendințe din ecosistemul JavaScript.
 
+  - key: general.livestream_announcement
+    t: Te invităm să iei parte la un [livestream special despre rezultatele sondajului](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pe 22 februarie! (engleză)
+
+
   ###########################################################################
   # Introduction
   ###########################################################################
