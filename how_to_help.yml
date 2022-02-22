@@ -1,0 +1,57 @@
+locale: ro-RO
+translations:
+
+  - key: how_to_help.content
+    t: >
+      Chiar dacă State of JavaScript și State of CSS realizează unele venituri, ele se bazează în continuare în primul rând pe voluntariat. Dacă ți-ai dori să te alături proiectului și să ne dai o mână de ajutor, iată câteva lucruri la care avem întotdeauna nevoie de suport. 
+      
+      ### Traducere
+      
+      Sondajele sunt acum traduse în peste 20 de limbi, dar multe traduceri sunt incomplete sau depășite. Dacă ți-ai dori să ne ajuți, [intră pe Discord](https://discord.gg/tuWRUWVyJs) și dă-ne username-ul de GitHub pe canalul **#translations**. 
+      
+      ### Extindere
+      
+      Nu este niciun secret că audiențele sondajelor pentru developeri au în general tendința să fie distorsionate în privința bărbaților, persoanelor albe și a celor stabilite în SUA. Dacă vrei să ne ajuți să echilibrăm puțin lucrurile, ajutorul tău ne-ar fi cu siguranță de mare folos!
+      Eforturile de extindere includ activități precum contactarea organizațiilor care ajută populațiile minoritare să negocieze lumea tehnologiei, distribuirea sondajului în diverse comunități online, trimiterea de email-uri despre sondaj către blog-uri sau reviste și, în general, orice încercare de a diversifica audiența sondajului. Dacă ți-ai dori să ajuți, [te așteptăm pe Discord](https://discord.gg/tuWRUWVyJs), pe canalul **#outreach** (dacă vrei, poți pune pe mute celelalte canale).
+      Mai exact, ne-ar plăcea să ajungem la organizații care se adresează următoarelor categorii:
+      
+      - Developeri BIPOC
+      
+      
+      - Developeri LGBTQ+
+      
+      
+      - Developeri femei
+      
+      
+      - Developeri cu dizabilități
+      
+      
+      - Developeri din țări subreprezentate (China, Brazilia, India, Japonia etc.)
+      
+      
+      ### Scriere și analiză
+      
+      Chiar dacă încercăm să punem în evidență perspective interesante în fiecare an, știm că nu putem acoperi totul într-un singur raport. Dacă ești specialist în știința datelor sau doar curios cu privire la tendințele tehnologice, ne-ar plăcea să vedem propria ta interpretare a datelor noastre! Asta ar putea fi o modalitate excelentă de a intensifica dialogul din jurul sondajului, mai ales când vine vorba de scoaterea în evidență a comunităților subreprezentate, cum sunt cele menționate anterior. 
+      Poți folosi fie funcționalitatea de personalizare a graficelor (folosind icon-ul de editare de lângă unele grafice) și [API-ul nostru public GraphQL](https://api.stateofjs.com/) pentru a crea noi vizualizări, fie ni te poți [alătura pe Discord](https://discord.gg/tuWRUWVyJs) pentru a ne cere setul complet de date JSON. 
+      
+      ### Codare
+      
+      Tot codul nostru este open-source și încurajăm contribuțiile. Sugerez ca mai întâi să [te familiarizezi cu modul în care sunt desfășurate sondajele](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb), iar mai apoi [să intri pe Discord](https://discord.gg/tuWRUWVyJs) pentru a-mi spune la ce ți-ai dori să lucrezi. 
+      
+      #### Notă despre munca plătită
+      
+      Am discutat în general despre muncă voluntară aici, dar avem și un mic buget pentru a plăti consultanți sau experți și lucrăm să găsim parteneri care să subvenționeze mai multă muncă. Mai precis, preferăm să plătim pentru activități care:
+      
+      
+      - Au **sferă de acțiune limitată** deoarece bugetul va fi probabil și el limitat.
+      
+      
+      - Necesită **expertiză specială** care nu ar fi ușor furnizată de voluntari. 
+      
+      
+      - Sunt **independente** și nu necesită prea multă muncă ulterioară deoarece este posibil să nu avem timp să o facem.
+      
+      
+      Câteva exemple bune în acest sens: ilustrații și branding, audit de usability și accesibilitate, vizualizare a datelor, promovare etc. 
+      Așa că, deși nu putem promite prea multe, dacă îți dorești să contribui la proiect, dar nu-ți permiți să o faci voluntar, nu ezita să ni te [alături pe Discord](https://discord.gg/tuWRUWVyJs) și să ne scrii!
