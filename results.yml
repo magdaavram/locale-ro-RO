@@ -200,6 +200,9 @@ translations:
   - key: sections.about.title
     t: Despre
 
+  - key: sections.how_to_help.title
+    t: Cum pot ajuta
+
   - key: sections.support.title
     t: Susține-ne
   - key: sections.support.description
