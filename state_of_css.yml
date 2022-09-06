@@ -5,7 +5,7 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.survey_intro_css2020
+    - key: general.state_of_css.intro
       t: >
           CSS-ul evoluează mai repede ca oricând.
 
@@ -796,7 +796,7 @@ translations:
     # Resources
     ###########################################################################
 
-    - key: resources.first_steps
+    - key: resources.first_steps_css
       t: Primii pași în CSS
-    - key: resources.first_steps.description
+    - key: resources.first_steps_css.description
       t: Cum ai învățat CSS atunci când erai la început de drum?
