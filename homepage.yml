@@ -31,22 +31,57 @@ translations:
       t: Participă la sondaj
 
     - key: homepage.view_results
-      t: Vezi rezultatele din 2019
+      t: Vezi rezultatele
 
     - key: share.help_spread
       t: Ajută-ne să ducem vestea mai departe!
 
+    - key: homepage.other_surveys
+      t: 'Alte sondaje:'
+
+    - key: homepage.survey_open_now
+      t: Momentan deschise
+
+    - key: homepage.survey_preview
+      t: Previzualizează sondaj
+
+    - key: homepage.most_recent_survey
+      t: Cel mai recent
+
+    - key: homepage.current_survey
+      t: Sondaj curent
+
+    - key: homepage.past_surveys
+      t: Sondaje anterioare
+
+    - key: homepage.view_questions
+      t: Vezi întrebările
+
+    - key: homepage.preview_questions
+      t: Previzualizează întrebările
+
+    # newsletter
     - key: newsletter.stay_tuned
-      t: Rămâi aproape
+      t: Nu rata următorul sondaj
     - key: newsletter.leave_your_email
-      t: Lasă-ne adresa de email și te vom anunța atunci când avem un nou sondaj.
+      t: Lasă-ne adresa de email și te vom anunța atunci când va avea loc următorul sondaj.
+    - key: newsletter.email
+      t: Adresa ta de email
+    - key: newsletter.submit
+      t: Notifică-mă
 
-    - key: author.sacha.bio
-      t: >
-          Creator al librăriei JavaScript de vizualizare a datelor [Nivo](http://nivo.rocks/), precum și al
-          [Mozaik](http://mozaik.rocks/), un instrument pentru crearea unor dashboard-uri minunate.
+    # languages
+    - key: languages.available_languages
+      t: 'Traduceri disponibile:'
+    - key: languages.help_us_translate
+      t: Ajută-ne să traducem sondajul în limba ta →
 
-    - key: author.raphael.bio
-      t: >
-          Creator al newsletter-ului zilnic [Sidebar](http://sidebar.io) și al
-          [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.
+    # footer
+    - key: homepage.made_by_devographics
+      aliasFor: general.made_by_devographics
+    - key: homepage.netlify_link
+      aliasFor: general.netlify_link
+    - key: homepage.leave_issue
+      aliasFor: general.leave_issue
+    - key: homepage.join_discord
+      aliasFor: general.join_discord
