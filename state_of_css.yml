@@ -17,8 +17,8 @@ translations:
           am decis să ne îndreptăm atenția asupra stilizărilor și selectorilor. Sperăm că ne vei ajuta
           să identificăm ultimele tendințe și să aflăm ce instrumente să studiem și să folosim în continuare!
 
-    - key: general.results.description
-      t: Sondajul anual despre ultimele tendințe în CSS.
+    - key: general.state_of_css.description
+      t: Sondajul anual al developerilor cu privire la ultimele tendințe în CSS
 
     ###########################################################################
     # Sections
@@ -58,6 +58,21 @@ translations:
       t: Media Queries
     - key: sections.media_queries.description
       t: Moduri de adaptare a site-ului la dispozitivul sau preferințele utilizatorului.
+
+    - key: sections.selectors.title
+      t: Selectori
+    - key: sections.selectors.description
+      t: Selectori CSS.
+
+    - key: sections.colors.title
+      t: Culori
+    - key: sections.colors.description
+      t: Funcționalități legate de culoare.
+
+    - key: sections.javascript_apis.title
+      t: API-uri JavaScript
+    - key: sections.javascript_apis.description
+      t: API-uri JavaScript folosite pentru a controla sau completa CSS-ul.
 
     - key: sections.other_features.title
       t: Alte funcționalități
@@ -110,6 +125,11 @@ translations:
       t: Medii
     - key: sections.environments.description
       t: Pentru ce medii scrii CSS?
+
+    - key: sections.usage_css.title
+      t: Utilizare CSS
+    - key: sections.usage_css.description
+      t: Cum folosești CSS.
 
     ###########################################################################
     # Options
@@ -179,15 +199,15 @@ translations:
     - key: options.css_pain_points.browser_interoperability
       t: Compatibilitate browser
     - key: options.css_pain_points.browser_interoperability.description
-      t: Diferențe între Chrome, Safari, Firefox, etc.
+      t: Diferențe între Chrome, Safari, Firefox etc.
     - key: options.css_pain_points.interactions
       t: Interacțiuni
     - key: options.css_pain_points.interactions.description
-      t: Răspuns la input-ul utilizatorului sau la alte evenimente (scroll, hover, etc.).
+      t: Răspuns la input-ul utilizatorului sau la alte evenimente (scroll, hover etc.).
     - key: options.css_pain_points.architecture
       t: Arhitectură & mentenanță
     - key: options.css_pain_points.architecture.description
-      t: Organizarea fișierelor, eliminarea codului nefolosit, refactorizarea, etc.
+      t: Organizarea fișierelor, eliminarea codului nefolosit, refactorizarea etc.
     - key: options.css_pain_points.layout_positioning
       t: Layout & poziționare
     - key: options.css_pain_points.layout_positioning.description
@@ -195,7 +215,7 @@ translations:
     - key: options.css_pain_points.scoping_specificity
       t: Scoping & specificitate
     - key: options.css_pain_points.scoping_specificity.description
-      t: Confruntarea cu cascadarea, suprascrierea stilizărilor, etc.
+      t: Confruntarea cu cascadarea, suprascrierea stilizărilor etc.
     - key: options.css_pain_points.responsive_design
       t: Responsive Design
     - key: options.css_pain_points.responsive_design.description
@@ -207,7 +227,7 @@ translations:
     - key: options.css_pain_points.performance_issues
       t: Probleme de performanță
     - key: options.css_pain_points.performance_issues.description
-      t: Confruntarea cu scrolling jank, crearea animațiilor fluide, etc.
+      t: Confruntarea cu scrolling jank, crearea animațiilor fluide etc.
 
     # CSS missing features (same as features section)
     - key: options.currently_missing_from_css.nesting
@@ -392,7 +412,7 @@ translations:
     - key: features.aria_attributes
       t: Atributele ARIA HTML
     - key: features.aria_attributes.description
-      t: <code>role</code>, <code>aria-label</code>, etc.
+      t: <code>role</code>, <code>aria-label</code> etc.
 
     # other features
     - key: features.variables
@@ -652,6 +672,10 @@ translations:
       t: Form Factors
     - key: environments.form_factors.description
       t: Ce form factors folosești pentru testare?
+    - key: environments.form_factors.others
+      t: Alte medii de testare
+    - key: environments.form_factors.others.description
+      t: Alți form factors sau medii pe care testezi de obicei.
 
     - key: environments.accessibility_features
       t: Funcționalități de accesibilitate
@@ -659,7 +683,7 @@ translations:
       t: Ce funcționalități de accesibilitate implementezi de obicei?
     - key: environments.accessibility_features.others
       t: Alte funcționalități de accesibilitate
-    - key: environments.accessibility_features.others
+    - key: environments.accessibility_features.others.description
       t: Alte funcționalități de accesibilitate pe care le implementezi de obicei
 
     - key: environments.css_for_print
@@ -747,10 +771,10 @@ translations:
       t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
     - key: opinions_others.currently_missing_from_css.others
       t: Alte funcționalități care lipsesc
-    - key: opinions_others.currently_missing_from_css.others.note
-      t: >
-          Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
-          Pentru a vedea răspunsurile brute, neprocesate, consultă [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+    # - key: opinions_others.currently_missing_from_css.others.note
+    #   t: >
+    #     Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
+    #     Pentru a vedea răspunsurile brute, neprocesate, consultă [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
     
     - key: opinions.sum_up_one_word_css
       t: CSS într-un cuvânt
