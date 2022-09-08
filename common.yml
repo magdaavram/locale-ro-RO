@@ -77,10 +77,16 @@ translations:
       t: Nou adăugat anul acesta
     - key: general.new
       t: Nou
+    - key: general.devographics_banner
+      t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> este noul nume al colectivului care organizează sondajele State of JavaScript, CSS și GraphQL.
 
     # credits
     - key: credits.thanks
       t: Mulțumiri speciale
+    - key: credits.contributors
+      t: Contributori
+    - key: credits.contributors.description
+      t: Mulțumiri speciale următoarelor persoane pentru că ne-au ajutat să concepem sondajul.
     - key: credits.accessibility
       t: Consultanță accesibilitate
     - key: credits.survey_design
@@ -132,9 +138,7 @@ translations:
       t: Înapoi
     - key: general.thanks
       t: >
-          Îți mulțumim pentru completarea sondajului!
-
-          Răspunsurile tale au fost salvate. Le poți revedea sau modifica până la închiderea sondajului.
+          Îți mulțumim pentru completarea sondajului! Răspunsurile tale au fost salvate.
 
           Ne poți ajuta să ducem vestea mai departe împărtășind sondajul. Orice răspuns contează și contribuie ca datele
           noastre să fie cât mai reprezentative:
@@ -187,6 +191,8 @@ translations:
       t: Apasă option/alt pentru a activa modul traducere.
     - key: general.charts_nivo
       t: Grafice realizate cu <a href="{link}">Nivo</a>.
+    - key: general.made_by_devographics
+      t: Creat de <a href="{link}">Devographics</a>
       
     ###########################################################################
     # Nav
@@ -343,13 +349,13 @@ translations:
 
     # age
     - key: options.age.range_less_than_10
-      t: Sub 10 ani
+      t: 10 ani sau mai puțin
     - key: options.age.range_10_18
-      t: 10-18 ani
+      t: 11-18 ani
     - key: options.age.range_18_24
-      t: 18-24 ani
+      t: 19-24 ani
     - key: options.age.range_25_34
-      t: 24-34 ani
+      t: 25-34 ani
     - key: options.age.range_35_44
       t: 35-44 ani
     - key: options.age.range_45_54
@@ -361,13 +367,13 @@ translations:
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
-      t: '<10'
+      t: '<=10'
     - key: options.age.range_10_18.short
-      t: 10-18
+      t: 11-18
     - key: options.age.range_18_24.short
-      t: 18-24
+      t: 19-24
     - key: options.age.range_25_34.short
-      t: 24-34
+      t: 25-34
     - key: options.age.range_35_44.short
       t: 35-44
     - key: options.age.range_45_54.short
@@ -383,11 +389,11 @@ translations:
     - key: options.years_of_experience.range_1_2
       t: Între 1 și 2 ani
     - key: options.years_of_experience.range_2_5
-      t: Între 2 și 5 ani
+      t: Între 3 și 5 ani
     - key: options.years_of_experience.range_5_10
-      t: Între 5 și 10 ani
+      t: Între 6 și 10 ani
     - key: options.years_of_experience.range_10_20
-      t: Între 10 și 20 de ani
+      t: Între 11 și 20 de ani
     - key: options.years_of_experience.range_more_than_20
       t: Mai mult de 20 de ani
 
@@ -397,11 +403,11 @@ translations:
     - key: options.years_of_experience.range_1_2.short
       t: 1-2 ani
     - key: options.years_of_experience.range_2_5.short
-      t: 2-5 ani
+      t: 3-5 ani
     - key: options.years_of_experience.range_5_10.short
-      t: 5-10 ani
+      t: 6-10 ani
     - key: options.years_of_experience.range_10_20.short
-      t: 10-20 ani
+      t: 11-20 ani
     - key: options.years_of_experience.range_more_than_20.short
       t: '>20 ani'
 
@@ -409,17 +415,17 @@ translations:
     - key: options.company_size.range_1
       t: Un angajat
     - key: options.company_size.range_1_5
-      t: Între 1 și 5 angajați
+      t: Între 2 și 5 angajați
     - key: options.company_size.range_5_10
-      t: Între 5 și 10 angajați
+      t: Între 6 și 10 angajați
     - key: options.company_size.range_10_20
-      t: Între 10 și 20 de angajați
+      t: Între 11 și 20 de angajați
     - key: options.company_size.range_20_50
-      t: Între 20 și 50 de angajați
+      t: Între 21 și 50 de angajați
     - key: options.company_size.range_50_100
-      t: Între 50 și 100 de angajați
+      t: Între 51 și 100 de angajați
     - key: options.company_size.range_100_1000
-      t: Între 100 și 1.000 de angajați
+      t: Între 101 și 1.000 de angajați
     - key: options.company_size.range_more_than_1000
       t: Mai mult de 1.000 de angajați
 
@@ -429,15 +435,15 @@ translations:
     - key: options.company_size.range_1_5.short
       t: 1-5
     - key: options.company_size.range_5_10.short
-      t: 5-10
+      t: 6-10
     - key: options.company_size.range_10_20.short
-      t: 10-20
+      t: 11-20
     - key: options.company_size.range_20_50.short
-      t: 20-50
+      t: 21-50
     - key: options.company_size.range_50_100.short
-      t: 50-100
+      t: 51-100
     - key: options.company_size.range_100_1000.short
-      t: 100-1.000
+      t: 101-1.000
     - key: options.company_size.range_more_than_1000.short
       t: '>1.000'
 
@@ -472,62 +478,6 @@ translations:
       t: $100~200k
     - key: options.yearly_salary.range_more_than_200.short
       t: '>$200k'
-
-    # job titles
-    - key: options.job_title.cto
-      t: CTO
-    - key: options.job_title.front_end_developer
-      t: Front End Developer/Engineer
-    - key: options.job_title.back_end_developer
-      t: Back End Developer/Engineer
-    - key: options.job_title.full_stack_developer
-      t: Full Stack Developer/Engineer
-    - key: options.job_title.web_developer
-      t: Web Developer
-    - key: options.job_title.web_designer
-      t: Web Designer
-    - key: options.job_title.ux_designer
-      t: UX Designer
-    - key: options.job_title.ui_designer
-      t: UI Designer
-    - key: options.job_title.back_end_dev
-      t: Back-end Developer/Engineer
-
-    # JavaScript proficiency
-    - key: options.javascript_proficiency.0
-      t: Nu știu JavaScript
-    - key: options.javascript_proficiency.1
-      t: Știu JavaScript sau jQuery la nivel începător
-    - key: options.javascript_proficiency.2
-      t: Lucrez pe proiecte front-end folosind framework-uri moderne (React, Vue etc.)
-    - key: options.javascript_proficiency.3
-      t: Creez arhitecturi complete pentru proiecte front-end
-    - key: options.javascript_proficiency.4
-      t: Lucrez cu pattern-uri avansate de front-end (state management, data loading etc.)
-
-    # CSS proficiency
-    - key: options.css_proficiency.0
-      t: Nu știu CSS
-    - key: options.css_proficiency.1
-      t: Folosesc framework-uri CSS și pot adapta stilizări existente
-    - key: options.css_proficiency.2
-      t: Știu regulile de specificitate, pot crea layout-uri
-    - key: options.css_proficiency.3
-      t: Stăpânesc animații, interacțiuni, tranziții etc.
-    - key: options.css_proficiency.4
-      t: Pot stiliza un întreg proiect front-end, urmând o metodologie consistentă
-
-    # Back-end proficiency
-    - key: options.backend_proficiency.0
-      t: Nu am cunoștințe de back-end
-    - key: options.backend_proficiency.1
-      t: Configurez CMS-uri all-in-one (WordPress etc.) sau generatoare de site-uri statice (Jekyll etc.)
-    - key: options.backend_proficiency.2
-      t: Dezvolt aplicații folosind framework-uri existente (Rails, Laravel etc.)
-    - key: options.backend_proficiency.3
-      t: Creez un întreg back-end (Go, Node.js etc.)
-    - key: options.backend_proficiency.4
-      t: Lucrez cu arhitecturi complexe multi-server sau care folosesc microservicii
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
@@ -620,16 +570,16 @@ translations:
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-        Deficiențe de vedere (cum ar fi: orbire, daltonism, etc.)
+        Deficiențe de vedere (cum ar fi: orbire, daltonism etc.)
     - key: options.disability_status.hearing_impairments
       t: >
-        Deficiențe de auz (cum ar fi: surditate, tinitus, etc.)
+        Deficiențe de auz (cum ar fi: surditate, tinitus etc.)
     - key: options.disability_status.mobility_impairments
       t: >
-        Deficiențe locomotorii (cum ar fi: artrită, sindrom de tunel carpian, etc.)
+        Deficiențe locomotorii (cum ar fi: artrită, sindrom de tunel carpian etc.)
     - key: options.disability_status.cognitive_impairments
       t: >
-        Deficiențe cognitive (cum ar fi: anxietate, dislexie, etc.)
+        Deficiențe cognitive (cum ar fi: anxietate, dislexie etc.)
     - key: options.disability_status.not_listed
       t: >
         Altele
@@ -673,9 +623,9 @@ translations:
     - key: options.form_factors.print
       t: Versiune tipărită
     - key: options.form_factors.testing_tools
-      t: Tool-uri de testare (Axe, Lighthouse, etc.)
+      t: Tool-uri de testare (Axe, Lighthouse etc.)
     - key: options.form_factors.vision_simulator
-      t: Simulator pentru vedere scăzută (daltonism, etc.)
+      t: Simulator pentru vedere scăzută (daltonism etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
@@ -745,7 +695,7 @@ translations:
     - key: options.tool_evaluation.developer_experience_tooling
       t: Experiența developer-ului
     - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Oferă instrumente de dezvoltare bune, un ecosistem mare de plugin-uri, etc.?
+      t: Oferă instrumente de dezvoltare bune, un ecosistem mare de plugin-uri etc.?
     - key: options.tool_evaluation.performance_user_experience
       t: User Experience
     - key: options.tool_evaluation.performance_user_experience.description
@@ -773,7 +723,7 @@ translations:
     - key: options.accessibility_features.skip_to_content_link
       t: Link de „Salt la conținut”
     - key: options.accessibility_features.color_themes
-      t: Teme de culoare (mod întunecat, mod contrast ridicat, etc.)
+      t: Teme de culoare (mod întunecat, mod contrast ridicat etc.)
     - key: options.accessibility_features.prefers_reduced_motion
       t: Prefers-reduced-motion
     - key: options.accessibility_features.alt_text
@@ -801,7 +751,7 @@ translations:
     - key: options.first_steps.on_the_job
       t: Training la locul de muncă
     - key: options.first_steps.self_directed
-      t: Învățare autodidactă (Google, Stack Overflow, etc.)
+      t: Învățare autodidactă (Google, Stack Overflow etc.)
     - key: options.first_steps.mentoring
       t: Mentorat
 
@@ -830,6 +780,10 @@ translations:
       t: Victorii în runda 3
     - key: options.bracket.combined
       t: Per total
+
+    # email_temporary (receive updates?)
+    - key: options.email_temporary.yes
+      t: Da, notifică-mă pe email când rezultatele sondajului sunt publicate
 
     ###########################################################################
     # Tools
@@ -920,7 +874,11 @@ translations:
       t: >
         Prelucrarea și publicarea datelor referitoare la diversitate poate fi un subiect sensibil, însă
         credem că este important să colectăm aceste date pentru a ne ajuta să măsurăm și să îmbunătățim
-        sondajul din punct de vedere al inclusivității și reprezentativității.  
+        sondajul din punct de vedere al inclusivității și reprezentativității.
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+        Pentru a ne supune politicilor locale, colectarea datelor despre rasă ori etnie a fost dezactivată pentru țara 
+        sau regiunea ta.
 
     # disability status
     - key: user_info.disability_status
@@ -939,6 +897,12 @@ translations:
       t: Cum ai aflat despre acest sondaj?
     - key: user_info.email
       t: Adresa de email
+    - key: user_info.email.description
+      t: >
+        Ai completat sondajul anonim. Dacă dorești, opțional, poți introduce adresa ta de email și vei putea accesa datele și mai târziu. În plus, te vom putea notifica atunci când rezultatele sondajului vor fi publicate.
+    - key: user_info.email.note
+      t: > 
+        Nu stocăm niciun fel de date cu caracter personal. Prin urmare, după ce vei completa adresa ta de email, o vom folosi pentru a genera un identificator unic anonimizat și apoi vom șterge adresa din evidențele noastre.
     - key: user_info.country
       t: Țară sau regiune
     - key: user_info.country.description
@@ -974,6 +938,24 @@ translations:
       t: Studii superioare
     - key: user_info.higher_education_degree.description
       t: Ai o diplomă de studii superioare?
+
+    # completion
+    - key: user_info.completion_stats
+      t: Grad de completare a sondajului
+    - key: user_info.completion_stats.description
+      t: Ce proporție din sondaj au completat respondenții?
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: Vrei să fii notificat atunci când lansăm rezultatele sondajului?
+    - key: user_info.email_temporary.note
+      t: >
+        Nu stocăm niciun fel de date private. Prin urmare, după ce adresa ta de email este trimisă furnizorului nostru 
+        de liste de corespondență, aceasta va fi ștearsă din evidențele noastre. 
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: Cum am putea îmbunătăți acest sondaj?
 
     ###########################################################################
     # Other Tools
@@ -1046,7 +1028,7 @@ translations:
     # Resources
     ###########################################################################
 
-    # learning method
+    # first steps
     - key: resources.first_steps
       t: Primele metode de învățare
     - key: resources.first_steps.description
@@ -1101,3 +1083,11 @@ translations:
       t: >
         Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră pentru activitatea lor 
         (câmp deschis, nume separate prin virgulă).
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Alte sondaje
+    - key: resources.other_surveys.description
+      t: La ce alte sondaje dedicate programatorilor mai participi?
+    - key: resources.other_surveys.others
+      t: Alte sondaje care nu au fost menționate anterior
