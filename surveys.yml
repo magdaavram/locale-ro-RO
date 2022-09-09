@@ -8,6 +8,39 @@ translations:
       t: Niciun sondaj disponibil
     - key: general.global_nav
       t: General
+    - key: general.survey_status_preview
+      t: Previzualizare
+    - key: general.survey_status_open
+      t: Deschis
+    - key: general.survey_status_closed
+      t: Închis
+
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: Creează cont
+    - key: accounts.create_account.description
+      t: Dacă îți creezi un cont, vei putea avea **acces la propriile date în viitor** și vei fi notificat atunci când rezultatele sondajului sunt publicate.
+    - key: accounts.create_account.note
+      t: Dacă **ai deja un cont**, îți vom trimite pe email un link magic pentru logare.
+    - key: accounts.create_account.action
+      t: Creează cont
+    - key: accounts.your_email
+      t: Adresa ta de email
+
+    - key: accounts.continue_as_guest
+      t: Continuă ca vizitator
+    - key: accounts.continue_as_guest.description
+      t: Participarea la sondaj în mod anonim presupune că **nu vei putea accesa din nou datele tale** după ce vei încheia sesiunea.
+    - key: accounts.continue_as_guest.action
+      t: Continuă ca vizitator
+
+    - key: accounts.magic_link.no_email
+      t: Te rugăm să introduci adresa de email
+    - key: accounts.magic_link.success
+      t: Verifică inbox-ul! Ți-am trimis un link magic. Dă click pe el pentru a confirma crearea contului și apoi te vei putea loga.
 
     ###########################################################################
     # FAQ
@@ -30,7 +63,7 @@ translations:
     - key: faq.data_published
       t: Veți face publice datele mele?
     - key: faq.data_published.description
-      t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri, etc.).
+      t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri etc.).
     - key: faq.survey_design
       t: Cum au fost create sondajele?
     - key: faq.survey_design.description
@@ -46,7 +79,7 @@ translations:
     - key: faq.team
       t: Cine se ocupă de aceste sondaje?
     - key: faq.team.description
-      t: Sondajele sunt în principal sub tutela [mea](http://sachagreif.com), în parteneriat cu colaboratori, traducători și voluntari.
+      t: Sondajele sunt sub tutela [Devographics](http://devographics.com), alături de un colectiv de colaboratori, traducători și voluntari.
 
     ###########################################################################
     # Form Controls
@@ -69,5 +102,14 @@ translations:
       t: Anulare
 
     ###########################################################################
-    # Demographics (About You/User Info)
+    # Response
     ###########################################################################
+
+    - key: response.completion
+      t: '{completion}% rată de completare'
+
+    - key: response.details
+      t: Deschis pe {startedAt}, {completion}% rată de completare.
+
+    - key: response.view_results
+      t: Vezi rezultate
