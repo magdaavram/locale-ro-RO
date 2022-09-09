@@ -6,28 +6,29 @@ translations:
 
     # homepage
     - key: general.why_create_account
-      t: De ce am nevoie de cont?
+      t: De ce trebuie să creez un cont?
     - key: general.create_account_reasons
       t: >
-          Îți cerem să-ți creezi cont pentru:
+        Îți cerem să-ți creezi cont pentru:
 
-          - A evita răspunsurile duplicate
+        - A evita răspunsurile duplicate
 
-          - A-ți oferi acces la răspunsurile tale
+        - A-ți oferi acces la răspunsurile tale
 
-          - A salva sesiunea pe măsură ce completezi
+        - A salva sesiunea pe măsură ce completezi
 
-          - A te notifica atunci când publicăm rezultatele
+        - A te notifica atunci când publicăm rezultatele
     - key: general.survey_closed
       t: >
-          Ne pare rău, sondajul a luat sfârșit! Poți în continuare să verifici răspunsurile tale, dar nu vei putea să le modifici.
+        Ne pare rău, sondajul a luat sfârșit! Poți în continuare să verifici răspunsurile tale, dar nu vei putea să le modifici.
     - key: general.survey_read_only
       t: >
-          Vizualizezi acest sondaj în mod read-only.
+        Vizualizezi acest sondaj în mod read-only.
     - key: general.survey_preview
       t: >
         Acest sondaj este în modul previzualizare. Întrebările pot suferi modificări și toate datele 
         introduse se vor pierde atunci când sondajul propriu-zis începe.
+
     - key: general.survey_read_only_back
       t: >
         <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
@@ -121,7 +122,7 @@ translations:
       t: Cuprins
     - key: general.all_questions_optional
       t: >
-          Notă: întrebările sunt opționale, completarea în totalitate nu este necesară.
+        Notă: întrebările sunt opționale, completarea în totalitate nu este necesară.
     - key: general.data_is_saved
       t: Răspunsurile tale sunt salvate atunci când navighezi între secțiuni.
     - key: general.close_nav
@@ -138,33 +139,32 @@ translations:
       t: Înapoi
     - key: general.thanks
       t: >
-          Îți mulțumim pentru completarea sondajului! Răspunsurile tale au fost salvate.
+        Îți mulțumim pentru completarea sondajului! Răspunsurile tale au fost salvate.
 
-          Ne poți ajuta să ducem vestea mai departe împărtășind sondajul. Orice răspuns contează și contribuie ca datele
-          noastre să fie cât mai reprezentative:
+        Ne poți ajuta să ducem vestea mai departe împărtășind sondajul. Orice răspuns contează și contribuie ca datele
+        noastre să fie cât mai reprezentative:
     - key: thanks.learn_more_about
       t: 'Câteva dintre funcționalitățile despre care ai vrea să afli mai multe:'
     - key: thanks.knowledge_score
       t: Scor de familiaritate
     - key: thanks.score_explanation
       t: >
-          Ai auzit sau folosit <span class="score-number score-number-known">{known}</span> din
-          <span class="score-number score-number-total">{total}</span> funcționalități menționate în sondaj, ceea ce
-          te plasează în primii <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-          dintre respondenți.
+        Ai auzit sau folosit <span class="score-number score-number-known">{known}</span> din
+        <span class="score-number score-number-total">{total}</span> funcționalități menționate în sondaj, ceea ce
+        te plasează în primii <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+        dintre respondenți.
     - key: thanks.share_on_twitter
       t: Distribuie pe Twitter
     - key: thanks.share_score_message
       t: >
-          Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
-
+        Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
     # share
     - key: general.share_subject
       t: >
-          Sondajul {surveyName}
+        Sondajul {surveyName}
     - key: general.share_text
       t: >
-          Sondajul {surveyName} din acest an este acum disponibil! {link}
+        Sondajul {surveyName} din acest an este acum disponibil! {link}
 
     # forms
     - key: forms.select_option
@@ -193,7 +193,7 @@ translations:
       t: Grafice realizate cu <a href="{link}">Nivo</a>.
     - key: general.made_by_devographics
       t: Creat de <a href="{link}">Devographics</a>
-      
+
     ###########################################################################
     # Nav
     ###########################################################################
@@ -241,11 +241,11 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+      t: <span aria-hidden="true">🤷</span> N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
     - key: options.features.heard
-      t: ✅ Știu ce este, dar nu am folosit niciodată
+      t: <span aria-hidden="true">✅</span> Știu ce este, dar nu am folosit niciodată
     - key: options.features.used
-      t: 👍 Am folosit
+      t: <span aria-hidden="true">👍</span> Am folosit
 
     # features (no emoji)
     - key: options.features.never_heard.label
@@ -277,15 +277,15 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
+      t: <span aria-hidden="true">🤷</span> N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
     - key: options.tools.interested
-      t: ✅ Am auzit despre > Mi-ar plăcea să învăț
+      t: <span aria-hidden="true">✅</span> Am auzit despre > Mi-ar plăcea să învăț
     - key: options.tools.not_interested
-      t: 🚫 Am auzit despre > Nu sunt interesat(ă)
+      t: <span aria-hidden="true">🚫</span> Am auzit despre > Nu sunt interesat(ă)
     - key: options.tools.would_use
-      t: 👍 Am folosit > Aș folosi din nou
+      t: <span aria-hidden="true">👍</span> Am folosit > Aș folosi din nou
     - key: options.tools.would_not_use
-      t: 👎 Am folosit > Nu aș mai folosi
+      t: <span aria-hidden="true">👎</span> Am folosit > Nu aș mai folosi
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
@@ -353,15 +353,15 @@ translations:
     - key: options.age.range_10_18
       t: 11-18 ani
     - key: options.age.range_18_24
-      t: 19-24 ani
+      t: 19-24 de ani
     - key: options.age.range_25_34
-      t: 25-34 ani
+      t: 25-34 de ani
     - key: options.age.range_35_44
-      t: 35-44 ani
+      t: 35-44 de ani
     - key: options.age.range_45_54
-      t: 45-54 ani
+      t: 45-54 de ani
     - key: options.age.range_55_64
-      t: 55-64 ani
+      t: 55-64 de ani
     - key: options.age.range_more_than_65
       t: 65 de ani sau mai mult
 
@@ -425,9 +425,9 @@ translations:
     - key: options.company_size.range_50_100
       t: Între 51 și 100 de angajați
     - key: options.company_size.range_100_1000
-      t: Între 101 și 1.000 de angajați
+      t: Între 101 și 1000 de angajați
     - key: options.company_size.range_more_than_1000
-      t: Mai mult de 1.000 de angajați
+      t: Mai mult de 1000 de angajați
 
     # company size (short versions)
     - key: options.company_size.range_1.short
@@ -443,9 +443,9 @@ translations:
     - key: options.company_size.range_50_100.short
       t: 51-100
     - key: options.company_size.range_100_1000.short
-      t: 101-1.000
+      t: 101-1000
     - key: options.company_size.range_more_than_1000.short
-      t: '>1.000'
+      t: '>1000'
 
     # salary
     - key: options.yearly_salary.range_work_for_free
@@ -465,17 +465,17 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: '$0'
+      t: $0
     - key: options.yearly_salary.range_0_10.short
-      t: $0~10k
+      t: $0-$10k
     - key: options.yearly_salary.range_10_30.short
-      t: $10~30k
+      t: $10k-$30k
     - key: options.yearly_salary.range_30_50.short
-      t: $30~50k
+      t: $30k-$50k
     - key: options.yearly_salary.range_50_100.short
-      t: $50~100k
+      t: $50k-$100k
     - key: options.yearly_salary.range_100_200.short
-      t: $100~200k
+      t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200.short
       t: '>$200k'
 
@@ -492,6 +492,7 @@ translations:
       t: Expert
 
     # Gender
+
     - key: options.gender.female
       t: Feminin
     - key: options.gender.male
@@ -506,6 +507,7 @@ translations:
       t: Altul
 
     # Gender (short)
+
     - key: options.gender.female.short
       t: Feminin
     - key: options.gender.male.short
@@ -520,6 +522,7 @@ translations:
       t: Altul
 
     # Race & Ethnicity
+
     - key: options.race_ethnicity.white_european
       t: Alb
     - key: options.race_ethnicity.south_asian
@@ -544,6 +547,7 @@ translations:
       t: Alta
 
     # Race & Ethnicity (short)
+
     - key: options.race_ethnicity.white_european.short
       t: Alb
     - key: options.race_ethnicity.south_asian.short
@@ -713,6 +717,8 @@ translations:
     - key: options.tool_evaluation.community_inclusivity.description
       t: Are o comunitate primitoare și vibrantă construită în jurul său?
 
+
+
     # accessibility features
     - key: options.accessibility_features.keyboard_navigation
       t: Navigare prin intermediul tastaturii
@@ -792,13 +798,13 @@ translations:
     - key: tools.other_tools
       t: Alte opțiuni
     - key: tools.other_tools.description
-      t: Alte opțiuni pe care le folosești, dar care nu au fost menționate în lista de mai sus
+      t: Alte opțiuni pe care le folosești, dar care nu au fost menționate în lista de mai sus.
     - key: tools.happiness
       t: Satisfacție generală
     - key: tools.happiness.description
       t: >
-          Pe o scară de la 1 (foarte nemulțumit(ă)) la 5 (foarte mulțumit(ă)), cât de mulțumit(ă)
-          ești de situația generală a lucrurilor, în raport cu opțiunile din lista de mai sus?
+        Pe o scară de la 1 (foarte nemulțumit(ă)) la 5 (foarte mulțumit(ă)), cât de mulțumit(ă)
+        ești de situația generală a lucrurilor, în raport cu opțiunile din lista de mai sus?
 
     ###########################################################################
     # Demographics (About You/User Info)
@@ -832,7 +838,7 @@ translations:
     - key: user_info.job_title
       t: Denumirea funcției
     - key: user_info.job_title.description
-      t: Cum te prezinți la petreceri?
+      t: Cum te prezinți celorlalți?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
@@ -896,12 +902,12 @@ translations:
     - key: user_info.how_did_user_find_out_about_the_survey
       t: Cum ai aflat despre acest sondaj?
     - key: user_info.email
-      t: Adresa de email
+      t: Adresa ta de email
     - key: user_info.email.description
       t: >
         Ai completat sondajul anonim. Dacă dorești, opțional, poți introduce adresa ta de email și vei putea accesa datele și mai târziu. În plus, te vom putea notifica atunci când rezultatele sondajului vor fi publicate.
     - key: user_info.email.note
-      t: > 
+      t: >
         Nu stocăm niciun fel de date cu caracter personal. Prin urmare, după ce vei completa adresa ta de email, o vom folosi pentru a genera un identificator unic anonimizat și apoi vom șterge adresa din evidențele noastre.
     - key: user_info.country
       t: Țară sau regiune
@@ -922,7 +928,7 @@ translations:
       t: >
         În viitor, am putea folosi username-uri de Twitter pentru
         a analiza activitatea și pentru a face referințe către informații publice
-        (cum ar fi lista de utilizatori pe care îi urmărești). 
+        (cum ar fi lista de utilizatori pe care îi urmărești).
 
     - key: user_info.industry_sector
       t: Industrie
@@ -938,12 +944,6 @@ translations:
       t: Studii superioare
     - key: user_info.higher_education_degree.description
       t: Ai o diplomă de studii superioare?
-
-    # completion
-    - key: user_info.completion_stats
-      t: Grad de completare a sondajului
-    - key: user_info.completion_stats.description
-      t: Ce proporție din sondaj au completat respondenții?
 
     # email_temporary (receive updates?)
     - key: user_info.email_temporary
@@ -1074,9 +1074,9 @@ translations:
     - key: resources.people.description
       t: Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră.
     # - key: resources.people.others
-    #   t: Alte persoane
+    #   t: Other People
     # - key: resources.people.others.description
-    #   t: Alte răspunsuri (câmp deschis).
+    #   t: Other answers (freeform field).
     - key: resources.people.others
       t: Persoane
     - key: resources.people.others.description
