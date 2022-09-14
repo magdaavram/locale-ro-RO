@@ -169,9 +169,9 @@ translations:
       t: Golește câmpul
 
     # partners
-    - key: partners.our_partners
+    - key: sponsors.our_partners
       t: Partenerii noștri
-    - key: partners.become_partner
+    - key: sponsors.become_partner
       t: Devino partener
 
     # 404

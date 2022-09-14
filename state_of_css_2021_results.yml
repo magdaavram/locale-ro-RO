@@ -353,11 +353,11 @@ translations:
   # Sponsors
   ###########################################################################
 
-  - key: partners.frontendmasters.description
+  - key: sponsors.frontendmasters.description
     t: Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
-  - key: partners.polypane.description
+  - key: sponsors.polypane.description
     t: Browserul developerilor ambițioși. Creează cu ușurință website-uri responsive, accesibile și rapide.
-  - key: partners.google_chrome.description
+  - key: sponsors.google_chrome.description
     t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
 
   ###########################################################################

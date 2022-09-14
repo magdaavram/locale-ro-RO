@@ -21,10 +21,10 @@ translations:
   - key: general.completion_percentage
     t: 'Procent de completare:'
 
-  - key: partners.thanks
+  - key: sponsors.thanks
     t: Mulțumim partenerilor noștri pentru susținere!
 
-  - key: partners.learn_more
+  - key: sponsors.learn_more
     t: Află mai multe.
 
   - key: tabs.all_respondents
