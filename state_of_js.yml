@@ -14,8 +14,11 @@ translations:
           date de la peste 20.000 de programatori în fiecare an, din dorința de a identifica tendințe actuale și viitoare.
 
 
-          Completează sondajul și ajută-ne să aflăm ce librării își doresc programatorii să învețe în continuare,
+          Hai să aflăm împreună ce librării își doresc programatorii să învețe în continuare,
           care dintre ele au un grad de satisfacție mai mare și multe altele.
+
+    - key: general.state_of_js.description
+      t: Sondajul anual al programatorilor cu privire la ecosistemul JavaScript
 
     ###########################################################################
     # Sections

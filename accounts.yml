@@ -72,8 +72,16 @@ translations:
       t: Te rugăm să te autentifici sau să te înregistrezi pentru a începe.
     - key: accounts.logged_in_as
       t: Autentificat ca {email}
+    - key: accounts.logged_in_as_guest
+      t: Autentificat ca vizitator
     - key: accounts.questions
       t: >
           Dacă ai întrebări legate de cum folosim datele tale sau dacă
           ți-ai dori să-ți ștergem datele din arhivă,
           te rugăm <a href="mailto:hello@stateofjs.com">să ne scrii</a>.
+
+    - key: accounts.token_verified
+      t: Verificarea token-ului s-a realizat, redirecționare în curs…
+
+    - key: accounts.your_surveys
+      t: Sondajele tale

@@ -294,6 +294,8 @@ translations:
     t: Cehă
   - key: options.locale.pt-PT
     t: Portugheză
+  - key: options.locale.pt-BR
+    t: Portugheză (Brazilia)
   - key: options.locale.it-IT
     t: Italiană
   - key: options.locale.sv-SE
@@ -657,6 +659,16 @@ translations:
     t: Utilizare %
   - key: charts.axis_legends.awareness_percentage
     t: Conștientizare %
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
     t: Fericire
   - key: charts.axis_legends.knowledge_score
