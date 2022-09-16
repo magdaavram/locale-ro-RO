@@ -118,12 +118,12 @@ translations:
 
     - key: blocks.tools_quadrant.description
       t: |
-        Acest grafic ilustrează **rata de satisfacție** (sau **rata de interes**) a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
+        Acest grafic ilustrează **rata de retenție** a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
         Poate fi împărțit în patru cadrane:
-          - **1**: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
-          - **2**: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
-          - **3**: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care sunt greu de recomandat în acest moment.
-          - **4**: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+          - **1**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
+          - **2**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
+          - **3**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat în acest moment.
+          - **4**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
     ###########################################################################
     # Notes
@@ -173,20 +173,22 @@ translations:
     - key: sections.conclusion.description
       t: |
         
-        <span class="first-line">JavaScript is in a tremendously better state today compared to 2016.</span>
+        <span class="first-line">GraphQL face cu adevărat parte din modul în care construim astăzi aplicații moderne.</span>
         
-        Back when the first State of JS survey took place, only 21% of you used TypeScript compared to 69% today. Whereas we used to joke about a new front end framework releasing every day, **React** and **Vue** have now been dominant for 6 years running. And the percentage of people reporting that "JS is moving too fast" is down from 59% to 38%.
+        Din ce în ce mai multe companii creează produse, servicii, instrumente, RFC-uri, cea mai mare parte dintre acestea fiind realizate open source, iar asta e fantastic! Este esențial pentru un ecosistem înfloritor să existe competiție constructivă și colaborare!
         
-        This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
+        Prin urmare, vremurile se schimbă în privința modului în care consumăm GraphQL pe client. Librării ca urql și React Query au devenit astăzi alegeri populare alături de fidelii Apollo Client și Relay. Este de asemenea grozav să vezi că GraphQL continuă să se dezvolte și să prospere și în alte limbaje, nu doar în JavaScript – acum există servere și clienți GraphQL stabili și maturi în aproape toate dintre cele mai populare limbaje de programare!
         
-        The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% satisfaction, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
+        De asemenea, GraphQL se schimbă. Cu îmbunătățiri mult așteptate, este tot mai aproape să fie oficial parte din specificație. În curând vom vedea modificări în ceea ce privește fluxul, amânarea, polimorfismul input-ului, dar și îmbunătățiri legate de subscripții și interogări live. 
         
-        Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
+        Mai mult decât atât, există acum companii specializate în securitate, caching, urmărirea erorilor, implementarea, abstractizarea bazelor de date și backend-urilor în scheme simple și multe altele, care fac interacțiunea cu GraphQL mai accesibilă ca niciodată.
         
-        As the [Third Age of JavaScript](https://www.swyx.io/js-third-age/) enters its third year, the opportunities for aspiring open sourcerors and entrepreneurs continue to unfold, and I'm excited to see what the next couple years bring!
+        Am asistat recent și la o nouă lansare GraphiQL, care se mândrește cu un ecosistem puternic de plugin-uri, mai puține dependințe și chiar dark mode! Iar [Fundația GraphQL](https://graphql.org/foundation/) continuă să crească, noi membri alăturându-li-se constant pentru a ajuta la susținerea eforturilor celor implicați în educarea, construirea și ghidarea viitorului GraphQL.
+        
+        GraphQL și-a găsit locul în ecosistem și are un viitor interesant în față!
 
     - key: conclusion.bio
-      t: Head of DX at Temporal
+      t: Senior Developer Relations @ Grafbase
 
     ###########################################################################
     # Picks
@@ -256,12 +258,29 @@ translations:
     # Sponsors
     ###########################################################################
 
-    - key: partners.frontendmasters.description
-      t: Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
-    - key: partners.polypane.description
-      t: Browserul developerilor ambițioși. Creează cu ușurință website-uri responsive, accesibile și rapide.
-    - key: partners.google_chrome.description
-      t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
+    - key: sponsors.frontendmasters.description
+      t: >
+        Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
+    - key: sponsors.nhost.description
+      t: >
+        Nhost este o alternativă Firebase open source cu GraphQL.
+    - key: sponsors.apollo.description
+      t: >
+        Apollo Supergraph ajută echipe de produs și de ingineri să creeze rapid experiențe incredibile pentru clienții lor.
+    - key: sponsors.the_guild.description
+      t: >
+        Ecosistemul avansat open source Guild cuprinde tot ce ai nevoie pentru infrastructura ta API.
+
+    - key: sponsors.hasura.description
+      t: >
+        Rulează Hasura local sau în cloud, conectează-l la bazele tale de date noi sau existente și vei obține instantaneu un API GraphQL la nivel de producție.
+    - key: sponsors.graphql_wtf.description
+      t: >
+        Învață ceva nou săptămânal cu GraphQL. Primește noi episoade pe email.
+    - key: sponsors.grafbase.description
+      t: >
+        Backend-uri GraphQL serverless instant. Grafbase oferă cea mai bună experiență pentru implementarea API-urilor GraphQL.
+
 
     ###########################################################################
     # FAQ/About
@@ -269,72 +288,66 @@ translations:
 
     - key: about.content
       t: >
-        The 2021 State of JS survey ran from January 13 to February 2 **2022**, and collected 16,085 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+        Sondajul State of GraphQL din 2022 s-a desfășurat în perioada 15 iunie - 15 iulie 2022 și a colectat 3.094 de răspunsuri. Sondajul a fost organizat în principal de mine, [Sacha Greif](https://sachagreif.com/), cu ajutorul unei echipe de colaboratori și consultanți open source. 
         
-        This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+        ### Obiectiv
         
-        ### Survey Goals
+        Acest sondaj, împreună cu sondajele [State of CSS](https://stateofcss.com/) și [State of JS](https://stateofjs.com/), a fost creat pentru a identifica tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
         
-        This survey, along with the [State of CSS](https://stateofcss.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+        Din cauza dimensiunii relativ mici a eșantionului, acest sondaj ar trebui considerat **un instantaneu al unui segment al developerilor**, nefiind menit să descrie întreg ecosistemul GraphQL. 
         
-        As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+        De asemenea, acest sondaj **nu este afiliat GraphQL sau Facebook**. 
         
-        They should also be taken as a **snapshot of a specific subset of developers**, and are not meant to speak for the entire ecosystem. 
+        ### Design
         
-        ### Survey Design
+        Sondajul a fost conceput în colaborare, existând o perioadă deschisă pentru feedback în care conținutul acestuia a fost dezbătut pe GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). Toate întrebările sondajului au fost opționale.
         
-        The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+        ### Audiență
         
-        All survey questions were optional. 
+        Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții au provenit în principal din traficul de pe rețelele sociale. 
         
-        ### Survey Audience
+        ### Reprezentativitate și inclusivitate
         
-        The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-        
-        Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
-        
-        ### Representativeness & Inclusivity
-        
-        While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+        Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează prin sisteme care au deja propriile biasuri inerente. 
         
         
-        In order to counter-balance this, we are implementing three distinct strategies:
+        Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
+
+
+        - **Extinderea**: încercăm în permanență să luăm legătura cu diferite organizații (cum sunt cele specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
+
+        - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
+
+        - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public mai divers.
+
+        
+        ### Finanțarea proiectului
+        
+        Finanțarea acestui proiect provine dintr-o varietate de surse:
         
         
-        - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+        - **Sponsorizările graficelor**: membrii comunității pot dona pentru sondaj, iar numele lor va fi afișat în raport.  
         
-        - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+        - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de partenerul nostru [Frontend Masters](https://frontendmasters.com/).
         
-        - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
-        
-        ### Project Funding
-        
-        Funding from this project comes from a variety of sources:
+        - **Alte finanțări**: companiile listate în secțiunea „Partenerii noștri" de pe [pagina de introducere](/introducere) au contribuit, de asemenea, financiar sau în alt mod.
         
         
-        - **T-shirt sales**. 
+        Sponsorii nu influențează conținutul sondajului sau modul în care sunt prezentate rezultatele, iar sponsorizările se realizează abia după ce toate datele au fost colectate.  
         
-        - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+        ### Prezentare tehnică
         
-        - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
-        
-        - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the CSS and JS surveys.
-        
-        
-        Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
-        
-        ### Technical Overview
-        
-        You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-        
-        - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
-        
-        - **Data storage/processing**: MongoDB & MongoDB Aggregations.
-        
-        - **Data API**: Node.js GraphQL API. 
-        
-        - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
-        
-        - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
-        
-        - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+        Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+
+        - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+        - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
+
+        - **Data API**: API Node.js GraphQL.
+
+        - **Site-ul cu rezultate**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+        - **Vizualizarea datelor**: [Nivo](https://nivo.rocks/) React dataviz library.
+
+        - **Font**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) și [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
