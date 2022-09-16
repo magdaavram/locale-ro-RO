@@ -83,56 +83,56 @@ translations:
   - key: options.features_mode.usage_rank
     t: După utilizare
   - key: options.features_mode.usage_ratio_rank
-    t: După rata de utilizare
+    t: După procent
 
   - key: options.features_simplified.know_it
     t: Știu despre
   - key: options.features_simplified.used_it
     t: Am folosit
   - key: options.features_simplified.usage_ratio
-    t: Rata de utilizare
+    t: Procent
 
   - key: options.quadrant.assess
     t: EVALUARE
   - key: options.quadrant.assess.long
     t: |
-      EVALUARE: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
+      EVALUARE: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
   - key: options.quadrant.adopt
     t: ADOPTARE
   - key: options.quadrant.adopt.long
     t: |
-      ADOPTARE: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
+      ADOPTARE: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
   - key: options.quadrant.avoid
     t: EVITARE
   - key: options.quadrant.avoid.long
     t: |
-      EVITARE: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care trebuie evitate în acest moment.
+      EVITARE: Utilizare scăzută, rată scăzută de retenție. Tehnologii care trebuie evitate în acest moment.
   - key: options.quadrant.analyze
     t: ANALIZARE
   - key: options.quadrant.analyze.long
     t: |
-      ANALIZARE: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+      ANALIZARE: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
   - key: options.quadrant.1
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
+      1: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
+      2: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care sunt greu de recomandat.
+      3: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat.
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+      4: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
   - key: ranges.selector.years_of_experience
     t: Experiență
@@ -426,13 +426,13 @@ translations:
       Acest grafic prezintă **rata de satisfacție** (sau **rata de interes**) față de fiecare tehnologie raportată la **numărul total al utilizatorilor**.
       Poate fi împărțit în patru cadrane:
 
-        - **EVALUARE**: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
+        - **EVALUARE**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
 
-        - **ADOPTARE**: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adopție.
+        - **ADOPTARE**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adopție.
 
-        - **EVITARE**: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care trebuie evitate în acest moment.
+        - **EVITARE**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care trebuie evitate în acest moment.
 
-        - **ANALIZARE**: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+        - **ANALIZARE**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
   # category other tools
   - key: blocks.category_other_tools
@@ -522,17 +522,13 @@ translations:
 
   # features_overview
   - key: blocks.features_overview
-    t: Prezentare generală a utilizării
+    t: Prezentare generală a funcționalităților
   - key: blocks.features_overview.description
     t: |
-      Acest grafic prezintă diferitele rate de adopție ale tuturor funcționalităților, grupate pe categorii.
+      Dimensiunea **cercului exterior** corespunde numărului total de utilizatori care au auzit despre funcționalitate (respondenți care au răspuns **știu despre** sau **am folosit**), 
+      iar **cercul interior** îi reprezintă pe cei care au folosit-o (respondenții care au răspuns **am folosit**).
 
-      Dimensiunea <span class="text-teal-darker text-bold">cercului exterior</span>
-      corespunde numărului total de utilizatori care au auzit despre funcționalitate,
-      iar <span class="text-teal text-bold">cercul interior</span> îi reprezintă pe cei care au folosit-o.
-
-      Fă hover peste fiecare pentru a vedea mai multe detalii, precum și o <span class="text-blackpink text-bold">suprapunere</span>
-      cu numărul total de respondenți ai sondajului.
+      Fă hover peste fiecare pentru a vedea mai multe detalii, inclusiv raportul dintre cele două valori. 
 
   # export
   - key: export.export
