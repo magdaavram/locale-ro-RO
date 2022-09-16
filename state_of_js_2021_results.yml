@@ -133,12 +133,12 @@ translations:
 
   - key: blocks.tools_quadrant.description
     t: |
-      Acest grafic ilustrează **rata de satisfacție** (sau **rata de interes**) a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
+      Acest grafic ilustrează **rata de retenție** a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
       Poate fi împărțit în patru cadrane:
-        - **1**: Utilizare scăzută, rată ridicată de satisfacție. Tehnologii pe care merită să le urmărești.
-        - **2**: Utilizare ridicată, rată ridicată de satisfacție. Tehnologii sigure pentru adoptare.
-        - **3**: Utilizare scăzută, rată scăzută de satisfacție. Tehnologii care sunt greu de recomandat în acest moment.
-        - **4**: Utilizare ridicată, rată scăzută de satisfacție. Dacă încă le folosești, reevaluează aceste tehnologii.
+        - **1**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
+        - **2**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
+        - **3**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat în acest moment.
+        - **4**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
 
   ###########################################################################
   # Notes

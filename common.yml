@@ -103,6 +103,8 @@ translations:
       t: Refactorizare cod
     - key: credits.data_processing
       t: Procesare date
+    - key: credits.back_end_development
+      t: Dezvoltare back-end
 
     # support
     - key: general.support_from
@@ -193,7 +195,11 @@ translations:
       t: Grafice realizate cu <a href="{link}">Nivo</a>.
     - key: general.made_by_devographics
       t: Creat de <a href="{link}">Devographics</a>
-      
+    - key: general.view_code_example
+      t: Vezi exemplu de cod
+    - key: general.code_example
+      t: "Exemplu de cod pentru **{featureName}**"
+
     ###########################################################################
     # Nav
     ###########################################################################
