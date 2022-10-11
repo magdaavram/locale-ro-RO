@@ -102,7 +102,7 @@ translations:
 
     - key: sections.technologies.description
       t: |
-          Tipica librărie nouă de JavaScript prezintă un grad mare de satisfacție, dar un grad scăzut de utilizare, ceea ce uneori
+          Tipica librărie nouă de JavaScript prezintă un grad mare de retenție, dar un grad scăzut de utilizare, ceea ce uneori
           poate face ca alegerea tehnologiei potrivite nevoilor să fie cam dificilă. Acesta este punctul în care o privire peste
           date ne poate ajuta să ne îndreptăm într-o direcție corectă.
 
@@ -125,12 +125,12 @@ translations:
     - key: sections.back_end_frameworks.description
       t: |
           Lumea back-end este încă foarte fragmentată, dar Express se remarcă drept instrumentul
-          dominant, în timp ce Next.js își menține gradul ridicat de satisfacție.
+          dominant, în timp ce Next.js își menține gradul ridicat de retenție.
 
     - key: sections.testing.description
       t: |
           Ecosistemul de testare se îmbogățește cu noi membri, cum sunt Testing Library și Playwright, ambii
-          obținând indici crescuți ai satisfacției.
+          obținând indici crescuți ai retenției.
 
     - key: sections.build_tools.description
       t: |
@@ -187,7 +187,7 @@ translations:
       t: TypeScript este deja popular, iar cu o creștere de **{value}** a utilizării, se pare că în viitor va deveni omniprezent.
 
     - key: award.tool_satisfaction_award.comment
-      t: Cu un grad al satisfacției extrem de crescut, de **{value}**, Testing Library este cel mai îndrăgit instrument în 2020.
+      t: Cu un grad al retenției extrem de crescut, de **{value}**, Testing Library este cel mai îndrăgit instrument în 2020.
 
     - key: award.tool_interest_award.comment
       t: Cu un grad de interes de **{value}**, GraphQL continuă să fie un lucru pe care programatorii își doresc să-l învețe de îndată ce vor avea timpul disponibil.
