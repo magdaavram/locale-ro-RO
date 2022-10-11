@@ -75,9 +75,9 @@ translations:
       t: Clienți GraphQL
     - key: sections.graphql_clients.description
       t: Interogarea API-ului tău.
-    - key: sections.graphql_api_generators.title
+    - key: sections.api_generators.title
       t: Generatoare API
-    - key: sections.graphql_api_generators.description
+    - key: sections.api_generators.description
       t: ORM-uri, CMS-uri și alte instrumente care creează un API pentru tine.
     - key: sections.web_frameworks.title
       t: Framework-uri web
@@ -300,7 +300,7 @@ translations:
       t: Cât de mulțumit(ă) ești de starea generală a serverelor GraphQL?
     - key: happiness.graphql_clients
       t: Cât de mulțumit(ă) ești de starea generală a clienților GraphQL?
-    - key: happiness.graphql_api_generators
+    - key: happiness.api_generators
       t: Cât de mulțumit(ă) ești de starea generală a generatoarelor GraphQL?
     - key: happiness.schema_builders
       t: Cât de mulțumit(ă) ești de starea generală a constructorilor de scheme?
