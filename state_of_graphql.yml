@@ -5,27 +5,6 @@ translations:
     # General
     ###########################################################################
 
-    - key: general.state_of_graphql.intro
-      t: >
-        Când a fost introdus pentru prima dată, GraphQL oferea un mod complet nou de a construi API-uri, care aducea mai mult control, mai multă granularitate și mai multă flexibilitate. 
-        
-        
-        Dar această flexibilitate a plătit prețul unei complexități suplimentare. O serie de framework-uri, librării și servicii au venit în ajutor pentru a defini modele și moduri de lucru mai bune. 
-        
-        
-        Acum, pentru prima dată, cercetăm comunitatea GraphQL pentru a ne da seama care dintre aceste multe instrumente sunt mai populare și care sunt funcționalitățile cele mai folosite. Cu ajutorul tău, hai să vedem cum s-a descurcat GraphQL în 2022!
-  
-
-    - key: general.state_of_graphql.results_intro
-      t: >
-        Când a fost introdus pentru prima dată, GraphQL oferea un mod complet nou de a construi API-uri, care aducea mai mult control, mai multă granularitate și mai multă flexibilitate. 
-
-
-        Dar această flexibilitate a plătit prețul unei complexități suplimentare. O serie de framework-uri, librării și servicii au venit în ajutor pentru a defini modele și moduri de lucru mai bune. 
-        
-        
-        Peste 2.000 de programatori au completat primul sondaj State of GraphQL pentru a ne ajuta să aflăm dacă au avut succes. Iar deși aceasta este doar o mică parte a ecosistemului general GraphQL, 
-
     - key: general.state_of_graphql.description
       t: Sondajul anual al programatorilor cu privire la ecosistemul GraphQL
     ###########################################################################
@@ -100,6 +79,11 @@ translations:
       t: Alte instrumente
     - key: sections.tools_others.description
       t: Alte instrumente GraphQL.
+
+    - key: sections.resources_graphql.title
+      t: Resurse
+    - key: sections.resources_graphql.description
+      t: Ce resurse GraphQL consulți?
 
     ###########################################################################
     # Features
@@ -328,21 +312,21 @@ translations:
       t: Alte metode de învățare folosite la început
 
     # sites & courses
-    - key: resources.sites_courses
-      t: Site-uri și cursuri
-    - key: resources.sites_courses.description
+    - key: resources.sites_courses_graphql
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_graphql.description
       t: Ce site-uri/cursuri/etc. folosești pentru a învăța despre GraphQL?
 
     # podcasts
-    - key: resources.podcasts.others
-      t: Podcast-uri
-    - key: resources.podcasts.others.description
+    - key: resources.podcasts_graphql.others
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_graphql.others.description
       t: Ce podcast-uri despre GraphQL asculți?
 
     # people
-    - key: resources.people.others
-      t: Persoane
-    - key: resources.people.others.description
+    - key: resources.people_graphql.others
+      aliasFor: resources.people
+    - key: resources.people_graphql.others.description
       t: Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră pentru activitatea lor în ecosistemul GraphQL.
 
     ###########################################################################
