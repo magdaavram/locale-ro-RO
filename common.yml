@@ -174,7 +174,9 @@ translations:
     - key: forms.clear_field
       t: Golește câmpul
 
-    # partners
+    # partners & sponsors
+    - key: sponsors.with_support_from
+      t: Cu sprijin special oferit de
     - key: sponsors.our_partners
       t: Partenerii noștri
     - key: sponsors.become_partner
@@ -197,8 +199,10 @@ translations:
       t: Creat de <a href="{link}">Devographics</a>
     - key: general.view_code_example
       t: Vezi exemplu de cod
-    - key: general.code_example
+    - key: general.feature_code_example
       t: "Exemplu de cod pentru **{featureName}**"
+    - key: general.code_example
+      t: Exemplu de cod
 
     ###########################################################################
     # Nav
