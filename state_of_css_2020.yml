@@ -159,7 +159,7 @@ translations:
       t: Niciun alt instrument nu se apropie măcar de creșterea enormă, de **{value}**, pe care Tailwind CSS a înregistrat-o în ultimul an.
 
     - key: award.tool_satisfaction_award.comment
-      t: Nivelul de satisfacție, de **{value}**, pe care PostCSS l-a înregistrat arată că nu poți învinge dacă faci doar un singur lucru foarte, foarte bine.
+      t: Gradul de retenție, de **{value}**, pe care PostCSS l-a înregistrat arată că nu poți învinge dacă faci doar un singur lucru foarte, foarte bine.
 
     - key: award.tool_interest_award.comment
       t: Cu un procent de **{value}**, CSS Modules a stârnit în acest an cel mai mare grad de interes printre programatori.
