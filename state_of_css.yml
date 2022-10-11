@@ -6,16 +6,12 @@ translations:
     ###########################################################################
 
     - key: general.state_of_css.intro
-      t: >
+      t: |
           CSS-ul evoluează mai repede ca oricând.
-
 
           Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
 
-
-          Așa că, după succesul sondajului anual State Of JavaScript,
-          am decis să ne îndreptăm atenția asupra stilizărilor și selectorilor. Sperăm că ne vei ajuta
-          să identificăm ultimele tendințe și să aflăm ce instrumente să studiem și să folosim în continuare!
+          Aici intervine sondajul State of CSS: ne îndreptăm atenția asupra stilizărilor și selectorilor pentru a încerca să identificăm tendințele viitoare și pentru a ne da seama ce funcționalități și instrumente să învățăm în continuare.
 
     - key: general.state_of_css.description
       t: Sondajul anual al developerilor cu privire la ultimele tendințe în CSS
@@ -92,6 +88,14 @@ translations:
     - key: sections.pre_post_processors_others.title
       t: Alte pre-/post-procesoare
 
+    - key: tools_others.pre_post_processors
+      aliasFor: sections.pre_post_processors.title
+    - key: tools_others.pre_post_processors.description
+      aliasFor: sections.pre_post_processors.description
+
+    - key: tools_others.pre_post_processors.others
+      aliasFor: sections.pre_post_processors_others.title
+
     - key: sections.css_frameworks.title
       t: Framework-uri CSS
     - key: sections.css_frameworks.description
@@ -130,6 +134,11 @@ translations:
       t: Utilizare CSS
     - key: sections.usage_css.description
       t: Cum folosești CSS.
+
+    - key: sections.resources_css.title
+      t: Resurse
+    - key: sections.resources_css.description
+      t: Ce resurse CSS consulți?
 
     ###########################################################################
     # Options
@@ -268,87 +277,30 @@ translations:
     ###########################################################################
 
     # layout
-    - key: features.grid
-      t: CSS Grid
-    - key: features.subgrid
-      t: Subgrid
     - key: features.regions
       t: CSS Regions
-    - key: features.flexbox
-      t: Flexbox
     - key: features.multi_column
       t: CSS Multi-Column
     - key: features.writing_modes
       t: CSS Writing Modes
     - key: features.exclusions
       t: CSS Exclusions
-    - key: features.position_sticky
-      t: '<code>position: sticky</code>'
-    - key: features.logical_properties
-      t: Logical Properties
-    - key: features.logical_properties.description
-      t: <code>margin-block-start</code>, <code>padding-inline-end</code> etc.
-    - key: features.aspect_ratio
-      t: <code>aspect-ratio</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.flexbox_gap
-      t: Proprietatea gap pentru flexbox
-    - key: features.break_rules
-      t: Break rules
-    - key: features.break_rules.description
-      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
-    - key: features.at_container
-      t: Container Queries
-    - key: features.at_container.description
-      t: <code>@container</code> query
 
+    - key: features.flexbox_gap
+      t: „Proprietatea `gap` pentru flexbox”
 
     # shapes & graphics
     - key: features.shapes
       t: CSS Shapes
-    - key: features.object_fit
-      t: <code>object-fit</code>
-    - key: features.clip_path
-      t: <code>clip-path</code>
     - key: features.masks
       t: CSS Masks
     - key: features.blend_modes
       t: Blend Modes
-    - key: features.blend_modes.description
-      t: Proprietatea <code>mix-blend-mode</code>
     - key: features.filter_effects
       t: CSS Filter Effects
-    - key: features.backdrop_filter
-      t: <code>backdrop-filter</code>
 
     - key: features.intrinsic_sizing
       t: Dimensionare intrinsecă
-    - key: features.intrinsic_sizing.description
-      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
-    - key: features.repeating_linear_gradient
-      t: <code>repeating-linear-gradient()</code>
-    - key: features.conic_gradient
-      t: <code>conic-gradient()</code>
-    - key: features.color_function
-      t: <code>color()</code>
-
-    - key: features.accent_color
-      t: <code>accent-color</code>
-
-    # interactions
-    - key: features.scroll_snap
-      t: CSS Scroll Snap
-    - key: features.overscroll_behavior
-      t: <code>overscroll-behavior</code>
-    - key: features.overflow_anchor
-      t: <code>overflow-anchor</code>
-    - key: features.touch_action
-      t: <code>touch-action</code>
-    - key: features.pointer_events
-      t: <code>pointer-events</code>
-    - key: features.scroll_timeline
-      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -356,23 +308,7 @@ translations:
     - key: features.variable_fonts
       t: Fonturi variabile
     - key: features.line_breaking
-      t: Proprietăți pentru line breaking
-    - key: features.line_breaking.description
-      t: <code>overflow-wrap</code>, <code>word-break</code>, <code>line-break</code>, <code>hyphens</code>
-    - key: features.font_variant
-      t: <code>font-variant-*</code>
-    - key: features.initial_letter
-      t: <code>initial-letter</code>
-    - key: features.font_variant_numeric
-      t: <code>font-variant-numeric</code>
-    - key: features.font_display
-      t: <code>font-display</code>
-    - key: features.line_clamp
-      t: <code>line-clamp</code>
-    - key: features.leading_trim
-      t: <code>leading-trim</code>
-    - key: features.direction
-      t: <code>direction</code>
+      t: Proprietăți pentru Line-Breaking
     - key: features.direction.description
       t: Include și atributul HTML <code>dir</code>.
 
@@ -383,31 +319,10 @@ translations:
       t: Transformări CSS
     - key: features.animations
       t: Animații CSS
-    - key: features.perspective
-      t: <code>perspective</code>
 
     # media queries/accessibility
-    - key: features.feature_support_queries
-      t: Query-uri pentru suportul funcționalităților (<code>@supports</code>)
-    - key: features.prefers_reduced_motion
-      t: <code>prefers-reduced-motion</code>
-    - key: features.prefers_color_scheme
-      t: <code>prefers-color-scheme</code>
-    - key: features.color_gamut
-      t: <code>color-gamut</code>
-
-    - key: features.prefers_reduced_data
-      t: <code>prefers-reduced-data</code>
     - key: features.tabindex
       t: Atributul HTML <code>tabindex</code>
-    - key: features.tabindex.description
-      t: <code>&lt;div tabindex="0"&gt;</code>
-
-    - key: features.color_contrast
-      t: <code>color-contrast()</code>
-
-    - key: features.color_scheme
-      t: <code>color-scheme</code>
 
     - key: features.aria_attributes
       t: Atributele ARIA HTML
@@ -419,27 +334,11 @@ translations:
       t: Variabile CSS (proprietăți personalizate)
     - key: features.containment
       t: CSS Containment
-    - key: features.will_change
-      t: <code>will-change</code>
-    - key: features.calc
-      t: <code>calc()</code>
-    - key: features.houdini
-      t: Houdini
     - key: features.comparison_functions
       t: Funcții CSS de comparare
-    - key: features.comparison_functions.description
-      t: <code>min()</code>, <code>max()</code> și <code>clamp()</code>
 
-    - key: features.at_property
-      t: Proprietăți personalizate Houdini
-    - key: features.at_property.description
-      t: <code>@property</code>
-    - key: features.at_layer
-      t: <code>@layer</code>
-    - key: features.content_visibility
-      t: <code>content-visibility</code>
-    - key: features.marker
-      t: Pseudo-elementul <code>::marker</code>
+    - key: features.css_nesting.description
+      t: Nesting CSS nativ, excluzând pre- sau post-procesatoarele.
 
     # missing features (see also options)
     - key: features.nesting
@@ -659,6 +558,14 @@ translations:
     - key: options.form_controls.required_optional
       t: :required și :optional
 
+    # slider
+    - key: options.css_js_balance.0
+      t: 100% CSS
+    - key: options.css_js_balance.4
+      t: 50%/50%
+    - key: options.css_js_balance.8
+      t: 100% JS
+
     ###########################################################################
     # Environments
     ###########################################################################
@@ -752,8 +659,13 @@ translations:
       t: Incompatibilități pe browsere
     - key: opinions_others.browser_interoperability_features.others.description
       t: >
-        Există funcționalități CSS cu care întâmpini dificultăți 
-        din cauza diferențelor dintre browsere? 
+        Există funcționalități CSS cu care întâmpini dificultăți (sau pe care le eviți)
+        din cauza lipsei de suport sau a diferențelor dintre browsere? 
+
+    - key: usage.interoperability_features_freeform.others
+      aliasFor: opinions_others.browser_interoperability_features.others
+    - key: usage.interoperability_features_freeform.others.description
+      aliasFor: opinions_others.browser_interoperability_features.others.description
 
     # Pain Points
     - key: opinions.css_pain_points
@@ -761,14 +673,30 @@ translations:
     - key: opinions.css_pain_points.description
       t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în CSS.
 
+    - key: usage.other_pain_points_freeform.others
+      t: Alte puncte slabe referitoare la scrierea CSS?
+
     - key: opinions_others.css_pain_points.others
       t: Alte puncte slabe în CSS
+
+    # Interop 2023
+    - key: usage.interop_features
+      t: Roadmap Interop 2023
+    - key: usage.interop_features.description
+      t: Pe care dintre aceste funcționalități ți-ai dori cel mai mult să le îmbunătățească furnizorii de browsere? (alege 3)
+    - key: usage.interop_features.note
+      t: >
+        [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) este un efort comun al furnizorilor de browsere pentru a remedia problemele și incompatibilitățile. Rezultatele acestui sondaj vor fi luate în considerare drept date care ajută grupul de lucru să prioritizeze zonele de interes. 
 
     # Missing Features
     - key: opinions.currently_missing_from_css
       t: Ce simți că lipsește în CSS în acest moment?
     - key: opinions.currently_missing_from_css.description
       t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
+
+    - key: usage.missing_features_freeform.others
+      t: Ce funcționalități crezi că lipsesc în prezent din CSS?
+
     - key: opinions_others.currently_missing_from_css.others
       t: Alte funcționalități care lipsesc
     # - key: opinions_others.currently_missing_from_css.others.note
@@ -815,6 +743,10 @@ translations:
     - key: currently_missing_from_css.currently_missing_from_css_matchups.description
       t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
 
+    - key: usage.css_js_balance
+      t: Raportul CSS vs JavaScript
+    - key: usage.css_js_balance.description
+      t: Cum îți împarți timpul între scrierea codului CSS (incluzând HTML) și cea a codului JavaScript?
 
     ###########################################################################
     # Resources
@@ -824,3 +756,36 @@ translations:
       t: Primii pași în CSS
     - key: resources.first_steps_css.description
       t: Cum ai învățat CSS atunci când erai la început de drum?
+
+    # sites & courses
+    - key: resources.sites_courses_css
+      aliasFor: resources.sites_courses
+    - key: resources.sites_courses_css.description
+      t: Ce site-uri/cursuri/etc. referitoare la CSS folosești pentru a învăța?
+
+    # podcasts
+    - key: resources.podcasts_css
+      aliasFor: resources.podcasts
+    - key: resources.podcasts_css.description
+      t: Ce podcast-uri legate de CSS asculți?
+
+    # people
+    - key: resources.people_css.others
+      aliasFor: resources.people.others
+    - key: resources.people_css.others.description
+      t: Persoane pe care le citești, urmărești sau pe care dorești să le scoți în evidență pentru munca lor în ecosistemul CSS.
+
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro_css
+      t: |
+        Bun venit la sondaj! În această primă parte ne propunem să aflăm  
+        ce **funcționalități** CSS cunoști. 
+        
+        Apropo, dacă vrei să ne spui mai multe despre oricare dintre alegerile tale, trebuie doar să dai click pe acel mic icon de „comentariu”!
+    - key: tools.tools_intro_css
+      t: |
+        Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** din care este format 
+        ecosistemul CSS. Spune-ne ce te entuziasmează!
