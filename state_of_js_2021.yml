@@ -172,7 +172,7 @@ translations:
     t: esbuild are doar 2 ani, dar cu un progres de **{value}** față de anul trecut, deja câștigă teren.
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite ocupă primul loc cu un uriaș raport al satisfacției de **{value}**.
+    t: Vite ocupă primul loc cu un uriaș raport al retenției de **{value}**.
 
   - key: award.tool_interest_award.comment
     t: Cu o rată de interes de **{value}**, Vite câștigă din nou aurul!
@@ -199,7 +199,7 @@ translations:
       API-ul Temporal a intrat recent în [Etapa 3](https://github.com/tc39/proposal-temporal).
       
       Ecosistemul instrumentelor înregistrează de asemenea o evoluție rapidă și este corect să spunem că 2021 a fost 
-      anul **Vite**. Vite nu doar că a debutat la o rată a satisfacției de 98%, dar gradul de utilizare este deja la 30% 
+      anul **Vite**. Vite nu doar că a debutat cu un nivel al retenției de 98%, dar gradul de utilizare este deja la 30% 
       la prima sa prezență în sondajul nostru, eclipsând chiar și esbuild. Vite nu este singurul care încearcă să 
       îmbunătățească instrumentele pentru build JavaScript - 8 din cele 12 instrumente pe care le monitorizăm astăzi 
       sunt lansate de mai puțin de 2 ani! Iar în timp ce **pnpm**, **Turborepo** și **Nx** au fost în top în primul an 
