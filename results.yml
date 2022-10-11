@@ -68,7 +68,7 @@ translations:
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: Satisfacție
+    t: Retenție
   - key: options.experience_ranking.interest
     t: Interes
   - key: options.experience_ranking.usage
@@ -420,10 +420,10 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Rată de satisfacție vs utilizare
+    t: Rată de retenție vs utilizare
   - key: blocks.tools_quadrant.description
     t: |
-      Acest grafic prezintă **rata de satisfacție** (sau **rata de interes**) față de fiecare tehnologie raportată la **numărul total al utilizatorilor**.
+      Acest grafic prezintă **rata de retenție** față de fiecare tehnologie raportată la **numărul total al utilizatorilor**.
       Poate fi împărțit în patru cadrane:
 
         - **EVALUARE**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
@@ -461,7 +461,7 @@ translations:
     t: Topul librăriilor
   - key: blocks.tools_tier_list.description
     t: |
-      Acest grafic ilustrează topul librăriilor în funcție de rata de satisfacție (procentul utilizatorilor
+      Acest grafic ilustrează topul librăriilor în funcție de rata de retenție (procentul utilizatorilor
       care ar folosi o librărie din nou). Librăriile care sunt folosite de mai puțin de 10% din respondenții sondajului 
       nu sunt incluse.
   - key: blocks.tools_tier_list.bounds
@@ -490,12 +490,12 @@ translations:
   - key: blocks.tools_experience_ranking
     t: Topuri
   - key: blocks.tools_experience_ranking.description
-    t: Topuri cu privire la rata de satisfacție, interes, utilizare și conștientizare.
+    t: Topuri cu privire la rata de retenție, interes, utilizare și conștientizare.
   - key: blocks.tools_experience_ranking.note
     t: |
       Tehnologiile cu o rată de conștientizare mai mică de 10% nu sunt incluse. Fiecare este definită după cum urmează:
 
-      - Satisfacție: **aș folosi din nou** / (**aș folosi din nou** + **nu aș mai folosi**)
+      - Retenție: **aș folosi din nou** / (**aș folosi din nou** + **nu aș mai folosi**)
       - Interes: **mi-ar plăcea să învăț** / (**mi-ar plăcea să învăț** + **nu sunt interesat(ă)**)
       - Utilizare: (**aș folosi din nou** + **nu aș mai folosi**) / **total**
       - Conștientizare: (**total** - **n-am auzit niciodată despre asta**) / **total**
@@ -650,7 +650,7 @@ translations:
   - key: charts.axis_legends.interest_percentage
     t: Rată de interes %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Rată de satisfacție %
+    t: Rată de retenție %
   - key: charts.axis_legends.usage_percentage
     t: Utilizare %
   - key: charts.axis_legends.awareness_percentage
@@ -813,7 +813,7 @@ translations:
     t: Topuri
 
   - key: table.satisfaction_rank
-    t: Topul satisfacției
+    t: Topul retenției
   - key: table.interest_rank
     t: Topul interesului
   - key: table.usage_rank
@@ -858,9 +858,9 @@ translations:
     t: Oferit tehnologiei cu cel mai mare progres de la an la an pe indicatorul „aș folosi din nou”.
 
   - key: award.tool_satisfaction_award.title
-    t: Cea mai mare rată de satisfacție
+    t: Cea mai mare rată de retenție
   - key: award.tool_satisfaction_award.description
-    t: Oferit tehnologiei cu cel mai mare procent de utilizatori mulțumiți.
+    t: Oferit tehnologiei cu cel mai mare procent de utilizatori care revin.
 
   - key: award.tool_interest_award.title
     t: Cea mai mare rată de interes
@@ -915,7 +915,7 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-        Poți opta ca graficul cu clasamente să prezinte fie satisfacția, interesul, utilizarea sau conștientizarea,
+        Poți opta ca graficul cu clasamente să prezinte fie retenția, interesul, utilizarea sau conștientizarea,
         oferind o imagine de ansamblu asupra topului unei categorii.
 
   - key: hints.sharing_hint
