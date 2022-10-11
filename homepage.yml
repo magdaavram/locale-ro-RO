@@ -11,21 +11,8 @@ translations:
     - key: homepage.get_in_touch
       t: Contactează-ne
 
-    - key: homepage.made_by
-      t: 'The State of CSS este creat de:'
-
     - key: homepage.previous_years
       t: 'Anii trecuți:'
-
-    - key: homepage.intro
-      t: >
-          ## CSS-ul evoluează mai repede ca oricând.
-
-          Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
-
-          Așa că, după succesul sondajului anual [State Of JavaScript](https://stateofjs.com), am decis să ne îndreptăm
-          atenția și asupra stilizărilor și a selectorilor pentru a putea să identificăm ultimele tendințe... și pentru
-          a încerca să mai micșorăm din „marea diviziune din front-end” care e în continuă creștere!
 
     - key: homepage.take_survey
       t: Participă la sondaj
@@ -85,3 +72,5 @@ translations:
       aliasFor: general.leave_issue
     - key: homepage.join_discord
       aliasFor: general.join_discord
+    - key: homepage.astro_link
+      t: Cu sprijinul [Astro](https://astro.build/)
