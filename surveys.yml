@@ -16,6 +16,13 @@ translations:
       t: Închis
 
     ###########################################################################
+    # Errors
+    ###########################################################################
+
+    - key: error.duplicate_response
+      t: Ne pare rău, ai deja deschisă o sesiune pentru acest sondaj.
+
+    ###########################################################################
     # Accounts
     ###########################################################################
 
@@ -101,6 +108,15 @@ translations:
     - key: bracket.cancel
       t: Anulare
 
+    - key: experience.leave_comment
+      t: Lasă un comentariu (opțional)
+    - key: experience.leave_comment_short
+      t: Lasă un comentariu
+    - key: experience.tell_us_more
+      t: "Ai ales “{response}”. Spune-ne mai multe despre alegerea ta:"
+    - key: experience.tell_us_more_no_value
+      t: "Nu ai ales niciun răspuns. Spune-ne de ce:"
+
     ###########################################################################
     # Response
     ###########################################################################
@@ -113,3 +129,77 @@ translations:
 
     - key: response.view_results
       t: Vezi rezultate
+
+    ###########################################################################
+    # Survey-Specific Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
+      t: |
+        2020 a fost un an dificil pentru noi toți, ceea ce, prin comparație, face ca
+        îngrijorarea legată de cele mai noi framework-uri Javascript să pară inoportună.
+
+        Cu toate acestea, lumea trebuie să-și urmeze cursul, la fel și universul Javascript. Cu ajutorul tău,
+        vom încerca să creăm din nou o imagine comprehensivă a ecosistemului, în încercarea de a afla puțin mai
+        bine încotro se îndreaptă.
+
+    - key: general.css2021.survey_intro
+      t: |
+        Hei, CSS! Cu ce te-ai mai ocupat în ultima vreme? Ah, serios, `@container`? Ah, și
+        dimensionare intrinsecă? Și `@property`?! Uau, ai fost foarte ocupat!
+
+        Chiar dacă pandemia a continuat să ne facă tuturor viața mai dificilă pe parcursul anului 2021,
+        colaboratori pasionați din întreaga lume și-au adus aportul la evoluția CSS-ului.
+        Așadar, e din nou timpul să analizăm ecosistemul CSS și să ne dăm seama încotro se îndreaptă.
+        Și poate să aflăm și câteva lucruri noi în tot acest timp!
+
+    - key: general.js2021.survey_intro
+      t: |
+        Mai întâi, Jocurile Olimpice din 2020 au fost amânate pentru 2021,
+        iar acum sondajul State of JavaScript 2021 are loc în 2022!
+        E adevărat: între muncă, familie și toate frământările lumii,
+        unele lucruri au fost puțin tulburate.
+
+        Dar, deși anul poate fi off-by-one, sperăm că datele oferite de sondaj
+        vor fi la fel de informative și intuitive ca întotdeauna.
+        Și nu-ți face griji, vom organiza un nou sondaj spre sfârșitul anului ca să îndreptăm lucrurile!
+
+    - key: general.graphql2022.survey_intro
+      t: |
+        Când a fost introdus pentru prima dată, GraphQL oferea un mod complet nou de a construi API-uri, care aducea mai mult control, mai multă granularitate și mai multă flexibilitate. 
+
+        Dar această flexibilitate a plătit prețul unei complexități suplimentare. O serie de framework-uri, librării și servicii au venit în ajutor pentru a defini modele și moduri de lucru mai bune. 
+
+        Acum, pentru prima dată, cercetăm comunitatea GraphQL pentru a ne da seama care dintre aceste multe instrumente sunt mai populare și care sunt funcționalitățile cele mai folosite. Cu ajutorul tău, hai să vedem cum s-a descurcat GraphQL în 2022!
+
+    - key: general.css2022.survey_intro
+      t: |
+        CSS-ul continuă să progreseze într-un ritm fără precedent. Din fericire, anul acesta am primit ajutor de la cineva aflat în fruntea tuturor acestor schimbări: membrul grupului de lucru W3C, [Lea Verou](https://lea.verou.me/), a selectat întrebările sondajului din acest an, punând în special accent pe evidențierea noilor și viitoarelor funcționalități CSS.
+
+        Mai mult, rezultatele sondajului îi vor ajuta pe furnizorii de browsere să-și prioritizeze obiectivele și să lucreze pentru o mai bună compatibilitate între browsere.
+
+        Cu toate acestea în minte, să vedem cum a evoluat CSS în 2022!
+
+    ###########################################################################
+    # Survey-Specific FAQs
+    ###########################################################################
+
+    - key: faq.learn_more_css2022
+      t: Unde pot afla mai multe?
+    - key: faq.learn_more_css2022.description
+      t: Poți afla mai multe despre [sondajul de anul trecut de aici](https://2021.stateofcss.com/en-US/about/).
+
+    - key: faq.survey_design_css2022
+      t: Cum a fost conceput acest sondaj?
+    - key: faq.survey_design_css2022.description
+      t: În acest an, datorită unui grant de la Google [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) a reușit să preia conducerea și a gestionat [procesul de proiectare a sondajului deschis](https://github.com/orgs/Devographics/projects/1/views/1) pe GitHub.
+
+    - key: faq.results_released_css2022
+      t: Când vor fi publicate rezultatele?
+    - key: faq.results_released_css2022.description
+      t: Sondajul este deschis până pe 20 octombrie 2022, iar rezultatele vor fi publicate la începutul lunii noiembrie.
+
+    - key: faq.data_used_css2022
+      t: Cum vor fi folosite aceste date?
+    - key: faq.data_used_css2022.description
+      t: Toate datele colectate vor fi făcute publice. Ulterior, vor deveni resurse atât pentru programatori, care le vor putea consulta atunci când iau decizii tehnologice, cât și pentru furnizorii de browsere, care le vor folosi pentru a-și prioritiza obiectivele.

@@ -170,7 +170,7 @@ translations:
   #    t: Nici un alt instrument nu se apropie măcar de evoluția dramatică de **{value}** pe care Tailwind CSS a avut-o în ultimul an.
 
   - key: award.tool_satisfaction_award.comment
-    t: PostCSS ocupă din nou primul loc, cu un raport al satisfacției de **{value}**.
+    t: PostCSS ocupă din nou primul loc, cu un grad al retenției de **{value}**.
 
   - key: award.tool_interest_award.comment
     t: Cu un raport de **{value}**, CSS Modules a generat și în acest an cel mai mare interes în rândul developerilor.

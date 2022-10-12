@@ -15,7 +15,7 @@ translations:
 
 
           Hai să aflăm împreună ce librării își doresc programatorii să învețe în continuare,
-          care dintre ele au un grad de satisfacție mai mare și multe altele.
+          care dintre ele au un grad de retenție mai mare și multe altele.
 
     - key: general.state_of_js.description
       t: Sondajul anual al programatorilor cu privire la ecosistemul JavaScript
@@ -103,6 +103,25 @@ translations:
       t: Alte instrumente
     - key: sections.other_tools.description
       t: În cazul acestor instrumente și tehnologii, bifează-le pe cele pe care le folosești regulat.
+
+    - key: sections.resources_js.title
+      t: Resurse
+    - key: sections.resources_js.description
+      t: Ce resurse JavaScript consulți?
+
+    ###########################################################################
+    # Survey Help
+    ###########################################################################
+
+    - key: features.features_intro
+      t: >
+        Bun venit la sondaj! În această primă parte ne propunem să aflăm  
+        ce **funcționalități** JavaScript cunoști.  
+        Iar dacă știi despre una dintre ele, dar nu ai folosit-o încă, e bine și așa!
+    - key: tools.tools_intro
+      t: >
+        Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** din care este format 
+        ecosistemul JavaScript. Spune-ne ce te entuziasmează!
 
     ###########################################################################
     # Options

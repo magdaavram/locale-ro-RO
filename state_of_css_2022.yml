@@ -1,0 +1,12 @@
+locale: ro-RO
+translations:
+
+  - key: general.css2022.results_intro
+    t: |
+      CSS-ul continuă să progreseze într-un ritm fără precedent. Nu numai că vedem noi funcționalități și proprietăți, dar chiar și fundamentele limbajului sunt readaptate și îmbunătățite datorită inovațiilor ca nesting-ul și cascadarea. 
+      
+      Din fericire, anul acesta am primit ajutor de la cineva aflat în fruntea tuturor acestor schimbări: membrul grupului de lucru W3C, [Lea Verou](https://lea.verou.me/), a selectat întrebările sondajului din acest an, punând în special accent pe evidențierea noilor și viitoarelor funcționalități CSS. 
+      
+      Mai mult, rezultatele sondajului îi vor ajuta pe furnizorii de browsere să-și prioritizeze obiectivele și să lucreze pentru o mai bună compatibilitate între browsere. 
+      
+      Cu toate acestea în minte, să vedem cum a evoluat CSS în 2022!
