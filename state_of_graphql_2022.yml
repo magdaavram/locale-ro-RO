@@ -68,40 +68,37 @@ translations:
 
     - key: tshirt.designer.bio
       t: |
-        Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+        Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
+        extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o
+        privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
 
     ###########################################################################
     # Sections
     ###########################################################################
 
-    - key: sections.user_info.description
+    - key: sections.user_info_graphql2022.description
       t: |
         **3.094** de persoane au participat la sondajul din acest an. 
 
-    - key: sections.features.description
+    - key: sections.features_graphql2022.description
       t: |
         GraphQL poate fi un concept simplu la bază, dar sunt multe funcționalități și modele de luat în considerare atunci când intri în detalii. 
 
-    - key: sections.libraries.description
+    - key: sections.libraries_graphql2022.description
       t: |
         Ecosistemul GraphQL este surprinzător de vast, având multe librării în competiție care îți pot oferi ajutor în configurarea API-ului tău.  
 
-    - key: sections.tools_others.description
+    - key: sections.tools_others_graphql2022.description
       t: |
         Alegerea instrumentelor potrivite pe care să le utilizezi împreună cu GraphQL poate face diferența. 
 
-    - key: sections.usage.description
+    - key: sections.usage_graphql2022.description
       t: |
         Am vrut să aflăm nu doar cum este GraphQL folosit, ci și *de ce* este folosit, precum și care sunt aspectele la care GraphQL mai are de lucrat…
 
     - key: sections.resources.description
       t: |
         Suntem siguri că vei descoperi cel puțin una sau două persoane, podcast-uri sau bloguri pe care vei vrea să le urmărești de acum încolo!
-
-    - key: sections.opinions.description
-      t: |
-        Whether it's pain points that hold you back today, or missing features that you hope to use
-        tomorrow, this was your chance to vent and share your gripes with JavaScript!
 
     ###########################################################################
     # Charts
@@ -157,7 +154,7 @@ translations:
       t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
 
     - key: award.tool_satisfaction_award.comment
-      t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
+      t: Vite takes the top spot with a sky-high **{value}** retention ratio!
 
     - key: award.tool_interest_award.comment
       t: With a **{value}** interest ratio, Vite once again wins the gold!
@@ -231,14 +228,13 @@ translations:
         Angajamentul său în WG, TSC și în fondarea câtorva inițiative este de neegalat.
 
     - key: picks.uri_goldshtein.name
-      t: GraphQL Yoga 2.0
+      t: Pothos GraphQL
     - key: picks.uri_goldshtein.bio
       t: Fondatorul The Guild
     - key: picks.uri_goldshtein.description
       t: |
-        Reînvierea GraphQL Yoga 2.0.
-        Un server nou, mai performant, cu o paletă largă de plugin-uri
-        care rulează pe toate platformele JS (Deno, CF Workers etc.)
+        Code-first, generator de scheme TS. Ușor de folosit, dar puternic, plugin based și foarte bine întreținut. 
+        Dacă pui codul pe primul loc, aceasta este alegerea perfectă.
     - key: picks.benjie_gillam.name
       t: Podcast-ul SpecNews
     - key: picks.benjie_gillam.bio
@@ -254,9 +250,14 @@ translations:
       t:
     - key: picks.xxxx.description
       t: |
-      ###########################################################################
+
+    ###########################################################################
     # Sponsors
     ###########################################################################
+
+    - key: sponsors.nijibox.description
+      t: >
+        Suport dedicat pentru UX design, creativitate și dezvoltare.
 
     - key: sponsors.frontendmasters.description
       t: >
@@ -269,7 +270,7 @@ translations:
         Apollo Supergraph ajută echipe de produs și de ingineri să creeze rapid experiențe incredibile pentru clienții lor.
     - key: sponsors.the_guild.description
       t: >
-        Ecosistemul avansat open source Guild cuprinde tot ce ai nevoie pentru infrastructura ta API.
+        Ecosistemul și instrumentele open-source Guild oferă tot ce ai nevoie pentru a-ți dezvolta API-urile.
 
     - key: sponsors.hasura.description
       t: >
