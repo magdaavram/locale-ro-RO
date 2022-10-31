@@ -231,31 +231,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Destructurare
-    - key: features.destructuring.description
-      t: 'Exemplu: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
-    - key: features.spread_operator.description
-      t: 'Exemplu: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow Functions
-    - key: features.arrow_functions.description
-      t: 'Exemplu: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish Coalescing
-    - key: features.nullish_coalescing.description
-      t: >
-        Exemplu: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Optional Chaining
-    - key: features.optional_chaining.description
-      t: >
-        Exemplu: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Proprietăți private
-    - key: features.private_fields.description
-      t: >
-        Exemplu: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -272,88 +257,6 @@ translations:
           îngloba o parte de cod într-o alta - „decorând” efectiv codul.
     - key: features.dynamic_import
       t: Import dinamic
-    - key: features.dynamic_import.description
-      t: >
-        Exemplu: <code>await import('/modules/my-module.js')</code>
-
-    - key: features.promise_all_settled
-      t: Promise.allSettled()
-    - key: features.big_int
-      t: BigInt
-    - key: features.numeric_separators
-      t: Numeric Separators
-    - key: features.string_replace_all
-      t: String.prototype.replaceAll()
-    - key: features.string_match_all
-      t: String.prototype.matchAll()
-    - key: features.logical_assignment
-      t: Logical Assignment
-    - key: features.promise_any
-      t: Promise.any()
-    - key: features.array_at
-      t: Array.prototype.at()
-    - key: features.top_level_await
-      t: Top-Level Await
-    - key: features.intl
-      t: Intl
-    - key: features.custom_elements
-      t: Custom Elements
-    - key: features.shadow_dom
-      t: Shadow DOM
-    - key: features.page_visibility
-      t: Page Visibility API
-    - key: features.broadcast_channel
-      t: Broadcast Channel API
-    - key: features.geolocation
-      t: Geolocation API
-    - key: features.file_system_access
-      t: File System Access API
-    - key: features.web_share
-      t: Web Share API
-    - key: features.webxr
-      t: WebXR
-
-    # data structures
-    - key: features.maps
-      t: Maps
-    - key: features.sets
-      t: Sets
-    - key: features.typed_arrays
-      t: Typed Arrays
-    - key: array_prototype_flat
-      t: Array.prototype.flat
-
-    # browser apis
-    - key: features.service_workers
-      t: Service Workers
-    - key: features.local_storage
-      t: LocalStorage
-    - key: features.i18n
-      t: i18n
-    - key: features.web_components
-      t: Web Components
-    - key: features.web_audio
-      t: Web Audio API
-    - key: features.webgl
-      t: WebGL
-    - key: features.web_animations
-      t: Web Animations API
-    - key: features.webrtc
-      t: WebRTC
-    - key: features.web_speech
-      t: Web Speech API
-    - key: features.webvr
-      t: WebVR
-    - key: features.websocket
-      t: Websocket
-    - key: features.fetch
-      t: Fetch API
-
-    # other features
-    - key: features.pwa
-      t: Progressive Web Apps (PWA)
-    - key: features.wasm
-      t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
