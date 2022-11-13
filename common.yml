@@ -56,10 +56,10 @@ translations:
     - key: general.preview_survey
       t: Previzualizează sondaj »
     - key: general.finish_survey
-      t: Finalizează sondaj »
+      t: Finalizează sondaj
     - key: general.next_section
       t: Secțiunea următoare
-    - key: general.prev_section
+    - key: general.previous_section
       t: Secțiunea anterioară
     - key: general.survey_closed
       t: Acest sondaj s-a încheiat.
