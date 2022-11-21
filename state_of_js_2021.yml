@@ -184,7 +184,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: sections.conclusion.description
+  - key: conclusion.js2021
     t: |
       <span class="first-line">JavaScript e într-o poziție extraordinar de bună astăzi comparativ cu anul 2016.</span>
       
@@ -214,7 +214,7 @@ translations:
       pentru aspiranții open source și antreprenori continuă să iasă la iveală, iar eu sunt nerăbdător să văd ce vor 
       aduce următorii ani!
 
-  - key: conclusion.bio
+  - key: conclusion.js2021.bio
     t: Head of DX at Temporal
 
   ###########################################################################

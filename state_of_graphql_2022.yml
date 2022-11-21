@@ -167,7 +167,7 @@ translations:
     # Conclusion
     ###########################################################################
 
-    - key: sections.conclusion.description
+    - key: conclusion.graphql2022
       t: |
         
         <span class="first-line">GraphQL face cu adevărat parte din modul în care construim astăzi aplicații moderne.</span>
@@ -184,7 +184,7 @@ translations:
         
         GraphQL și-a găsit locul în ecosistem și are un viitor interesant în față!
 
-    - key: conclusion.bio
+    - key: conclusion.graphql2022.bio
       t: Senior Developer Relations @ Grafbase
 
     ###########################################################################
