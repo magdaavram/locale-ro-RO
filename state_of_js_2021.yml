@@ -15,7 +15,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.js2021
     t: |
       <span class="first-letter">S</span>-au întâmplat multe în 2021. Atât de multe încât sondajul a fost amânat până în 
       2022! 

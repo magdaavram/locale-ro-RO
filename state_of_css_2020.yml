@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2020
       t: |
 
             <span class="first-letter">U</span>ită tot ceea ce știai despre CSS. Sau cel puțin, fii gata să reconsideri multe lucruri. Dacă folosești CSS de mai bine de o decadă, la fel ca mine, CSS-ul din 2020 nu seamănă aproape deloc cu ceea ce erai obișnuit.

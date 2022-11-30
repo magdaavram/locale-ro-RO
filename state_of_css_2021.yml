@@ -5,7 +5,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.css2021
     t: |
       
       <span class="first-letter">S</span>unt tâmplarii nevoiți să învețe un mod mai bun de a tăia o placă o dată la 

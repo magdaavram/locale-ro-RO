@@ -14,7 +14,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.graphql2022
       t: >
         
         <span class="first-letter">D</span>e când a fost inițial creat de Facebook în septembrie 2015, mulți programatori au adoptat GraphQL ca o modalitate nouă și promițătoare de a construi API-uri. 

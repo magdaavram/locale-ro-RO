@@ -12,7 +12,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2020
       t: |
 
             <span class="first-letter">C</span>u toate că anul 2020 a fost atât de neplăcut, JavaScript a reușit cumva să meargă înainte. Pe măsură ce limbajul în sine continuă să se îmbunătățească
