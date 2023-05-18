@@ -539,7 +539,7 @@ translations:
     t: Ne pare rău, export-ul CSV nu este disponibil pentru acest set de date.
   - key: export.graphql
     t: >
-        Poți da copy/paste acestui query în <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API-ul nostru public GraphQL</a>.
+        Poți da copy/paste acestui query în <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API-ul nostru public GraphQL</a>.
   - key: export.export_json
     t: Descarcă datele în format JSON
   - key: export.export_graphql

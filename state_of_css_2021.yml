@@ -5,7 +5,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.css2021
     t: |
       
       <span class="first-letter">S</span>unt tâmplarii nevoiți să învețe un mod mai bun de a tăia o placă o dată la 
@@ -183,7 +183,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: sections.conclusion.description
+  - key: conclusion.css2021
     t: |
       <span class="first-line">Modul în care scrii CSS este pe cale să se schimbe pentru totdeauna</span>
       
@@ -209,7 +209,7 @@ translations:
       fundamental. Este o perioadă incredibil de interesantă, iar noi așteptăm cu nerăbdare toate aceste implementări 
       extraordinare din anul care vine.
 
-  - key: conclusion.bio
+  - key: conclusion.css2021.bio
     t: Developer Web developer și creator al Polypane
 
   ###########################################################################
