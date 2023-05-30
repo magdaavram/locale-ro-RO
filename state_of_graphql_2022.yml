@@ -1,354 +1,350 @@
 locale: ro-RO
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.results.description
-      t: Ediția din 2022 a sondajului anual cu privire la cele mai noi tendințe din ecosistemul GraphQL.
-
-    - key: general.livestream_announcement
-      t: Te invităm să iei parte la un [livestream special despre rezultatele sondajului](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pe 22 februarie! (engleză)
-
-    ###########################################################################
-    # Introduction
-    ###########################################################################
-
-    - key: introduction.graphql2022
-      t: >
-        
-        <span class="first-letter">D</span>e când a fost inițial creat de Facebook în septembrie 2015, mulți programatori au adoptat GraphQL ca o modalitate nouă și promițătoare de a construi API-uri. 
-        
-        
-        Cu toate acestea, 7 ani mai târziu, încă rămân multe întrebări: când mai exact ai nevoie de GraphQL? Ar trebui să îți creezi manual API-ul GraphQL sau să îl generezi din baza de date? Va înlocui vreodată REST?
-        
-        
-        Pentru a răspunde la aceste întrebări și multe altele, am creat primul sondaj **State of GraphQL**. Peste 3.000 de programatori au participat în acest an, iar acesta este doar începutul.
-        
-        
-        Sperăm că îți place să studiezi date. Și nu uita să arunci o privire la [API-ul nostru GraphQL](https://graphiql.devographics.com/)!
-        
-        
-        <span class="conclusion__byline">– Sacha Greif</span>
-
-    ###########################################################################
-    # Tshirt
-    ###########################################################################
-
-    - key: sections.tshirt.title
-      t: Tricou
-
-    - key: sections.tshirt.description
-      t: |
-        ## Support the Survey With the State of JavaScript T-Shirt
-        
-        Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
-        
-        But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
-
-    - key: tshirt.about
-      t: Despre tricou
-
-    - key: tshirt.description
-      t: |
-        Folosim un tricou dintr-un material înalt calitativ, foarte moale, care are un croi slim fit, imprimat de 
-        partenerii noștri de la Cotton Bureau.
-
-    - key: tshirt.getit
-      t: Cumpără-l
-
-    - key: tshirt.price
-      t: 29$ + transport
-
-    - key: tshirt.designer.heading
-      t: Despre designer
-
-    - key: tshirt.designer.name
-      t: Christopher Kirk-Nielsen
-
-    - key: tshirt.designer.bio
-      t: |
-        Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
-        extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o
-        privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.user_info_graphql2022.description
-      t: |
-        **3.094** de persoane au participat la sondajul din acest an. 
-
-    - key: sections.features_graphql2022.description
-      t: |
-        GraphQL poate fi un concept simplu la bază, dar sunt multe funcționalități și modele de luat în considerare atunci când intri în detalii. 
-
-    - key: sections.libraries_graphql2022.description
-      t: |
-        Ecosistemul GraphQL este surprinzător de vast, având multe librării în competiție care îți pot oferi ajutor în configurarea API-ului tău.  
-
-    - key: sections.tools_others_graphql2022.description
-      t: |
-        Alegerea instrumentelor potrivite pe care să le utilizezi împreună cu GraphQL poate face diferența. 
-
-    - key: sections.usage_graphql2022.description
-      t: |
-        Am vrut să aflăm nu doar cum este GraphQL folosit, ci și *de ce* este folosit, precum și care sunt aspectele la care GraphQL mai are de lucrat…
-
-    - key: sections.resources.description
-      t: |
-        Suntem siguri că vei descoperi cel puțin una sau două persoane, podcast-uri sau bloguri pe care vei vrea să le urmărești de acum încolo!
-
-    ###########################################################################
-    # Charts
-    ###########################################################################
-
-    - key: options.features_categories.graphql_language
-      aliasFor: sections.graphql_language.title
-    - key: options.features_categories.directives
-      aliasFor: sections.directives.title
-    - key: options.features_categories.security_performance
-      aliasFor: sections.security_performance.title
-    - key: options.features_categories.other_features
-      aliasFor: sections.other_features.title
-
-    - key: blocks.tools_quadrant.description
-      t: |
-        Acest grafic ilustrează **rata de retenție** a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
-        Poate fi împărțit în patru cadrane:
-          - **1**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
-          - **2**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
-          - **3**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat în acest moment.
-          - **4**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
-
-    ###########################################################################
-    # Notes
-    ###########################################################################
-
-    - key: blocks.gender.note
-      t: |
-        Dacă ești interesat să afli mai multe, [am scris un articol pe blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)
-        care abordează dinamica de gen a sondajului.
-
-    - key: blocks.currently_missing_from_css.note
-      t: |
-        Poți explora întregul set de date obținute din răspunsurile la această întrebare în [acest side project](https://whatsmissingfromcss.com/).
-
-    - key: blocks.source.note
-      t: >
-        
-        Acest grafic agregă o combinație de referințe, parametri URL și răspunsuri libere.
-        - State of JS: lista abonaților [State of JS](https://stateofjs.com).
-        - State of CSS: lista abonaților State of CSS; include și `email`, `după email` etc.
-        - Work: include `locul de muncă`, `colegi`, `colegi de muncă` etc.
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript.
-
-    - key: award.tool_usage_delta_award.comment
-      t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
-
-    - key: award.tool_satisfaction_award.comment
-      t: Vite takes the top spot with a sky-high **{value}** retention ratio!
-
-    - key: award.tool_interest_award.comment
-      t: With a **{value}** interest ratio, Vite once again wins the gold!
-
-    - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
-
-
-    ###########################################################################
-    # Conclusion
-    ###########################################################################
-
-    - key: conclusion.graphql2022
-      t: |
-        
-        <span class="first-line">GraphQL face cu adevărat parte din modul în care construim astăzi aplicații moderne.</span>
-        
-        Din ce în ce mai multe companii creează produse, servicii, instrumente, RFC-uri, cea mai mare parte dintre acestea fiind realizate open source, iar asta e fantastic! Este esențial pentru un ecosistem înfloritor să existe competiție constructivă și colaborare!
-        
-        Prin urmare, vremurile se schimbă în privința modului în care consumăm GraphQL pe client. Librării ca urql și React Query au devenit astăzi alegeri populare alături de fidelii Apollo Client și Relay. Este de asemenea grozav să vezi că GraphQL continuă să se dezvolte și să prospere și în alte limbaje, nu doar în JavaScript – acum există servere și clienți GraphQL stabili și maturi în aproape toate dintre cele mai populare limbaje de programare!
-        
-        De asemenea, GraphQL se schimbă. Cu îmbunătățiri mult așteptate, este tot mai aproape să fie oficial parte din specificație. În curând vom vedea modificări în ceea ce privește fluxul, amânarea, polimorfismul input-ului, dar și îmbunătățiri legate de subscripții și interogări live. 
-        
-        Mai mult decât atât, există acum companii specializate în securitate, caching, urmărirea erorilor, implementarea, abstractizarea bazelor de date și backend-urilor în scheme simple și multe altele, care fac interacțiunea cu GraphQL mai accesibilă ca niciodată.
-        
-        Am asistat recent și la o nouă lansare GraphiQL, care se mândrește cu un ecosistem puternic de plugin-uri, mai puține dependințe și chiar dark mode! Iar [Fundația GraphQL](https://graphql.org/foundation/) continuă să crească, noi membri alăturându-li-se constant pentru a ajuta la susținerea eforturilor celor implicați în educarea, construirea și ghidarea viitorului GraphQL.
-        
-        GraphQL și-a găsit locul în ecosistem și are un viitor interesant în față!
-
-    - key: conclusion.graphql2022.bio
-      t: Senior Developer Relations @ Grafbase
-
-    ###########################################################################
-    # Picks
-    ###########################################################################
-
-    - key: picks.my_pick
-      t: 'My 2022 Pick: '
-    - key: picks.intro
-      t: Am rugat membrii comunității GraphQL să ne spună care este „alegerea anului” din perspectiva lor
-
-    - key: picks.jamie_barton.name
-      t: GraphQL Mesh
-    - key: picks.jamie_barton.bio
-      t: Full Stack Developer & Educator
-    - key: picks.jamie_barton.description
-      t: |
-        Din ce în ce mai mulți oameni caută soluții pentru a acoperi decalajul  
-        dintre toate serviciile lor. Mesh îți permite să faci asta cu ajutorul 
-        serviciilor GraphQL și non-GraphQL.
-  
-
-    - key: picks.tanmai_gopal.name
-      t: Streaming over GraphQL Subscriptions
-    - key: picks.tanmai_gopal.bio
-      t: CEO & co-founder at Hasura
-    - key: picks.tanmai_gopal.description
-      t: |
-        API-urile moderne trebuie să gestioneze un volum tot mai mare de date  
-        sau cu un flux de date care trebuie procesat rapid. 
-        Am putea folosi GraphQL subscriptions ca streaming API?
-  
-
-    - key: picks.tim_suchanek.name
-      t: Benjie Gillam
-    - key: picks.tim_suchanek.bio
-      t: Software Engineer and Entrepreneur
-    - key: picks.tim_suchanek.description
-      t: |
-        Benjie este unul dintre principalii oameni care ajută GraphQL să avanseze. 
-        Angajamentul său în WG, TSC și în fondarea câtorva inițiative este de neegalat.
-
-    - key: picks.uri_goldshtein.name
-      t: Pothos GraphQL
-    - key: picks.uri_goldshtein.bio
-      t: Fondatorul The Guild
-    - key: picks.uri_goldshtein.description
-      t: |
-        Code-first, generator de scheme TS. Ușor de folosit, dar puternic, plugin based și foarte bine întreținut. 
-        Dacă pui codul pe primul loc, aceasta este alegerea perfectă.
-    - key: picks.benjie_gillam.name
-      t: Podcast-ul SpecNews
-    - key: picks.benjie_gillam.bio
-      t: Maintainer OSS susținut de comunitate
-    - key: picks.benjie_gillam.description
-      t: |
-        Cele mai recente activități din partea grupului de lucru GraphQL, sumarizate în doar 5-10 minute pe lună. 
-        Cunoștințe de vârf GraphQL cu efort minim!
-
-    - key: picks.xxxx.name
-      t:
-    - key: picks.xxxx.bio
-      t:
-    - key: picks.xxxx.description
-      t: |
-
-    ###########################################################################
-    # Sponsors
-    ###########################################################################
-
-    - key: sponsors.nijibox.description
-      t: >
-        Suport dedicat pentru UX design, creativitate și dezvoltare.
-
-    - key: sponsors.frontendmasters.description
-      t: >
-        Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
-    - key: sponsors.nhost.description
-      t: >
-        Nhost este o alternativă Firebase open source cu GraphQL.
-    - key: sponsors.apollo.description
-      t: >
-        Apollo Supergraph ajută echipe de produs și de ingineri să creeze rapid experiențe incredibile pentru clienții lor.
-    - key: sponsors.the_guild.description
-      t: >
-        Ecosistemul și instrumentele open-source Guild oferă tot ce ai nevoie pentru a-ți dezvolta API-urile.
-
-    - key: sponsors.hasura.description
-      t: >
-        Rulează Hasura local sau în cloud, conectează-l la bazele tale de date noi sau existente și vei obține instantaneu un API GraphQL la nivel de producție.
-    - key: sponsors.graphql_wtf.description
-      t: >
-        Învață ceva nou săptămânal cu GraphQL. Primește noi episoade pe email.
-    - key: sponsors.grafbase.description
-      t: >
-        Backend-uri GraphQL serverless instant. Grafbase oferă cea mai bună experiență pentru implementarea API-urilor GraphQL.
-
-
-    ###########################################################################
-    # FAQ/About
-    ###########################################################################
-
-    - key: about.content
-      t: >
-        Sondajul State of GraphQL din 2022 s-a desfășurat în perioada 15 iunie - 15 iulie 2022 și a colectat 3.094 de răspunsuri. Sondajul a fost organizat în principal de mine, [Sacha Greif](https://sachagreif.com/), cu ajutorul unei echipe de colaboratori și consultanți open source. 
-        
-        ### Obiectiv
-        
-        Acest sondaj, împreună cu sondajele [State of CSS](https://stateofcss.com/) și [State of JS](https://stateofjs.com/), a fost creat pentru a identifica tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
-        
-        Din cauza dimensiunii relativ mici a eșantionului, acest sondaj ar trebui considerat **un instantaneu al unui segment al developerilor**, nefiind menit să descrie întreg ecosistemul GraphQL. 
-        
-        De asemenea, acest sondaj **nu este afiliat GraphQL sau Facebook**. 
-        
-        ### Design
-        
-        Sondajul a fost conceput în colaborare, existând o perioadă deschisă pentru feedback în care conținutul acestuia a fost dezbătut pe GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). Toate întrebările sondajului au fost opționale.
-        
-        ### Audiență
-        
-        Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții au provenit în principal din traficul de pe rețelele sociale. 
-        
-        ### Reprezentativitate și inclusivitate
-        
-        Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează prin sisteme care au deja propriile biasuri inerente. 
-        
-        
-        Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
-
-
-        - **Extinderea**: încercăm în permanență să luăm legătura cu diferite organizații (cum sunt cele specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
-
-        - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
-
-        - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public mai divers.
-
-        
-        ### Finanțarea proiectului
-        
-        Finanțarea acestui proiect provine dintr-o varietate de surse:
-        
-        
-        - **Sponsorizările graficelor**: membrii comunității pot dona pentru sondaj, iar numele lor va fi afișat în raport.  
-        
-        - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de partenerul nostru [Frontend Masters](https://frontendmasters.com/).
-        
-        - **Alte finanțări**: companiile listate în secțiunea „Partenerii noștri" de pe [pagina de introducere](/introducere) au contribuit, de asemenea, financiar sau în alt mod.
-        
-        
-        Sponsorii nu influențează conținutul sondajului sau modul în care sunt prezentate rezultatele, iar sponsorizările se realizează abia după ce toate datele au fost colectate.  
-        
-        ### Prezentare tehnică
-        
-        Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-
-
-        - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
-
-        - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
-
-        - **Data API**: API Node.js GraphQL.
-
-        - **Site-ul cu rezultate**: [Gatsby](https://www.gatsbyjs.com/) React app.
-
-        - **Vizualizarea datelor**: [Nivo](https://nivo.rocks/) React dataviz library.
-
-        - **Font**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) și [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ediția din 2022 a sondajului anual cu privire la cele mai noi tendințe din ecosistemul GraphQL.
+
+  - key: general.livestream_announcement
+    t: Te invităm să iei parte la un [livestream special despre rezultatele sondajului](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pe 22 februarie! (engleză)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.graphql2022
+    t: >
+
+      <span class="first-letter">D</span>e când a fost inițial creat de Facebook în septembrie 2015, mulți programatori au adoptat GraphQL ca o modalitate nouă și promițătoare de a construi API-uri. 
+
+
+      Cu toate acestea, 7 ani mai târziu, încă rămân multe întrebări: când mai exact ai nevoie de GraphQL? Ar trebui să îți creezi manual API-ul GraphQL sau să îl generezi din baza de date? Va înlocui vreodată REST?
+
+
+      Pentru a răspunde la aceste întrebări și multe altele, am creat primul sondaj **State of GraphQL**. Peste 3.000 de programatori au participat în acest an, iar acesta este doar începutul.
+
+
+      Sperăm că îți place să studiezi date. Și nu uita să arunci o privire la [API-ul nostru GraphQL](https://graphiql.devographics.com/)!
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tricou
+
+  - key: sections.tshirt.description
+    t: |
+      ## Support the Survey With the State of JavaScript T-Shirt
+
+      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+
+  - key: tshirt.about
+    t: Despre tricou
+
+  - key: tshirt.description
+    t: |
+      Folosim un tricou dintr-un material înalt calitativ, foarte moale, care are un croi slim fit, imprimat de 
+      partenerii noștri de la Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Cumpără-l
+
+  - key: tshirt.price
+    t: 29$ + transport
+
+  - key: tshirt.designer.heading
+    t: Despre designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
+      extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o
+      privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info_graphql2022.description
+    t: |
+      **3.094** de persoane au participat la sondajul din acest an.
+
+  - key: sections.features_graphql2022.description
+    t: |
+      GraphQL poate fi un concept simplu la bază, dar sunt multe funcționalități și modele de luat în considerare atunci când intri în detalii.
+
+  - key: sections.libraries_graphql2022.description
+    t: |
+      Ecosistemul GraphQL este surprinzător de vast, având multe librării în competiție care îți pot oferi ajutor în configurarea API-ului tău.
+
+  - key: sections.tools_others_graphql2022.description
+    t: |
+      Alegerea instrumentelor potrivite pe care să le utilizezi împreună cu GraphQL poate face diferența.
+
+  - key: sections.usage_graphql2022.description
+    t: |
+      Am vrut să aflăm nu doar cum este GraphQL folosit, ci și *de ce* este folosit, precum și care sunt aspectele la care GraphQL mai are de lucrat…
+
+  - key: sections.resources.description
+    t: |
+      Suntem siguri că vei descoperi cel puțin una sau două persoane, podcast-uri sau bloguri pe care vei vrea să le urmărești de acum încolo!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.graphql_language
+    aliasFor: sections.graphql_language.title
+  - key: options.features_categories.directives
+    aliasFor: sections.directives.title
+  - key: options.features_categories.security_performance
+    aliasFor: sections.security_performance.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Acest grafic ilustrează **rata de retenție** a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
+      Poate fi împărțit în patru cadrane:
+        - **1**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
+        - **2**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
+        - **3**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat în acest moment.
+        - **4**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Dacă ești interesat să afli mai multe, [am scris un articol pe blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj)
+      care abordează dinamica de gen a sondajului.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      Poți explora întregul set de date obținute din răspunsurile la această întrebare în [acest side project](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      Acest grafic agregă o combinație de referințe, parametri URL și răspunsuri libere.
+      - State of JS: lista abonaților [State of JS](https://stateofjs.com).
+      - State of CSS: lista abonaților State of CSS; include și `email`, `după email` etc.
+      - Work: include `locul de muncă`, `colegi`, `colegi de muncă` etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: With a **{value}** progression in 2021, the nullish coalescing operator (??) has quickly become an integral part of JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+
+  - key: award.tool_interest_award.comment
+    t: With a **{value}** interest ratio, Vite once again wins the gold!
+
+  - key: award.most_write_ins_award.comment
+    t: Many questions also accepted write-in answers, and with **{value}** mentions Elm was the most popular item overall.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.graphql2022
+    t: |
+
+      <span class="first-line">GraphQL face cu adevărat parte din modul în care construim astăzi aplicații moderne.</span>
+
+      Din ce în ce mai multe companii creează produse, servicii, instrumente, RFC-uri, cea mai mare parte dintre acestea fiind realizate open source, iar asta e fantastic! Este esențial pentru un ecosistem înfloritor să existe competiție constructivă și colaborare!
+
+      Prin urmare, vremurile se schimbă în privința modului în care consumăm GraphQL pe client. Librării ca urql și React Query au devenit astăzi alegeri populare alături de fidelii Apollo Client și Relay. Este de asemenea grozav să vezi că GraphQL continuă să se dezvolte și să prospere și în alte limbaje, nu doar în JavaScript – acum există servere și clienți GraphQL stabili și maturi în aproape toate dintre cele mai populare limbaje de programare!
+
+      De asemenea, GraphQL se schimbă. Cu îmbunătățiri mult așteptate, este tot mai aproape să fie oficial parte din specificație. În curând vom vedea modificări în ceea ce privește fluxul, amânarea, polimorfismul input-ului, dar și îmbunătățiri legate de subscripții și interogări live. 
+
+      Mai mult decât atât, există acum companii specializate în securitate, caching, urmărirea erorilor, implementarea, abstractizarea bazelor de date și backend-urilor în scheme simple și multe altele, care fac interacțiunea cu GraphQL mai accesibilă ca niciodată.
+
+      Am asistat recent și la o nouă lansare GraphiQL, care se mândrește cu un ecosistem puternic de plugin-uri, mai puține dependințe și chiar dark mode! Iar [Fundația GraphQL](https://graphql.org/foundation/) continuă să crească, noi membri alăturându-li-se constant pentru a ajuta la susținerea eforturilor celor implicați în educarea, construirea și ghidarea viitorului GraphQL.
+
+      GraphQL și-a găsit locul în ecosistem și are un viitor interesant în față!
+
+  - key: conclusion.graphql2022.bio
+    t: Senior Developer Relations @ Grafbase
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "My 2022 Pick: "
+  - key: picks.intro
+    t: Am rugat membrii comunității GraphQL să ne spună care este „alegerea anului” din perspectiva lor
+
+  - key: picks.jamie_barton.name
+    t: GraphQL Mesh
+  - key: picks.jamie_barton.bio
+    t: Full Stack Developer & Educator
+  - key: picks.jamie_barton.description
+    t: |
+      Din ce în ce mai mulți oameni caută soluții pentru a acoperi decalajul  
+      dintre toate serviciile lor. Mesh îți permite să faci asta cu ajutorul 
+      serviciilor GraphQL și non-GraphQL.
+
+  - key: picks.tanmai_gopal.name
+    t: Streaming over GraphQL Subscriptions
+  - key: picks.tanmai_gopal.bio
+    t: CEO & co-founder at Hasura
+  - key: picks.tanmai_gopal.description
+    t: |
+      API-urile moderne trebuie să gestioneze un volum tot mai mare de date  
+      sau cu un flux de date care trebuie procesat rapid. 
+      Am putea folosi GraphQL subscriptions ca streaming API?
+
+  - key: picks.tim_suchanek.name
+    t: Benjie Gillam
+  - key: picks.tim_suchanek.bio
+    t: Software Engineer and Entrepreneur
+  - key: picks.tim_suchanek.description
+    t: |
+      Benjie este unul dintre principalii oameni care ajută GraphQL să avanseze. 
+      Angajamentul său în WG, TSC și în fondarea câtorva inițiative este de neegalat.
+
+  - key: picks.uri_goldshtein.name
+    t: Pothos GraphQL
+  - key: picks.uri_goldshtein.bio
+    t: Fondatorul The Guild
+  - key: picks.uri_goldshtein.description
+    t: |
+      Code-first, generator de scheme TS. Ușor de folosit, dar puternic, plugin based și foarte bine întreținut. 
+      Dacă pui codul pe primul loc, aceasta este alegerea perfectă.
+  - key: picks.benjie_gillam.name
+    t: Podcast-ul SpecNews
+  - key: picks.benjie_gillam.bio
+    t: Maintainer OSS susținut de comunitate
+  - key: picks.benjie_gillam.description
+    t: |
+      Cele mai recente activități din partea grupului de lucru GraphQL, sumarizate în doar 5-10 minute pe lună. 
+      Cunoștințe de vârf GraphQL cu efort minim!
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.nijibox.description
+    t: >
+      Suport dedicat pentru UX design, creativitate și dezvoltare.
+
+  - key: sponsors.frontendmasters.description
+    t: >
+      Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
+  - key: sponsors.nhost.description
+    t: >
+      Nhost este o alternativă Firebase open source cu GraphQL.
+  - key: sponsors.apollo.description
+    t: >
+      Apollo Supergraph ajută echipe de produs și de ingineri să creeze rapid experiențe incredibile pentru clienții lor.
+  - key: sponsors.the_guild.description
+    t: >
+      Ecosistemul și instrumentele open-source Guild oferă tot ce ai nevoie pentru a-ți dezvolta API-urile.
+
+  - key: sponsors.hasura.description
+    t: >
+      Rulează Hasura local sau în cloud, conectează-l la bazele tale de date noi sau existente și vei obține instantaneu un API GraphQL la nivel de producție.
+  - key: sponsors.graphql_wtf.description
+    t: >
+      Învață ceva nou săptămânal cu GraphQL. Primește noi episoade pe email.
+  - key: sponsors.grafbase.description
+    t: >
+      Backend-uri GraphQL serverless instant. Grafbase oferă cea mai bună experiență pentru implementarea API-urilor GraphQL.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      Sondajul State of GraphQL din 2022 s-a desfășurat în perioada 15 iunie - 15 iulie 2022 și a colectat 3.094 de răspunsuri. Sondajul a fost organizat în principal de mine, [Sacha Greif](https://sachagreif.com/), cu ajutorul unei echipe de colaboratori și consultanți open source. 
+
+      ### Obiectiv
+
+      Acest sondaj, împreună cu sondajele [State of CSS](https://stateofcss.com/) și [State of JS](https://stateofjs.com/), a fost creat pentru a identifica tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
+
+      Din cauza dimensiunii relativ mici a eșantionului, acest sondaj ar trebui considerat **un instantaneu al unui segment al developerilor**, nefiind menit să descrie întreg ecosistemul GraphQL. 
+
+      De asemenea, acest sondaj **nu este afiliat GraphQL sau Facebook**. 
+
+      ### Design
+
+      Sondajul a fost conceput în colaborare, existând o perioadă deschisă pentru feedback în care conținutul acestuia a fost dezbătut pe GitHub ([1](https://github.com/Devographics/Monorepo/issues/86), [2](https://github.com/Devographics/Monorepo/issues/90)). Toate întrebările sondajului au fost opționale.
+
+      ### Audiență
+
+      Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții au provenit în principal din traficul de pe rețelele sociale. 
+
+      ### Reprezentativitate și inclusivitate
+
+      Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează prin sisteme care au deja propriile biasuri inerente. 
+
+
+      Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
+
+
+      - **Extinderea**: încercăm în permanență să luăm legătura cu diferite organizații (cum sunt cele specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
+
+      - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
+
+      - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public mai divers.
+
+
+      ### Finanțarea proiectului
+
+      Finanțarea acestui proiect provine dintr-o varietate de surse:
+
+
+      - **Sponsorizările graficelor**: membrii comunității pot dona pentru sondaj, iar numele lor va fi afișat în raport.  
+
+      - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de partenerul nostru [Frontend Masters](https://frontendmasters.com/).
+
+      - **Alte finanțări**: companiile listate în secțiunea „Partenerii noștri" de pe [pagina de introducere](/introducere) au contribuit, de asemenea, financiar sau în alt mod.
+
+
+      Sponsorii nu influențează conținutul sondajului sau modul în care sunt prezentate rezultatele, iar sponsorizările se realizează abia după ce toate datele au fost colectate.  
+
+      ### Prezentare tehnică
+
+      Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+
+      - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+      - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
+
+      - **Data API**: API Node.js GraphQL.
+
+      - **Site-ul cu rezultate**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+      - **Vizualizarea datelor**: [Nivo](https://nivo.rocks/) React dataviz library.
+
+      - **Font**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) și [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
