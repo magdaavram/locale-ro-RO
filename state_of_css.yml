@@ -1,791 +1,787 @@
 locale: ro-RO
 namespace: css
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
-
-    - key: general.state_of_css.intro
-      t: |
-          CSS-ul evoluează mai repede ca oricând.
-
-          Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
-
-          Aici intervine sondajul State of CSS: ne îndreptăm atenția asupra stilizărilor și selectorilor pentru a încerca să identificăm tendințele viitoare și pentru a ne da seama ce funcționalități și instrumente să învățăm în continuare.
-
-    - key: general.state_of_css.description
-      t: Sondajul anual al developerilor cu privire la ultimele tendințe în CSS
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.layout.title
-      t: Layout
-    - key: sections.layout.description
-      t: Cum poziționezi elementele pe ecran?
-
-    - key: sections.shapes_graphics.title
-      t: Forme și grafică
-    - key: sections.shapes_graphics.description
-      t: Controlarea formei și a afișării elementelor.
-
-    - key: sections.interactions.title
-      t: Interacțiuni
-    - key: sections.interactions.description
-      t: Controlarea modului în care utilizatorul interacționează cu pagina.
-
-    - key: sections.typography.title
-      t: Tipografie
-    - key: sections.typography.description
-      t: Setarea și prezentarea textului.
-
-    - key: sections.animations_transforms.title
-      t: Animații și transformări
-    - key: sections.animations_transforms.description
-      t: Animarea și transformarea elementelor.
-
-    - key: sections.accessibility.title
-      t: Accesibilitate
-    - key: sections.accessibility.description
-      t: Funcționalități și tehnici de accesibilitate.
-
-    - key: sections.media_queries.title
-      t: Media Queries
-    - key: sections.media_queries.description
-      t: Moduri de adaptare a site-ului la dispozitivul sau preferințele utilizatorului.
-
-    - key: sections.selectors.title
-      t: Selectori
-    - key: sections.selectors.description
-      t: Selectori CSS.
-
-    - key: sections.colors.title
-      t: Culori
-    - key: sections.colors.description
-      t: Funcționalități legate de culoare.
-
-    - key: sections.javascript_apis.title
-      t: API-uri JavaScript
-    - key: sections.javascript_apis.description
-      t: API-uri JavaScript folosite pentru a controla sau completa CSS-ul.
-
-    - key: sections.other_features.title
-      t: Alte funcționalități
-    - key: sections.other_features.description
-      t: Alte funcționalități CSS.
-
-    - key: sections.units_selectors.title
-      t: Unități și selectori
-    - key: sections.units_selectors.description
-      t: Testează-ți cunoștințele despre unități și selectori CSS.
-
-    - key: sections.pre_post_processors.title
-      t: Pre-/Post-procesoare
-    - key: sections.pre_post_processors.description
-      t: Utilitare care extind CSS-ul.
-
-    - key: sections.pre_post_processors_others.title
-      t: Alte pre-/post-procesoare
-
-    - key: tools_others.pre_post_processors
-      aliasFor: sections.pre_post_processors.title
-    - key: tools_others.pre_post_processors.description
-      aliasFor: sections.pre_post_processors.description
-
-    - key: tools_others.pre_post_processors.others
-      aliasFor: sections.pre_post_processors_others.title
-
-    - key: sections.css_frameworks.title
-      t: Framework-uri CSS
-    - key: sections.css_frameworks.description
-      t: Librării care oferă componente și stilizări gata făcute.
-
-    - key: sections.css_frameworks_others.title
-      t: Alte framework-uri CSS
-
-    - key: sections.css_methodologies.title
-      t: Metodologii CSS
-    - key: sections.css_methodologies.description
-      t: Moduri codificate de a scrie CSS mai curat.
-
-    - key: sections.css_methodologies_others.title
-      t: Alte metodologii CSS.
-
-    - key: sections.css_in_js.title
-      t: CSS-in-JS
-    - key: sections.css_in_js.description
-      t: Librării care ajută la integrarea CSS în cod JavaScript.
-
-    - key: sections.css_in_js_others.title
-      t: Alte librării de tip CSS-in-JS.
-
-    - key: sections.tools_others.title
-      t: Alte instrumente
-    - key: sections.tools_others.description
-      t: Alte instrumente CSS.
-
-    - key: sections.environments.title
-      t: Medii
-    - key: sections.environments.description
-      t: Pentru ce medii scrii CSS?
-
-    - key: sections.usage_css.title
-      t: Utilizare CSS
-    - key: sections.usage_css.description
-      t: Cum folosești CSS.
-
-    - key: sections.resources_css.title
-      t: Resurse
-    - key: sections.resources_css.description
-      t: Ce resurse CSS consulți?
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    # CSS for print
-    - key: options.css_for_print.0
-      t: Nu fac stilizări pentru versiuni tipărite (aproape) niciodată
-    - key: options.css_for_print.0.short
-      t: Niciodată
-
-    - key: options.css_for_print.1
-      t: Fac stilizări pentru versiuni tipărite ocazional
-    - key: options.css_for_print.1.short
-      t: Ocazional
-
-    - key: options.css_for_print.2
-      t: Fac stilizări pentru versiuni tipărite în majoritatea proiectelor
-    - key: options.css_for_print.2.short
-      t: Frecvent
-
-    - key: options.css_for_print.3
-      t: Mă concentrez în principal pe CSS pentru versiuni tipărite
-    - key: options.css_for_print.3.short
-      t: De cele mai multe ori
-
-    # CSS for email
-    - key: options.css_for_email.0
-      t: Nu scriu CSS pentru clienți de email (aproape) niciodată
-    - key: options.css_for_email.0.short
-      t: Niciodată
-
-    - key: options.css_for_email.1
-      t: Scriu CSS pentru clienți de email ocazional
-    - key: options.css_for_email.1.short
-      t: Ocazional
-
-    - key: options.css_for_email.2
-      t: Scriu CSS pentru clienți de email în majoritatea proiectelor
-    - key: options.css_for_email.2.short
-      t: Frecvent
-
-    - key: options.css_for_email.3
-      t: Mă concentrez în principal pe CSS pentru clienți de email
-    - key: options.css_for_email.3.short
-      t: De cele mai multe ori
-
-    # what do you use CSS for?
-    - key: options.what_do_you_use_css_for.marketing_sites
-      t: Site-uri de marketing & landing pages
-    - key: options.what_do_you_use_css_for.design_systems
-      t: Design systems
-    - key: options.what_do_you_use_css_for.blogs
-      t: Blog-uri sau alte site-uri cu mult conținut text
-    - key: options.what_do_you_use_css_for.web_apps
-      t: Aplicații web
-    - key: options.what_do_you_use_css_for.mobile_apps
-      t: Aplicații mobile
-    - key: options.what_do_you_use_css_for.css_art
-      t: Artă & ilustrații CSS
-    - key: options.what_do_you_use_css_for.emails
-      t: Email-uri
-    - key: options.what_do_you_use_css_for.printed_documents
-      t: Documente tipărite
-
-    # CSS pain points
-    - key: options.css_pain_points.browser_interoperability
-      t: Compatibilitate browser
-    - key: options.css_pain_points.browser_interoperability.description
-      t: Diferențe între Chrome, Safari, Firefox etc.
-    - key: options.css_pain_points.interactions
-      t: Interacțiuni
-    - key: options.css_pain_points.interactions.description
-      t: Răspuns la input-ul utilizatorului sau la alte evenimente (scroll, hover etc.).
-    - key: options.css_pain_points.architecture
-      t: Arhitectură & mentenanță
-    - key: options.css_pain_points.architecture.description
-      t: Organizarea fișierelor, eliminarea codului nefolosit, refactorizarea etc.
-    - key: options.css_pain_points.layout_positioning
-      t: Layout & poziționare
-    - key: options.css_pain_points.layout_positioning.description
-      t: Configurarea layout-urilor și asigurarea că elementele sunt poziționate în locul dorit.
-    - key: options.css_pain_points.scoping_specificity
-      t: Scoping & specificitate
-    - key: options.css_pain_points.scoping_specificity.description
-      t: Confruntarea cu cascadarea, suprascrierea stilizărilor etc.
-    - key: options.css_pain_points.responsive_design
-      t: Responsive Design
-    - key: options.css_pain_points.responsive_design.description
-      t: Adaptarea layout-urilor și a design-ului la diferiți factori de formă.
-    - key: options.css_pain_points.form_elements_styling
-      t: Stilizarea elementelor de formular
-    - key: options.css_pain_points.form_elements_styling.description
-      t: Personalizarea modului în care arată și se comportă elementele din formulare.
-    - key: options.css_pain_points.performance_issues
-      t: Probleme de performanță
-    - key: options.css_pain_points.performance_issues.description
-      t: Confruntarea cu scrolling jank, crearea animațiilor fluide etc.
-
-    # CSS missing features (same as features section)
-    - key: options.currently_missing_from_css.nesting
-      t: Nesting
-    - key: options.currently_missing_from_css.nesting.description
-      t: Being able to nest styles in native CSS.
-    - key: options.currently_missing_from_css.parent_selector
-      t: Selectorul părinte
-    - key: options.currently_missing_from_css.parent_selector.description
-      t: Posibilitatea de a selecta un părinte pe baza copiilor săi.
-    - key: options.currently_missing_from_css.browser_support
-      t: Suport pentru browsere
-    - key: options.currently_missing_from_css.browser_support.description
-      t: Suport mai bun al funcționalităților existente pe browsere.
-    - key: options.currently_missing_from_css.mixins
-      t: Mixins
-    - key: options.currently_missing_from_css.mixins.description
-      t: Gruparea și reutilizarea definițiilor în mod dinamic.
-    - key: options.currently_missing_from_css.color_functions
-      t: Color Functions
-    - key: options.currently_missing_from_css.color_functions.description
-      t: Funcții de manipulare a valorilor de culoare.
-    - key: options.currently_missing_from_css.container_queries
-      t: Container Queries
-    - key: options.currently_missing_from_css.container_queries.description
-      t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
-    - key: options.currently_missing_from_css.scoping
-      t: Scoping
-    - key: options.currently_missing_from_css.scoping.description
-      t: Posibilitatea de a fi mai specific în privința locului în care sunt aplicate stilizările.
-    - key: options.currently_missing_from_css.subgrid
-      t: Subgrid
-    - key: options.currently_missing_from_css.subgrid.description
-      t: Nesting deeper-level subgrids into a parent grid.
-
-    ###########################################################################
-    # Features
-    ###########################################################################
-
-    # layout
-    - key: features.regions
-      t: CSS Regions
-    - key: features.multi_column
-      t: CSS Multi-Column
-    - key: features.writing_modes
-      t: CSS Writing Modes
-    - key: features.exclusions
-      t: CSS Exclusions
-
-    - key: features.flexbox_gap
-      t: „Proprietatea `gap` pentru flexbox”
-
-    # shapes & graphics
-    - key: features.shapes
-      t: CSS Shapes
-    - key: features.masks
-      t: CSS Masks
-    - key: features.blend_modes
-      t: Blend Modes
-    - key: features.filter_effects
-      t: CSS Filter Effects
-
-    - key: features.intrinsic_sizing
-      t: Dimensionare intrinsecă
-
-    # typography
-    - key: features.web_fonts
-      t: Fonturi web (@font-face)
-    - key: features.variable_fonts
-      t: Fonturi variabile
-    - key: features.line_breaking
-      t: Proprietăți pentru Line-Breaking
-    - key: features.direction.description
-      t: Include și atributul HTML <code>dir</code>.
-
-    # animations & transforms
-    - key: features.transitions
-      t: Tranziții CSS
-    - key: features.transforms
-      t: Transformări CSS
-    - key: features.animations
-      t: Animații CSS
-
-    # media queries/accessibility
-    - key: features.tabindex
-      t: Atributul HTML <code>tabindex</code>
-
-    - key: features.aria_attributes
-      t: Atributele ARIA HTML
-    - key: features.aria_attributes.description
-      t: <code>role</code>, <code>aria-label</code> etc.
-
-    # other features
-    - key: features.variables
-      t: Variabile CSS (proprietăți personalizate)
-    - key: features.containment
-      t: CSS Containment
-    - key: features.comparison_functions
-      t: Funcții CSS de comparare
-
-    - key: features.css_nesting.description
-      t: Nesting CSS nativ, excluzând pre- sau post-procesatoarele.
-
-    # missing features (see also options)
-    - key: features.nesting
-      t: Nesting
-    - key: features.nesting.description
-      t: Being able to nest styles in native CSS.
-    - key: features.parent_selector
-      t: Selector pentru părinte
-    - key: features.parent_selector.description
-      t: Posibilitatea de a selecta un element părinte pe baza copiilor acestuia.
-    - key: features.browser_support
-      t: Suport pentru browser
-    - key: features.browser_support.description
-      t: Suport mai bun pentru browser în cazul funcționalităților existente.
-    - key: features.mixins
-      t: Mixins
-    - key: features.mixins.description
-      t: Gruparea și reutilizarea definițiilor în mod dinamic.
-    - key: features.color_functions
-      t: Funcții de culoare
-    - key: features.color_functions.description
-      t: Funcții pentru manipularea valorilor de culoare.
-    - key: features.container_queries
-      t: Query-uri de container
-    - key: features.container_queries.description
-      t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
-    - key: features.scoping
-      t: Scoping
-    - key: features.scoping.description
-      t: Posibilitatea de a fi mai specific cu privire la locul în care aplici stilizări.
-    - key: features.subgrid
-      t: Subgrid
-    - key: features.subgrid.description
-      t: Nesting deeper-level subgrids into a parent grid.
-
-    ###########################################################################
-    # Units & Selectors
-    ###########################################################################
-
-    - key: features_others.units
-      t: Unități
-    - key: features_others.units.description
-      t: Pe care dintre aceste unități CSS le-ai folosit?
-
-    - key: options.units.px
-      t: px
-    - key: options.units.pt
-      t: pt
-    - key: options.units.percent
-      t: '%'
-    - key: options.units.em
-      t: em
-    - key: options.units.rem
-      t: rem
-    - key: options.units.vh_vw
-      t: vh, vw
-    - key: options.units.vmin_vmax
-      t: vmin, vmax
-    - key: options.units.ch
-      t: ch
-    - key: options.units.ex
-      t: ex
-    - key: options.units.mm
-      t: mm
-    - key: options.units.cm
-      t: cm
-    - key: options.units.in
-      t: in
-
-    - key: features_others.pseudo_elements
-      t: Pseudo-elemente
-    - key: features_others.pseudo_elements.description
-      t: Pe care dintre aceste pseudo-elemente CSS le-ai folosit?
-
-    - key: options.pseudo_elements.before
-      t: '::before'
-    - key: options.pseudo_elements.after
-      t: '::after'
-    - key: options.pseudo_elements.first_line
-      t: '::first-line'
-    - key: options.pseudo_elements.first_letter
-      t: '::first-letter'
-    - key: options.pseudo_elements.selection
-      t: '::selection'
-    - key: options.pseudo_elements.placeholder
-      t: '::placeholder'
-    - key: options.pseudo_elements.marker
-      t: '::marker'
-    - key: options.pseudo_elements.backdrop
-      t: '::backdrop'
-
-    - key: features_others.combinators
-      t: Combinatoare
-    - key: features_others.combinators.description
-      t: Pe care dintre aceste combinații de selectori CSS le-ai folosit?
-
-    - key: options.combinators.descendant
-      t: div span (descendent)
-    - key: options.combinators.child
-      t: div > span (copil)
-    - key: options.combinators.next_sibling
-      t: div + div (următorul frate)
-    - key: options.combinators.subsequent_sibling
-      t: div ~ div (următorii frați)
-
-    - key: features_others.tree_document_structure
-      t: Structura de tip arbore / document
-    - key: features_others.tree_document_structure.description
-      t: Pe care dintre acești selectori CSS de structură i-ai folosit?
-
-    - key: options.tree_document_structure.root
-      t: :root
-    - key: options.tree_document_structure.empty
-      t: :empty
-    - key: options.tree_document_structure.not
-      t: :not()
-    - key: options.tree_document_structure.nth_child
-      t: :nth-child()
-    - key: options.tree_document_structure.nth_last_child
-      t: :nth-last-child()
-    - key: options.tree_document_structure.first_child
-      t: :first-child
-    - key: options.tree_document_structure.last_child
-      t: :last-child
-    - key: options.tree_document_structure.only_child
-      t: :only-child
-    - key: options.tree_document_structure.nth_of_type
-      t: :nth-of-type()
-    - key: options.tree_document_structure.nth_last_of_type
-      t: :nth-last-of-type()
-    - key: options.tree_document_structure.first_of_type
-      t: :first-of-type
-    - key: options.tree_document_structure.last_of_type
-      t: :last-of-type
-    - key: options.tree_document_structure.only_of_type
-      t: :only-of-type
-    - key: options.tree_document_structure.lang
-      t: :lang()
-    - key: options.tree_document_structure.is
-      t: :is()
-    - key: options.tree_document_structure.where
-      t: :where()
-    - key: options.tree_document_structure.has
-      t: :has()
-
-    - key: features_others.attributes
-      t: Atribute
-    - key: features_others.attributes.description
-      t: Pe care dintre aceste atribute CSS le-ai folosit?
-
-    - key: options.attributes.presence
-      t: div[foo] (prezență)
-    - key: options.attributes.equality
-      t: div[foo="bar"] (egalitate)
-    - key: options.attributes.starts_with
-      t: div[foo^="bar"] (începe cu)
-    - key: options.attributes.ends_with
-      t: div[foo$="bar"] (se termină cu)
-    - key: options.attributes.contains_word
-      t: div[foo~="bar"] (conține cuvântul)
-    - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (conține substring-ul)
-
-    - key: features_others.links_urls
-      t: Link-uri/URL-uri
-    - key: features_others.links_urls.description
-      t: Pe care dintre acești selectori CSS pentru URL-uri și link-uri i-ai folosit?
-
-    - key: options.links_urls.any_link
-      t: :any-link
-    - key: options.links_urls.link_visited
-      t: :link și :visited
-    - key: options.links_urls.local_link
-      t: :local-link
-    - key: options.links_urls.target
-      t: :target
-
-    - key: features_others.interaction
-      t: Interacțiuni
-    - key: features_others.interaction.description
-      t: Pe care dintre acești selectori CSS de interacțiune i-ai folosit?
-
-    - key: options.interaction.hover
-      t: :hover
-    - key: options.interaction.active
-      t: :active
-    - key: options.interaction.focus
-      t: :focus
-    - key: options.interaction.focus_within
-      t: :focus-within
-    - key: options.interaction.focus_visible
-      t: :focus-visible
-
-    - key: features_others.form_controls
-      t: Controale pentru formulare
-    - key: features_others.form_controls.description
-      t: Pe care dintre acești selectori CSS pentru formulare i-ai folosit?
-
-    - key: options.form_controls.enabled_disabled
-      t: :enabled și :disabled
-    - key: options.form_controls.read_only_write
-      t: :read-only și :read-write
-    - key: options.form_controls.placeholder_shown
-      t: :placeholder-shown
-    - key: options.form_controls.default
-      t: :default
-    - key: options.form_controls.checked
-      t: :checked
-    - key: options.form_controls.indeterminate
-      t: :indeterminate
-    - key: options.form_controls.valid_invalid
-      t: :valid și :invalid
-    - key: options.form_controls.user_invalid
-      t: :user-invalid
-    - key: options.form_controls.in_out_range
-      t: :in-range și :out-of-range
-    - key: options.form_controls.required_optional
-      t: :required și :optional
-
-    # slider
-    - key: options.css_js_balance.0
-      t: 100% CSS
-    - key: options.css_js_balance.4
-      t: 50%/50%
-    - key: options.css_js_balance.8
-      t: 100% JS
-
-    ###########################################################################
-    # Environments
-    ###########################################################################
-
-    - key: environments.browsers
-      t: Browsere
-    - key: environments.browsers.description
-      t: Ce browsere folosești pentru testare?
-
-    - key: environments.form_factors
-      t: Form Factors
-    - key: environments.form_factors.description
-      t: Ce form factors folosești pentru testare?
-    - key: environments.form_factors.others
-      t: Alte medii de testare
-    - key: environments.form_factors.others.description
-      t: Alți form factors sau medii pe care testezi de obicei.
-
-    - key: environments.accessibility_features
-      t: Funcționalități de accesibilitate
-    - key: environments.accessibility_features.description
-      t: Ce funcționalități de accesibilitate implementezi de obicei?
-    - key: environments.accessibility_features.others
-      t: Alte funcționalități de accesibilitate
-    - key: environments.accessibility_features.others.description
-      t: Alte funcționalități de accesibilitate pe care le implementezi de obicei
-
-    - key: environments.css_for_print
-      t: CSS pentru versiuni tipărite
-    - key: environments.css_for_print.description
-      t: Folosești stilizări pentru versiuni tipărite?
-
-    - key: environments.css_for_email
-      t: CSS pentru clienți de email
-    - key: environments.css_for_email.description
-      t: Scrii CSS pentru clienți de email?
-
-    - key: environments.what_do_you_use_css_for
-      t: Pentru ce folosești CSS de obicei?
-    - key: environments.what_do_you_use_css_for.description
-      t: De obicei, pentru ce tip de proiect folosești CSS?
-    - key: environments.what_do_you_use_css_for.others
-      t: Alte tipuri de proiecte
-
-    - key: charts.axis_legends.css_for_print
-      t: Frecvență
-    - key: charts.axis_legends.css_for_email
-      t: Frecvență
-
-    - key: tools_others.tool_evaluation
-      t: Evaluarea librăriei
-    - key: tools_others.tool_evaluation.description
-      t: Pentru fiecare pereche, alege factorul pe care îl prioritizezi atunci când evaluezi o nouă librărie.
-
-    ###########################################################################
-    # Opinions
-    ###########################################################################
-
-    - key: opinions.css_easy_to_learn
-      t: CSS-ul este ușor de învățat
-    - key: opinions.css_easy_to_learn.title
-      t: Curbă de învățare
-
-    - key: opinions.css_evolving_slowly
-      t: CSS-ul evoluează prea încet
-    - key: opinions.css_evolving_slowly.title
-      t: Rata de schimbare
-
-    - key: opinions.utility_classes_to_be_avoided
-      t: Clasele (.center, .large-text etc.) utilitare (non-semantice) ar trebui evitate
-    - key: opinions.utility_classes_to_be_avoided.title
-      t: Clase non-semantice
-
-    - key: opinions.selector_nesting_to_be_avoided
-      t: Nesting-ul selectorilor (.foo .bar ul li {...}) ar trebui evitat
-    - key: opinions.selector_nesting_to_be_avoided.title
-      t: Nesting-ul selectorilor
-
-    - key: opinions.css_is_programming_language
-      t: CSS-ul este un limbaj de programare
-    - key: opinions.css_is_programming_language.title
-      t: Limbaj de programare
-
-    - key: opinions.enjoy_writing_css
-      t: Îmi place să scriu CSS
-    - key: opinions.enjoy_writing_css.title
-      t: Mulțumire
-
-    # Browser interoperability question
-    - key: opinions_others.browser_interoperability_features.others
-      t: Incompatibilități pe browsere
-    - key: opinions_others.browser_interoperability_features.others.description
-      t: >
-        Există funcționalități CSS cu care întâmpini dificultăți (sau pe care le eviți)
-        din cauza lipsei de suport sau a diferențelor dintre browsere? 
-
-    - key: usage.interoperability_features_freeform.others
-      aliasFor: opinions_others.browser_interoperability_features.others
-    - key: usage.interoperability_features_freeform.others.description
-      aliasFor: opinions_others.browser_interoperability_features.others.description
-
-    # Pain Points
-    - key: opinions.css_pain_points
-      t: Puncte slabe în CSS
-    - key: opinions.css_pain_points.description
-      t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în CSS.
-
-    - key: usage.other_pain_points_freeform.others
-      t: Alte puncte slabe referitoare la scrierea CSS?
-
-    - key: opinions_others.css_pain_points.others
-      t: Alte puncte slabe în CSS
-
-    # Interop 2023
-    - key: usage.interop_features
-      t: Roadmap Interop 2023
-    - key: usage.interop_features.description
-      t: Pe care dintre aceste funcționalități ți-ai dori cel mai mult să le îmbunătățească furnizorii de browsere? (alege 3)
-    - key: usage.interop_features.note
-      t: >
-        [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) este un efort comun al furnizorilor de browsere pentru a remedia problemele și incompatibilitățile. Rezultatele acestui sondaj vor fi luate în considerare drept date care ajută grupul de lucru să prioritizeze zonele de interes. 
-
-    # Missing Features
-    - key: opinions.currently_missing_from_css
-      t: Ce simți că lipsește în CSS în acest moment?
-    - key: opinions.currently_missing_from_css.description
-      t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
-
-    - key: usage.missing_features_freeform.others
-      t: Ce funcționalități crezi că lipsesc în prezent din CSS?
-
-    - key: opinions_others.currently_missing_from_css.others
-      t: Alte funcționalități care lipsesc
-    # - key: opinions_others.currently_missing_from_css.others.note
-    #   t: >
-    #     Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
-    #     Pentru a vedea răspunsurile brute, neprocesate, consultă [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
-    
-    - key: opinions.sum_up_one_word_css
-      t: CSS într-un cuvânt
-    - key: opinions.sum_up_one_word_css.description
-      t: Cum ai rezuma părerea ta despre CSS într-un singur cuvânt?
-
-    - key: happiness.pre_post_processors
-      t: Cât de mulțumit(ă) ești de pre-/post-procesoare?
-    - key: happiness.css_in_js
-      t: Cât de mulțumit(ă) ești de starea librăriilor CSS-in-JS?
-    - key: happiness.css_frameworks
-      t: Cât de mulțumit(ă) ești de framework-urile CSS?
-
-    - key: happiness.state_of_the_web
-      t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
-
-    - key: happiness.state_of_css
-      t: Cât de mulțumit(ă) ești de starea generală a CSS?
-
-    # pain points/currently missing (results)
-    - key: css_pain_points.css_pain_points_wins
-      t: Puncte dureroase în CSS
-    - key: css_pain_points.css_pain_points_wins.description
-      t: Care dintre aspectele CSS îți dă cele mai multe bătăi de cap? Rezultatele sunt clasificate în funcție de numărul de runde câștigate.
-
-    - key: css_pain_points.css_pain_points_matchups
-      t: Puncte dureroase în CSS (Confruntări)
-    - key: css_pain_points.css_pain_points_matchups.description
-      t: Cu care dintre aspectele CSS te lupți cel mai des? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
-
-    - key: currently_missing_from_css.currently_missing_from_css_wins
-      t: Funcționalități care lipsesc în CSS
-    - key: currently_missing_from_css.currently_missing_from_css_wins.description
-      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Rezultatele sunt clasificate după numărul de runde câștigate.
-
-    - key: currently_missing_from_css.currently_missing_from_css_matchups
-      t: Funcționalități care lipsesc în CSS (Confruntări)
-    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-      t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
-
-    - key: usage.css_js_balance
-      t: Raportul CSS vs JavaScript
-    - key: usage.css_js_balance.description
-      t: Cum îți împarți timpul între scrierea codului CSS (incluzând HTML) și cea a codului JavaScript?
-
-    ###########################################################################
-    # Resources
-    ###########################################################################
-
-    - key: resources.first_steps_css
-      t: Primii pași în CSS
-    - key: resources.first_steps_css.description
-      t: Cum ai învățat CSS atunci când erai la început de drum?
-
-    # sites & courses
-    - key: resources.sites_courses_css
-      aliasFor: resources.sites_courses
-    - key: resources.sites_courses_css.description
-      t: Ce site-uri/cursuri/etc. referitoare la CSS folosești pentru a învăța?
-
-    # podcasts
-    - key: resources.podcasts_css
-      aliasFor: resources.podcasts
-    - key: resources.podcasts_css.description
-      t: Ce podcast-uri legate de CSS asculți?
-
-    # people
-    - key: resources.people_css.others
-      aliasFor: resources.people.others
-    - key: resources.people_css.others.description
-      t: Persoane pe care le citești, urmărești sau pe care dorești să le scoți în evidență pentru munca lor în ecosistemul CSS.
-
-    ###########################################################################
-    # Survey Help
-    ###########################################################################
-
-    - key: features.features_intro_css
-      t: |
-        Bun venit la sondaj! În această primă parte ne propunem să aflăm  
-        ce **funcționalități** CSS cunoști. 
-        
-        Apropo, dacă vrei să ne spui mai multe despre oricare dintre alegerile tale, trebuie doar să dai click pe acel mic icon de „comentariu”!
-    - key: tools.tools_intro_css
-      t: |
-        Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** din care este format 
-        ecosistemul CSS. Spune-ne ce te entuziasmează!
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_css.intro
+    t: |
+      CSS-ul evoluează mai repede ca oricând.
+
+      Flexbox, Grid, Multi-Column… Să nu mai vorbim despre paradigmele cu totul noi, cum e CSS-in-JS.
+
+      Aici intervine sondajul State of CSS: ne îndreptăm atenția asupra stilizărilor și selectorilor pentru a încerca să identificăm tendințele viitoare și pentru a ne da seama ce funcționalități și instrumente să învățăm în continuare.
+
+  - key: general.state_of_css.description
+    t: Sondajul anual al developerilor cu privire la ultimele tendințe în CSS
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.layout.title
+    t: Layout
+  - key: sections.layout.description
+    t: Cum poziționezi elementele pe ecran?
+
+  - key: sections.shapes_graphics.title
+    t: Forme și grafică
+  - key: sections.shapes_graphics.description
+    t: Controlarea formei și a afișării elementelor.
+
+  - key: sections.interactions.title
+    t: Interacțiuni
+  - key: sections.interactions.description
+    t: Controlarea modului în care utilizatorul interacționează cu pagina.
+
+  - key: sections.typography.title
+    t: Tipografie
+  - key: sections.typography.description
+    t: Setarea și prezentarea textului.
+
+  - key: sections.animations_transforms.title
+    t: Animații și transformări
+  - key: sections.animations_transforms.description
+    t: Animarea și transformarea elementelor.
+
+  - key: sections.accessibility.title
+    t: Accesibilitate
+  - key: sections.accessibility.description
+    t: Funcționalități și tehnici de accesibilitate.
+
+  - key: sections.media_queries.title
+    t: Media Queries
+  - key: sections.media_queries.description
+    t: Moduri de adaptare a site-ului la dispozitivul sau preferințele utilizatorului.
+
+  - key: sections.selectors.title
+    t: Selectori
+  - key: sections.selectors.description
+    t: Selectori CSS.
+
+  - key: sections.colors.title
+    t: Culori
+  - key: sections.colors.description
+    t: Funcționalități legate de culoare.
+
+  - key: sections.javascript_apis.title
+    t: API-uri JavaScript
+  - key: sections.javascript_apis.description
+    t: API-uri JavaScript folosite pentru a controla sau completa CSS-ul.
+
+  - key: sections.other_features.title
+    t: Alte funcționalități
+  - key: sections.other_features.description
+    t: Alte funcționalități CSS.
+
+  - key: sections.units_selectors.title
+    t: Unități și selectori
+  - key: sections.units_selectors.description
+    t: Testează-ți cunoștințele despre unități și selectori CSS.
+
+  - key: sections.pre_post_processors.title
+    t: Pre-/Post-procesoare
+  - key: sections.pre_post_processors.description
+    t: Utilitare care extind CSS-ul.
+
+  - key: sections.pre_post_processors_others.title
+    t: Alte pre-/post-procesoare
+
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    aliasFor: sections.pre_post_processors.description
+
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+
+  - key: sections.css_frameworks.title
+    t: Framework-uri CSS
+  - key: sections.css_frameworks.description
+    t: Librării care oferă componente și stilizări gata făcute.
+
+  - key: sections.css_frameworks_others.title
+    t: Alte framework-uri CSS
+
+  - key: sections.css_methodologies.title
+    t: Metodologii CSS
+  - key: sections.css_methodologies.description
+    t: Moduri codificate de a scrie CSS mai curat.
+
+  - key: sections.css_methodologies_others.title
+    t: Alte metodologii CSS.
+
+  - key: sections.css_in_js.title
+    t: CSS-in-JS
+  - key: sections.css_in_js.description
+    t: Librării care ajută la integrarea CSS în cod JavaScript.
+
+  - key: sections.css_in_js_others.title
+    t: Alte librării de tip CSS-in-JS.
+
+  - key: sections.tools_others.title
+    t: Alte instrumente
+  - key: sections.tools_others.description
+    t: Alte instrumente CSS.
+
+  - key: sections.environments.title
+    t: Medii
+  - key: sections.environments.description
+    t: Pentru ce medii scrii CSS?
+
+  - key: sections.usage_css.title
+    t: Utilizare CSS
+  - key: sections.usage_css.description
+    t: Cum folosești CSS.
+
+  - key: sections.resources_css.title
+    t: Resurse
+  - key: sections.resources_css.description
+    t: Ce resurse CSS consulți?
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # CSS for print
+  - key: options.css_for_print.0
+    t: Nu fac stilizări pentru versiuni tipărite (aproape) niciodată
+  - key: options.css_for_print.0.short
+    t: Niciodată
+
+  - key: options.css_for_print.1
+    t: Fac stilizări pentru versiuni tipărite ocazional
+  - key: options.css_for_print.1.short
+    t: Ocazional
+
+  - key: options.css_for_print.2
+    t: Fac stilizări pentru versiuni tipărite în majoritatea proiectelor
+  - key: options.css_for_print.2.short
+    t: Frecvent
+
+  - key: options.css_for_print.3
+    t: Mă concentrez în principal pe CSS pentru versiuni tipărite
+  - key: options.css_for_print.3.short
+    t: De cele mai multe ori
+
+  # CSS for email
+  - key: options.css_for_email.0
+    t: Nu scriu CSS pentru clienți de email (aproape) niciodată
+  - key: options.css_for_email.0.short
+    t: Niciodată
+
+  - key: options.css_for_email.1
+    t: Scriu CSS pentru clienți de email ocazional
+  - key: options.css_for_email.1.short
+    t: Ocazional
+
+  - key: options.css_for_email.2
+    t: Scriu CSS pentru clienți de email în majoritatea proiectelor
+  - key: options.css_for_email.2.short
+    t: Frecvent
+
+  - key: options.css_for_email.3
+    t: Mă concentrez în principal pe CSS pentru clienți de email
+  - key: options.css_for_email.3.short
+    t: De cele mai multe ori
+
+  # what do you use CSS for?
+  - key: options.what_do_you_use_css_for.marketing_sites
+    t: Site-uri de marketing & landing pages
+  - key: options.what_do_you_use_css_for.design_systems
+    t: Design systems
+  - key: options.what_do_you_use_css_for.blogs
+    t: Blog-uri sau alte site-uri cu mult conținut text
+  - key: options.what_do_you_use_css_for.web_apps
+    t: Aplicații web
+  - key: options.what_do_you_use_css_for.mobile_apps
+    t: Aplicații mobile
+  - key: options.what_do_you_use_css_for.css_art
+    t: Artă & ilustrații CSS
+  - key: options.what_do_you_use_css_for.emails
+    t: Email-uri
+  - key: options.what_do_you_use_css_for.printed_documents
+    t: Documente tipărite
+
+  # CSS pain points
+  - key: options.css_pain_points.browser_interoperability
+    t: Compatibilitate browser
+  - key: options.css_pain_points.browser_interoperability.description
+    t: Diferențe între Chrome, Safari, Firefox etc.
+  - key: options.css_pain_points.interactions
+    t: Interacțiuni
+  - key: options.css_pain_points.interactions.description
+    t: Răspuns la input-ul utilizatorului sau la alte evenimente (scroll, hover etc.).
+  - key: options.css_pain_points.architecture
+    t: Arhitectură & mentenanță
+  - key: options.css_pain_points.architecture.description
+    t: Organizarea fișierelor, eliminarea codului nefolosit, refactorizarea etc.
+  - key: options.css_pain_points.layout_positioning
+    t: Layout & poziționare
+  - key: options.css_pain_points.layout_positioning.description
+    t: Configurarea layout-urilor și asigurarea că elementele sunt poziționate în locul dorit.
+  - key: options.css_pain_points.scoping_specificity
+    t: Scoping & specificitate
+  - key: options.css_pain_points.scoping_specificity.description
+    t: Confruntarea cu cascadarea, suprascrierea stilizărilor etc.
+  - key: options.css_pain_points.responsive_design
+    t: Responsive Design
+  - key: options.css_pain_points.responsive_design.description
+    t: Adaptarea layout-urilor și a design-ului la diferiți factori de formă.
+  - key: options.css_pain_points.form_elements_styling
+    t: Stilizarea elementelor de formular
+  - key: options.css_pain_points.form_elements_styling.description
+    t: Personalizarea modului în care arată și se comportă elementele din formulare.
+  - key: options.css_pain_points.performance_issues
+    t: Probleme de performanță
+  - key: options.css_pain_points.performance_issues.description
+    t: Confruntarea cu scrolling jank, crearea animațiilor fluide etc.
+
+  # CSS missing features (same as features section)
+  - key: options.css_missing_features.nesting
+    t: Nesting
+  - key: options.css_missing_features.nesting.description
+    t: Being able to nest styles in native CSS.
+  - key: options.css_missing_features.parent_selector
+    t: Selectorul părinte
+  - key: options.css_missing_features.parent_selector.description
+    t: Posibilitatea de a selecta un părinte pe baza copiilor săi.
+  - key: options.css_missing_features.browser_support
+    t: Suport pentru browsere
+  - key: options.css_missing_features.browser_support.description
+    t: Suport mai bun al funcționalităților existente pe browsere.
+  - key: options.css_missing_features.mixins
+    t: Mixins
+  - key: options.css_missing_features.mixins.description
+    t: Gruparea și reutilizarea definițiilor în mod dinamic.
+  - key: options.css_missing_features.color_functions
+    t: Color Functions
+  - key: options.css_missing_features.color_functions.description
+    t: Funcții de manipulare a valorilor de culoare.
+  - key: options.css_missing_features.container_queries
+    t: Container Queries
+  - key: options.css_missing_features.container_queries.description
+    t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
+  - key: options.css_missing_features.scoping
+    t: Scoping
+  - key: options.css_missing_features.scoping.description
+    t: Posibilitatea de a fi mai specific în privința locului în care sunt aplicate stilizările.
+  - key: options.css_missing_features.subgrid
+    t: Subgrid
+  - key: options.css_missing_features.subgrid.description
+    t: Nesting deeper-level subgrids into a parent grid.
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # layout
+  - key: features.regions
+    t: CSS Regions
+  - key: features.multi_column
+    t: CSS Multi-Column
+  - key: features.writing_modes
+    t: CSS Writing Modes
+  - key: features.exclusions
+    t: CSS Exclusions
+
+  - key: features.flexbox_gap
+    t: „Proprietatea `gap` pentru flexbox”
+
+  # shapes & graphics
+  - key: features.shapes
+    t: CSS Shapes
+  - key: features.masks
+    t: CSS Masks
+  - key: features.blend_modes
+    t: Blend Modes
+  - key: features.filter_effects
+    t: CSS Filter Effects
+
+  - key: features.intrinsic_sizing
+    t: Dimensionare intrinsecă
+
+  # typography
+  - key: features.web_fonts
+    t: Fonturi web (@font-face)
+  - key: features.variable_fonts
+    t: Fonturi variabile
+  - key: features.line_breaking
+    t: Proprietăți pentru Line-Breaking
+  - key: features.direction.description
+    t: Include și atributul HTML <code>dir</code>.
+
+  # animations & transforms
+  - key: features.transitions
+    t: Tranziții CSS
+  - key: features.transforms
+    t: Transformări CSS
+  - key: features.animations
+    t: Animații CSS
+
+  # media queries/accessibility
+  - key: features.tabindex
+    t: Atributul HTML <code>tabindex</code>
+
+  - key: features.aria_attributes
+    t: Atributele ARIA HTML
+  - key: features.aria_attributes.description
+    t: <code>role</code>, <code>aria-label</code> etc.
+
+  # other features
+  - key: features.variables
+    t: Variabile CSS (proprietăți personalizate)
+  - key: features.containment
+    t: CSS Containment
+  - key: features.comparison_functions
+    t: Funcții CSS de comparare
+
+  - key: features.css_nesting.description
+    t: Nesting CSS nativ, excluzând pre- sau post-procesatoarele.
+
+  # missing features (see also options)
+  - key: features.nesting
+    t: Nesting
+  - key: features.nesting.description
+    t: Being able to nest styles in native CSS.
+  - key: features.parent_selector
+    t: Selector pentru părinte
+  - key: features.parent_selector.description
+    t: Posibilitatea de a selecta un element părinte pe baza copiilor acestuia.
+  - key: features.browser_support
+    t: Suport pentru browser
+  - key: features.browser_support.description
+    t: Suport mai bun pentru browser în cazul funcționalităților existente.
+  - key: features.mixins
+    t: Mixins
+  - key: features.mixins.description
+    t: Gruparea și reutilizarea definițiilor în mod dinamic.
+  - key: features.color_functions
+    t: Funcții de culoare
+  - key: features.color_functions.description
+    t: Funcții pentru manipularea valorilor de culoare.
+  - key: features.container_queries
+    t: Query-uri de container
+  - key: features.container_queries.description
+    t: Posibilitatea de a aplica stilizări pe baza dimensiunilor containerului părinte.
+  - key: features.scoping
+    t: Scoping
+  - key: features.scoping.description
+    t: Posibilitatea de a fi mai specific cu privire la locul în care aplici stilizări.
+
+  ###########################################################################
+  # Units & Selectors
+  ###########################################################################
+
+  - key: features_others.units
+    t: Unități
+  - key: features_others.units.description
+    t: Pe care dintre aceste unități CSS le-ai folosit?
+
+  - key: options.units.px
+    t: px
+  - key: options.units.pt
+    t: pt
+  - key: options.units.percent
+    t: "%"
+  - key: options.units.em
+    t: em
+  - key: options.units.rem
+    t: rem
+  - key: options.units.vh_vw
+    t: vh, vw
+  - key: options.units.vmin_vmax
+    t: vmin, vmax
+  - key: options.units.ch
+    t: ch
+  - key: options.units.ex
+    t: ex
+  - key: options.units.mm
+    t: mm
+  - key: options.units.cm
+    t: cm
+  - key: options.units.in
+    t: in
+
+  - key: features_others.pseudo_elements
+    t: Pseudo-elemente
+  - key: features_others.pseudo_elements.description
+    t: Pe care dintre aceste pseudo-elemente CSS le-ai folosit?
+
+  - key: options.pseudo_elements.before
+    t: "::before"
+  - key: options.pseudo_elements.after
+    t: "::after"
+  - key: options.pseudo_elements.first_line
+    t: "::first-line"
+  - key: options.pseudo_elements.first_letter
+    t: "::first-letter"
+  - key: options.pseudo_elements.selection
+    t: "::selection"
+  - key: options.pseudo_elements.placeholder
+    t: "::placeholder"
+  - key: options.pseudo_elements.marker
+    t: "::marker"
+  - key: options.pseudo_elements.backdrop
+    t: "::backdrop"
+
+  - key: features_others.combinators
+    t: Combinatoare
+  - key: features_others.combinators.description
+    t: Pe care dintre aceste combinații de selectori CSS le-ai folosit?
+
+  - key: options.combinators.descendant
+    t: div span (descendent)
+  - key: options.combinators.child
+    t: div > span (copil)
+  - key: options.combinators.next_sibling
+    t: div + div (următorul frate)
+  - key: options.combinators.subsequent_sibling
+    t: div ~ div (următorii frați)
+
+  - key: features_others.tree_document_structure
+    t: Structura de tip arbore / document
+  - key: features_others.tree_document_structure.description
+    t: Pe care dintre acești selectori CSS de structură i-ai folosit?
+
+  - key: options.tree_document_structure.root
+    t: :root
+  - key: options.tree_document_structure.empty
+    t: :empty
+  - key: options.tree_document_structure.not
+    t: :not()
+  - key: options.tree_document_structure.nth_child
+    t: :nth-child()
+  - key: options.tree_document_structure.nth_last_child
+    t: :nth-last-child()
+  - key: options.tree_document_structure.first_child
+    t: :first-child
+  - key: options.tree_document_structure.last_child
+    t: :last-child
+  - key: options.tree_document_structure.only_child
+    t: :only-child
+  - key: options.tree_document_structure.nth_of_type
+    t: :nth-of-type()
+  - key: options.tree_document_structure.nth_last_of_type
+    t: :nth-last-of-type()
+  - key: options.tree_document_structure.first_of_type
+    t: :first-of-type
+  - key: options.tree_document_structure.last_of_type
+    t: :last-of-type
+  - key: options.tree_document_structure.only_of_type
+    t: :only-of-type
+  - key: options.tree_document_structure.lang
+    t: :lang()
+  - key: options.tree_document_structure.is
+    t: :is()
+  - key: options.tree_document_structure.where
+    t: :where()
+  - key: options.tree_document_structure.has
+    t: :has()
+
+  - key: features_others.attributes
+    t: Atribute
+  - key: features_others.attributes.description
+    t: Pe care dintre aceste atribute CSS le-ai folosit?
+
+  - key: options.attributes.presence
+    t: div[foo] (prezență)
+  - key: options.attributes.equality
+    t: div[foo="bar"] (egalitate)
+  - key: options.attributes.starts_with
+    t: div[foo^="bar"] (începe cu)
+  - key: options.attributes.ends_with
+    t: div[foo$="bar"] (se termină cu)
+  - key: options.attributes.contains_word
+    t: div[foo~="bar"] (conține cuvântul)
+  - key: options.attributes.contains_substring
+    t: div[foo*="bar"] (conține substring-ul)
+
+  - key: features_others.links_urls
+    t: Link-uri/URL-uri
+  - key: features_others.links_urls.description
+    t: Pe care dintre acești selectori CSS pentru URL-uri și link-uri i-ai folosit?
+
+  - key: options.links_urls.any_link
+    t: :any-link
+  - key: options.links_urls.link_visited
+    t: :link și :visited
+  - key: options.links_urls.local_link
+    t: :local-link
+  - key: options.links_urls.target
+    t: :target
+
+  - key: features_others.interaction
+    t: Interacțiuni
+  - key: features_others.interaction.description
+    t: Pe care dintre acești selectori CSS de interacțiune i-ai folosit?
+
+  - key: options.interaction.hover
+    t: :hover
+  - key: options.interaction.active
+    t: :active
+  - key: options.interaction.focus
+    t: :focus
+  - key: options.interaction.focus_within
+    t: :focus-within
+  - key: options.interaction.focus_visible
+    t: :focus-visible
+
+  - key: features_others.form_controls
+    t: Controale pentru formulare
+  - key: features_others.form_controls.description
+    t: Pe care dintre acești selectori CSS pentru formulare i-ai folosit?
+
+  - key: options.form_controls.enabled_disabled
+    t: :enabled și :disabled
+  - key: options.form_controls.read_only_write
+    t: :read-only și :read-write
+  - key: options.form_controls.placeholder_shown
+    t: :placeholder-shown
+  - key: options.form_controls.default
+    t: :default
+  - key: options.form_controls.checked
+    t: :checked
+  - key: options.form_controls.indeterminate
+    t: :indeterminate
+  - key: options.form_controls.valid_invalid
+    t: :valid și :invalid
+  - key: options.form_controls.user_invalid
+    t: :user-invalid
+  - key: options.form_controls.in_out_range
+    t: :in-range și :out-of-range
+  - key: options.form_controls.required_optional
+    t: :required și :optional
+
+  # slider
+  - key: options.css_js_balance.0
+    t: 100% CSS
+  - key: options.css_js_balance.4
+    t: 50%/50%
+  - key: options.css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Environments
+  ###########################################################################
+
+  - key: environments.browsers
+    t: Browsere
+  - key: environments.browsers.description
+    t: Ce browsere folosești pentru testare?
+
+  - key: environments.form_factors
+    t: Form Factors
+  - key: environments.form_factors.description
+    t: Ce form factors folosești pentru testare?
+  - key: environments.form_factors.others
+    t: Alte medii de testare
+  - key: environments.form_factors.others.description
+    t: Alți form factors sau medii pe care testezi de obicei.
+
+  - key: environments.accessibility_features
+    t: Funcționalități de accesibilitate
+  - key: environments.accessibility_features.description
+    t: Ce funcționalități de accesibilitate implementezi de obicei?
+  - key: environments.accessibility_features.others
+    t: Alte funcționalități de accesibilitate
+  - key: environments.accessibility_features.others.description
+    t: Alte funcționalități de accesibilitate pe care le implementezi de obicei
+
+  - key: environments.css_for_print
+    t: CSS pentru versiuni tipărite
+  - key: environments.css_for_print.description
+    t: Folosești stilizări pentru versiuni tipărite?
+
+  - key: environments.css_for_email
+    t: CSS pentru clienți de email
+  - key: environments.css_for_email.description
+    t: Scrii CSS pentru clienți de email?
+
+  - key: environments.what_do_you_use_css_for
+    t: Pentru ce folosești CSS de obicei?
+  - key: environments.what_do_you_use_css_for.description
+    t: De obicei, pentru ce tip de proiect folosești CSS?
+  - key: environments.what_do_you_use_css_for.others
+    t: Alte tipuri de proiecte
+
+  - key: charts.axis_legends.css_for_print
+    t: Frecvență
+  - key: charts.axis_legends.css_for_email
+    t: Frecvență
+
+  - key: tools_others.tool_evaluation
+    t: Evaluarea librăriei
+  - key: tools_others.tool_evaluation.description
+    t: Pentru fiecare pereche, alege factorul pe care îl prioritizezi atunci când evaluezi o nouă librărie.
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.css_easy_to_learn
+    t: CSS-ul este ușor de învățat
+  - key: opinions.css_easy_to_learn.title
+    t: Curbă de învățare
+
+  - key: opinions.css_evolving_slowly
+    t: CSS-ul evoluează prea încet
+  - key: opinions.css_evolving_slowly.title
+    t: Rata de schimbare
+
+  - key: opinions.utility_classes_to_be_avoided
+    t: Clasele (.center, .large-text etc.) utilitare (non-semantice) ar trebui evitate
+  - key: opinions.utility_classes_to_be_avoided.title
+    t: Clase non-semantice
+
+  - key: opinions.selector_nesting_to_be_avoided
+    t: Nesting-ul selectorilor (.foo .bar ul li {...}) ar trebui evitat
+  - key: opinions.selector_nesting_to_be_avoided.title
+    t: Nesting-ul selectorilor
+
+  - key: opinions.css_is_programming_language
+    t: CSS-ul este un limbaj de programare
+  - key: opinions.css_is_programming_language.title
+    t: Limbaj de programare
+
+  - key: opinions.enjoy_writing_css
+    t: Îmi place să scriu CSS
+  - key: opinions.enjoy_writing_css.title
+    t: Mulțumire
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Incompatibilități pe browsere
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Există funcționalități CSS cu care întâmpini dificultăți (sau pe care le eviți)
+      din cauza lipsei de suport sau a diferențelor dintre browsere?
+
+  - key: usage.interoperability_features_freeform.others
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform.others.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  # Pain Points
+  - key: opinions.css_pain_points
+    t: Puncte slabe în CSS
+  - key: opinions.css_pain_points.description
+    t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în CSS.
+
+  - key: usage.other_pain_points_freeform.others
+    t: Alte puncte slabe referitoare la scrierea CSS?
+
+  - key: opinions_others.css_pain_points.others
+    t: Alte puncte slabe în CSS
+
+  # Interop 2023
+  - key: usage.interop_features
+    t: Roadmap Interop 2023
+  - key: usage.interop_features.description
+    t: Pe care dintre aceste funcționalități ți-ai dori cel mai mult să le îmbunătățească furnizorii de browsere? (alege 3)
+  - key: usage.interop_features.note
+    t: >
+      [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) este un efort comun al furnizorilor de browsere pentru a remedia problemele și incompatibilitățile. Rezultatele acestui sondaj vor fi luate în considerare drept date care ajută grupul de lucru să prioritizeze zonele de interes.
+
+  # Missing Features
+  - key: opinions.css_missing_features
+    t: Ce simți că lipsește în CSS în acest moment?
+  - key: opinions.css_missing_features.description
+    t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
+
+  - key: usage.missing_features_freeform.others
+    t: Ce funcționalități crezi că lipsesc în prezent din CSS?
+
+  - key: opinions_others.css_missing_features.others
+    t: Alte funcționalități care lipsesc
+  # - key: opinions_others.css_missing_features.others.note
+  #   t: >
+  #     Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
+  #     Pentru a vedea răspunsurile brute, neprocesate, consultă [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+
+  - key: opinions.sum_up_one_word_css
+    t: CSS într-un cuvânt
+  - key: opinions.sum_up_one_word_css.description
+    t: Cum ai rezuma părerea ta despre CSS într-un singur cuvânt?
+
+  - key: happiness.pre_post_processors
+    t: Cât de mulțumit(ă) ești de pre-/post-procesoare?
+  - key: happiness.css_in_js
+    t: Cât de mulțumit(ă) ești de starea librăriilor CSS-in-JS?
+  - key: happiness.css_frameworks
+    t: Cât de mulțumit(ă) ești de framework-urile CSS?
+
+  - key: happiness.state_of_the_web
+    t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
+
+  - key: happiness.state_of_css
+    t: Cât de mulțumit(ă) ești de starea generală a CSS?
+
+  # pain points/currently missing (results)
+  - key: css_pain_points.css_pain_points_wins
+    t: Puncte dureroase în CSS
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Care dintre aspectele CSS îți dă cele mai multe bătăi de cap? Rezultatele sunt clasificate în funcție de numărul de runde câștigate.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Puncte dureroase în CSS (Confruntări)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Cu care dintre aspectele CSS te lupți cel mai des? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+  - key: css_missing_features.css_missing_features_wins
+    t: Funcționalități care lipsesc în CSS
+  - key: css_missing_features.css_missing_features_wins.description
+    t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Rezultatele sunt clasificate după numărul de runde câștigate.
+
+  - key: css_missing_features.css_missing_features_matchups
+    t: Funcționalități care lipsesc în CSS (Confruntări)
+  - key: css_missing_features.css_missing_features_matchups.description
+    t: Ce funcționalitate ți-ai dori cel mai mult să poți folosi în CSS astăzi? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+  - key: usage.css_js_balance
+    t: Raportul CSS vs JavaScript
+  - key: usage.css_js_balance.description
+    t: Cum îți împarți timpul între scrierea codului CSS (incluzând HTML) și cea a codului JavaScript?
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_css
+    t: Primii pași în CSS
+  - key: resources.first_steps_css.description
+    t: Cum ai învățat CSS atunci când erai la început de drum?
+
+  # sites & courses
+  - key: resources.sites_courses_css
+    aliasFor: resources.sites_courses
+  - key: resources.sites_courses_css.description
+    t: Ce site-uri/cursuri/etc. referitoare la CSS folosești pentru a învăța?
+
+  # podcasts
+  - key: resources.podcasts_css
+    aliasFor: resources.podcasts
+  - key: resources.podcasts_css.description
+    t: Ce podcast-uri legate de CSS asculți?
+
+  # people
+  - key: resources.people_css.others
+    aliasFor: resources.people.others
+  - key: resources.people_css.others.description
+    t: Persoane pe care le citești, urmărești sau pe care dorești să le scoți în evidență pentru munca lor în ecosistemul CSS.
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      Bun venit la sondaj! În această primă parte ne propunem să aflăm  
+      ce **funcționalități** CSS cunoști. 
+
+      Apropo, dacă vrei să ne spui mai multe despre oricare dintre alegerile tale, trebuie doar să dai click pe acel mic icon de „comentariu”!
+  - key: tools.tools_intro_css
+    t: |
+      Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** din care este format 
+      ecosistemul CSS. Spune-ne ce te entuziasmează!
