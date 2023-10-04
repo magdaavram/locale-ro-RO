@@ -18,7 +18,7 @@ translations:
       - A salva sesiunea pe măsură ce completezi
 
       - A te notifica atunci când publicăm rezultatele
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Ne pare rău, sondajul a luat sfârșit! Poți în continuare să verifici răspunsurile tale, dar nu vei putea să le modifici.
   - key: general.survey_read_only

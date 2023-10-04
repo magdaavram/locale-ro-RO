@@ -1,76 +1,75 @@
 locale: ro-RO
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Dezvoltat în Japonia.
-    - key: homepage.leave_issue
-      t: Deschide un issue
-    - key: homepage.get_in_touch
-      t: Contactează-ne
+  - key: homepage.hand_coded
+    t: Dezvoltat în Japonia.
+  - key: homepage.leave_issue
+    t: Deschide un issue
+  - key: homepage.get_in_touch
+    t: Contactează-ne
 
-    - key: homepage.previous_years
-      t: 'Anii trecuți:'
+  - key: homepage.previous_years
+    t: "Anii trecuți:"
 
-    - key: homepage.take_survey
-      t: Participă la sondaj
+  - key: homepage.take_survey
+    t: Participă la sondaj
 
-    - key: homepage.view_results
-      t: Vezi rezultatele
+  - key: homepage.view_results
+    t: Vezi rezultatele
 
-    - key: share.help_spread
-      t: Ajută-ne să ducem vestea mai departe!
+  - key: share.help_spread
+    t: Ajută-ne să ducem vestea mai departe!
 
-    - key: homepage.other_surveys
-      t: 'Alte sondaje:'
+  - key: homepage.other_surveys
+    t: "Alte sondaje:"
 
-    - key: homepage.survey_open_now
-      t: Momentan deschise
+  - key: homepage.survey_open_now
+    t: Momentan deschise
 
-    - key: homepage.survey_preview
-      t: Previzualizează sondaj
+  - key: homepage.survey_preview
+    t: Previzualizează sondaj
 
-    - key: homepage.most_recent_survey
-      t: Cel mai recent
+  - key: homepage.most_recent_survey
+    t: Cel mai recent
 
-    - key: homepage.current_survey
-      t: Sondaj curent
+  - key: homepage.current_survey
+    t: Sondaj curent
 
-    - key: homepage.past_surveys
-      t: Sondaje anterioare
+  - key: homepage.past_surveys
+    t: Sondaje anterioare
 
-    - key: homepage.view_questions
-      t: Vezi întrebările
+  - key: homepage.view_questions
+    t: Vezi întrebările
 
-    - key: homepage.preview_questions
-      t: Previzualizează întrebările
+  - key: homepage.preview_questions
+    t: Previzualizează întrebările
 
-    # newsletter
-    - key: newsletter.stay_tuned
-      t: Nu rata următorul sondaj
-    - key: newsletter.leave_your_email
-      t: Lasă-ne adresa de email și te vom anunța atunci când va avea loc următorul sondaj.
-    - key: newsletter.email
-      t: Adresa ta de email
-    - key: newsletter.submit
-      t: Notifică-mă
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Nu rata următorul sondaj
+  - key: newsletter.leave_your_email
+    t: Lasă-ne adresa de email și te vom anunța atunci când va avea loc următorul sondaj.
+  - key: newsletter.email
+    t: Adresa ta de email
+  - key: newsletter.submit
+    t: Notifică-mă
 
-    # languages
-    - key: languages.available_languages
-      t: 'Traduceri disponibile:'
-    - key: languages.help_us_translate
-      t: Ajută-ne să traducem sondajul în limba ta →
+  # languages
+  - key: languages.available_languages
+    t: "Traduceri disponibile:"
+  - key: languages.help_us_translate
+    t: Ajută-ne să traducem sondajul în limba ta →
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: Cu sprijinul [Astro](https://astro.build/)
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Cu sprijinul [Astro](https://astro.build/)
