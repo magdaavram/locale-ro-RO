@@ -349,11 +349,11 @@ translations:
       Un repo Git cu toate propunerile de îmbunătățiri în JavaScript. Este foarte distractiv să citești toate ideile pe 
       care oamenii le au pentru limbaj și să le vezi trecând de la o etapă la alta.
 
-  - key: picks.scott_tolinkski.name
+  - key: picks.scott_tolinski.name
     t: SvelteKit
-  - key: picks.scott_tolinkski.bio
+  - key: picks.scott_tolinski.bio
     t: Creator al Level-Up Tuts, co-host al Syntax
-  - key: picks.scott_tolinkski.description
+  - key: picks.scott_tolinski.description
     t: |
       Svelte Kit oferă experiența uimitoare a lui Svelte, cu toate 
       funcționalitățile moderne pe care le aștepți de la o platformă web.

@@ -5,6 +5,12 @@ translations:
     # General
     ###########################################################################
 
+    - key: general.state_of_graphql.intro
+      t: |
+        Începând cu momentul în care a fost creat de Facebook în septembrie 2015, mulți programatori au adoptat GraphQL drept o nouă și promițătoare modalitate de a construi API-uri.  
+        Cu toate astea, rămân o mulțime de întrebări: când mai exact ai nevoie de GraphQL? Ar trebui să configurezi manual API-ul GraphQL sau să-l generezi din baza de date? Va înlocui vreodată REST?
+        Sondajul anual State of GraphQL își propune să răspundă la aceste întrebări și la multe altele!
+
     - key: general.state_of_graphql.description
       t: Sondajul anual al programatorilor cu privire la ecosistemul GraphQL
     ###########################################################################
@@ -259,12 +265,12 @@ translations:
     - key: usage.code_generation_target.others
       t: Alte code generation targets
 
-    - key: usage.industry_sector
-      t: Industrii
-    - key: usage.industry_sector.description
+    - key: usage.industry_sector_graphql
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_graphql.description
       t: În ce industrii folosești GraphQL?
-    - key: usage.industry_sector.others
-      t: Alte industrii
+    - key: usage.industry_sector_graphql.others
+      aliasFor: usage.industry_sector.others
 
     - key: usage.graphql_strong_points
       t: Puncte forte în GraphQL

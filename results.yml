@@ -52,16 +52,15 @@ translations:
   - key: tabs.by_degree
     t: După studii
   - key: tabs.by_salary
-    t: După salariu
+    t: După venit
   - key: tabs.by_gender
     t: După gen
-
-  ###########################################################################
-  # Block
-  ###########################################################################
-
-  - key: block.data_from
-    t: foo
+  - key: tabs.by_race_ethnicity
+    t: După rasă & etnie
+  - key: tabs.low_vs_high_income
+    t: Venit scăzut vs ridicat
+  - key: tabs.usa_vs_the_world
+    t: U.S. vs restul lumii
 
   ###########################################################################
   # Options
@@ -137,7 +136,7 @@ translations:
   - key: ranges.selector.years_of_experience
     t: Experiență
   - key: ranges.selector.yearly_salary
-    t: Salariu
+    t: Venit
   - key: ranges.selector.company_size
     t: Dimensiunea companiei
 
@@ -148,6 +147,13 @@ translations:
     t: Forumuri
   - key: options.first_steps.view_source
     t: Vezi sursa
+
+  - key: options.first_steps.copy_paste
+    t: Copiază/lipește
+  - key: options.first_steps.trial_and_error
+    t: Încercare & Eroare
+  - key: options.first_steps.documentation
+    t: Documentație
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -174,6 +180,20 @@ translations:
     t: Diabet
   - key: options.disability_status_others.carpal_tunnel
     t: Sindrom de tunel carpian
+  - key: options.disability_status_others.migraine
+    t: Migrene
+  - key: options.disability_status_others.speech_impairment
+    t: Deficiențe de vorbire
+  - key: options.disability_status_others.ocd
+    t: Tulburare obsesiv-compulsivă (OCD)
+  - key: options.disability_status_others.chronic_pain
+    t: Durere cronică
+  - key: options.disability_status_others.chronic_fatigue
+    t: Oboseală cronică
+  - key: options.disability_status_others.crohn
+    t: Boala Crohn
+  - key: options.disability_status_others.depression
+    t: Depresie
 
   ###########################################################################
   # Sections
@@ -235,7 +255,13 @@ translations:
   - key: user_info.source.description
     t: Cum au aflat respondenții despre sondaj?
   - key: user_info.source.note
-    t: Aceste date sunt o combinație de răspunsuri auto-raportate, date de referință și date de urmărire a adreselor URL.
+    t: Sursa respondenților este calculată pe baza datelor referrer, a datelor obținute prin URL tracking și a răspunsurilor auto-raportate.
+
+  - key: user_info.source_by_gender
+    t: Sursă după gen
+
+  - key: user_info.source_by_race_ethnicity
+    t: Sursă după rasă & etnie
 
   - key: user_info.gender_by_country
     t: Gen în funcție de țară
@@ -246,6 +272,16 @@ translations:
     t: Experiență în funcție de intervalul salarial
   - key: user_info.years_of_experience_by_salary.description
     t: Ani de experiență în funcție de intervalul salarial.
+
+  - key: user_info.average_income_by_years_of_experience
+    t: Venit mediu în funcție de anii de experiență
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Venit mediu în funcție de anii de experiență.
+
+  - key: user_info.average_income_by_company_size
+    t: Venit mediu în funcție de dimensiunea companiei
+  - key: user_info.average_income_by_company_size.description
+    t: Venit mediu în funcție de dimensiunea companiei.
 
   - key: user_info.yearly_salary_by_country
     t: Salariu în funcție de țară
@@ -261,6 +297,10 @@ translations:
     t: Salariu după experiență
   - key: user_info.yearly_salary_by_experience.description
     t: Distribuția salariului anual în funcție de experiență, sortat descrescător după salariul median.
+
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Venit anual: U.S vs restul lumii
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Rasă și etnie în funcție de experiență
@@ -322,6 +362,22 @@ translations:
     t: Coreeană
   - key: options.locale.ro-RO
     t: Română
+  - key: options.locale.am-ET
+    t: Amhară
+  - key: options.locale.ar-EG
+    t: Arabă
+  - key: options.locale.el-GR
+    t: Greacă
+  - key: options.locale.gl-ES
+    t: Galiciană
+  - key: options.locale.hr-HR
+    t: Croată
+  - key: options.locale.hu-HU
+    t: Maghiară
+  - key: options.locale.sk-SK
+    t: Slovacă
+  - key: options.locale.vi-VN
+    t: Vietnameză
 
   ###########################################################################
   # Features
@@ -391,6 +447,28 @@ translations:
     t: Pagina principală
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: Nume
+  - key: blocks.people.social_links
+    t: Link-uri
+  - key: blocks.people.responses
+    t: Răspunsuri
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
@@ -409,7 +487,7 @@ translations:
     t: Modificări în timp
   - key: blocks.tools_arrows.description
     t: |
-        Fiecare linie acoperă intervalul 2016-2020. Cu cât punctul e poziționat mai sus, cu atât tehnologia este mai folosită,
+        Fiecare linie acoperă intervalul de la cel mai vechi până la cel mai recent an de date disponibile. Cu cât punctul e poziționat mai sus, cu atât tehnologia este mai folosită,
         iar cu cât acesta e poziționat mai în dreapta, cu atât crește dorința utilizatorilor de a învăța tehnologia respectivă; sau au folosit-o și ar folosi-o din nou.
   - key: blocks.tools_arrows.note
     t: |
@@ -488,6 +566,10 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: Topuri de-a lungul timpului
+  - key: blocks.tools_experience_ranking.percentages
+    t: Procente
+  - key: blocks.tools_experience_ranking.rankings
     t: Topuri
   - key: blocks.tools_experience_ranking.description
     t: Topuri cu privire la rata de retenție, interes, utilizare și conștientizare.
@@ -499,6 +581,14 @@ translations:
       - Interes: **mi-ar plăcea să învăț** / (**mi-ar plăcea să învăț** + **nu sunt interesat(ă)**)
       - Utilizare: (**aș folosi din nou** + **nu aș mai folosi**) / **total**
       - Conștientizare: (**total** - **n-am auzit niciodată despre asta**) / **total**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Rate de-a lungul timpului
+  - key: blocks.tools_experience_linechart.description
+    t: Rată de retenție, interes, utilizare și conștientizare de-a lungul timpului.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
@@ -528,7 +618,26 @@ translations:
       Dimensiunea **cercului exterior** corespunde numărului total de utilizatori care au auzit despre funcționalitate (respondenți care au răspuns **știu despre** sau **am folosit**), 
       iar **cercul interior** îi reprezintă pe cei care au folosit-o (respondenții care au răspuns **am folosit**).
 
-      Fă hover peste fiecare pentru a vedea mai multe detalii, inclusiv raportul dintre cele două valori. 
+      Fă hover peste fiecare pentru a vedea mai multe detalii, inclusiv raportul dintre cele două valori.
+
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Rate de-a lungul timpului
+  - key: blocks.features_experience_linechart.description
+    t: Rate de utilizare și de conștientizare de-a lungul timpului pentru funcționalitățile cu cel mai mare scor.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Fiecare rată este definită după cum urmează:
+
+      - Utilizare: (**am folosit**) / **total**
+      - Conștientizare: (**am folosit** + **știu despre**) / **total**
+
+  - key: blocks.features_experience_ranking
+    t: Topuri de-a lungul timpului
+  - key: blocks.features_experience_ranking.description
+    t: Topul utilizării și al conștientizării de-a lungul timpului.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
@@ -563,13 +672,13 @@ translations:
     t: Personalizează datele
   - key: custom_data.details
     t: >
-        1. Copiază conținutul câmpului „GraphQL Query” și introdu-l în panelul din mijloc al [explorer-ului GraphQL API](https://graphiql.stateofjs.com/).
-        
-        2. Modifică query-ul adăugând unul sau mai multe **filtre** folosind explorer-ul din partea stângă. Asigură-te că păstrezi aceeași structură generală a datelor.
-        
-        3. Dă click pe butonul de Play („Execute Query”) din fereastra explorer.
-        
-        4. Copiază rezultatele query-ului modificat (`{ data: … }` ) în câmpul „Custom Data” și dă click pe „Customize Data”.
+      1. Copiază conținutul câmpului „GraphQL Query” și introdu-l în panelul din mijloc al [explorer-ului GraphQL API](https://graphiql.stateofjs.com/).
+      
+      2. Modifică query-ul adăugând unul sau mai multe **filtre** folosind explorer-ul din partea stângă. Asigură-te că păstrezi aceeași structură generală a datelor.
+      
+      3. Dă click pe butonul de Play („Execute Query”) din fereastra explorer.
+      
+      4. Copiază rezultatele query-ului modificat (`{ data: … }` ) în câmpul „Custom Data” și dă click pe „Customize Data”.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -593,6 +702,8 @@ translations:
   # Recommended Resources
   - key: blocks.recommended_resources
     t: Resurse recomandate
+  - key: blocks.recommended_events
+    t: Evenimente recomandate
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
@@ -604,6 +715,21 @@ translations:
     t: Topul evaluării librăriilor (Confruntări)
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Ce prioritizați atunci când evaluați o nouă librărie? Procentul de runde câștigate de elementul din partea stângă față de cel din partea de sus.
+
+  # other
+  - key: blocks.freeform
+    t: (întrebare deschisă)
+
+  # Reading List
+  - key: features.reading_list
+    t: Lista de lectură
+  - key: features.reading_list.description
+    t: Câți respondenți au adăugat fiecare element în lista lor de lectură?
+  - key: features.reading_list.note
+    t: >
+      Funcția “Lista de lectură” le permite respondenților să salveze în timp ce completează 
+      sondajul elemente despre care vor să afle mai multe; la finalul sondajului le este oferită 
+      o listă cu resurse utile.
 
   ###########################################################################
   # Charts
@@ -617,11 +743,26 @@ translations:
     t: Număr
   - key: chart_units.percentage_question
     t: "% din respondenții la întrebare"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
     t: "% din respondenții sondajului"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "% din bucket"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: Media {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+
+  - key: chart_units.percentilesByFacet
+    t: "{axis} percentilă (percentiles)"
 
   - key: charts.average
-    t: Medie
+    t: Medie {axis}
   - key: charts.mean
     t: Mediană
   - key: charts.overall
@@ -629,14 +770,14 @@ translations:
   - key: charts.all_respondents
     t: Toți respondenții
   - key: charts.facet_responses
-    t: '{count} răspunsuri'
+    t: "{count} răspunsuri"
 
   - key: charts.axis_legends.years_of_experience
     t: Ani de experiență
   - key: charts.axis_legends.yearly_salary
     t: Interval salarial (USD)
   - key: charts.axis_legends.company_size
-    t: Număr de angajați
+    t: Dimensiunea organizației
   - key: charts.axis_legends.backend_proficiency
     t: Experiență în Back-end
   - key: charts.axis_legends.css_proficiency
@@ -647,6 +788,8 @@ translations:
     t: Procent din utilizatori
   - key: charts.axis_legends.users_count
     t: Număr de utilizatori
+  - key: charts.axis_legends.users_average
+    t: Media {axis}
   - key: charts.axis_legends.interest_percentage
     t: Rată de interes %
   - key: charts.axis_legends.satisfaction_percentage
@@ -675,8 +818,21 @@ translations:
     t: Vârstă
   - key: charts.axis_legends.users_percentage_survey
     t: "% din respondenții sondajului"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
     t: "% din respondenții la întrebare"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% respondenți din bucket"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: punct de plecare
@@ -720,6 +876,45 @@ translations:
 
   - key: charts.no_answer
     t: Nici un răspuns
+  - key: charts.no_answer.short
+    t: Nici un răspuns
+
+  - key: charts.other_answers
+    t: Altele
+  - key: charts.other_answers.short
+    t: Altele
+
+  - key: charts.tick.links
+    t: Link-uri
+
+  - key: charts.resources
+    t: Link-uri utile
+
+  - key: charts.facets_clarification
+    t: >
+      De reținut că procentele afișate anterior sunt influențate de cât de mulți respondenți 
+      aparțin fiecărui grup.
+
+  - key: charts.average_clarification
+    t: >
+      De reținut că mediile sunt calculate luând valoarea de mijloc a fiecărui interval drept valoare reprezentativă aproximativă.
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Comentarii
+  - key: comments.comments_for
+    t: Comentarii la “{name}”
+  - key: comments.description
+    t: |
+      Aceste comentarii au fost obținute ca parte a sondajului,  
+      printr-un câmp deschis afișat lângă întrebarea principală.
+  - key: comments.report_abuse
+    t: Raportează acest comentariu
+  - key: comments.share
+    t: Distribuie comentariu
 
   ###########################################################################
   # Sharing
@@ -779,10 +974,16 @@ translations:
     t: Element
   - key: table.percentage_survey
     t: "% din respondenții sondajului"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
   - key: table.percentage_question
     t: "% din respondenții la întrebare"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
   - key: table.percentage_facet
     t: "% din respondenții fațetelor"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
   - key: table.count
     t: Număr
   - key: table.year
@@ -829,6 +1030,9 @@ translations:
     t: Aș folosi din nou %
   - key: table.interested_percentage
     t: Interesat(ă) %
+
+  - key: table.not_available
+    t: Nu sunt date disponibile.
 
   ###########################################################################
   # Awards
@@ -882,6 +1086,16 @@ translations:
   - key: award.most_write_ins_award.description
     t: Oferit elementului cu cele mai multe răspunsuri înscrise.
 
+  - key: award.most_commented_feature_award.title
+    t: Funcționalitatea cu cele mai multe comentarii
+  - key: award.most_commented_feature_award.description
+    t: Oferit funcționalității care a primit cele mai multe comentarii.
+
+  - key: award.most_commented_tool_award.title
+    t: Librăria cu cele mai multe comentarii
+  - key: award.most_commented_tool_award.description
+    t: Oferit librăriei care a primit cele mai multe comentarii.
+
   ###########################################################################
   # Hints
   ###########################################################################
@@ -915,8 +1129,8 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-        Poți opta ca graficul cu clasamente să prezinte fie retenția, interesul, utilizarea sau conștientizarea,
-        oferind o imagine de ansamblu asupra topului unei categorii.
+        Poți opta ca graficul cu experiența de-a lungul timpului să prezinte fie retenția, interesul, utilizarea sau conștientizarea,
+        oferind o imagine de ansamblu asupra unei categorii.
 
   - key: hints.sharing_hint
     t: >
@@ -936,12 +1150,16 @@ translations:
   - key: hints.share_hint
     t: >
       Tab-ul de <span class="hint-icon hint-share-button">Share</span> face mai ușoară distribuirea oricărui grafic 
-      sau chiar descărcarea lui ca imagine. 
+      sau chiar descărcarea lui ca imagine.
 
   - key: hints.bracket_hint
     t: >
       <span class="hint-bracket"><span class="hint-text">Următorul grafic prezintă rezultatele unui turneu eliminatoriu dintre 8 „jucători” în cadrul căruia
       respondenții au fost rugați să aleagă câștigătorul fiecărei confruntări până când rămâne doar un singur câștigător.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      În tab-ul de <span class="hint-icon hint-comment-button">Comentarii</span> poți vedea comentariile pe care le-au lăsat respondenții pe măsură ce au completat sondajul.
 
   ###########################################################################
   # Sponsor Chart
@@ -970,7 +1188,7 @@ translations:
       Susține acest sondaj donând 10$ sau mai mult și îți vom afișa avatar-ul de Twitter  
       lângă un grafic!
   - key: sponsor.chart_id
-    t: 'ID-ul graficului: '
+    t: "ID-ul graficului: "
 
   - key: sponsor.sponsor_this_chart
     t: Susține acest grafic (+{baseAmount}$)
@@ -981,18 +1199,15 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. Când dai **click pe butonul "Susține acest grafic"**, vei fi redirecționat către pagina de plată a partenerului nostru [SendOwl](https://www.sendowl.com/). 
-      
-      
+
       2. Apoi, poți **ajusta suma** cu care dorești să susții sondajul, începând de la 10 dolari.  
-      
-      
+
       3. Odată ce tranzacția a fost finalizată, vei putea să-ți **introduci username-ul de Twitter**. 
-      
-      
+
       4. Vei vedea o pagină de **File Download**, dar o poți ignora în siguranță. 
-      
-      
+
       5. Site-ul se va actualiza în background, iar username-ul și donația ta **vor apărea lângă grafic în următoarea oră**.
+
   - key: sponsor.faq.title
     t: F.A.Q.
 
@@ -1031,3 +1246,290 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: Poți face asta [pe GitHub](https://github.com/StateOfJS/Monorepo/issues/69) sau [pe Discord](https://discord.gg/tuWRUWVyJs).
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Explorator de date
+  - key: sections.data_explorer.description
+    t: Explorează dinamic audiența sondajului alegând două întrebări și observând modul în care
+      respondenții sunt distribuiți.
+
+  - key: hints.data_explorer
+    t: |
+      Aceasta este o versiune de preview a noului nostru Explorator de date. Dacă găsești orice probleme sau inconsistențe de date, te rugăm [să ne anunți]({issueLink}).
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** respondenți în total)
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} respondenți
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Respondenți în plus
+  - key: explorer.missing_respondents
+    t: Respondenți lipsă
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 punct reprezintă {respondentsPerDot} respondenți
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 punct reprezintă {percentsPerDot}% respondenți
+  - key: explorer.extra_respondents.tooltip
+    t: Punctele colorate indică rezultate mai bune decât cele așteptate.
+  - key: explorer.missing_respondents.tooltip
+    t: Punctele goale indică rezultate mai slabe decât cele așteptate.
+
+  - key: explorer.units_count
+    t: Număr
+  - key: explorer.units_percentage
+    t: "% din rând"
+
+  - key: explorer.edit
+    t: Editează parametri…
+
+  - key: explorer.get_data
+    t: Obține date…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Interogare API…
+  - key: explorer.loading.2
+    t: În așteptarea unui răspuns…
+  - key: explorer.loading.3
+    t: Mai durează…
+  - key: explorer.loading.4
+    t: Mai așteaptă puțin…
+  - key: explorer.loading.5
+    t: Ne pare rău, durează ceva timp. Mai poți aștepta puțin sau poți [raporta o problemă]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: API-ul nu a răspuns la timp. Te rugăm să reîncerci mai târziu sau să [raportezi o problemă]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Distribuie…
+  - key: explorer.share.title
+    t: Distribuie “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” din sondajul {surveyName} {year}
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} respondenți"
+  - key: explorer.axis_percent
+    t: "{percentCount}% dintre respondenți"
+
+  - key: explorer.x_axis_details
+    t: |
+      Dintre respondenții care au completat întrebarea „{yAxisLabel}”, **{totalCount}** respondenți au ales „{xQuestionLabel}” pentru „{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** dintre respondenții sondajului au ales „{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** respondenți, **1** punct = **{respondentsPerDot}** respondenți, **{dotsPerLine}** puncte pe linie
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Puncte pe linie
+  - key: explorer.respondents_per_dot
+    t: Respondenți pe punct
+  - key: explorer.show_cell_counts
+    t: Arată numărul de celule
+
+  - key: explorer.show_no_answer
+    t: Arată celulele „Fără răspuns”
+
+  - key: explorer.all_fields
+    t: Toate câmpurile
+  - key: explorer.select_item
+    t: Selectează element
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** „{xAxisLabel}” respondenți au selectat „{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** din „{yAxisLabel}” respondenți au selectat „{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Aplicarea acelui procent la precedentul număr de respondenți **{xAxisTotal}**  
+      ne oferă un punct de plecare estimat de **{normalizedCount}** respondenți în această intersecție.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      Numărul real este **{cellCount}**, iar acei **{normalizedCountDelta}** respondenți în plus sunt *colorați*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      Numărul real este **{cellCount}**, iar acei **{normalizedCountDelta}** respondenți lipsă sunt prezentați ca puncte goale. 
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      În total, **{xAxisPercentage}%** din „{xAxisLabel}” respondenți au selectat „{xAnswerLabel}”, dar 
+      între **„{yAxisLabel}” respondenți care au selectat „{yAnswerLabel}”** acest procent urcă la **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+      În total, **{xAxisPercentage}%** din „{xAxisLabel}” respondenți au selectat „{xAnswerLabel}”, dar 
+      între **„{yAxisLabel}” respondenți care au selectat „{yAnswerLabel}”** acest procent scade la **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Acei **{normalizedPercentageDelta}%** respondenți în plus sunt *colorați*. 
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      Acei **{normalizedPercentageDelta}%** respondenți lipsă sunt prezentați drept puncte goale.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |      
+      ### Respondenți în plus și lipsă
+      
+      Graficul de mai sus își propune să identifice zonele care prezintă valori peste sau sub așteptări   
+      comparativ cu un punct de plecare calculat. 
+
+      Spre exemplu, presupunând că sunt 1.000 de utilizatori CSS Grid și că 50% dintre respondenți lucrează într-o companie mare, 
+      te-ai aștepta să găsești 500 de utilizatori CSS Grid care lucrează în companii mari.
+
+      Orice deviație peste sau sub totalul așteptat ar putea indica o corelație interesantă 
+      între cele două variabile, fiind evidențiată pe grafic fie prin puncte colorate  
+      (pentru respondenți în plus peste punctul de plecare), fie prin puncte goale (pentru respondenți lipsă).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Compară datele
+  - key: filters.customize_chart
+    t: Personalizează grafic
+  - key: filters.docs
+    t: Documentație
+  - key: filters.compare_chart
+    t: Personalizează „{chartName}”
+  - key: filters.filters.description
+    t: |
+      Folosind o combinație de filtre demografice, poți defini până la patru **serii de date personalizate** pe care le 
+      poți încărca dinamic și compara cu datele standard pentru această întrebare.
+  - key: filters.facets.description
+    t: |
+      Alege o variabilă pentru a împărți fiecare bară în „fațete".
+  - key: filters.grid_mode
+    t: Comparativ (side-by-side)
+  - key: filters.combined_mode
+    t: Combinat
+  - key: filters.facet_mode
+    t: Fațete
+  - key: filters.facet
+    t: "Fațeta:"
+
+  - key: filters.series.heading
+    t: Seria {index}
+  - key: filters.series.add
+    t: Adaugă serie…
+  - key: filters.series.delete
+    t: Șterge serie
+  - key: filters.series.year
+    t: |
+      Date din anul {year}
+  - key: filters.series.show_default
+    t: |
+      Arată seriile standard
+  - key: filters.series.no_data
+    t: Nu sunt date
+
+  - key: filters.condition.add
+    t: Adaugă filtru
+  - key: filters.condition.delete
+    t: Șterge filtru
+  - key: filters.condition.and
+    t: și
+  - key: filters.operators.eq
+    t: este
+  - key: filters.operators.in
+    t: este unul dintre
+  - key: filters.operators.nin
+    t: nu este unul dintre
+  - key: filters.value.add
+    t: Adaugă valoare
+  - key: filters.value.delete
+    t: Șterge valoare
+
+  - key: filters.legend.default
+    t: Standard
+
+  - key: filters.cancel
+    t: Anulează
+  - key: filters.submit
+    t: Actualizează grafic
+  - key: filters.copy_link
+    t: Copiază link către filtrele curente
+  - key: filters.get_code
+    t: Obține codul pentru filtre
+
+  - key: filters.presets.title
+    t: "Presetări:"
+  - key: filters.presets.save
+    t: Salvează filtrarea curentă ca presetare…
+  - key: filters.presets.delete
+    t: Șterge presetare
+  - key: filters.presets.enter_name
+    t: |
+      Introdu un nume pentru noua ta presetare:
+  - key: filters.presets.previous_years
+    t: Anii precedenți
+  - key: filters.presets.gender
+    t: Gen
+  - key: filters.presets.top_countries
+    t: Top țări
+  - key: filters.presets.salary_low_high
+    t: |
+      Salariu mic vs mare
+  - key: filters.presets.experience_low_high
+    t: |
+      Grad scăzut vs ridicat de experiență
+  - key: filters.presets.company_size_low_high
+    t: |
+      Companie mică vs mare
+
+  - key: filters.facet.select
+    t: Selectează o fațetă…

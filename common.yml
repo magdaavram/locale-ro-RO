@@ -26,13 +26,18 @@ translations:
       Vizualizezi acest sondaj în mod read-only.
   - key: general.survey_preview
     t: >
-      Acest sondaj este în modul previzualizare. Întrebările pot suferi modificări și toate datele 
-      introduse se vor pierde atunci când sondajul propriu-zis începe.
+      Acest sondaj este în **modul previzualizare**. Întrebările pot suferi modificări și orice date introduse acum **vor fi șterse** atunci când sondajul propriu-zis începe.
+  - key: general.survey_feedback
+    t: Lasă feedback
+
   - key: general.survey_read_only_back
     t: >
       <a href="{link}">Înapoi</a> la pagina principală a sondajului pentru a începe sau pentru a continua să răspunzi.
   - key: general.take_survey
     t: Completează sondajul {name}
+
+  - key: options.na
+    t: 🚫 Niciuna
 
   # surveys
   - key: general.open_surveys
@@ -51,8 +56,16 @@ translations:
     t: Începe sondaj »
   - key: general.continue_survey
     t: Continuă sondaj »
+  - key: general.completion
+    t: "{completion}% completat"
+  - key: general.started_on
+    t: Început pe {createdAt}
+  - key: general.last_modified_on
+    t: Ultima dată modificat pe {updatedAt}
   - key: general.review_survey
     t: Revizuiește sondaj »
+  - key: general.review_answers
+    t: Revizuiește răspunsuri »
   - key: general.preview_survey
     t: Previzualizează sondaj »
   - key: general.finish_survey
@@ -63,6 +76,8 @@ translations:
     t: Secțiunea anterioară
   - key: general.survey_closed
     t: Acest sondaj s-a încheiat.
+  - key: general.survey_closed_on
+    t: Acest sondaj a fost închis pe {endedAt}.
   - key: general.survey_results
     t: Vezi rezultate sondaj »
   - key: general.surveys_available_languages
@@ -115,12 +130,15 @@ translations:
     t: Politica de confidențialitate
   - key: general.leave_issue
     t: Ai întrebări? Ai găsit o eroare? <a href="{link}" target="_blank">Deschide un issue</a>.
+  - key: general.leave_issue2
+    aliasFor: homepage.leave_issue
   - key: general.emoji_icons
     t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
-    t: Cuprins
+    t: >
+      {sectionCount} secțiuni ({completion}% grad de completare)
   - key: general.all_questions_optional
     t: >
       Notă: întrebările sunt opționale, completarea în totalitate nu este necesară.
@@ -144,22 +162,47 @@ translations:
 
       Ne poți ajuta să ducem vestea mai departe împărtășind sondajul. Orice răspuns contează și contribuie ca datele
       noastre să fie cât mai reprezentative:
+
+  - key: general.thanks1
+    t: >
+      Îți mulțumim pentru completarea sondajului! Răspunsurile tale au fost salvate.
+  - key: general.thanks2
+    t: >
+      Ajută-ne să ducem vestea mai departe împărtășind sondajul! Orice răspuns contează și contribuie ca datele 
+      noastre să fie cât mai reprezentative.
   - key: thanks.learn_more_about
     t: "Câteva dintre funcționalitățile despre care ai vrea să afli mai multe:"
   - key: thanks.knowledge_score
     t: Scor de familiaritate
-  - key: thanks.score_explanation
+  - key: thanks.features_score
+    t: Scorul funcționalităților
+  - key: thanks.quiz_score
+    t: Scorul testului
+  - key: thanks.score_statistics
     t: >
-      Ai auzit sau folosit <span class="score-number score-number-known">{known}</span> din
-      <span class="score-number score-number-total">{total}</span> funcționalități menționate în sondaj, ceea ce
-      te plasează în primii <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-      dintre respondenți.
+      Dintre cele {total} funcționalități menționate în sondaj,
+      ai folosit {usage_count} și ai auzit de alte {awareness_count},
+      fapt ce te plasează în top {knowledgeRankingFromTop} dintre toți respondenții.
+      Felicitări!
+  - key: thanks.score_statistics_noranking
+    t: >
+      Dintre cele {total} funcționalități menționate în sondaj,
+      ai folosit {usage_count} și ai auzit de alte {awareness_count}.
+      Felicitări!
+  - key: thanks.points
+    t: >
+      puncte
+  - key: thanks.score_awareness_explanation
+    t: >
+      Din rațiuni de corectitudine, acest procent este calculat numai pentru {awareness_total} funcționalități pe care ai putea spune că le ști
   - key: thanks.share_on_twitter
     t: Distribuie pe Twitter
   - key: thanks.share_score_message
     t: >
-      Am obținut un scor de familiaritate de {score}% la sondajul #{hashtag} din acest an! Completează sondajul aici: {shareUrl}
-
+      Am obținut un scor de familiaritate de {score} puncte la sondajul #{hashtag} din acest an!
+      Am folosit {usage_count} funcționalități și am știut de alte {awareness_count},
+      fapt ce mă plasează în top {rank}% dintre toți respondenții.
+      Poți obține un scor mai mare? {shareUrl}
   # share
   - key: general.share_subject
     t: >
@@ -173,6 +216,10 @@ translations:
     t: Selectează opțiune
   - key: forms.clear_field
     t: Golește câmpul
+  - key: forms.more_options
+    t: Arată mai mult...
+  - key: forms.less_options
+    t: Arată mai puțin
 
   # partners & sponsors
   - key: sponsors.with_support_from
@@ -203,6 +250,9 @@ translations:
     t: "Exemplu de cod pentru **{featureName}**"
   - key: general.code_example
     t: Exemplu de cod
+  - key: general.language_code
+    t: |
+      Cod pentru {language}
 
   ###########################################################################
   # Nav
@@ -230,24 +280,43 @@ translations:
   - key: sections.resources.title
     t: Resurse
   - key: sections.resources.description
-    t: Ce resurse de {topic} consulți?
+    t: Ce resurse consulți?
 
   - key: sections.opinions.title
     t: Opinii
   - key: sections.opinions.description
-    t: Ce părere ai despre starea {topic}?
+    t: Ce părere ai despre starea lucrurilor?
 
   - key: sections.other_tools.title
     t: Alte instrumente
   - key: sections.other_tools.description
     t: În cazul acestor instrumente și tehnologii, bifează-le doar pe cele pe care le folosești în mod frecvent.
+  - key: section.tools_others.title
+    aliasFor: section.other_tools.title
+  - key: section.tools_others.description
+    aliasFor: section.other_tools.description
 
   - key: sections.report.title
     t: Raport de tendințe
 
+  - key: sections.usage.title
+    t: Utilizare
+
+  - key: sections.finish.title
+    t: Încheie sondajul
+
+  - key: sections.finish.description
+    t: Încheie sondajul
+
   ###########################################################################
   # Options
   ###########################################################################
+
+  # other answer
+  - key: options.other
+    t: Altele…
+  - key: options.other.placeholder
+    t: Alte elemente care nu au fost menționate anterior, separate prin virgulă
 
   # features
   - key: options.features.never_heard
@@ -257,6 +326,30 @@ translations:
   - key: options.features.used
     t: 👍 Am folosit
 
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Am auzit despre</span> » <span class="option-chip option-positive">Interesat(ă)</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Am auzit despre</span> » <span class="option-chip option-negative">Nu sunt interesat(ă)</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">Am folosit</span> » <span class="option-chip option-positive">Experiență pozitivă</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">Am folosit</span> » <span class="option-chip option-negative">Experiență negativă</span>
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: <span aria-hidden="true">🤷</span> N-am auzit niciodată despre asta
+  - key: options.features.heard.short
+    t: <span aria-hidden="true">👀</span> Am auzit despre
+  - key: options.features.used.short
+    t: <span aria-hidden="true">🤓</span> Am folosit
+
   # features (no emoji)
   - key: options.features.never_heard.label
     t: N-am auzit niciodată despre asta/Nu sunt sigur(ă) ce este
@@ -265,12 +358,12 @@ translations:
   - key: options.features.used.label
     t: Am folosit
 
-  # features (short versions)
-  - key: options.features.never_heard.short
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
     t: N-am auzit niciodată despre asta
-  - key: options.features.heard.short
-    t: Știu ce este
-  - key: options.features.used.short
+  - key: options.features.heard.label.short
+    t: Am auzit despre
+  - key: options.features.used.label.short
     t: Am folosit
 
   # patterns
@@ -422,28 +515,32 @@ translations:
     t: ">20 ani"
 
   # company size
+  - key: options.company_size.na
+    t: 🚫 Nu se aplică
   - key: options.company_size.range_1
-    t: Un angajat
+    t: Doar eu
   - key: options.company_size.range_1_5
-    t: Între 2 și 5 angajați
+    t: Între 2 și 5 persoane
   - key: options.company_size.range_5_10
-    t: Între 6 și 10 angajați
+    t: Între 6 și 10 persoane
   - key: options.company_size.range_10_20
-    t: Între 11 și 20 de angajați
+    t: Între 11 și 20 de persoane
   - key: options.company_size.range_20_50
-    t: Între 21 și 50 de angajați
+    t: Între 21 și 50 de persoane
   - key: options.company_size.range_50_100
-    t: Între 51 și 100 de angajați
+    t: Între 51 și 100 de persoane
   - key: options.company_size.range_100_1000
-    t: Între 101 și 1.000 de angajați
+    t: Între 101 și 1.000 de persoane
   - key: options.company_size.range_more_than_1000
-    t: Mai mult de 1.000 de angajați
+    t: Mai mult de 1.000 de persoane
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: N/A
   - key: options.company_size.range_1.short
-    t: 1
+    t: "1"
   - key: options.company_size.range_1_5.short
-    t: 1-5
+    t: 2-5
   - key: options.company_size.range_5_10.short
     t: 6-10
   - key: options.company_size.range_10_20.short
@@ -455,9 +552,11 @@ translations:
   - key: options.company_size.range_100_1000.short
     t: 101-1.000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1.000"
+    t: "+1.000"
 
   # salary
+  - key: options.yearly_salary.na
+    t: 🚫 Nu se aplică
   - key: options.yearly_salary.range_work_for_free
     t: Lucrez pro bono
   - key: options.yearly_salary.range_0_10
@@ -474,6 +573,8 @@ translations:
     t: Mai mult de $200k
 
   # salary (short versions)
+  - key: options.yearly_salary.na.short
+    t: N/A
   - key: options.yearly_salary.range_work_for_free.short
     t: "$0"
   - key: options.yearly_salary.range_0_10.short
@@ -553,6 +654,19 @@ translations:
   - key: options.race_ethnicity.not_listed
     t: Alta
 
+  - key: options.race_ethnicity.european
+    t: European
+  - key: options.race_ethnicity.indian
+    t: Indian
+  - key: options.race_ethnicity.human
+    t: Human
+  - key: options.race_ethnicity.slav
+    t: Slav
+  - key: options.race_ethnicity.north_african
+    t: Nord african
+  - key: options.race_ethnicity.jewish
+    t: Evreu
+
   # Race & Ethnicity (short)
   - key: options.race_ethnicity.white_european.short
     t: Alb
@@ -578,6 +692,8 @@ translations:
     t: Alta
 
   # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 Niciuna
   - key: options.disability_status.visual_impairments
     t: >
       Deficiențe de vedere (cum ar fi: orbire, daltonism etc.)
@@ -589,7 +705,7 @@ translations:
       Deficiențe locomotorii (cum ar fi: artrită, sindrom de tunel carpian etc.)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Deficiențe cognitive (cum ar fi: anxietate, dislexie etc.)
+      Deficiențe cognitive (cum ar fi: anxietate, dislexie, ADHD etc.)
   - key: options.disability_status.not_listed
     t: >
       Altele
@@ -663,6 +779,8 @@ translations:
   - key: options.industry_sector.consulting
     t: Consultanță și servicii
   - key: options.industry_sector.travel
+    t: Călătorii
+  - key: options.industry_sector.tourism
     t: Turism
   - key: options.industry_sector.insurance
     t: Asigurări
@@ -688,6 +806,39 @@ translations:
     t: Transporturi
   - key: options.industry_sector.manufacturing
     t: Manufactură
+
+  - key: options.industry_sector.tech_it
+    t: Tech & IT
+  - key: options.industry_sector.human_resources
+    t: Resurse umane
+  - key: options.industry_sector.sports
+    t: Sport
+  - key: options.industry_sector.gaming
+    t: Jocuri
+  - key: options.industry_sector.research
+    t: Cercetare
+  - key: options.industry_sector.law
+    t: Drept
+  - key: options.industry_sector.non_profit
+    t: Non-Profit
+  - key: options.industry_sector.art
+    t: Arte
+  - key: options.industry_sector.crypto
+    t: Crypto
+  - key: options.industry_sector.aerospace
+    t: Industria aerospațială
+  - key: options.industry_sector.web3
+    t: Web3
+  - key: options.industry_sector.iot
+    t: IOT
+  - key: options.industry_sector.gambling
+    t: Pariuri
+  - key: options.industry_sector.blockchain
+    t: Blockchain
+  - key: options.industry_sector.design
+    t: Design
+  - key: options.industry_sector.unemployed
+    t: Neangajat
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -744,6 +895,8 @@ translations:
     t: Atribute ARIA HTML
 
   # learning methods
+  - key: options.first_steps.na
+    t: 🚫 Niciuna
   - key: options.first_steps.books
     t: Cărți
   - key: options.first_steps.videos
@@ -765,6 +918,65 @@ translations:
   - key: options.first_steps.mentoring
     t: Mentorat
 
+  - key: options.first_steps.blogs
+    t: Blog-uri
+  - key: options.first_steps.view_source
+    t: Vezi sursa
+  - key: options.first_steps.documentation
+    t: Documentație
+  - key: options.first_steps.trial_and_error
+    t: Încercare & Eroare
+  - key: options.first_steps.forums
+    t: Forumuri
+  - key: options.first_steps.newsletters
+    t: Newslettere
+  - key: options.first_steps.events
+    t: Evenimente
+
+  # learning methods
+
+  - key: resources.learning_methods
+    t: Metode de învățare
+
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
+
   # degree
   - key: options.higher_education_degree.no_degree
     t: Nu
@@ -781,6 +993,22 @@ translations:
   - key: options.higher_education_degree.yes_unrelated.short
     t: Da, domeniu neînrudit
 
+  # employment_status
+  - key: options.employment_status.full_time
+    t: Normă întreagă
+  - key: options.employment_status.student
+    t: Student
+  - key: options.employment_status.self_employed
+    t: Liber profesionist
+  - key: options.employment_status.contractor
+    t: Contractant
+  - key: options.employment_status.part_time
+    t: Jumătate de normă
+  - key: options.employment_status.between_jobs
+    t: Între slujbe
+  - key: options.employment_status.retired
+    t: Pensionat
+
   # bracket
   - key: options.bracket.round1
     t: Victorii în runda 1
@@ -794,6 +1022,40 @@ translations:
   # email_temporary (receive updates?)
   - key: options.receive_notifications.yes
     t: Da, notifică-mă pe email când rezultatele sondajului sunt publicate
+
+  # usage type
+
+  - key: usage.usage_type
+    t: Tip de utilizare
+
+  - key: options.usage_type.professionally
+    t: Ca profesie
+  - key: options.usage_type.student
+    t: Ca student
+  - key: options.usage_type.hobby
+    t: Ca hobby
+
+  # source
+  - key: options.source.angular_community
+    t: În comunitatea Angular
+  - key: options.source.work
+    t: La locul de muncă
+  - key: options.source.word_of_mouth
+    t: Pe cale orală
+  - key: options.source.podcast
+    t: În podcast-uri
+  - key: options.source.other_online_sources
+    t: În alte surse online
+  - key: options.source.blog
+    t: Pe blog-uri
+# - key: options.source.
+#   t:
+# - key: options.source.
+#   t:
+# - key: options.source.
+#   t:
+# - key: options.source.
+#   t:
 
   ###########################################################################
   # Tools
@@ -830,13 +1092,13 @@ translations:
   - key: user_info.company_size
     t: Dimensiunea companiei
   - key: user_info.company_size.description
-    t: Câți angajați are compania în care lucrezi?
+    t: Câți angajați lucrează în companie, inclusiv tu?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Salariu anual
+    t: Venit anual
   - key: user_info.yearly_salary.description
-    t: Salariul tău anual, exprimat în dolari (USD).
+    t: Venitul tău anual, exprimat în dolari (USD).
 
   # job title
   - key: user_info.job_title
@@ -889,6 +1151,10 @@ translations:
     t: >
       Pentru a ne supune politicilor locale, colectarea datelor despre rasă ori etnie a fost dezactivată pentru țara 
       sau regiunea ta.
+  - key: user_info.race_ethnicity.others
+    t: Alte rase sau etnii
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
 
   # disability status
   - key: user_info.disability_status
@@ -901,10 +1167,12 @@ translations:
   # disability status (other)
   - key: user_info.disability_status.others
     t: Alte dizabilități
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Cum ai aflat despre acest sondaj?
+    t: Cum ai auzit despre acest sondaj?
   - key: user_info.email
     t: Adresa de email
   - key: user_info.email.description
@@ -914,7 +1182,7 @@ translations:
     t: >
       Nu stocăm niciun fel de date cu caracter personal. Prin urmare, după ce vei completa adresa ta de email, o vom folosi pentru a genera un identificator unic anonimizat și apoi vom șterge adresa din evidențele noastre.
   - key: user_info.country
-    t: Țară sau regiune
+    t: Țara sau regiunea ta
   - key: user_info.country.description
     t: Care este reședința ta curentă?
 
@@ -943,11 +1211,28 @@ translations:
   - key: user_info.industry_sector.others.description
     t: Altă industrie în care lucrezi, nemenționată.
 
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.description
+    aliasFor: user_info.industry_sector.description
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.description
+
   # degree
   - key: user_info.higher_education_degree
     t: Studii superioare
   - key: user_info.higher_education_degree.description
     t: Ai o diplomă de studii superioare?
+
+  # employment status
+  - key: user_info.employment_status
+    t: Statutul de muncă
+  - key: user_info.employment_status.description
+    t: Care este statutul tău de muncă?
 
   # completion
   - key: user_info.completion_stats
@@ -1035,6 +1320,10 @@ translations:
     t: Alte răspunsuri (câmp deschis).
 
   ###########################################################################
+  # Usage
+  ###########################################################################
+
+  ###########################################################################
   # Resources
   ###########################################################################
 
@@ -1057,6 +1346,8 @@ translations:
     t: Alte blog-uri și reviste
   - key: resources.blogs_news_magazines.others.description
     t: Alte răspunsuri (câmp deschis).
+  - key: options.blogs_news_magazines.na
+    t: 🚫 Niciuna
 
   # sites & courses
   - key: resources.sites_courses
@@ -1067,6 +1358,8 @@ translations:
     t: Alte site-uri și cursuri
   - key: resources.sites_courses.others.description
     t: Alte răspunsuri (câmp deschis).
+  - key: options.sites_courses.na
+    t: 🚫 Niciuna
 
   # podcasts
   - key: resources.podcasts
@@ -1077,6 +1370,8 @@ translations:
     t: Alte podcast-uri
   - key: resources.podcasts.others.description
     t: Alte răspunsuri (câmp deschis).
+  - key: options.podcasts.na
+    t: Niciuna
 
   # people
   - key: resources.people
@@ -1093,6 +1388,8 @@ translations:
     t: >
       Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră pentru activitatea lor 
       (câmp deschis, nume separate prin virgulă).
+  - key: options.people.na
+    t: 🚫 Niciuna
 
   # other surveys
   - key: resources.other_surveys
@@ -1101,3 +1398,74 @@ translations:
     t: La ce alte sondaje dedicate programatorilor mai participi?
   - key: resources.other_surveys.others
     t: Alte sondaje care nu au fost menționate anterior
+  - key: options.other_surveys.na
+    t: 🚫 Niciuna
+    # TODO: temporary fix, this should not be needed in the first place
+  - key: user_info.other_surveys.question
+    t: La ce alte sondaje dedicate developerilor ai participat?
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.description
+
+  # video creators
+  - key: resources.video_creators
+    t: Creatori de conținut video
+  - key: resources.video_creators.description
+    t: Creatori pe care îi urmărești pe plaftome dedicate conținutului video, cum sunt YouTube, Twitch, TikTok etc.
+  - key: resources.video_creators.others
+    t: Alți creatori de conținut video
+  - key: options.video_creators.na
+    t: 🚫 Niciuna
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: Spune-ne mai multe…
+
+  - key: followups.description
+    t: |
+      Opțional, ne poți spune mai multe despre motivul pentru care ai ales acest răspuns:
+
+  - key: followups.description.short
+    t: |
+      Spune-ne mai multe:
+
+  - key: followups.placeholder
+    t: Alt motiv…
+
+  - key: followups.want_to_learn_more
+    t: Vreau să aflu mai multe
+  - key: followups.not_interested
+    t: Nu sunt interesat(ă)
+  - key: followups.insufficient_browser_support
+    t: Suport browser insuficient
+  - key: followups.not_needed
+    t: Nu am avut nevoie
+  - key: followups.hard_to_use
+    t: A fost greu de folosit
+  - key: followups.positive_experience
+    t: Am avut o experiență pozitivă
+  - key: followups.not_powerful
+    t: Nu a fost suficient de puternic
+
+  - key: followups.sentiment_interested
+    t: Sunt interesat(ă)
+  - key: followups.sentiment_not_interested
+    t: Nu sunt interesat(ă)
+  - key: followups.sentiment_positive_experience
+    t: Aș folosi din nou
+  - key: followups.sentiment_negative_experience
+    t: Experiență negativă
+
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
