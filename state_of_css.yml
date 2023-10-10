@@ -400,7 +400,7 @@ translations:
   - key: features.aria_attributes
     t: Atributele ARIA HTML
   - key: features.aria_attributes.description
-    t: `role`, `aria-label` etc.
+    t: "`role`, `aria-label` etc."
 
   # other features
   - key: features.variables
