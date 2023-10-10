@@ -434,7 +434,7 @@ translations:
     - key: options.js_app_patterns.edge_rendering.description
       t: Modificarea codului HTML înainte de a-l trimite către client
 
-  # slider
+    # slider
     - key: options.js_ts_balance.0
       t: 100% JS
     - key: options.js_ts_balance.1
