@@ -20,6 +20,9 @@ translations:
   - key: homepage.view_results
     t: Vezi rezultatele
 
+  - key: homepage.results_coming_soon
+    t: Rezultatele vor fi publicate în curând…
+
   - key: share.help_spread
     t: Ajută-ne să ducem vestea mai departe!
 
@@ -62,6 +65,10 @@ translations:
     t: "Traduceri disponibile:"
   - key: languages.help_us_translate
     t: Ajută-ne să traducem sondajul în limba ta →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
 
   # footer
   - key: homepage.made_by_devographics
