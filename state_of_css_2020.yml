@@ -87,6 +87,11 @@ translations:
       În acest an, sondajul a fost completat de **11.492** de persoane din **102** țări. Pentru prima dată, în acest an
       am reușit să traducem întrebările în mai multe limbi, iar asta datorită unei echipe minunate de voluntari.
 
+  - key: sections.user_info.description
+    t: |
+      Sondajul din acest an a ajuns la **11.492** developeri din **102** țări. Pentru prima dată, în acest an 
+      am reușit să traducem întrebările sondajului în mai multe limbi datorită unei echipe minunate de voluntari.
+
   - key: sections.features.description
     t: |
       CSS-ul a înregistrat o creștere a funcționalităților în ultimii ani, prin urmare, așa cum era de așteptat, adoptarea acestora
@@ -94,7 +99,7 @@ translations:
 
   - key: sections.units_selectors.description
     t: |
-      Suntem dispuși să pariem că vei găsi câteva lucruri despre care nu știai în această secțiune!
+      Am putea paria că vei găsi câteva lucruri despre care nu știai în această secțiune!
 
   - key: sections.technologies.description
     t: |
