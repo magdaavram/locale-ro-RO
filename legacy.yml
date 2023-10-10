@@ -256,12 +256,12 @@ translations:
     t: Am folosit
 
   # features (short versions)
-  - key: options.features.never_heard.short
-    t: N-am auzit niciodată despre asta
-  - key: options.features.heard.short
-    t: Știu ce este
-  - key: options.features.used.short
-    t: Am folosit
+  # - key: options.features.never_heard.short
+  #   t: N-am auzit niciodată despre asta
+  # - key: options.features.heard.short
+  #  t: Știu ce este
+  # - key: options.features.used.short
+  #  t: Am folosit
 
   # patterns
   - key: options.patterns.use_never
@@ -908,7 +908,7 @@ translations:
     t: >
       Nu stocăm niciun fel de date cu caracter personal. Prin urmare, după ce vei completa adresa ta de email, o vom folosi pentru a genera un identificator unic anonimizat și apoi vom șterge adresa din evidențele noastre.
   - key: user_info.country
-    t: Țară sau regiune
+    t: Țara sau regiunea ta
   - key: user_info.country.description
     t: Care este reședința ta curentă?
 

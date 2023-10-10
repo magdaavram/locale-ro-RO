@@ -88,18 +88,10 @@ translations:
   - key: sections.pre_post_processors_others.title
     t: Alte pre-/post-procesoare
 
-  - key: tools_others.pre_post_processors
-    aliasFor: sections.pre_post_processors.title
-  - key: tools_others.pre_post_processors.description
-    aliasFor: sections.pre_post_processors.description
-
-  - key: tools_others.pre_post_processors.others
-    aliasFor: sections.pre_post_processors_others.title
-
   - key: sections.css_frameworks.title
     t: Framework-uri CSS
   - key: sections.css_frameworks.description
-    t: Librării care oferă componente și stilizări gata făcute.
+    t: Framework-uri și librării care oferă componente sau stilizări gata făcute.
 
   - key: sections.css_frameworks_others.title
     t: Alte framework-uri CSS
@@ -203,6 +195,21 @@ translations:
     t: Email-uri
   - key: options.what_do_you_use_css_for.printed_documents
     t: Documente tipărite
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Aplicații desktop
+
+  - key: options.what_do_you_use_css_for.e_commerce
+    t: E-commerce
+  - key: options.what_do_you_use_css_for.websites
+    t: Website-uri
+  - key: options.what_do_you_use_css_for.games
+    t: Jocuri
+  - key: options.what_do_you_use_css_for.portfolio
+    t: Portofoliu
+  - key: options.what_do_you_use_css_for.extensions
+    t: Extensii de browser
+  - key: options.what_do_you_use_css_for.desktop
+    t: Desktop
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -256,9 +263,9 @@ translations:
   - key: options.css_missing_features.mixins.description
     t: Gruparea și reutilizarea definițiilor în mod dinamic.
   - key: options.css_missing_features.color_functions
-    t: Color Functions
+    aliasFor: features.color_functions
   - key: options.css_missing_features.color_functions.description
-    t: Funcții de manipulare a valorilor de culoare.
+    aliasFor: features.color_functions.description
   - key: options.css_missing_features.container_queries
     t: Container Queries
   - key: options.css_missing_features.container_queries.description
@@ -270,7 +277,62 @@ translations:
   - key: options.css_missing_features.subgrid
     t: Subgrid
   - key: options.css_missing_features.subgrid.description
-    t: Nesting deeper-level subgrids into a parent grid.
+    t: Nesting-ul subgrid-urilor într-un grid părinte.
+
+  - key: options.css_missing_features.native_visually_hidden
+    t: Conținut ascuns
+  - key: options.css_missing_features.native_visually_hidden.description
+    t: Suport nativ pentru conținutul ascuns.
+
+  - key: options.css_missing_features.generated_content_alt_text
+    t: Alt Text pentru conținutul generat
+  - key: options.css_missing_features.generated_content_alt_text.description
+    t: Adăugare alt text la conținutul generat (`::before`, `::after`).
+
+  - key: options.css_missing_features.animate_to_auto
+    t: Animare la `auto`
+  - key: options.css_missing_features.animate_to_auto.description
+    t: Animarea dimensiunii unui element la `auto`.
+
+  - key: options.css_missing_features.anchored_positioning
+    t: Poziționare ancorată
+  - key: options.css_missing_features.anchored_positioning.description
+    t: Poziționarea elementelor relative la marginile unui element arbitrar.
+
+  - key: options.css_missing_features.wrapping_detection
+    t: Wrapping Detection
+  - key: options.css_missing_features.wrapping_detection.description
+    t: Detectarea faptului că un element flex sau grid a trecut pe o nouă linie.
+
+  - key: options.css_missing_features.more_pseudo_elements
+    t: Mai multe pseudo-elemente
+  - key: options.css_missing_features.more_pseudo_elements.description
+    t: Posibilitatea de a avea mai mult de două pseudo-elemente per element.
+
+  - key: options.css_missing_features.svg_in_css
+    t: SVG-in-CSS
+  - key: options.css_missing_features.svg_in_css.description
+    t: Suport pentru sintaxa SVG în codul CSS (cum este `background`).
+
+  - key: options.css_missing_features.grid_lines_styling
+    t: Stilizarea liniilor de grid
+  - key: options.css_missing_features.grid_lines_styling.description
+    t: Posibilitatea de a stiliza liniile invizibile care separă un grid.
+
+  - key: options.css_missing_features.media_queries_variables
+    t: Variabile Media Queries
+  - key: options.css_missing_features.media_queries_variables.description
+    t: Posibilitatea de a folosi variabile în media queries.
+
+  - key: options.css_missing_features.masonry_layout
+    t: Masonry Layout
+  - key: options.css_missing_features.masonry_layout.description
+    t: Suport nativ pentru layout-uri grid free-flowing în stil Pinterest.
+
+  - key: options.css_missing_features.css_toggle
+    t: CSS Toggle
+  - key: options.css_missing_features.css_toggle.description
+    t: O modalitate prin care poți asocia o valoare „toggleable” cu un element
 
   ###########################################################################
   # Features
@@ -289,28 +351,39 @@ translations:
   - key: features.flexbox_gap
     t: „Proprietatea `gap` pentru flexbox”
 
+  - key: features.viewport_percentage_length_units
+    t: Unități viewport mici, mari și dinamice
+  - key: features.at_container
+    t: "`@container` Queries"
+  - key: features.at_container.description
+    t: Includerea query-urilor de mărime și stil
+
   # shapes & graphics
   - key: features.shapes
     t: CSS Shapes
   - key: features.masks
     t: CSS Masks
-  - key: features.blend_modes
-    t: Blend Modes
   - key: features.filter_effects
     t: CSS Filter Effects
 
+  - key: features.linear_easing_function
+    t: "`linear()` Easing Function"
+  - key: features.blend_modes
+    t: Blend Modes
   - key: features.intrinsic_sizing
-    t: Dimensionare intrinsecă
+    t: Intrinsinc Sizing Keywords
+  - key: features.gradient_color_spaces
+    t: Interpolation Color Spaces
 
   # typography
   - key: features.web_fonts
-    t: Fonturi web (@font-face)
+    t: Fonturi web (`@font-face`)
   - key: features.variable_fonts
     t: Fonturi variabile
   - key: features.line_breaking
     t: Proprietăți pentru Line-Breaking
   - key: features.direction.description
-    t: Include și atributul HTML <code>dir</code>.
+    t: Include și atributul HTML `dir`.
 
   # animations & transforms
   - key: features.transitions
@@ -322,23 +395,44 @@ translations:
 
   # media queries/accessibility
   - key: features.tabindex
-    t: Atributul HTML <code>tabindex</code>
+    t: Atributul HTML `tabindex`
 
   - key: features.aria_attributes
     t: Atributele ARIA HTML
   - key: features.aria_attributes.description
-    t: <code>role</code>, <code>aria-label</code> etc.
+    t: "`role`, `aria-label` etc."
 
   # other features
   - key: features.variables
     t: Variabile CSS (proprietăți personalizate)
   - key: features.containment
     t: CSS Containment
-  - key: features.comparison_functions
-    t: Funcții CSS de comparare
 
   - key: features.css_nesting.description
     t: Nesting CSS nativ, excluzând pre- sau post-procesatoarele.
+
+  - key: features.trigonometric_functions
+    t: Funcții trigonometrice
+  - key: features.exponential_functions
+    t: Funcții exponențiale
+  - key: features.sign_related_functions
+    t: Funcții sign-related
+  - key: features.stepped_value_functions
+    t: Stepped Value Functions
+  - key: features.css_nesting
+    t: CSS Nesting
+  - key: features.shadow_dom_css
+    t: Funcționalități Shadow DOM
+  - key: features.individual_transform_properties
+    t: Proprietăți de transformare individuală
+  - key: features.comparison_functions
+    t: Funcții CSS de comparare
+  - key: features.math_functions
+    t: Funcții CSS Math
+  - key: features.viewport_units
+    t: Unități viewport (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Cascade Layers
 
   # missing features (see also options)
   - key: features.nesting
@@ -360,7 +454,7 @@ translations:
   - key: features.color_functions
     t: Funcții de culoare
   - key: features.color_functions.description
-    t: Funcții pentru manipularea valorilor de culoare.
+    t: Funcții pentru manipularea valorilor de culoare (`color()`, `color-mix()`, `contrast-color()`…).
   - key: features.container_queries
     t: Query-uri de container
   - key: features.container_queries.description
@@ -558,9 +652,70 @@ translations:
   - key: options.css_js_balance.0
     t: 100% CSS
   - key: options.css_js_balance.4
-    t: 50%/50%
+    t: "50%-50%"
   - key: options.css_js_balance.8
     t: 100% JS
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: other_tools.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    t: Ce pre- sau post-procesatoare folosești în mod frecvent?
+  - key: other_tools.pre_post_processors.description
+    aliasFor: tools_others.pre_post_processors.description
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
+  - key: other_tools.pre_post_processors_freeform
+    aliasFor: sections.pre_post_processors_others.title
+  - key: options.pre_post_processors.na
+    t: Niciuna
+
+  - key: tools_others.utilities
+    t: Utilitare
+  - key: tools_others.utilities.description
+    t: Ce utilitare sau instrumente folosești în mod frecvent?
+  - key: tools_others.utilities.others
+    t: Alte utilitare
+  - key: tools_others.utilities.others.description
+    t: Alte utilitare (câmp deschis).
+  - key: options.utilities.na
+    t: Niciuna
+
+  - key: other_tools.utilities
+    aliasFor: tools_others.utilities
+  - key: other_tools.utilities.description
+    aliasFor: tools_others.utilities.description
+  - key: other_tools.utilities.others
+    aliasFor: tools_others.utilities.others
+  - key: other_tools.utilities.others.description
+    aliasFor: tools_others.utilities.others.description
+  - key: other_tools.utilities_freeform
+    aliasFor: tools_others.utilities.others
+
+  - key: tools_others.browsers
+    t: Browsere
+  - key: tools_others.browsers.description
+    t: Ce browser(e) folosești în faza inițială de dezvoltare?
+  - key: tools_others.browsers.others
+    t: Alte browsere
+  - key: tools_others.browsers.others.description
+    t: Alte răspunsuri (câmp deschis).
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.description
+    aliasFor: tools_others.browsers.description
+  - key: other_tools.browsers.others
+    aliasFor: tools_others.browsers.others
+  - key: other_tools.browsers.others.description
+    aliasFor: tools_others.browsers.others.description
 
   ###########################################################################
   # Environments
@@ -579,6 +734,17 @@ translations:
     t: Alte medii de testare
   - key: environments.form_factors.others.description
     t: Alți form factors sau medii pe care testezi de obicei.
+
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.description
+    aliasFor: environments.form_factors.description
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors_freeform
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
 
   - key: environments.accessibility_features
     t: Funcționalități de accesibilitate
@@ -605,6 +771,15 @@ translations:
     t: De obicei, pentru ce tip de proiect folosești CSS?
   - key: environments.what_do_you_use_css_for.others
     t: Alte tipuri de proiecte
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.description
+    aliasFor: environments.what_do_you_use_css_for.description
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
+  - key: usage.what_do_you_use_css_for_freeform
+    aliasFor: environments.what_do_you_use_css_for.others
 
   - key: charts.axis_legends.css_for_print
     t: Frecvență
@@ -658,10 +833,39 @@ translations:
       Există funcționalități CSS cu care întâmpini dificultăți (sau pe care le eviți)
       din cauza lipsei de suport sau a diferențelor dintre browsere?
 
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: usage.css_interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
   - key: usage.interoperability_features_freeform.others
     aliasFor: opinions_others.browser_interoperability_features.others
+
+  - key: usage.interoperability_features_freeform.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
   - key: usage.interoperability_features_freeform.others.description
     aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
+
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+
+  - key: options.css_interoperability_features.na
+    t: Niciuna
 
   # Pain Points
   - key: opinions.css_pain_points
@@ -669,20 +873,23 @@ translations:
   - key: opinions.css_pain_points.description
     t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în CSS.
 
-  - key: usage.other_pain_points_freeform.others
+  - key: usage.other_pain_points_freeform
     t: Alte puncte slabe referitoare la scrierea CSS?
+  - key: usage.other_pain_points_freeform.others
+    aliasFor: usage.other_pain_points_freeform
 
   - key: opinions_others.css_pain_points.others
     t: Alte puncte slabe în CSS
 
-  # Interop 2023
-  - key: usage.interop_features
-    t: Roadmap Interop 2023
-  - key: usage.interop_features.description
-    t: Pe care dintre aceste funcționalități ți-ai dori cel mai mult să le îmbunătățească furnizorii de browsere? (alege 3)
-  - key: usage.interop_features.note
-    t: >
-      [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal) este un efort comun al furnizorilor de browsere pentru a remedia problemele și incompatibilitățile. Rezultatele acestui sondaj vor fi luate în considerare drept date care ajută grupul de lucru să prioritizeze zonele de interes.
+  - key: usage.css_pain_points
+    aliasFor: opinions_others.css_pain_points.others
+  - key: usage.css_pain_points.description
+    aliasFor: usage.other_pain_points_freeform
+  - key: usage.css_pain_points_freeform
+    aliasFor: usage.other_pain_points_freeform
+
+  - key: options.css_pain_points.na
+    t: Niciuna
 
   # Missing Features
   - key: opinions.css_missing_features
@@ -690,11 +897,24 @@ translations:
   - key: opinions.css_missing_features.description
     t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în CSS.
 
-  - key: usage.missing_features_freeform.others
+  - key: usage.missing_features_freeform
     t: Ce funcționalități crezi că lipsesc în prezent din CSS?
+  - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+  - key: usage.missing_features_freeform
+    aliasFor: usage.missing_features_freeform
+
+  - key: usage.css_missing_features
+    t: Funcționalități lipsă
+  - key: usage.css_missing_features.description
+    aliasFor: usage.missing_features_freeform
 
   - key: opinions_others.css_missing_features.others
     t: Alte funcționalități care lipsesc
+
+  - key: options.css_missing_features.na
+    t: Niciuna
+
   # - key: opinions_others.css_missing_features.others.note
   #   t: >
   #     Acest rezultate sunt urmare a unei standardizări a conținutului obținut dintr-un câmp deschis.
@@ -709,14 +929,30 @@ translations:
     t: Cât de mulțumit(ă) ești de pre-/post-procesoare?
   - key: happiness.css_in_js
     t: Cât de mulțumit(ă) ești de starea librăriilor CSS-in-JS?
+  - key: css_in_js.css_in_js_happiness
+    aliasFor: happiness.css_in_js
   - key: happiness.css_frameworks
     t: Cât de mulțumit(ă) ești de framework-urile CSS?
+  - key: css_frameworks.css_frameworks_happiness
+    aliasFor: happiness.css_frameworks
 
   - key: happiness.state_of_the_web
+    t: Starea tehnologiilor web
+  - key: happiness.state_of_the_web.description
     t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
+  - key: usage.state_of_the_web_happiness
+    aliasFor: happiness.state_of_the_web
+  - key: usage.state_of_the_web_happiness.description
+    aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
+    t: Starea CSS
+  - key: happiness.state_of_css.description
     t: Cât de mulțumit(ă) ești de starea generală a CSS?
+  - key: usage.state_of_css_happiness
+    aliasFor: happiness.state_of_css
+  - key: usage.state_of_css_happiness.description
+    aliasFor: happiness.state_of_css.description
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
@@ -744,6 +980,13 @@ translations:
   - key: usage.css_js_balance.description
     t: Cum îți împarți timpul între scrierea codului CSS (incluzând HTML) și cea a codului JavaScript?
 
+  - key: usage.css_usage_type
+    t: Utilizare CSS
+  - key: usage.css_usage_type.description
+    t: În ce context folosești în principal CSS?
+  - key: usage.css_usage_type.others
+    t: Alte utilizări ale CSS
+
   ###########################################################################
   # Resources
   ###########################################################################
@@ -751,7 +994,12 @@ translations:
   - key: resources.first_steps_css
     t: Primii pași în CSS
   - key: resources.first_steps_css.description
-    t: Cum ai învățat CSS atunci când erai la început de drum?
+    t: Ce resurse ai folosit la început de drum atunci când ai învățat CSS?
+
+  - key: resources.learning_methods_css
+    t: Metode de învățare CSS
+  - key: resources.learning_methods_css.description
+    t: Ce resurse ai folosit pentru a învăța CSS?
 
   # sites & courses
   - key: resources.sites_courses_css
