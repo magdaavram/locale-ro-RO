@@ -17,6 +17,9 @@ translations:
           Hai să aflăm împreună ce librării își doresc programatorii să învețe în continuare,
           care dintre ele au un grad de retenție mai mare și multe altele.
 
+    - key: general.state_of_js.title
+      t: Sondajul programatorilor State of JavaScript
+
     - key: general.state_of_js.description
       t: Sondajul anual al programatorilor cu privire la ecosistemul JavaScript
 
@@ -69,6 +72,11 @@ translations:
     - key: sections.datalayer.description
       t: Gestiunea datelor în aplicația ta
 
+    - key: sections.rendering_frameworks.title
+      t: Framework-uri de randare
+    - key: sections.rendering_frameworks.description
+      t: Framework-uri axate pe randarea și servirea aplicației
+
     - key: sections.back_end_frameworks.title
       t: Framework-uri back-end
     - key: sections.back_end_frameworks.description
@@ -109,6 +117,11 @@ translations:
     - key: sections.resources_js.description
       t: Ce resurse JavaScript consulți?
 
+    - key: sections.usage_js.title
+      t: Utilizare
+    - key: sections.usage_js.description
+      t: Cum folosești JavaScript
+
     ###########################################################################
     # Survey Help
     ###########################################################################
@@ -128,7 +141,7 @@ translations:
     ###########################################################################
 
     # JS pain points
-    # - key: options.js_pain_points.browser_interoperability
+    # - key: options.top_js_pain_points.browser_interoperability
     #   t: Browser Compatibility
     # - key: options.js_pain_points.browser_interoperability.description
     #   t: Differences between Chrome, Safari, Firefox, etc.
@@ -185,12 +198,79 @@ translations:
     # - key: options.js_pain_points.xxx.description
     #   t:
 
+    - key: options.top_js_pain_points.state_management
+      aliasFor: options.js_pain_points.state_management
+    - key: options.top_js_pain_points.state_management.description
+      aliasFor: options.js_pain_points.state_management.description
+    - key: options.top_js_pain_points.managing_dependencies
+      aliasFor: options.js_pain_points.managing_dependencies
+    - key: options.top_js_pain_points.managing_dependencies.description
+      aliasFor: options.js_pain_points.managing_dependencies.description
+    - key: options.top_js_pain_points.architecture
+      aliasFor: options.js_pain_points.architecture
+    - key: options.top_js_pain_points.architecture.description
+      aliasFor: options.js_pain_points.architecture.description
+    - key: options.top_js_pain_points.finding_packages
+      aliasFor: options.js_pain_points.finding_packages
+    - key: options.top_js_pain_points.finding_packages.description
+      aliasFor: options.js_pain_points.finding_packages.description
+    - key: options.top_js_pain_points.writing_modules
+      aliasFor: options.js_pain_points.writing_modules
+    - key: options.top_js_pain_points.writing_modules.description
+      aliasFor: options.js_pain_points.writing_modules.description
+    - key: options.top_js_pain_points.debugging
+      aliasFor: options.js_pain_points.debugging
+    - key: options.top_js_pain_points.debugging.description
+      aliasFor: options.js_pain_points.debugging.description
+    - key: options.top_js_pain_points.async_code
+      aliasFor: options.js_pain_points.async_code
+    - key: options.top_js_pain_points.async_code.description
+      aliasFor: options.js_pain_points.async_code.description
+    - key: options.top_js_pain_points.modules_management
+      aliasFor: options.js_pain_points.modules_management
+    - key: options.top_js_pain_points.modules_management.description
+      aliasFor: options.js_pain_points.modules_management.description
+    - key: options.top_js_pain_points.date_management
+      aliasFor: options.js_pain_points.date_management
+    - key: options.top_js_pain_points.date_management.description
+      aliasFor: options.js_pain_points.date_management.description
+
+    - key: options.top_js_pain_points.build_tools
+      t: Instrumente de build
+    - key: options.top_js_pain_points.typing
+      t: Typing
+    - key: options.top_js_pain_points.typescript
+      t: TypeScript
+    - key: options.top_js_pain_points.esm_cjs
+      t: ESM vs CJS
+    - key: options.top_js_pain_points.testing
+      t: Testare
+    - key: options.top_js_pain_points.performance
+      t: Performanță
+    - key: options.top_js_pain_points.too_many_choices
+      t: Prea multe opțiuni
+    - key: options.top_js_pain_points.react
+      t: React
+    - key: options.top_js_pain_points.bundlers
+      t: Bundlere
+    - key: options.top_js_pain_points.complexity
+      t: Complexitate
+    - key: options.top_js_pain_points.standard_library
+      t: Librărie standard
+    - key: options.top_js_pain_points.tooling
+      t: Tooling
+    - key: options.top_js_pain_points.dependencies
+      t: Dependințe
+    - key: options.top_js_pain_points.security
+      t: Securitate
+    - key: options.top_js_pain_points.slow
+      t: Rapiditate scăzută
 
     # JS missing features
     - key: options.currently_missing_from_js.static_typing
       t: Static Typing
     - key: options.currently_missing_from_js.static_typing.description
-      t: Tipuri native (similar cu ceea ce TypeScript oferă).
+      t: Typing nativ la runtime; sau type-as-comments TypeScript-style
     - key: options.currently_missing_from_js.standard_library
       t: Librărie standard
     - key: options.currently_missing_from_js.standard_library.description
@@ -218,11 +298,161 @@ translations:
     - key: options.currently_missing_from_js.observable
       t: Observable
     - key: options.currently_missing_from_js.observable.description
-      t: Un nou tip `Observable`` folosit pentru a modela sursele de date push-based.
+      t: Un nou tip `Observable` folosit pentru a modela sursele de date push-based.
     # - key: options.currently_missing_from_js.xxx
     #   t:
     # - key: options.currently_missing_from_js.xxx.description
     #   t:
+
+    - key: options.top_currently_missing_from_js.static_typing
+      aliasFor: options.currently_missing_from_js.static_typing
+    - key: options.top_currently_missing_from_js.static_typing.description
+      aliasFor: options.currently_missing_from_js.static_typing.description
+    - key: options.top_currently_missing_from_js.standard_library
+      aliasFor: options.currently_missing_from_js.standard_library
+    - key: options.top_currently_missing_from_js.standard_library.description
+      aliasFor: options.currently_missing_from_js.standard_library.description
+    - key: options.top_currently_missing_from_js.pattern_matching
+      aliasFor: options.currently_missing_from_js.pattern_matching
+    - key: options.top_currently_missing_from_js.pattern_matching.description
+      aliasFor: options.currently_missing_from_js.pattern_matching.description
+    - key: options.top_currently_missing_from_js.pipe_operator
+      aliasFor: options.currently_missing_from_js.pipe_operator
+    - key: options.top_currently_missing_from_js.pipe_operator.description
+      aliasFor: options.currently_missing_from_js.pipe_operator.description
+    - key: options.top_currently_missing_from_js.decorators
+      aliasFor: options.currently_missing_from_js.decorators
+    - key: options.top_currently_missing_from_js.decorators.description
+      aliasFor: options.currently_missing_from_js.decorators.description
+    - key: options.top_currently_missing_from_js.immutable_data_structures
+      aliasFor: options.currently_missing_from_js.immutable_data_structures
+    - key: options.top_currently_missing_from_js.immutable_data_structures.description
+      aliasFor: options.currently_missing_from_js.immutable_data_structures.description
+    - key: options.top_currently_missing_from_js.better_date_management
+      aliasFor: options.currently_missing_from_js.better_date_management
+    - key: options.top_currently_missing_from_js.better_date_management.description
+      aliasFor: options.currently_missing_from_js.better_date_management.description
+    - key: options.top_currently_missing_from_js.observable
+      aliasFor: options.currently_missing_from_js.observable
+    - key: options.top_currently_missing_from_js.observable.description
+      aliasFor: options.currently_missing_from_js.observable.description
+
+    - key: options.top_currently_missing_from_js.static_typing
+      t: Static Typing
+    - key: options.top_currently_missing_from_js.standard_library
+      t: Librărie standard
+    - key: options.top_currently_missing_from_js.operator_overloading
+      t: Operator Overloading
+    - key: options.top_currently_missing_from_js.immutable
+      t: Structuri de date imutabile
+    - key: options.top_currently_missing_from_js.deep_clone
+      t: Deep Clone
+    - key: options.top_currently_missing_from_js.enums
+      t: Enum-uri
+    - key: options.top_currently_missing_from_js.decorators
+      t: Decoratori
+    - key: options.top_currently_missing_from_js.multithreading
+      t: Multithreading
+    - key: options.top_currently_missing_from_js.pipe_operator
+      t: Pipe Operator
+    - key: options.top_currently_missing_from_js.native_observables
+      t: Native Observables
+
+    # What do you use JS for?
+    - key: options.what_do_you_use_js_for.frontend_development
+      t: Dezvoltare frontend
+    - key: options.what_do_you_use_js_for.backend_development
+      t: Dezvoltare backend
+    - key: options.what_do_you_use_js_for.data_analysis
+      t: Analiză date
+    - key: options.what_do_you_use_js_for.machine_learning
+      t: Machine Learning
+    - key: options.what_do_you_use_js_for.desktop_apps
+      t: Aplicații desktop
+    - key: options.what_do_you_use_js_for.mobile_apps
+      t: Aplicații mobile
+    - key: options.what_do_you_use_js_for.embedded_apps
+      t: Aplicații embedded
+    - key: options.what_do_you_use_js_for.game_development
+      t: Dezvoltare jocuri
+    - key: options.what_do_you_use_js_for.data_visualization
+      t: Vizualizare date
+    - key: options.what_do_you_use_js_for.graphics_animation
+      t: Grafică & animații
+
+    - key: options.what_do_you_use_js_for.scripting
+      t: Scripting
+
+    # JS App Patterns
+
+    - key: options.js_app_patterns.single_page_app
+      t: Single Page Application (SPA)
+    - key: options.js_app_patterns.single_page_app.description
+      t: Aplicații care rulează exclusiv în browser
+    - key: options.js_app_patterns.multiple_page_app
+      t: Multi-Page Application (MPA)
+    - key: options.js_app_patterns.multiple_page_app.description
+      t: Aplicații care rulează exclusiv pe server, cu minim comportament dinamic la nivel de client
+    - key: options.js_app_patterns.static_site_generation
+      t: Static Site Generation (SSG)
+    - key: options.js_app_patterns.static_site_generation.description
+      t: Conținut static pre-redat, cu sau fără un element dinamic la nivel de client
+    - key: options.js_app_patterns.server_side_rendering
+      t: Server-Side Rendering (SSR)
+    - key: options.js_app_patterns.server_side_rendering.description
+      t: Redarea dinamică a conținutului HTML pe server înainte de rehidratarea acestuia la nivel de client
+    - key: options.js_app_patterns.partial_hydration
+      t: Hidratare parțială
+    - key: options.js_app_patterns.partial_hydration.description
+      t: Hidratarea doar a unora dintre componente la nivel de client (e.g. React Server Components)
+    - key: options.js_app_patterns.progressive_rehydration
+      t: Hidratare progresivă
+    - key: options.js_app_patterns.progressive_rehydration.description
+      t: Controlarea ordinii în care componentele sunt hidratate la nivel de client
+    - key: options.js_app_patterns.islands_architecture
+      t: Arhitectura „insulară”
+    - key: options.js_app_patterns.islands_architecture.description
+      t: Insule izolate care au comportament dinamic și mai multe puncte de intrare într-un site altfel static (Astro, Eleventy)
+    - key: options.js_app_patterns.progressive_enhancement
+      t: Îmbunătățire progresivă
+    - key: options.js_app_patterns.progressive_enhancement.description
+      t: Asigurarea că o aplicație este funcțională chiar și fără JavaScript
+    - key: options.js_app_patterns.incremental_static_generation
+      t: Generare statică incrementală
+    - key: options.js_app_patterns.incremental_static_generation.description
+      t: Capacitatea de a mări sau modifica dinamic un site static chiar și după build-ul inițial (Next.js ISR, Gatsby DSG)
+    - key: options.js_app_patterns.streaming_ssr
+      t: Streaming SSR
+    - key: options.js_app_patterns.streaming_ssr.description
+      t: Defalcarea conținutului redat de server în bucăți mai mici transmise în flux
+    - key: options.js_app_patterns.resumability
+      t: Reluare (resumability)
+    - key: options.js_app_patterns.resumability.description
+      t: Serializarea stării framework-ului pe server astfel încât clientul să poată relua execuția fără a avea execuții duplicate de cod.
+    - key: options.js_app_patterns.edge_rendering
+      t: Redarea Edge
+    - key: options.js_app_patterns.edge_rendering.description
+      t: Modificarea codului HTML înainte de a-l trimite către client
+
+  # slider
+    - key: options.js_ts_balance.0
+      t: 100% JS
+    - key: options.js_ts_balance.1
+      t: "|"
+    - key: options.js_ts_balance.2
+      t: "|"
+    - key: options.js_ts_balance.3
+      t: "|"
+    - key: options.js_ts_balance.4
+      t: "50/50"
+    - key: options.js_ts_balance.5
+      t: "|"
+    - key: options.js_ts_balance.6
+      t: "|"
+    - key: options.js_ts_balance.7
+      t: "|"
+    - key: options.js_ts_balance.8
+      t: 100% TS
 
     ###########################################################################
     # Features
@@ -290,7 +520,12 @@ translations:
       t: >
         De menționat că această întrebare vizează doar experiența cu [Angular](https://angular.io/)
         și *nu* se aplică, în mod specific, vechiului [AngularJS](https://angularjs.org/).
-   
+
+    - key: tools.best_of_js_projects.note
+      t: >
+        Librăriile sunt încărcate din [Best of JS](https://bestofjs.org/). 
+        Dacă un proiect lipsește, îl poți [trimite aici](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
     ###########################################################################
     # Other Tools
     ###########################################################################
@@ -317,6 +552,95 @@ translations:
       aliasFor: environments.form_factors
     - key: tools_others.form_factors.description
       aliasFor: environments.form_factors.description
+
+    - key: tools_others.backend_as_a_service
+      t: Provideri backend-as-a-service
+    - key: tools_others.backend_as_a_service.description
+      t: Servicii care găzduiesc date și oferă un client API pentru a le accesa.
+    - key: tools_others.backend_as_a_service.others
+      t: Alți provideri BaaS
+
+    - key: tools_others.date_management
+      t: Managementul datei
+    - key: tools_others.date_management.description
+      t: Librării care te ajută să gestionezi datele și diferențele de fus orar.
+    - key: tools_others.date_management.others
+      t: Alte librării de management al datei
+
+    - key: tools_others.data_visualization
+      t: Vizualizarea datelor
+    - key: tools_others.data_visualization.description
+      t: Librării care te ajută cu grafice și alte vizualizări de date.
+    - key: tools_others.data_visualization.others
+      t: Alte librării de vizualizare a datelor
+
+    - key: tools_others.graphics_animation
+      t: Grafică & animații
+    - key: tools_others.graphics_animation.description
+      t: Librării dedicate graficii și animațiilor.
+    - key: tools_others.graphics_animation.others
+      t: Alte librării de grafică & animații
+
+    - key: tools_others.data_fetching
+      t: Preluarea datelor
+    - key: tools_others.data_fetching.description
+      t: Librării care gestionează preluarea și stocarea în cache a datelor.
+    - key: tools_others.data_fetching.others
+      t: Alte librării de preluare a datelor
+
+    - key: tools_others.backend_frameworks
+      aliasFor: sections.back_end_frameworks.title
+    - key: tools_others.backend_frameworks.description
+      t: Frameworks for generating APIs and managing back-ends
+    - key: tools_others.backend_frameworks.others
+      t: Alte framework-uri de back-end
+
+    ###########################################################################
+    # Usage
+    ###########################################################################
+
+    - key: usage.js_app_patterns
+      t: Modele de aplicații
+    - key: usage.js_app_patterns.description
+      t: Pe care dintre următoarele modele de arhitectură și randare le-ai folosit **în ultimul an**?
+    - key: usage.js_app_patterns.others
+      t: Alte modele de aplicații
+
+    - key: usage.what_do_you_use_js_for
+      t: Pentru ce folosești JavaScript?
+    - key: usage.what_do_you_use_js_for.others
+      t: Alte utilizări ale JavaScript
+
+    - key: usage.js_ts_balance
+      t: Echilibrul JavaScript/TypeScript
+    - key: usage.js_ts_balance.description
+      t: Cum îți împarți timpul între scrierea codului JavaScript și TypeScript?
+
+    - key: tools_others.edge_runtimes
+      t: Runtimes JavaScript Edge/Serverless
+    - key: tools_others.edge_runtimes.description
+      t: Ce runtime edge sau serverless folosești în mod regulat?
+    - key: tools_others.edge_runtimes.others
+      t: Alte runtime-uri Edge
+
+    - key: usage.usage_type
+      t: Utilizare JavaScript
+    - key: usage.usage_type.description
+      t: În ce context folosești în principal JavaScript?
+    - key: usage.usage_type.others
+      t: Alte utilizări
+
+    - key: opinions.pick_of_the_year
+      t: „Alegerea anului” pentru tine
+    - key: opinions.pick_of_the_year.description
+      t: Numele funcționalității, librăriei, site-ului, persoanei etc. pe care vrei s-o aduci în prim plan în acest an.
+
+    - key: usage.industry_sector_js
+      aliasFor: usage.industry_sector
+    - key: usage.industry_sector_js.description
+      t: În ce industrii folosești JavaScript?
+    - key: usage.industry_sector_js.others
+      aliasFor: usage.industry_sector.others
 
     ###########################################################################
     # Opinions
@@ -357,6 +681,8 @@ translations:
       t: Cât de mulțumit(ă) ești de instrumentele pentru build?
     - key: happiness.monorepo_tools
       t: Cât de mulțumit(ă) ești de instrumentele monorepo?
+    - key: happiness.rendering_frameworks
+      t: Cât de mulțumit(ă) ești de starea framework-urilor de randare?
 
     - key: happiness.state_of_the_web
       t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
@@ -369,9 +695,17 @@ translations:
       t: Puncte slabe în JavaScript
     - key: opinions.js_pain_points.description
       t: Pentru fiecare pereche, alege aspectul care ți se pare cel mai chinuitor în JavaScript.
-
     - key: opinions_others.js_pain_points.others
       t: Alte puncte slabe în JavaScript
+
+    - key: opinions.top_js_pain_points
+      aliasFor: opinions.js_pain_points
+    - key: opinions.top_js_pain_points.description
+      t: Alege top 3 aspecte din JavaScript care îți dau cele mai multe bătăi de cap.
+    - key: opinions_others.top_js_pain_points.others
+      aliasFor: opinions_others.js_pain_points.others
+    - key: opinions.top_js_pain_points.others
+      aliasFor: opinions_others.js_pain_points.others
 
     # Missing Features
     - key: opinions.currently_missing_from_js
@@ -380,6 +714,14 @@ translations:
       t: Pentru fiecare pereche, alege funcționalitatea pe care îți dorești cel mai mult să o poți folosi astăzi în JavaScript.
     - key: opinions_others.currently_missing_from_js.others
       t: Alte funcționalități care lipsesc
+
+      aliasFor: opinions.currently_missing_from_js
+    - key: opinions.top_currently_missing_from_js.description
+      t: Alege top 3 funcționalități pe care ți-ar plăcea să le poți folosi în JavaScript azi.
+    - key: opinions_others.top_currently_missing_from_js.others
+      aliasFor: opinions_others.currently_missing_from_js.others
+    - key: opinions.top_currently_missing_from_js.others
+      aliasFor: opinions_others.currently_missing_from_js.others
 
     # pain points/currently missing (results)
     - key: js_pain_points.js_pain_points_wins
