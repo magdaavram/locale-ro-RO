@@ -71,7 +71,7 @@ translations:
     - key: accounts.please_log_in
       t: Te rugăm să te autentifici sau să te înregistrezi pentru a începe.
     - key: accounts.logged_in_as
-      t: Autentificat ca {email}
+      t: Autentificat folosind adresa de email
     - key: accounts.logged_in_as_guest
       t: Autentificat ca vizitator
     - key: accounts.questions
