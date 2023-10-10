@@ -5,6 +5,9 @@ translations:
   # Introduction
   ###########################################################################
 
+  - key: general.results.description
+    t: Ediția din 2021 a sondajului anual despre cele mai noi tendințe din ecosistemul CSS.
+
   - key: introduction.css2021
     t: |
 
@@ -220,130 +223,130 @@ translations:
   - key: picks.intro
     t: Am rugat membrii comunității CSS să ne spună care este „alegerea anului” din perspectiva lor
 
-  - key: picks.georgedoescode.name
+  - key: picks.george_francis.name
     t: API-ul CSS Paint
-  - key: picks.georgedoescode.bio
+  - key: picks.george_francis.bio
     t: Developer, scriitor și artist generativ.
-  - key: picks.georgedoescode.description
+  - key: picks.george_francis.description
     t: |
       API-ul Paint ne permite să creăm imagini în mod programatic, pe care le putem utiliza în CSS-ul nostru. Dezvăluie 
       o întreagă lume a creativității, iar eu sunt foarte încântat de asta!
 
-  - key: picks.cassidoo.name
+  - key: picks.cassidy_williams.name
     t: Lynn Fisher
-  - key: picks.cassidoo.bio
+  - key: picks.cassidy_williams.bio
     t: Developer advocate, educator și consilier de startup-uri.
-  - key: picks.cassidoo.description
+  - key: picks.cassidy_williams.description
     t: |
       Mi-ar plăcea să o aleg pe Lynn Fisher. Ea a surprins și încântat comunitatea CSS în mod constant cu proiectele și 
       experimentele ei creative. Îmi place cât de multe pot învăța oamenii de la ea!
 
-  - key: picks.joshwcomeau.name
+  - key: picks.josh_comeau.name
     t: Amelia Wattenberger
-  - key: picks.joshwcomeau.bio
+  - key: picks.josh_comeau.bio
     t: Developer software și creator al [CSS for JavaScript Developers](https://css-for-js.dev/).
-  - key: picks.joshwcomeau.description
+  - key: picks.josh_comeau.description
     t: |
       Amelia creează unele dintre cele mai uimitoare articole de blog interactive despre CSS și JS. Citește acest 
       articol despre cum funcționează procentele în CSS!
 
-  - key: picks.kevinjpowell.name
+  - key: picks.kevin_j_powell.name
     t: Stephanie Eckles
-  - key: picks.kevinjpowell.bio
+  - key: picks.kevin_j_powell.bio
     t: Evanghelist CSS.
-  - key: picks.kevinjpowell.description
+  - key: picks.kevin_j_powell.description
     t: |
       Sunt în mod constant uluit de inițiativele continue ale Stephaniei care ajută la împărtășirea cunoștințelor ei 
       despre tehnicile moderne CSS, precum și de entuziasmul ei contagios pentru domeniu.
 
-  - key: picks.mmatuzo.name
+  - key: picks.manuel_matuzovic.name
     t: aspect-ratio
-  - key: picks.mmatuzo.bio
+  - key: picks.manuel_matuzovic.bio
     t: Developer front-end din Viena și creator al [htmhell.dev](https://htmhell.dev).
-  - key: picks.mmatuzo.description
+  - key: picks.manuel_matuzovic.description
     t: |
       Toate marile browsere au oferit suport pentru aspect-ratio în 2021. La început l-am subestimat, dar sunt atâtea 
       situațiile în care această proprietate este utilă!
 
-  - key: picks.lauragift_.name
+  - key: picks.gift_egwuenu.name
     t: Kevin Powell
-  - key: picks.lauragift_.bio
+  - key: picks.gift_egwuenu.bio
     t: Developer frontend și creator de conținut.
-  - key: picks.lauragift_.description
+  - key: picks.gift_egwuenu.description
     t: |
       Kevin creează conținut despre CSS pe YouTube, iar mie îmi face mare plăcere să-i urmăresc clipurile. Face o treabă 
       foarte bună predând concepte CSS într-un mod care este ușor și distractiv de înțeles.
 
-  - key: picks.ericwbailey.name
+  - key: picks.eric_w_bailey.name
     t: Miriam Suzanne
-  - key: picks.ericwbailey.bio
+  - key: picks.eric_w_bailey.bio
     t: Design inclusiv și susținător \#a11y.
-  - key: picks.ericwbailey.description
+  - key: picks.eric_w_bailey.description
     t: |
       CSS-ul e pe cale să treacă de la bun la excepțional. Preocuparea lui Miriam pentru Container Queries și Cascade 
       Layers va revoluționa modul în care scriem CSS.
 
-  - key: picks.samuelkraft.name
+  - key: picks.samuel_kraft.name
     t: Vanilla Extract
-  - key: picks.samuelkraft.bio
+  - key: picks.samuel_kraft.bio
     t: Frontend & design.
-  - key: picks.samuelkraft.description
+  - key: picks.samuel_kraft.description
     t: |
       În ultima vreme, mi-a plăcut să lucrez cu Vanilla Extract. Este la fel ca CSS Modules, dar scris cu o experiență 
       de programator magică.
 
-  - key: picks.sachagreif.name
+  - key: picks.sacha_greif.name
     t: Open Props
-  - key: picks.sachagreif.bio
+  - key: picks.sacha_greif.bio
     t: Creator al State of JS și State of CSS.
-  - key: picks.sachagreif.description
+  - key: picks.sacha_greif.description
     t: |
       E foarte tare să vezi cum funcționează bucla de feedback dintre noile funcționalități CSS și noile proiecte care 
       se folosesc de acestea! Cred că un bun exemplu de utilizare excepțională a proprietăților personalizate (variabile 
       CSS) este Open Props al lui Adam Argyle.
 
-  - key: picks.shadeed9.name
+  - key: picks.ahmad_shadeed.name
     t: Container Queries
-  - key: picks.shadeed9.bio
+  - key: picks.ahmad_shadeed.bio
     t: Autor al [Debugging CSS](https://debuggingcss.com/) și al [ishadeed.com](http://ishadeed.com).
-  - key: picks.shadeed9.description
+  - key: picks.ahmad_shadeed.description
     t: |
       CSS container queries din nou! Am avut șansa să ne jucăm cu ele într-un browser. Mulțumim, Miriam Suzanne, pentru 
       că ai făcut ca lucrurile să avanseze! De abia aștept să le folosesc fără flag.
 
-  - key: picks.argyleink.name
+  - key: picks.adam_argyle.name
     t: CSS Noise
-  - key: picks.argyleink.bio
+  - key: picks.adam_argyle.bio
     t: CSS la Google.
-  - key: picks.argyleink.description
+  - key: picks.adam_argyle.description
     t: |
       Textura și efectul neregulat generate de CSS creează în design-ul tău efecte interesante și unice. Instrumentele 
       Noise au făcut tehnica accesibilă.
 
-  - key: picks.walterstephanie.name
+  - key: picks.stephanie_walter.name
     t: Miriam Suzanne
-  - key: picks.walterstephanie.bio
+  - key: picks.stephanie_walter.bio
     t: Cercetător UX și iubitor de CSS.
-  - key: picks.walterstephanie.description
+  - key: picks.stephanie_walter.description
     t: |
       Miriam este o artistă și o activistă ce creează software și artă care celebrează complexitatea queer a experienței 
       umane. Este un expert CSS și face o treabă uimitoare în ceea ce privește specificațiile pentru CSS Container Queries.
 
-  - key: picks.michebarks.name
+  - key: picks.michelle_barker.name
     t: “Building a Color Scheme” de Adam Argyle
-  - key: picks.michebarks.bio
+  - key: picks.michelle_barker.bio
     t: Senior Front End Developer
-  - key: picks.michebarks.description
+  - key: picks.michelle_barker.description
     t: |
       Îmi place acest articol pentru că, deși proprietățile personalizate există de ceva vreme, le duce cu adevărat la 
       un alt nivel și le arată puterea. Sper că îi face pe unii oameni să se gândească la ele într-un mod diferit, mai 
       mult decât simple variabile.
 
-  - key: picks.kilianvalkhof.name
+  - key: picks.kilian_valkhof.name
     t: prefers-reduced-data
-  - key: picks.kilianvalkhof.bio
+  - key: picks.kilian_valkhof.bio
     t: Developer web și creator al Polypane.
-  - key: picks.kilianvalkhof.description
+  - key: picks.kilian_valkhof.description
     t: |
       Avem nevoie de mai mulți developeri care să ceară browserelor această funcționalitate și care să realizeze ce 
       diferență mare poate face. Cu toate acestea, 64% dintre respondenți nu știu despre ea; avem de lucru!
