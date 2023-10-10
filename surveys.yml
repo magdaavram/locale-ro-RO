@@ -1,205 +1,495 @@
 locale: ro-RO
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.no_preview_surveys
-      t: Niciun sondaj disponibil
-    - key: general.global_nav
-      t: General
-    - key: general.survey_status_preview
-      t: Previzualizare
-    - key: general.survey_status_open
-      t: Deschis
-    - key: general.survey_status_closed
-      t: Închis
+  - key: general.no_preview_surveys
+    t: Niciun sondaj disponibil
+  - key: general.global_nav
+    t: General
+  - key: general.survey_status_preview
+    t: Previzualizare
+  - key: general.survey_status_open
+    t: Deschis
+  - key: general.survey_status_closed
+    t: Închis
+  - key: general.survey_status_hidden
+    t: Ascuns
 
-    ###########################################################################
-    # Errors
-    ###########################################################################
+  - key: general.pick_up_to
+    t: Alege până la {limit} elemente.
 
-    - key: error.duplicate_response
-      t: Ne pare rău, ai deja deschisă o sesiune pentru acest sondaj.
+  - key: general.privacy_policy
+    t: Politica de confidențialitate
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Colectarea datelor
 
-    ###########################################################################
-    # Accounts
-    ###########################################################################
+      În afară de datele colectate prin intermediul întrebărilor sondajului, colectăm date despre dispozitiv, browser, sistem de operare, versiunea browser-ului și referrer.
+      
+      De reținut că toate întrebările sunt complet opționale și că nu corelăm niciodată informații identificabile (cum sunt adresele de email) cu răspunsurile tale la sondaj. 
+      
+      ### 2. Colectarea de email-uri
+      
+      Opțional, putem colecta adrese de email pentru a:
+      
+      1. Genera un link de log-in, după care eliminăm adresa de email și păstrăm doar un hash unidirecțional în baza noastră de date.
+      
+      2. Contacta respondenții odată ce rezultatele sunt disponibile, precum și atunci când lansăm noi ediții ale sondajului sau pentru alte rare anunțuri. Te poți dezabona din lista noastră oricând, iar adresa ta va fi ștearsă din baza noastră de îndată ce această cerere este trimisă către furnizorul nostru de newslettere.
+      
+      3. Trimite o listă de funcționalități sau instrumente despre care vrei să afli mai multe. Vom elimina adresa de îndată ce email-ul a fost trimis prin furnizorul nostru de email-uri tranzacționale. 
+      
+      Atunci când colectăm adresa ta de email, aceasta nu este niciodată corelată cu răspunsurile pe care le dai în cadrul sondajului sau cu informații din contul tău. 
+      
+      ### 3. Cookie-uri
+      
+      Setăm un cookie de log-in, iar furnizorul nostru de hosting (Vercel) poate de asemenea să-și seteze propriul cookie. Nu setăm niciun alt cookie și nu folosim client-side analytics sau reclame.
+      
+      ### 4. Utilizare datelor
+      
+      Procesăm datele, iar apoi le folosim pentru a publica rapoarte. De asemenea, facem întreg setul de date disponibil public.
+      
+      ### 5. Ștergerea datelor/contului
+      
+      Ne poți trimite un email la [hello@stateofjs.com](mailto:hello@stateofjs.com) dacă vrei să-ți ștergem toate sau o parte din date.
 
-    - key: accounts.create_account
-      t: Creează cont
-    - key: accounts.create_account.description
-      t: Dacă îți creezi un cont, vei putea avea **acces la propriile date în viitor** și vei fi notificat atunci când rezultatele sondajului sunt publicate.
-    - key: accounts.create_account.note
-      t: Dacă **ai deja un cont**, îți vom trimite pe email un link magic pentru logare.
-    - key: accounts.create_account.action
-      t: Creează cont
-    - key: accounts.your_email
-      t: Adresa ta de email
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
 
-    - key: accounts.continue_as_guest
-      t: Continuă ca vizitator
-    - key: accounts.continue_as_guest.description
-      t: Participarea la sondaj în mod anonim presupune că **nu vei putea accesa din nou datele tale** după ce vei încheia sesiunea.
-    - key: accounts.continue_as_guest.action
-      t: Continuă ca vizitator
+  - key: textlist.placeholder
+    t: Elementul {index}…
 
-    - key: accounts.magic_link.no_email
-      t: Te rugăm să introduci adresa de email
-    - key: accounts.magic_link.success
-      t: Verifică inbox-ul! Ți-am trimis un link magic. Dă click pe el pentru a confirma crearea contului și apoi te vei putea loga.
+  - key: feature.unimplemented
+    t: Fără suport în browser
 
-    ###########################################################################
-    # FAQ
-    ###########################################################################
+  - key: feature.unimplemented.description
+    t: |
+      Această funcționalitate nu a fost încă implementată în browsere. Poți în continuare selecta „Am folosit” dacă ai folosit-o via polyfills, transpilere sau alte instrumente.
 
-    - key: general.faq
-      t: FAQ
-    - key: faq.create_account
-      t: De ce trebuie să-mi creez cont?
-    - key: faq.create_account.description
-      t: Te rugăm să îți creezi cont pentru a evita răspunsurile duplicate, pentru a salva progresul răspunsurilor tale și pentru a te putea anunța atunci când publicăm rezultatele.
-    - key: faq.anonymous_survey
-      t: Pot participa la sondaj în mod anonim?
-    - key: faq.anonymous_survey.description
-      t: Da, poți folosi un email fals (something@example.com) sau unul după care nu poți fi identificat atunci când completezi sondajul, atât timp cât îl salvezi pentru a-l putea folosi și ulterior.
-    - key: faq.questions_required
-      t: Este necesar să răspund la fiecare întrebare?
-    - key: faq.questions_required.description
-      t: Nu, toate întrebările din sondaj sunt opționale.
-    - key: faq.data_published
-      t: Veți face publice datele mele?
-    - key: faq.data_published.description
-      t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri etc.).
-    - key: faq.survey_design
-      t: Cum au fost create sondajele?
-    - key: faq.survey_design.description
-      t: Sondajele sunt concepute pe baza feedbackului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-    - key: faq.results_released
-      t: Când vor fi publicate rezultatele?
-    - key: faq.results_released.description
-      t: Rezultatele sunt de regulă publicate la câteva săptămâni după încheierea sondajului.
-    - key: faq.survey_deadline
-      t: Când se va închide sondajul?
-    - key: faq.survey_deadline.description
-      t: Acest sondaj este deschis până pe {date}
-    - key: faq.team
-      t: Cine se ocupă de aceste sondaje?
-    - key: faq.team.description
-      t: Sondajele sunt sub tutela [Devographics](http://devographics.com), alături de un colectiv de colaboratori, traducători și voluntari.
+  - key: general.skip_question
+    t: Sari peste
 
-    ###########################################################################
-    # Form Controls
-    ###########################################################################
+  - key: general.unskip_question
+    t: Răspunde la întrebare
 
-    - key: bracket.vs
-      t: VS
-    - key: bracket.start_over
-      t: Începe din nou
-    - key: bracket.winner
-      t: >
-      Câștigător:
-    - key: bracket.round
-      t: Round
-    - key: bracket.empty_bracket
-      t: Rezultat în așteptare (mai întâi, completează runda anterioară)
-    - key: bracket.result
-      t: Rezultat
-    - key: bracket.cancel
-      t: Anulare
+  - key: general.skip_question.description
+    t: Sari peste întrebare și marcheaz-o ca finalizată
 
-    - key: experience.leave_comment
-      t: Lasă un comentariu (opțional)
-    - key: experience.leave_comment_short
-      t: Lasă un comentariu
-    - key: experience.tell_us_more
-      t: "Ai ales “{response}”. Spune-ne mai multe despre alegerea ta:"
-    - key: experience.tell_us_more_no_value
-      t: "Nu ai ales niciun răspuns. Spune-ne de ce:"
+  - key: general.unskip_question.description
+    t: Revino la întrebare și răspunde la ea
 
-    ###########################################################################
-    # Response
-    ###########################################################################
+  ###########################################################################
+  # Errors & Messages
+  ###########################################################################
 
-    - key: response.completion
-      t: '{completion}% rată de completare'
+  - key: error.duplicate_response
+    t: Ne pare rău, ai deja deschisă o sesiune pentru acest sondaj.
 
-    - key: response.details
-      t: Deschis pe {startedAt}, {completion}% rată de completare.
+  - key: error.report_issue
+    t: Raportează o problemă
 
-    - key: response.view_results
-      t: Vezi rezultate
+  - key: success.data_saved
+    t: Date salvate
+  - key: success.data_saved.description
+    t: Datele tale au fost salvate.
 
-    ###########################################################################
-    # Survey-Specific Intros
-    ###########################################################################
+  ###########################################################################
+  # Accounts
+  ###########################################################################
 
-    - key: general.js2020.survey_intro
-      t: |
-        2020 a fost un an dificil pentru noi toți, ceea ce, prin comparație, face ca
-        îngrijorarea legată de cele mai noi framework-uri Javascript să pară inoportună.
+  - key: accounts.create_account
+    t: Continuă logat în cont
+  - key: accounts.create_account.description
+    t: Dacă îți creezi un cont, vei putea avea **acces la propriile date în viitor** și vei fi notificat atunci când rezultatele sondajului sunt publicate.
+  - key: accounts.create_account.note
+    t: Dacă **ai deja un cont**, îți vom trimite pe email un link magic pentru logare.
+  - key: accounts.create_account.action
+    t: Creează cont
+  - key: accounts.your_email
+    t: Adresa ta de email
 
-        Cu toate acestea, lumea trebuie să-și urmeze cursul, la fel și universul Javascript. Cu ajutorul tău,
-        vom încerca să creăm din nou o imagine comprehensivă a ecosistemului, în încercarea de a afla puțin mai
-        bine încotro se îndreaptă.
+  - key: accounts.upgrade_account.action
+    t: Actualizează-ți contul
+  - key: accounts.upgrade_account.description
+    t: Adăugarea unei adrese de email îți va permite să accesezi răspunsurile pe care le-ai completat în cadrul sondajului chiar și după ce ai încheiat sesiunea.
 
-    - key: general.css2021.survey_intro
-      t: |
-        Hei, CSS! Cu ce te-ai mai ocupat în ultima vreme? Ah, serios, `@container`? Ah, și
-        dimensionare intrinsecă? Și `@property`?! Uau, ai fost foarte ocupat!
+  - key: accounts.continue_as_guest
+    t: Continuă ca vizitator
+  - key: accounts.continue_as_guest.description
+    t: Participarea la sondaj în mod anonim presupune că **nu vei putea accesa din nou datele tale** după ce vei încheia sesiunea.
+  - key: accounts.continue_as_guest.action
+    t: Continuă ca vizitator
 
-        Chiar dacă pandemia a continuat să ne facă tuturor viața mai dificilă pe parcursul anului 2021,
-        colaboratori pasionați din întreaga lume și-au adus aportul la evoluția CSS-ului.
-        Așadar, e din nou timpul să analizăm ecosistemul CSS și să ne dăm seama încotro se îndreaptă.
-        Și poate să aflăm și câteva lucruri noi în tot acest timp!
+  - key: accounts.magic_link.no_email
+    t: Te rugăm să introduci adresa de email
+  - key: accounts.magic_link.success
+    t: Verifică inbox-ul! Ți-am trimis un link magic. Dă click pe el pentru a confirma crearea contului și apoi te vei putea loga.
+    # Open known mail provider directly in browser with the right search params
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Dă click pentru a-ți deschide inbox-ul.</a>
 
-    - key: general.js2021.survey_intro
-      t: |
-        Mai întâi, Jocurile Olimpice din 2020 au fost amânate pentru 2021,
-        iar acum sondajul State of JavaScript 2021 are loc în 2022!
-        E adevărat: între muncă, familie și toate frământările lumii,
-        unele lucruri au fost puțin tulburate.
+  ###########################################################################
+  # FAQ
+  ###########################################################################
 
-        Dar, deși anul poate fi off-by-one, sperăm că datele oferite de sondaj
-        vor fi la fel de informative și intuitive ca întotdeauna.
-        Și nu-ți face griji, vom organiza un nou sondaj spre sfârșitul anului ca să îndreptăm lucrurile!
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: De ce trebuie să-mi creez cont?
+  - key: faq.create_account.description
+    t: Te rugăm să îți creezi cont pentru a evita răspunsurile duplicate, pentru a salva progresul răspunsurilor tale și pentru a te putea anunța atunci când publicăm rezultatele.
+  - key: faq.anonymous_survey
+    t: Pot participa la sondaj în mod anonim?
+  - key: faq.anonymous_survey.description
+    t: Da, poți folosi un email fals (something@example.com) sau unul după care nu poți fi identificat atunci când completezi sondajul, atât timp cât îl salvezi pentru a-l putea folosi și ulterior.
+  - key: faq.questions_required
+    t: Este necesar să răspund la fiecare întrebare?
+  - key: faq.questions_required.description
+    t: Nu, toate întrebările din sondaj sunt opționale.
+  - key: faq.data_published
+    t: Veți face publice datele mele?
+  - key: faq.data_published.description
+    t: Da, toate datele vor fi făcute publice, dar numai după ce a fost eliminată orice informație cu potențial de identificare (email-uri, username-uri, ID-uri etc.).
+  - key: faq.survey_design
+    t: Cum au fost create sondajele?
+  - key: faq.survey_design.description
+    t: Sondajele sunt concepute pe baza feedbackului primit de la comunitate, precum și pe baza analizării acestora de către experți. Poți [afla mai multe aici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released.description
+    t: Rezultatele sunt de regulă publicate la câteva săptămâni după încheierea sondajului.
+  - key: faq.survey_deadline
+    t: Când se va închide sondajul?
+  - key: faq.survey_deadline.description
+    t: Acest sondaj este deschis până pe {date}
+  - key: faq.team
+    t: Cine se ocupă de acest sondaj?
+  - key: faq.team.description
+    t: Acest sondaj este sub tutela [Devographics](http://devographics.com), alături de un colectiv de colaboratori, traducători și voluntari.
 
-    - key: general.graphql2022.survey_intro
-      t: |
-        Când a fost introdus pentru prima dată, GraphQL oferea un mod complet nou de a construi API-uri, care aducea mai mult control, mai multă granularitate și mai multă flexibilitate. 
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
 
-        Dar această flexibilitate a plătit prețul unei complexități suplimentare. O serie de framework-uri, librării și servicii au venit în ajutor pentru a defini modele și moduri de lucru mai bune. 
+  - key: bracket.vs
+    t: VS
+  - key: bracket.start_over
+    t: Începe din nou
+  - key: bracket.winner
+    t: >
+    Câștigător:
+  - key: bracket.round
+    t: Round
+  - key: bracket.empty_bracket
+    t: Rezultat în așteptare (mai întâi, completează runda anterioară)
+  - key: bracket.result
+    t: Rezultat
+  - key: bracket.cancel
+    t: Anulare
 
-        Acum, pentru prima dată, cercetăm comunitatea GraphQL pentru a ne da seama care dintre aceste multe instrumente sunt mai populare și care sunt funcționalitățile cele mai folosite. Cu ajutorul tău, hai să vedem cum s-a descurcat GraphQL în 2022!
+  - key: experience.leave_comment
+    t: Lasă un comentariu (opțional)
+  - key: experience.leave_comment_short
+    t: Lasă un comentariu
+  - key: experience.tell_us_more
+    t: "Ai răspuns “{response}”. Spune-ne mai multe despre alegerea ta:"
+  - key: experience.tell_us_more_generic
+    t: "Spune-ne mai multe despre răspunsul tău:"
+  - key: experience.tell_us_more_no_value
+    t: "Nu ai ales niciun răspuns. Spune-ne de ce:"
 
-    - key: general.css2022.survey_intro
-      t: |
-        CSS-ul continuă să progreseze într-un ritm fără precedent. Din fericire, anul acesta am primit ajutor de la cineva aflat în fruntea tuturor acestor schimbări: membrul grupului de lucru W3C, [Lea Verou](https://lea.verou.me/), a selectat întrebările sondajului din acest an, punând în special accent pe evidențierea noilor și viitoarelor funcționalități CSS.
+  ###########################################################################
+  # Response
+  ###########################################################################
 
-        Mai mult, rezultatele sondajului îi vor ajuta pe furnizorii de browsere să-și prioritizeze obiectivele și să lucreze pentru o mai bună compatibilitate între browsere.
+  - key: response.completion
+    t: '{completion}% rată de completare'
 
-        Cu toate acestea în minte, să vedem cum a evoluat CSS în 2022!
+  - key: response.details
+    t: Deschis pe {startedAt}, {completion}% rată de completare.
 
-    ###########################################################################
-    # Survey-Specific FAQs
-    ###########################################################################
+  ###########################################################################
+  # Reading List
+  ###########################################################################
 
-    - key: faq.learn_more_css2022
-      t: Unde pot afla mai multe?
-    - key: faq.learn_more_css2022.description
-      t: Poți afla mai multe despre [sondajul de anul trecut de aici](https://2021.stateofcss.com/en-US/about/).
+  - key: readinglist.prompt
+    t: >
+      Ai ales „{option}”. Dacă vrei să afli mai multe despre această funcționalitate la finalul sondajului, poți da click pe pictograma „+” de mai sus și o vei adăuga în **lista ta de lectură**.
 
-    - key: faq.survey_design_css2022
-      t: Cum a fost conceput acest sondaj?
-    - key: faq.survey_design_css2022.description
-      t: În acest an, datorită unui grant de la Google [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) a reușit să preia conducerea și a gestionat [procesul de proiectare a sondajului deschis](https://github.com/orgs/Devographics/projects/1/views/1) pe GitHub.
+  - key: readinglist.add_to_list
+    t: Adaugă în lista ta de lectură
 
-    - key: faq.results_released_css2022
-      t: Când vor fi publicate rezultatele?
-    - key: faq.results_released_css2022.description
-      t: Sondajul este deschis până pe 20 octombrie 2022, iar rezultatele vor fi publicate la începutul lunii noiembrie.
+  - key: readinglist.remove_from_list
+    t: Șterge din lista ta de lectură
 
-    - key: faq.data_used_css2022
-      t: Cum vor fi folosite aceste date?
-    - key: faq.data_used_css2022.description
-      t: Toate datele colectate vor fi făcute publice. Ulterior, vor deveni resurse atât pentru programatori, care le vor putea consulta atunci când iau decizii tehnologice, cât și pentru furnizorii de browsere, care le vor folosi pentru a-și prioritiza obiectivele.
+  - key: readinglist.added_to_list
+    t: Am adăugat „{label}” în lista ta de lectură.
+
+  - key: readinglist.title
+    t: Lista de lectură
+
+  - key: readinglist.description
+    t: >
+      Salvează elementele de aici folosind butonul „+” și vei obține la finalul sondajului o listă de link-uri unde vei putea afla mai multe despre ele.
+
+  - key: readinglist.empty
+    t: >
+      Nu ai niciun element în lista ta de lectură. 
+      Încearcă să revii la sondaj și să adaugi funcționalități sau librării care-ți plac 
+      pentru a afla mai multe folosind butonul „+”.
+
+  - key: readinglist.results
+    t: >
+      Aici sunt câteva resurse din care vei putea afla mai multe despre elementele din lista ta de lectură:
+  - key: readinglist.homepage_link
+    t: Acasă
+
+  - key: readinglist.receive_copy
+    t: >
+      Introdu adresa de email pentru a primi o copie a listei tale de lectură:
+  - key: readinglist.send_by_email
+    t: Trimite
+  - key: readinglist.email_sent
+    t: Mulțumim! Lista ta de lectură este în drum spre inbox-ul tău.
+
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "Gradul tău:"
+  - key: knowledge_rank.rank1
+    t: Novice
+  - key: knowledge_rank.rank2
+    t: Apprentice
+  - key: knowledge_rank.rank3
+    t: Intermediar
+  - key: knowledge_rank.rank4
+    t: Expert
+  - key: knowledge_rank.rank5
+    t: Scholar
+  - key: knowledge_rank.rank6
+    t: Elită
+
+  ###########################################################################
+  # Survey-Specific Intros
+  ###########################################################################
+
+  - key: general.js2020.survey_intro
+    t: |
+      2020 a fost un an dificil pentru noi toți, ceea ce, prin comparație, face ca
+      îngrijorarea legată de cele mai noi framework-uri Javascript să pară inoportună.
+
+      Cu toate acestea, lumea trebuie să-și urmeze cursul, la fel și universul Javascript. Cu ajutorul tău,
+      vom încerca să creăm din nou o imagine comprehensivă a ecosistemului, în încercarea de a afla puțin mai
+      bine încotro se îndreaptă.
+
+  - key: general.css2021.survey_intro
+    t: |
+      Hei, CSS! Cu ce te-ai mai ocupat în ultima vreme? Ah, serios, `@container`? Ah, și
+      dimensionare intrinsecă? Și `@property`?! Uau, ai fost foarte ocupat!
+
+      Chiar dacă pandemia a continuat să ne facă tuturor viața mai dificilă pe parcursul anului 2021,
+      colaboratori pasionați din întreaga lume și-au adus aportul la evoluția CSS-ului.
+      Așadar, e din nou timpul să analizăm ecosistemul CSS și să ne dăm seama încotro se îndreaptă.
+      Și poate să aflăm și câteva lucruri noi în tot acest timp!
+
+  - key: general.js2021.survey_intro
+    t: |
+      Mai întâi, Jocurile Olimpice din 2020 au fost amânate pentru 2021,
+      iar acum sondajul State of JavaScript 2021 are loc în 2022!
+      E adevărat: între muncă, familie și toate frământările lumii,
+      unele lucruri au fost puțin tulburate.
+
+      Dar, deși anul poate fi off-by-one, sperăm că datele oferite de sondaj
+      vor fi la fel de informative și intuitive ca întotdeauna.
+      Și nu-ți face griji, vom organiza un nou sondaj spre sfârșitul anului ca să îndreptăm lucrurile!
+
+  - key: general.graphql2022.survey_intro
+    t: |
+      Când a fost introdus pentru prima dată, GraphQL oferea un mod complet nou de a construi API-uri, care aducea mai mult control, mai multă granularitate și mai multă flexibilitate. 
+
+      Dar această flexibilitate a plătit prețul unei complexități suplimentare. O serie de framework-uri, librării și servicii au venit în ajutor pentru a defini modele și moduri de lucru mai bune. 
+
+      Acum, pentru prima dată, cercetăm comunitatea GraphQL pentru a ne da seama care dintre aceste multe instrumente sunt mai populare și care sunt funcționalitățile cele mai folosite. Cu ajutorul tău, hai să vedem cum s-a descurcat GraphQL în 2022!
+
+  - key: general.css2022.survey_intro
+    t: |
+      CSS-ul continuă să progreseze într-un ritm fără precedent. Din fericire, anul acesta am primit ajutor de la cineva aflat în fruntea tuturor acestor schimbări: membrul grupului de lucru W3C, [Lea Verou](https://lea.verou.me/), a selectat întrebările sondajului din acest an, punând în special accent pe evidențierea noilor și viitoarelor funcționalități CSS.
+
+      Mai mult, rezultatele sondajului îi vor ajuta pe furnizorii de browsere să-și prioritizeze obiectivele și să lucreze pentru o mai bună compatibilitate între browsere.
+
+      Cu toate acestea în minte, să vedem cum a evoluat CSS în 2022!
+
+  - key: general.js2022.survey_intro
+    t: |
+      Pentru prima dată după ceva timp, se pare că status quo-ul ecosistemului JavaScript este pus la îndoială. 
+      Bundling mai rapid cu Vite, arhitectură „insulară” cu Astro, resumability cu Qwik… Noii jucători provoacă vechea gardă, iar rezultatul este mai mult entuziasm, dar și 
+      mult mai multă incertitudine. 
+      Așadar, încă o dată, hai să încercăm să ne dăm seama împreună încotro se îndreaptă JavaScript în 2022 și mai departe. 
+
+  - key: general.css2023.survey_intro
+    t: |
+      Pentru a te ajuta să ții pasul cu `:has()`, `@container` și toate celelalte noi funcționalități CSS, în acest an am introdus o nouă funcție: **Lista de lectură**.  
+      
+      Pe măsură ce completezi sondajul, vei putea să marchezi orice funcționalitate îți dorești și să afli mai multe despre ea după ce finalizezi sondajul. 
+ 
+      În acest an, [Chen Hui Jing](https://chenhuijing.com/) a preluat conducerea în procesul de design al sondajului, bazându-se pe munca depusă de [Lea Verou](https://lea.verou.me/) anul trecut. Și ca de obicei, feedback-ul tău va juca un rol cheie în a ajuta furnizorii de browsere să-și prioritizeze obiectivele și să lucreze pentru o mai bună compatibilitate între browsere. 
+
+      Cu toate acestea în minte, hai să vedem cum a evoluat CSS până acum în 2023!
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      În timp ce developerii tind să se concentreze în principal pe JavaScript și CSS, nimic din ceea ce facem acum nu ar fi posibil fără ca HTML să se afle la fundație.
+  
+      Multă vreme a părut că HTML nu evoluează, dar lucrurile s-ar putea schimba.
+      Noi elemente ca `<selectlist>` se văd la orizont, caracteristici noi cool cum sunt popover-ele
+      și o multitudine de API-uri de browsere (Web Components, PWAs etc.).
+      
+      În acest an, [Lea Verou](https://lea.verou.me/) a avut formidabila sarcină de a conduce crearea acestui nou sondaj, de la conținut la UX și multe altele.
+      
+      Construind pe succesul sondajelor [State of JS](http://stateofjs.com/) și [State of CSS](https://stateofcss.com/), îți prezentăm State of HTML;
+      ultima piesă lipsă care completează trilogia platformei web și care ne permite să urmărim evoluția platformei web ca un întreg.
+      
+      Beneficii pentru tine:
+      - Rezultatele sondajului sunt **folosite de browsere** și grupuri de standarde **pentru prioritizarea obiectivelor**.
+      Răspunsurile tale pot ajuta ca funcționalitățile care te interesează să fie implementate, incompatibilitățile între browsere să fie prioritizate și ca lacunele platfomei să fie remediate.
+      - Află despre funcționalități noi și viitoare; adaugă funcționalități în lista ta de lectură și obține o listă de resurse la final!
+      - Obține un scor de cunoștințe personalizat și vezi cum stai în raport cu ceilalți respondenți
+      Sondajul va fi deschis timp de 3 săptămâni, însă răspunsurile completate **în primele 9 zile (până pe 1 octombrie)** vor avea un impact mai mare asupra web-ului 
+      deoarece datele preliminare vor fi folosite pentru unele eforturi de prioritizare care au termene limită până atunci.
+
+  ###########################################################################
+  # Survey-Specific FAQs
+  ###########################################################################
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_css.description
+    t: >
+      Toate datele colectate vor fi făcute publice, fiind disponibile pentru orice programator sau companie își dorește să le consulte. 
+      Furnizorii de browsere de asemenea [folosesc aceste date](https://web.dev/interop-2023/) pentru a prioritiza zonele de interes și obiectivele.
+  - key: faq.who_should_take_survey_css
+    t: Cine ar trebui să completeze acest sondaj?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      Acesta este un sondaj deschis oricui scrie cod CSS, fie că în mod regulat  
+      sau ocazional, ca parte a job-ului, ca student sau pur și simplu ca hobby!
+  - key: faq.survey_goals_css
+    t: Care este obiectivul sondajului?
+  - key: faq.survey_goals_css.description
+    t: >
+      Obiectivul sondajului este de a urmări evoluția tendințelor și a librăriilor viitoare,  
+      precum și de ajuta developerii să facă alegeri tehnologice. 
+
+  # CSS 2022
+
+  - key: faq.learn_more_css2022
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_css2022.description
+    t: Poți afla mai multe despre [sondajul de anul trecut de aici](https://2021.stateofcss.com/en-US/about/).
+
+  - key: faq.survey_design_css2022
+    t: Cum a fost conceput acest sondaj?
+  - key: faq.survey_design_css2022.description
+    t: În acest an, datorită unui grant de la Google [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) a reușit să preia conducerea și a gestionat [procesul de proiectare a sondajului deschis](https://github.com/orgs/Devographics/projects/1/views/1) pe GitHub.
+
+  - key: faq.results_released_css2022
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_css2022.description
+    t: Sondajul este deschis până la finalul lui octombrie 2022, iar rezultatele vor fi publicate la începutul lunii noiembrie.
+
+  - key: faq.data_used_css2022
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_css2022.description
+    t: Toate datele colectate vor fi făcute publice. Ulterior, vor deveni resurse atât pentru programatori, care le vor putea consulta atunci când iau decizii tehnologice, cât și pentru furnizorii de browsere, care le vor folosi pentru a-și prioritiza obiectivele.
+
+  # CSS 2023
+
+  - key: faq.how_long_will_survey_take_css2023
+    t: Cât durează completarea sondajului?
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      În funcție de numărul de întrebări la care alegi să răspunzi (toate întrebările sunt opționale),  
+      completarea sondajului ar trebui să dureze în jur de 10-15 minute.
+
+  - key: faq.learn_more_css2023
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_css2023.description
+    t: Poți afla mai multe despre acest sondaj în [articolul nostru de lansare](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+
+  - key: faq.survey_design_css2023
+    t: Cum a fost conceput sondajul?
+  - key: faq.survey_design_css2023.description
+    t: În acest an, datorită unei finanțări de la Google [UI Fund](https://web.dev/ui-fund/), [Chen Hui Jing](https://chenhuijing.com/) a putut ajuta la gestionarea [procesului de design al sondajului](https://github.com/Devographics/surveys/issues/84).
+
+  - key: faq.results_released_css2023
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_css2023.description
+    t: Sondajul este deschis până pe 15 iunie 2023, iar rezultatele vor fi publicate în săptămânile următoare.
+
+  # JS 2022
+
+  - key: faq.learn_more_js2022
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_js2022.description
+    t: Poți afla mai multe despre [sondajul de anul trecut aici](https://2021.stateofjs.com/en-US/about/).
+
+  # - key: faq.survey_design_js2022
+  #   t: Cum a fost conceput sondajul?
+  # - key: faq.survey_design_css2022.description
+  #   t: În acest an, datorită unei finanțări de la Google [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) a putut prelua conducerea și a gestionat [procesul de design al sondajului](https://github.com/orgs/Devographics/projects/1/views/1) pe GitHub.
+
+  - key: faq.results_released_js2022
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_js2022.description
+    t: Sondajul este deschis până pe 15 decembrie 2022, iar rezultatele vor fi publicate la scurt timp după.
+
+  - key: faq.data_used_js2022
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_js2022.description
+    t: Toate datele colectate vor fi făcute publice. Ulterior, vor deveni resurse atât pentru programatori, care le vor putea consulta atunci când iau decizii tehnologice, cât și pentru furnizorii de browsere, care le vor folosi pentru a-și prioritiza obiectivele.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_html2023.description
+    t: >
+      Toate datele colectate vor fi disponibile pentru orice developer sau companie care își dorește să le consulte. 
+      Furnizorii de browsere de asemenea [folosesc aceste date](https://web.dev/interop-2023/) pentru a-și prioritiza obiectivele.
+  - key: faq.survey_goals_html2023
+    t: Care sunt obiectivele sondajului?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      Obiectivele sondajului sunt acelea de a măsura gradul de conștientizare a noilor funcționalități HTML și a API-urilor de browser, precum și de a ajuta developerii să monitorizeze modul în care utilizarea acestora evoluează.
+  - key: faq.who_should_take_survey_html2023
+    t: Cine ar trebui să completeze acest sondaj?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Acesta este un sondaj deschis oricui creează website-uri sau aplicații web, fie că se ocupă de asta în mod regulat sau ocazional, ca parte a job-ului, ca student sau pur și simplu ca hobby!
+  - key: faq.how_long_will_survey_take_html2023
+    t: Cât va dura completarea sondajului?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      În funcție de numărul de întrebări la care alegi să răspunzi (toate întrebările sunt opționale), 
+      completarea sondajului poate lua în jur de 15-20 de minute.
+  - key: faq.learn_more_html2023
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_html2023.description
+    t: Poți afla mai multe despre acest sondaj în [articolul nostru de lansare](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Cum a fost conceput acest sondaj?
+  - key: faq.survey_design_html2023.description
+    t: >
+      Acest sondaj a fost conceput de [Lea Verou](https://lea.verou.me), cu ajutor și din partea furnizorilor de browsere reprezentați de grupuri, cum e [WebDX Community](https://www.w3.org/community/webdx/).
+  - key: faq.results_released_html2023
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_html2023.description
+    t: Sondajul este deschis în perioada 19 septembrie - 10 octombrie, iar rezultatele vor fi publicate la scurt timp după închiderea lui.
