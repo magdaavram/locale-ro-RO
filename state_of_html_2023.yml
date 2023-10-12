@@ -1,0 +1,8 @@
+locale: ro-RO
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ediția din 2022 a sondajului anual despre cele mai noi tendințe din ecosistemul HTML.
