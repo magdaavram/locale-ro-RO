@@ -1,0 +1,905 @@
+locale: ro-RO
+namespace: css
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+  # Intro for stateofhtml.com
+  - key: general.state_of_html.intro
+    # aliasFor: general.html2023.survey_intro # Can we do that?
+    t: |
+      În timp ce developerii tind să se concentreze în principal pe JavaScript și CSS, nimic din ceea ce facem acum nu ar fi posibil fără ca HTML să se afle la fundație.
+
+      Multă vreme a părut că HTML nu evoluează, dar lucrurile s-ar putea schimba.
+      Noi elemente ca `<selectlist>` se văd la orizont, caracteristici noi cool cum sunt popover-ele
+      și o multitudine de API-uri ale browserelor (Web Components, PWAs etc.).
+
+      În acest an, [Lea Verou](https://lea.verou.me/) a avut formidabila sarcină de a conduce crearea acestui nou sondaj, de la conținut la UX și multe altele.
+
+      Construind pe succesul sondajelor [State of JS](http://stateofjs.com/) și [State of CSS](https://stateofcss.com/), îți prezentăm **State of HTML**;
+      ultima piesă lipsă care completează trilogia platformei web și care ne permite să urmărim evoluția platformei ca un întreg.
+
+      Beneficii pentru tine:
+      - Rezultatele sondajului sunt **folosite de browsere** și grupuri de standarde **pentru prioritizarea obiectivelor**.
+      Răspunsurile tale pot ajuta ca funcționalitățile care te interesează să fie implementate, incompatibilitățile între browsere să fie prioritizate și ca lacunele platfomei să fie remediate.
+      - Află despre funcționalități noi și viitoare; adaugă funcționalități în lista ta de lectură și obține o listă de resurse la final!
+      - Obține un scor de cunoștințe personalizat și vezi cum stai în raport cu ceilalți respondenți
+      
+      Sondajul va fi deschis timp de 3 săptămâni, însă răspunsurile completate **în primele 9 zile (până pe 1 octombrie)** vor avea un impact mai mare asupra web-ului 
+      deoarece datele preliminare vor fi folosite pentru unele eforturi de prioritizare care au termene limită până atunci.
+
+  - key: general.state_of_html.description
+    t: Sondajul anual al programatorilor cu privire la platforma web
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.forms.title
+    t: Formulare
+  - key: sections.forms.description
+    t: Elemente și atribute legate de formulare
+
+  - key: sections.interactivity.title
+    t: Interactivitate
+  - key: sections.interactivity.description
+    t: API-uri care permit mai multe interacțiuni ale utilizatorului.
+
+  - key: sections.web_components.title
+    t: Web Components
+  - key: sections.web_components.description
+    t: Crearea și utilizarea web components.
+
+  - key: sections.content.title
+    t: Conținut
+  - key: sections.content.description
+    t: Embedding, multimedia, dată și alte funcționalități legate de conținut.
+
+  - key: sections.external_content.title
+    t: Conținut extern
+  - key: sections.external_content.description
+    t: Embedding-ul surselor externe și a altor API-uri multimedia.
+
+  - key: sections.accessibility.title
+    t: Accesibilitate
+  - key: sections.accessibility.description
+    t: Crearea unor site-uri și aplicații accesibilte tuturor.
+
+  - key: sections.mobile_web_apps.title
+    t: Aplicații web similare celor native
+  - key: sections.mobile_web_apps.description
+    t: Crearea unor aplicații web optimizate pentru mobil și desktop.
+
+  - key: sections.other_features.title
+    t: Alte funcționalități
+  - key: sections.other_features.description
+    t: Alte elemente HTML și API-uri ale browserului.
+
+  - key: sections.other_tools.title
+    t: Alte instrumente și funcționalități
+  - key: sections.other_tools.description
+    t: Alte instrumente și funcționalități pe care le folosești ca parte din munca ta.
+
+  - key: sections.usage.title
+    t: Utilizare
+  - key: sections.usage.description
+    t: Cum folosești HTML.
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # forms
+
+  - key: features.form_controls
+    t: Form controlere
+  - key: features.form_controls.question
+    t: Ce form controlere ai folosit?
+
+  - key: features.form_input_types
+    t: Tipuri de input
+  - key: features.form_input_types.question
+    t: Ce tipuri de input ai folosit?
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> Niciunul de mai sus
+
+  - key: features.form_validation_features
+    t: Validarea formularelor
+  - key: features.form_validation_features.question
+    t: Pe care dintre următoarele validări de formular le-ai folosit?
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.forms_pain_points
+    t: Puncte slabe ale formularelor
+  - key: features.forms_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai observat la formularele HTML?
+  - key: features.forms_pain_points.description
+    t: |
+      Gândește-te la diferite form controlere (ex. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
+      comportamente (ex. validare, autocomplete), manipularea formularelor via JS, editarea API-urilor (ex. `contentEditable`) etc.
+      Notează orice te deranjează — suport în browser, funcționalități lipsă, stilizare etc.
+  - key: features.forms_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  # interactivity
+
+  - key: features.dom_attribute_features
+    t: Metode legate de atributele DOM
+  - key: features.dom_attribute_features.question
+    t: Pe care dintre următoarele metode legate de atributele DOM le-ai folosit?
+
+  - key: features.dom_html_features
+    t: Funcționalități de manipulare a string-urilor HTML
+  - key: features.dom_html_features.question
+    t: Pe care dintre următoarele funcționalități de manipulare a string-urilor DOM HTML le-ai folosit?
+
+  - key: features.dom_methods
+    t: Metode DOM de reparentare a elementelor
+
+  - key: features.dom_moving_element_features
+    t: Metode DOM de mutare a elementelor
+  - key: features.dom_moving_element_features.question
+    t: Pe care dintre următoarele metode DOM de mutare a elementelor le-ai folosit?
+  # - key: options.dom_methods.element_innerhtml.description
+  #   t: |
+  #     `element.innerHTML = rawHTML`
+  # - key: options.dom_methods.element_textcontent.description
+  #   t: |
+  #     `element.textContent = text`
+  # - key: options.dom_methods.element_insert_adjacent_html.description
+  #   t: |
+  #     `element.insertAdjacentHTML("beforebegin", rawHTML)`
+  # - key: options.dom_methods.element_insert_adjacent_element.description
+  #   t: |
+  #     `element.insertAdjacentElement("afterend", otherElement)`
+  # - key: options.dom_methods.element_append.description
+  #   t: |
+  #     `parent.append(...children)`
+  # - key: options.dom_methods.element_append_child.description
+  #   t: |
+  #     `parent.appendChild(child)`
+  # - key: options.dom_methods.element_before_after.description
+  #   t: |
+  #     `element.before(otherElement)`
+  # - key: options.dom_methods.element_replace_with.description
+  #   t: |
+  #     Replaced the older `parent.replaceChild(el2, el1)` method.
+  # - key: options.dom_methods.element_replace_child.description
+  #   t: |
+  #     `parent.replaceChild(newChild, oldChild)`
+  # - key: options.dom_methods.element_replace_children.description
+  #   t: |
+  #     `element.replaceChildren(...newChildren)`
+  # - key: options.dom_methods.element_toggle_attribute.description
+  #   t: |
+  #     `element.toggleAttribute("data-selected", isSelected)`
+  # - key: options.dom_methods.document_create_document_fragment.description
+  #   t: |
+  #     `let fragment = document.createDocumentFragment()`
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.interactivity_pain_points
+    t: Puncte slabe legate de interactivitate
+  - key: features.interactivity_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai observat la schimbările dinamice în HTML?
+  - key: features.interactivity_pain_points.description
+    t: |
+      Incompatibilități între browsere sau lipsa de asistență, funcționalități care lipsesc sau alte probleme cu care te confrunți 
+      în legătură cu elementele și comportamentele interactive (cu excepția formularelor), manipulare DOM, evenimente și API-urile aferente.
+
+  - key: features.interactivity_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  - key: features.interactivity_techniques
+    t: Metode de interacțiune
+  - key: features.interactivity_techniques.question
+    t: Pe care dintre aceste metode le-ai folosit pentru a gestiona interacțiunea sau pentru a modifica dinamic HTML-ul?
+  - key: options.interactivity_techniques.css_for_interactivity
+    t: CSS pentru interacțiuni (toggles, tabs etc.)
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: Librării DOM JavaScript (jQuery etc.)
+  - key: options.interactivity_techniques.js_framework
+    t: Framework-uri JavaScript (React, Vue etc.)
+  - key: options.interactivity_techniques.vanilla_js
+    t: JavaScript simplu (niciun framework sau librărie)
+  - key: options.interactivity_techniques.web_components
+    t: Web Components
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  # content
+
+  - key: features.machine_readable_features
+    t: Machine-Readable Data
+  - key: features.machine_readable_features.question
+    t: Pe care dintre următoarele le-ai folosit pentru a include machine-readable data în HTML?
+  - key: options.machine_readable_features.rdfa.description
+    t: |
+      `property`, `typeof` etc.
+  - key: options.machine_readable_features.json_ld.description
+    t: |
+      `<script type="application/ld+json">`
+  - key: options.machine_readable_features.microdata.description
+    t: |
+      `itemprop`, `itemscope` etc.
+
+  - key: features.multiple_languages_support
+    t: Suport în mai multe limbi
+  - key: features.multiple_languages_support.question
+    t: Cât de des lucrezi pe proiecte care necesită suport pentru mai multe limbi?
+  - key: options.multiple_languages_support.never
+    t: Niciodată
+  - key: options.multiple_languages_support.infrequently
+    t: Rar (mai puțin de o dată pe an)
+  - key: options.multiple_languages_support.frequently
+    t: Frecvent (mai mult de o dată pe an)
+  - key: options.multiple_languages_support.all_the_time
+    t: Tot timpul
+
+  - key: features.i18n_features
+    t: Funcționalități de internalizare
+  - key: features.i18n_features.question
+    t: Pe care dintre următoarele funcționalități de internalizare le-ai folosit?
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  # - key: options.i18n_features.intl_datetimeformat.description
+  #   t:
+  # - key: options.i18n_features.intl_collator.description
+  #   t:
+  # - key: options.i18n_features.intl_listformat.description
+  #   t:
+  # - key: options.i18n_features.intl_numberformat.description
+  #   t:
+  # - key: options.i18n_features.intl_messageformat.description
+  #   t:
+  # - key: options.i18n_features.intl_pluralrules.description
+  #   t:
+  # - key: options.i18n_features.intl_relative_time_format.description
+  #   t:
+  # - key: options.i18n_features.intl_segmenter.description
+  #   t:
+  # - key: options.i18n_features.intl_localematcher.description
+  #   t:
+
+  - key: features.content_pain_points
+    t: Puncte slabe legate de conținut
+  - key: features.content_pain_points.question
+    t: Care sunt punctele slabe legate de gestionarea conținutului în HTML?
+  - key: features.content_pain_points.description
+    t: |
+      Gândește-te la embedding (multimedia, iframes, SVG etc), machine-readable data, internalizare și localizare, securitate și confidențialitate, performanță etc.
+      Funcționalități lipsă, incompatibilități între browsere și alte probleme cu care te confrunți - sunt toate valide.
+  - key: features.content_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  # Content
+
+  - key: features.external_content_elements
+    t: Elemente de conținut extern
+  - key: features.external_content_elements.question
+    t: Pe care dintre următoarele elemente le-ai folosit?
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> Niciunul de mai sus
+
+  - key: features.privacy_security_features
+    t: |
+      Funcționalități de securitate și confidențialitate
+  - key: features.privacy_security_features.question
+    t: |
+      Pe care dintre următoarele funcționalități de securitate și confidențialitate le-ai folosit?
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.rel_attribute
+    t: Resource Hints
+  - key: features.rel_attribute.question
+    t: |
+      Pe care dintre următoarele valori le-ai folosit pentru atributul `rel` al `<link>` ?
+
+  # - key: features.external_content_pain_points
+  #   t: External Content Pain Points
+  # - key: features.external_content_pain_points.question
+  #   t: What are your biggest pain points around using external content in HTML?
+  # - key: features.external_content_pain_points.placeholder
+  #   t: |
+  #     Pain point #{index}…
+  # - key: features.external_content_pain_points.description
+  #   t: |
+  #     External content includes `<iframe>`, graphics and multimedia, etc.
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: Librării Web Components
+  - key: features.web_components_libraries.question
+    t: Ai folosit vreo librărie Web Components?
+
+  - key: features.web_components_features
+    t: Alte funcționalități Web Component
+  - key: features.web_components_features.question
+    t: Pe care dintre următoarele funcționalități web component le-ai folosit?
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+      `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.using_web_components_pain_points
+    t: Puncte slabe în folosirea Web Components
+  - key: features.using_web_components_pain_points.question
+    t: Care sunt cele mai slabe puncte legate de *folosirea* web components?
+  - key: features.using_web_components_pain_points.description
+    t: Utilizarea componentelor web pe care tu sau alții le-au creat. Funcționalități lipsă, incompatibilități între browsere etc.
+  - key: features.using_web_components_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  - key: features.making_web_components_pain_points
+    t: Puncte slabe în crearea Web Components
+  - key: features.making_web_components_pain_points.question
+    t: Care sunt cele mai slabe puncte legate de *crearea* web components?
+  - key: features.making_web_components_pain_points.description
+    t: |
+      Ce te împiedică să creezi componentele uimitoare pe care ți le imaginezi? Funcționalități lipsă, incompatibilități între browsere etc.
+  - key: features.making_web_components_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  # Accessibility
+
+  - key: features.accessibility_features
+    t: Funcționalități de accesibilitate
+  - key: features.accessibility_features.question
+    t: Pe care dintre următoarele funcționalități de accesibilitate le-ai folosit?
+
+  - key: features.accessibility_tools
+    t: Instrumente pentru accesibilitate
+  - key: features.accessibility_tools.question
+    t: Ce instrumente folosești pentru testarea accesbilității?
+
+  - key: features.accessibility_pain_points
+    t: Puncte slabe legate de accesibilitate
+  - key: features.accessibility_pain_points.question
+    t: Care sunt cele mai slabe puncte legate de accesbilitate?
+  - key: features.accessibility_pain_points.placeholder
+    t: |
+      Punctul slab #{index}…
+
+  - key: features.accessibility_disabilities
+    t: Dizabilități ale utilizatorului
+  - key: features.accessibility_disabilities.question
+    t: Ce tipuri de dizabilități iei în calcul atunci când creezi website-uri?
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    t: Deficiențe de auz
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: Surditate, tinitus etc.
+
+  - key: options.accessibility_disabilities.mobility_impairments
+    t: Deficiențe locomotorii
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: Artrită, sindrom de tunel carpian etc.
+
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: Deficiențe cognitive
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: Dislexie, discalculie etc.
+
+  - key: options.accessibility_disabilities.cognitive_impairments
+    t: |
+      Alte deficiențe cognitive
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      Anxietate, autism, OCD, ADHD etc.
+
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: Tulburări vestibulare
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: Epilepsie, vertigo etc.
+
+  - key: options.accessibility_disabilities.low_vision
+    t: Vedere scăzută
+  - key: options.accessibility_disabilities.low_vision.description
+    t: Orbire, miopie mare etc.
+
+  - key: options.accessibility_disabilities.atypical_vision
+    t: Vedere atipică a culorilor
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: Daltonism
+
+  - key: features.accessibility_screenreaders
+    t: Screen Readere
+  - key: features.accessibility_screenreaders.question
+    t: Ce screen readere folosești pentru testarea accesibilității?
+
+  - key: features.accessibility_techniques
+    t: Alte tehnici de accesibilitate
+  - key: features.accessibility_techniques.question
+    t: Ce alte tehnici sunt parte din strategia ta obișnuită de accesibilitate?
+
+  - key: options.accessibility_techniques.tabindex
+    t: |
+      Îmbunătățirea ordinii de focus cu `tabindex`
+  - key: options.accessibility_techniques.tabindex.description
+    t: |
+      Folosirea `tabindex`, `tabindex="0"` pentru a activa focusul etc.
+  - key: options.accessibility_techniques.keyboard_navigation
+    t: Navigare intuitivă cu ajutorul tastaturii
+  - key: options.accessibility_techniques.keyboard_navigation.description
+    t: Alta în afară de ordinea tab.
+  - key: options.accessibility_techniques.aria_attributes
+    t: Atribute ARIA
+  - key: options.accessibility_techniques.aria_attributes.description
+    t: |
+      atributele `role` și `aria-*`
+  - key: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      Text `alt` descriptiv
+  - key: options.accessibility_techniques.descriptive_alt_text.description
+    t: Adăugarea unul text alternativ care descrie scopul sau conținutul unei imagini.
+  - key: options.accessibility_techniques.skip_to_content
+    t: Link sari-la-conținut
+  - key: options.accessibility_techniques.skip_to_content.description
+    t: Posibilitatea de a sări direct la conținutul principal al unei pagini.
+  - key: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      `<fieldset>` și `<legend>`
+  - key: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      Folosirea `<fieldset>` și `<legend>` pentru a grupa elementele ce țin de formular.
+  - key: options.accessibility_techniques.headings_hierarchy
+    t: Ierarhia informației
+  - key: options.accessibility_techniques.headings_hierarchy.description
+    t: |
+      Folosirea titlurilor (`<h1>` - `<h6>`) care prezintă în mod corect ierarhia informației unei pagini.
+  - key: options.accessibility_techniques.meaningful_link_text
+    t: Text link relevant
+  - key: options.accessibility_techniques.meaningful_link_text.description
+    t: Asigurarea că textul link-ului are sens în afara contextului
+  - key: options.accessibility_techniques.form_control_label
+    t: Form Control Labels
+  - key: options.accessibility_techniques.form_control_label.description
+    t: |
+      Asigurarea că fiecare controler al formularului are un `<label>` (sau `aria-label` etc.).
+  - key: options.accessibility_techniques.visible_focus
+    t: Contur de focus vizibil
+  - key: options.accessibility_techniques.visible_focus.description
+    t: Asigurarea că, atunci când este necesar, conturul de focus este clar vizibil.
+  - key: options.accessibility_techniques.pointer_alternative
+    t: Nu doar pointer
+  - key: options.accessibility_techniques.pointer_alternative.description
+    t: Asigurarea că interacțiunile pointer-ului (ex. hover) au o alternativă folosind tastatura.
+  - key: options.accessibility_techniques.good_color_contrast
+    t: Contrast suficient
+  - key: options.accessibility_techniques.good_color_contrast.description
+    t: Utilizarea instrumentelor de verificare a contrastului pentru a asigura un contrast suficient de culoare.
+  - key: options.accessibility_techniques.color_alternative
+    t: Nu doar culoare
+  - key: options.accessibility_techniques.color_alternative.description
+    t: Asigurarea că nicio informație nu este transmisă doar prin culoare.
+  - key: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      Query-ul media `prefers-reduced-motion`
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
+    t: Furnizarea de CSS alternativ pentru utilizatorii care preferă mișcarea redusă.
+  - key: options.accessibility_techniques.prefers_contrast
+    t: |
+      Query-ul media `prefers-contrast`
+  - key: options.accessibility_techniques.prefers_contrast.description
+    t: Furnizarea de CSS alternativ pentru utilizatorii care preferă un contrast crescut.
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: Funcționalități PWA
+  - key: features.pwa_features.question
+    t: Ai folosit vreuna dintre următoarele tehnologii/API-uri PWA?
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.local_storage_features
+    t: Funcționalități de stocare locală
+  - key: features.local_storage_features.question
+    t: Ai folosit vreuna dintre următoarele soluții pentru a stoca date la client?
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> Niciuna de mai sus
+
+  - key: features.pwa_app_manifest_fields
+    t: Câmpuri App Manifest
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      Pe care dintre următoarele câmpuri de app manifest (`<link rel="manifest">`) le-ai folosit?
+
+  - key: features.native_apps_tools
+    t: Instrumente pentru aplicații native
+  - key: features.native_apps_tools.question
+    t: Ai folosit vreunul dintre aceste instrumente pentru a crea aplicații native?
+  - key: features.native_apps_tools.description
+    t: Excluzând script-uri, aplicații din lina de comandă, cod server-side etc.
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> Nu am creat aplicații native
+  - key: options.native_apps_tools.native_languages
+    t: Tehnologii native
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, .NET etc.
+  - key: options.native_apps_tools.webviews
+    t: Aplicație web încărcată via Webviews
+  - key: options.native_apps_tools.js_frameworks
+    t: Framework-uri bazate pe JavaScript
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron etc.
+  - key: options.native_apps_tools.other_frameworks
+    t: Framework-uri non-JavaScript
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter etc.
+
+  - key: features.mobile_web_apps_pain_points
+    t: Puncte slabe ale aplicațiilor web similare celor native
+  - key: features.mobile_web_apps_pain_points.question
+    t: Care sunt punctele cele mai slabe legate de crearea aplicațiilor web care par native?
+  - key: features.mobile_web_apps_pain_points.description
+    t: Funcționalități pe care Web Platform nu le are încă, diferențe între browsere în API-urile aferente etc.
+  - key: features.mobile_web_apps_pain_points.placeholder
+    t: |
+      Punctul slab #{index}
+
+  # Other Tools
+
+  - key: other_tools.site_generators
+    t: Generatoare de site-uri
+  - key: other_tools.site_generators.question
+    t: Pe care dintre următoarele generatoare de site-uri statice sau dinamice le folosești în mod regulat?
+
+  - key: other_tools.ai_tools
+    t: Instrumente AI
+  - key: other_tools.ai_tools.question
+    t: Pe care dintre următoarele instrumente AI le folosești în mod regulat ca să te ajute să scrii cod?
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> Niciunul de mai sus
+
+  - key: other_tools.blast_from_the_past
+    t: Amintiri din trecut!
+  - key: other_tools.blast_from_the_past.question
+    t: Ai folosit vreodată oricare dintre următoarele elemente old-school?
+  - key: other_tools.blast_from_the_past.description
+    t: Amintiri din trecut!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> Niciunul de mai sus
+
+  # Usage
+
+  # - key: usage.html_existing_features
+  #   t: Unusable HTML Features
+  # - key: usage.html_existing_features.question
+  #   t: Which existing HTML features are you unable to use?
+  # - key: usage.html_existing_features.description
+  #   t: |
+  #     Existing HTML features that you find yourself recreating using custom components.
+  # - key: usage.html_existing_features.placeholder
+  #   t: |
+  #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
+
+  - key: usage.html_interoperability_features
+    t: Interoperabilitate browser
+  - key: usage.html_interoperability_features.question
+    t: Pe care dintre funcționalitățile HTML sau API-urile existente ale browserului nu le poți folosi din cauza diferențelor între browsere sau a lipsei de suport?
+  # - key: usage.html_interoperability_features.description
+  #   t: |
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Funcționalitatea #{index}
+
+  - key: usage.html_functionality_features
+    t: Funcționalitate limitată
+  - key: usage.html_functionality_features.question
+    t: Pe care dintre funcționalitățile HTML sau API-urile existente ale browserului nu le poți folosi din alte motive (și de ce)?
+  - key: usage.html_functionality_features.description
+    t: |
+      Candidați buni ar putea fi funcționalitățile HTML existente pe care trebuie adesea să le recreezi sau să le extinzi folosind JS.
+
+      Te rugăm să menționezi și motivul, cum ar fi lipsa funcționalității, stilizarea dificilă, accesibilitatea redusă etc.
+
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Funcționalitatea #1 (dificil de stilizat)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Funcționalitatea #2 (funcționalitate limitată, accesbilitate redusă)
+
+  - key: usage.what_do_you_use_html_for
+    t: Utilizarea HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: Pentru ce folosești HTML?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Impactul în ecosistem
+  - key: usage.tools_for_other_developers.question
+    t: În afară de tine, câți programatori folosesc librării, pachete, componente, API-uri etc. pe care le creezi sau întreții?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      În cazul în care lucrezi pe mai multe proiecte care sunt folosite de alți programatori, menționează numărul cumulat.
+      Dacă nu ești sigur, alege varianta cea mai apropiată de cea mai bună estimare a ta.
+      În cazul codului open source, numărul de descărcări npm ar putea oferi un punct de plecare util în estimarea datelor.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 Niciunul (Doar eu)
+  - key: options.tools_for_other_developers.a_few
+    t: Câțiva alți programatori (ex. programatori dintr-o echipă mică)
+  - key: options.tools_for_other_developers.less_than_100
+    t: Mai puțin de 100 de programatori
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Mai puțin de 1.000 de programatori
+  - key: options.tools_for_other_developers.more_than_100
+    t: Sute de programatori
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Mii de programatori
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Milioane de programatori
+
+  - key: usage.html_missing_elements
+    t: Elemente care lipsesc
+  - key: usage.html_missing_elements.question
+    t: Dacă ai putea să adaugi 3 elemente în HTML, care ar fi acestea?
+  # - key: usage.html_missing_elements.description
+  #   t: |
+  #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
+
+  #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: Acordeon
+  - key: options.html_missing_elements.alert
+    t: Alertă
+  - key: options.html_missing_elements.calendar
+    t: Calendar
+  - key: options.html_missing_elements.carousel
+    t: Carusel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Combobox / Autocomplete
+  - key: options.html_missing_elements.command_palette
+    t: Command Palette
+  - key: options.html_missing_elements.context_menu
+    t: Context Menu / Right-Click Menu
+  - key: options.html_missing_elements.datatable
+    t: Data table (cu sortare, filtrare etc.)
+  - key: options.html_missing_elements.dropdown_menu
+    t: Meniu dropdown
+  - key: options.html_missing_elements.image_zoom
+    t: Zoom imagine
+  - key: options.html_missing_elements.progress_bar
+    t: Bară de progres
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: Skeleton UI / Loading Placeholder
+  - key: options.html_missing_elements.switch
+    t: Switch / Toggle
+  - key: options.html_missing_elements.tabs
+    t: Tab-uri
+  # - key: options.html_missing_elements.toast_message
+  #   t: Toast Message
+  - key: options.html_missing_elements.tooltip
+    t: Tooltip
+  - key: options.html_missing_elements.offcanvas
+    t: Off-Canvas Area
+  - key: options.html_missing_elements.spinner
+    t: Loading Spinner
+  - key: options.html_missing_elements.segmented_button
+    t: Buton segmentat
+  - key: options.html_missing_elements.scroll_area
+    t: Scroll infinit
+  - key: options.html_missing_elements.icon
+    t: Icon
+  - key: options.html_missing_elements.star_rating
+    t: Evaluare cu stele
+
+  - key: usage.html_pain_points_freeform
+    t: Alte puncte slabe
+  - key: usage.html_pain_points_freeform.question
+    t: Alte puncte slabe legate de folosirea HTML și a tehnologiilor conexe?
+
+  - key: usage.html_css_js_balance
+    t: Echilibrul HTML/CSS vs JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: Cum îți împarți timpul între scrierea codului HTML/CSS și JavaScript (sau TypeScript)?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  # other features
+
+  - key: features.foo_attribute
+    t: "Atributul `{id}`"
+
+  - key: features.slot_assignment
+    t: Atribuire explicită a sloturilor (`slot="foo"`)
+
+  - key: features.tabindex
+    t: "Atributul `tabindex`"
+
+  - key: features.respimg
+    t: "Atributele `srcset` și `sizes`"
+
+  - key: features.model_element
+    t: "`<model>` pentru conținut AR/VR/3D"
+
+  - key: features.slot_def
+    t: Definirea sloturilor (`<slot>` și `::slotted()`)
+
+  - key: features.controlslist
+    t: "Atributul `controlslist`"
+
+  - key: features.popover_api
+    t: API-ul Popover
+
+  - key: features.lazy_loading
+    t: Lazy loading
+
+  - key: features.sandbox_attr
+    t: "Atributul `sandbox` pentru iframes"
+
+  - key: features.details_element
+    t: "`<details>` și `<summary>`"
+
+  - key: features.crossorigin
+    t: "Atributul `crossorigin`"
+
+  - key: features.host_css
+    t: Stilizarea componentei host (`:host`, `:host()`, `:host-context()`)
+
+  - key: features.element_internals
+    t: "API-ul `ElementInternals`"
+
+  - key: features.cors
+    t: CORS
+
+  - key: features.csp
+    t: Content-Security Policy (CSP)
+
+  - key: features.structured_data
+    t: Date structurate (RDFa, Microdata, Microformats)
+
+  - key: features.extended_builtins
+    t: Built-in-uri extinse
+
+  - key: features.html_modules
+    t: Module HTML
+
+  - key: features.accordion
+    t: Acordeon dedicat
+
+  - key: features.imperative_slot
+    t: Alocare imperativă a sloturilor
+
+  # - key: features.focusgroup
+  #   t: "Atributul `focusgroup`"
+
+  - key: features.form_validation
+    t: Validarea formularelor
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "Resource hints: preconnect (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "Resource hints: prerender (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "Resource hints: preload (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: Resource hints (toate)
+
+  - key: features.rh_prefetch
+    t: "Resource hints: prefetch (`<link rel=prefetch>`)"
+
+  - key: features.declarative_shadow
+    t: Shadow DOM declarativ (`<template shadowrootmode="open">`)
+
+  - key: features.referrerpolicy
+    t: "Atributul `referrerpolicy`"
+
+  - key: features.integrity
+    t: Subresource Integrity (atributul `integrity`)
+
+  - key: features.pwa_manifest
+    t: Manifest PWA
+
+  - key: features.part_attr
+    t: Expunerea părților de componente (atributul `part`)
+
+  - key: features.part_selector
+    t: Stilizarea părților de componente (`::part()`)
+
+  - key: features.svg_element
+    t: SVG inline (`<svg>`)
+
+  - key: features.math_element
+    t: MathML inline (`<math>`)
+
+  - key: features.scoped_element_registries
+    t: Scoped Custom Element Registries
+
+  - key: features.navigation_api
+    t: API-ul Navigation
+
+  - key: features.custom_elements_defining
+    t: Definirea elementelor personalizate
+
+  - key: features.decoding
+    t: "Atributul `decoding`"
+
+  - key: features.custom_elements_using
+    t: Folosirea elementelor personalizate
+
+  - key: features.fencedframe
+    t: Fenced frames
+
+  - key: features.credentialless
+    t: Credentialess iframes
+
+  - key: features.media_capture
+    t: HTML Media Capture
+
+  - key: features.contenteditable_plaintext
+    t: "Valoarea `plaintext-only` pentru `contenteditable`"
+
+  - key: features.dom_parts
+    t: Părți DOM
+
+  - key: features.fetchpriority
+    t: API-ul Fetch Priority (atributul `fetchpriority`)
+
+  - key: features.autocomplete
+    t: '`autocomplete="hint"`'
+
+  - key: features.inert_attribute
+    t: "Atributul `inert`"
+
+  - key: features.client_hints
+    t: HTTP client hints
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_html
+    t: |
+      Bun venit la sondaj! Primele secțiuni își propun să descopere 
+      care sunt **funcționalitățile** HTML (și a API-urilor aferente) pe care le cunoști.
+
+      Apropo, dacă îți dorești să afli mai multe despre orice element menționat în sondaj, îl poți adăuga în lista ta de lectură făcând click pe pictograma „+” din dreptul acestuia!
