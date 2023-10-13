@@ -1,0 +1,535 @@
+locale: ro-RO
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ediția din 2023 a sondajului anual despre cele mai noi tendințe din ecosistemul CSS.
+
+  - key: general.css2022.js2022_banner
+    t: Sondajul State of JS 2022 este momentan deschis și îl poți [completa chiar acum](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+
+  - key: general.css2023.results_intro
+    t: |
+
+      N-o să mint - n-a fost ușor în ultima vreme să țin pasul cu schimbările din CSS. Din fericire, în acest an [Chen Hui Jing](https://chenhuijing.com/) a preluat conducerea în procesul de design al sondajului, pornind de la munca depusă de [Lea Verou](https://lea.verou.me/) anul trecut.
+
+      De asemenea, am avut norocul de a obține asistență din partea echipei Google Chrome care, împreună cu alți furnizori de browsere, folosește aceste rezultate pentru a-și ghida obiectivele.
+
+      Datorită acestui ajutor suplimentar, am reușit să introducem câteva funcționalități noi, începând cu posibilitatea de a **personaliza grafice**. Făcând click pe pictograma <span class="customize-chart-icon">„setări”</span>, pe care o găsești lângă grafic, poți filtra datele după salariu, țară sau orice altă variabilă pe care ți-o dorești!
+
+      Cu toate acestea în minte, hai să vedem cum a evoluat CSS în 2023!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2023
+    t: |
+      <span class="first-letter">C</span>SS-ul trece printr-o perioadă de progres fără precedent. Între `:has()`, container queries, subgrid și multe altele, noi funcționalități își fac drum spre browsere în fiecare lună aparent. 
+
+      Consecința acestei creșteri este că lucrurile pot deveni puțin copleșitoare. Din fericire, în acest an am avut-o pe [Chen Hui Jing](https://chenhuijing.com/) să ne ajute cu design-ul sondajului și să ne ghideze prin jungla CSS. 
+
+      Și apropo de sondaj, știai că furnizorii de browsere își folosesc datele ca parte a inițiativei [Interop](https://web.dev/interop-2023/) care-i ajută să-și prioritizeze funcționalitățile la care aleg să lucreze în continuare?
+
+      În cele din urmă, introducem o nouă funcționalitate anul acesta: posibilitatea de a **personaliza grafice** folosind propriile filtre de date. Suntem curioși să vedem ce fel de noi perspective de a privi datele vei găsi!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tricou
+
+  - key: sections.tshirt.description
+    t: |
+      ## Susține sondajul cumpărând tricoul State of CSS
+
+      Între calitatea video scăzută, casetele voluminoase și faptul că trebuia să derulezi înapoi, nu sunt prea multe
+      de care să-ți fie dor din era VHS. Dar un lucru care *ne* lipsește sunt imaginile minunate din anii '90 cu care
+      obișnuiau să fie decorate casetele VHS nescrise.
+      
+      Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind
+      în același timp și dragostea pentru CSS!
+
+  - key: tshirt.about
+    t: Despre tricou
+
+  - key: tshirt.description
+    t: |
+      Folosim un tricou dintr-un material înalt calitativ, foarte moale, care are un croi slim fit, imprimat de 
+      partenerii noștri de la Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Cumpără
+
+  - key: tshirt.price
+    t: $29 + transport
+
+  - key: tshirt.designer.heading
+    t: Despre designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
+      extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o 
+      privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2023
+    t: |
+      În acest an, sondajul a fost completat de **9.190** de programatori din întreaga lume.
+
+  - key: sections.features.description.css2023
+    t: |
+      CSS-ul a trecut prin multe schimbări în ultima vreme, iar multe dintre noile funcționalități lansate sunt 
+      adoptate încet, dar sigur de comunitatea de programatori.
+
+  - key: sections.css_frameworks.description.css2023
+    t: |
+      Din nou, Tailwind CSS se remarcă drept framework-ul UI major pe care programatorii sunt fericiți să-l folosească în continuare; în același timp, Open Props generează un grad mare de interes.
+
+  - key: sections.css_in_js.description.css2023
+    t: |
+      După o creștere inițială, se pare că sectorul CSS-in-JS a ajuns pe un platou, iar 
+      faptul că CSS-ul nativ îi adoptă multe dintre principalele avantaje este probabil un factor important.
+
+  - key: sections.other_tools.description.css2023
+    t: |
+     La 30 de ani de la inventarea browserului, încă vedem inovații cu noii veniți, cum sunt Brave și Arc; sau instrumente specializate cum sunt Polypane care câștigă cotă de piață.
+
+  - key: sections.usage.description.css2023
+    t: |
+      Indiferent cum folosești CSS, datele arată că preocuparea pentru compatibilitatea codului în toate browserele rămâne validă, în special pentru funcționalitățile mai noi, cum e `:has()`.
+
+  - key: sections.resources.description.css2023
+    t: |
+      Pe blog-uri, canale de YouTube și podcasturi, comunitatea CSS este mai vibrantă ca niciodată.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+
+  - key: user_info.country_low_vs_high_income.description.css2023
+    t: >
+      Împărțirea respondenților între categoriile „venituri mici” și „venituri mari” ne 
+      arată 2 liste foarte diferite de țări.
+
+  - key: user_info.higher_education_degree_by_gender.description.css2023
+    t: >
+      Reprezentarea femeilor a fost mai mare decât ne-am fi așteptat în rândul respondenților  
+      cu o diplomă de studii superioare în domenii care nu au legătură cu CSS-ul, fapt care  
+      probabil că indică multe schimbări în carieră.
+
+  - key: user_info.source_by_gender.description.css2023
+    t: >
+      Deși numărul mic îngreunează tragerea oricăror concluzii, 
+      proporția femeilor a fost cea mai mare în rândul respondenților  
+      care au auzit de sondaj la locul de muncă sau pe cale orală,  
+      mai ales comparativ cu rețelele sociale cum sunt Twitter sau YouTube.
+
+  - key: user_info.source_by_race_ethnicity.description.css2023
+    t: >
+      Din nou, având în vedere dimensiunea redusă a grupului, atunci când luăm în considerare rasa și etnia, 
+      YouTube se remarcă drept una dintre cele mai diverse surse de trafic pentru sondaj.
+
+  - key: user_info.average_income_by_company_size.description.css2023
+    t: >
+      Reiese că cei mai bine plătiți respondenți lucrează pentru companii mari, însă 
+      de remarcat este și faptul că cei care lucrează singuri obțin venituri ușor mai mari față de cei din companiile mici.
+
+  - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
+    t: >
+      Atunci când comparăm veniturile din SUA cu cele din restul lumii, devine clar că în SUA 
+      programatorii sunt suprareprezentați în categoriile de venituri mai mari.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: |
+      Proprietatea `gap` pentru Flexbox este o îmbunătățire atât de utilă încât nu e deloc surprinzător 
+      să vedem o progresie de **{value}** în 2023
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.most_commented_feature_award.comment
+    t: Având **{value}** comentarii, nicio altă funcționalitate nu s-a apropiat măcar de feedback-ul generat de Subgrid.
+
+  - key: award.tool_satisfaction_award.comment
+    t: |
+      Dintre toate soluțiile CSS-in-JS, Open Props este singurul care și-a menținut 
+      o formidabilă rată de retenție de **{value}**.
+
+  # - key: award.tool_interest_award.comment
+  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      Având **{value}** mențiuni, Panda a fost cel mai menționat instrument de până acum în răspunsurile la întrebările deschise.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2023
+    t: |
+      <span class="first-line">Pe măsură ce utilizarea noilor funcționalități CSS a avut o tendință ascendentă, folosirea framework-urilor CSS a fost pe o pantă descendentă.</span>
+
+      Acesta ar putea fi un indicator al faptului că oamenii încep să se obișnuiască cu ideea că nu e neapărat să aștepți pentru a folosi cele mai noi funcționalități CSS pentru că browserele vor ține pasul mult mai repede decât o făceau înainte.
+
+      Cu o conștientizare ridicată a funcționalităților CSS native, cum sunt nesting-ul și `:has()` (care poate acționa ca un selector de părinte, dar este mai mult decât atât!), se pare că ne aflăm în pragul unei adopții la scară largă.
+
+      Dintre toate aceste funcționalități, în acest an am avut un favorit personal prin `text-wrap: balance`. Oferă o soluție one-line pentru o solicitare pe care am primit-o în mod constant de-a lungul întregii mele cariere în dezvoltarea web: „putem ajusta acel titlu astfel încât ultimul cuvânt să nu rămână singur pe linie?”
+
+      A fost de asemenea interesant faptul că atât de mulți programatori au simțit că animarea la auto și masonry layout sunt funcționalități CSS care lipsesc. Este adevărat că întotdeauna a fost dificil pentru browsere să determine dimensiunile unui element (în special înălțimea) atunci când acestea nu sunt declarate în mod explicit. 
+
+      Însă așa cum [Lea Verou](https://lea.verou.me/) menționa anul trecut, cu ajutorul unor inițiative cum e [Interop](https://wpt.fyi/interop-2023) care aduce browserele la aceeași masă, funcționalități care în trecut păreau imposibile, acum ar putea deveni realitate!
+
+  - key: conclusion.css2023.bio
+    t: Developer Experience Engineer @ Interledger Foundation
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Alegerea mea pentru 2023: "
+  - key: picks.intro
+    t: Am rugat membrii comunității CSS să împărtășească „alegerea anului” din perspectiva lor
+
+  # - key: picks.david_east.name
+  #   t: CSS Subgrid
+  # - key: picks.david_east.bio
+  #   t: Advocate for building on the web
+  # - key: picks.david_east.description
+  #   t: |
+  #     CSS Subgrid allows child elements to inherit their parents grid properties.
+  #     Soon, it will be much easier to lay elements out to the same grid
+  #     lines across the entire page.
+
+  # - key: picks.bramus_van_damme.name
+  #   t: The `:has()` Selector
+  # - key: picks.bramus_van_damme.bio
+  #   t: Chrome Developer Relations Engineer at Google
+  # - key: picks.bramus_van_damme.description
+  #   t: |
+  #     You might know this one as the so-called “parent selector” but that name does it
+  #     no justice as it only covers a small part of what it can do.
+  #     This selector has essentially changed the way I write my CSS.
+
+  - key: picks.kevin_j_powell.name
+    t: Ahmad Shadeed
+  - key: picks.kevin_j_powell.bio
+    t: CSS Evangelist
+  - key: picks.kevin_j_powell.description
+    t: |
+      Blog-ul lui Ahmad este o sursă de cunoștințe și inspirație, cu explorări aprofundate ale subiectelor, precum și vizualuri excelente și use case-uri.
+
+  # - key: picks.samuel_kraft.name
+  #   t: The `:has()` Selector
+  # - key: picks.samuel_kraft.bio
+  #   t: Design Engineer
+  # - key: picks.samuel_kraft.description
+  #   t: |
+  #     The new :has() selector is super powerful and unlocks new styling possibilities.
+  #     This great article from Jen Simmons breaks it down with explanations and practical examples.
+
+  - key: picks.josh_comeau.name
+    t: CSS Podcast
+  - key: picks.josh_comeau.bio
+    t: Instructor, CSS for JavaScript Developers
+  - key: picks.josh_comeau.description
+    t: |
+      Acest podcast este un tur încântător al celor mai 
+      importante și moderne funcționalități CSS. 
+      Este găzduit de Una Kravets și Adam Argyle, doi oameni absolut minunați.
+
+  - key: picks.adam_argyle.name
+    t: Zag.js
+  - key: picks.adam_argyle.bio
+    t: Google Chrome Developer Relations
+  - key: picks.adam_argyle.description
+    t: |
+      Oamenii talentați de la ChakraUI construiesc câteva componente și idei de generație nouă. 
+      Abia aștept să văd cu ce altceva urmează să mai vină.
+
+  # - key: picks.eric_w_bailey.name
+  #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
+  # - key: picks.eric_w_bailey.bio
+  #   t: Accessibility advocate and CSS nerd
+  # - key: picks.eric_w_bailey.description
+  #   t: |
+  #     Ben demonstrates how utilizing ARIA
+  #     attribute selectors can simply and powerfully tie appearance to state.
+
+  # - key: picks.michelle_barker.name
+  #   t: Interop 2022
+  # - key: picks.michelle_barker.bio
+  #   t: Writer and creator of front-end blog CSS { In Real Life }
+  # - key: picks.michelle_barker.description
+  #   t: |
+  #     Interop is a collaboration between all of the major browser vendors,
+  #     agreeing 15 key areas of focus for implementation —
+  #     including game-changing new CSS features like container queries,
+  #     cascade layers and color functions.
+
+  - key: picks.jhey_tompkins.name
+    t: |
+      Selectorul `:has()`
+  - key: picks.jhey_tompkins.bio
+    t: CEO la Fancy CSS
+  - key: picks.jhey_tompkins.description
+    t: |
+      `:has()` este magia pe care o poți folosi pentru a combina alte API-uri cum sunt container queries, anchor positioning etc. Sunt încântat să văd cum găsește comunitatea moduri noi și inovatoare de a-l folosi.
+
+  # - key: picks.gift_egwuenu.name
+  #   t: Learn CSS
+  # - key: picks.gift_egwuenu.bio
+  #   t: Developer Advocate at Cloudflare
+  # - key: picks.gift_egwuenu.description
+  #   t: |
+  #     My recommended resource for anyone looking to learn CSS from the ground up,
+  #     I also use it as a reference everytime I need to look up any CSS property.
+
+  - key: picks.ahmad_shadeed.name
+    t: Scroll-Driven Animations
+  - key: picks.ahmad_shadeed.bio
+    t: Design Engineer și scriitor la [ishadeed.com](https://ishadeed.com/)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Dacă m-aș întoarce cu 2 ani în urmă, nu mi-aș fi imaginat niciodată că  
+      vom avea animații scroll-driven în CSS. Și totuși, iată-ne!
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  # - key: picks.jen_simmons.name
+  #   t: The `:has()` Selector
+  # - key: picks.jen_simmons.bio
+  #   t: Web technologies evangelist at Apple
+  # - key: picks.jen_simmons.description
+  #   t: |
+  #     For two decades, “parent selector” was a top requested feature for CSS.
+  #     Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+
+  - key: picks.sara_soueidan.name
+    t: |
+      `color-contrast()`
+  - key: picks.sara_soueidan.bio
+    t: Inclusive design engineer and educator
+  - key: picks.sara_soueidan.description
+    t: |
+      Votul meu merge către color-contrast() deoarece cred că merită mai multă atenție. 
+      Este una dintre puținele funcționalități care ne face (nouă programatorilor) mai _ușor_  
+      procesul de a proiecta pentru utilizatorii noștri. Suportul cross-browser nu poate veni prea devreme.
+
+  - key: picks.adam_wathan.name
+    t: Lightning CSS
+  - key: picks.adam_wathan.bio
+    t: Creator al Tailwind CSS
+  - key: picks.adam_wathan.description
+    t: |
+      Un instrument de procesare CSS all-in-one extrem de rapid care se ocupă de lucruri ca vendor prefixes, minification și transpilarea funcționalităților moderne, toate acestea în timp ce se dovedește a fi o platformă uimitoare pentru alți programatori care construiesc instrumente CSS.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: Devtoolstips
+  - key: picks.kilian_valkhof.bio
+    t: Creator al Polypane, browserul pentru programatori.
+  - key: picks.kilian_valkhof.description
+    t: |
+      Devtool-urile tuturor browserelor sunt foarte puternice. Aceste mini sfaturi  
+      te ajută să profiți la maxim de ele, indiferent de browserul pe care-l utilizezi.
+
+  - key: picks.ahmad_awais.name
+    t: |
+      `text-wrap: balance`
+  - key: picks.ahmad_awais.bio
+    t: VP DevRel & Google Developers Advisory Board founding member
+  - key: picks.ahmad_awais.description
+    t: |
+      Titlurile ar trebui să uimească și să fie citite ca o briză, chiar și atunci când ecranele sunt greu de prezis.  
+      M-am luptat cu acele cuvinte solitare de pe ultimul rând (salut, cuvinte-văduvă!), 
+      însă ghici ce? Îți prezint text-wrap: balance – o vrăjitorie într-o singură linie de cod, care e pur și simplu magică!
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software.
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+  #       notably bringing flex gap to WebKit,
+  #       which means that soon it will be available on all modern browsers.
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid
+  #       triggering dizziness and discomfort.
+
+  ###########################################################################
+  # Quiz
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "Întrebarea 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      În mai 2003, Dave Shea a lansat un site care arăta flexibilitatea și adaptabilitatea din CSS. Care este numele site-ului?
+  - key: options.quiz_dave_shea.css_playground
+    t: CSS Playground
+  - key: options.quiz_dave_shea.style_jungle
+    t: Style Jungle
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS Zen Garden](https://www.csszengarden.com/) a făcut impresie demonstrând ce este posibil atunci când păstrezi markup-ul și stilizarea separate.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "Întrebarea 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Care dintre aceste organizații se ocupă cu menținerea documentației CSS?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      [Grupul de lucru CSS](https://www.w3.org/groups/wg/css) al W3C menține documentația CSS, care este apoi implementată de furnizorii de browsere.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
+  - key: sponsors.polypane.description
+    t: Browser-ul developerilor ambițioși. Construiește cu ușurință website-uri responsive, accesibile și rapide.
+  - key: sponsors.nijibox.description
+    t: Consultanță UX și dezvoltare de produs în inima orașului Tokyo.
+  - key: sponsors.renderatl.description
+    t: Cea mai mare conferință de tehnologie cu o categorie dedicată de Design & CSS.
+  - key: sponsors.google_chrome.description
+    t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      Sondajul State of CSS din 2023 a avut loc între 15 iunie și 15 iulie 2023 și a colectat 9.108 răspunsuri. Sondajul a fost organizat de [Devographics](https://www.devographics.com/), cu ajutorul unei echipe de colaboratori și consultanți open source. 
+      Logo-ul și tricoul State of CSS au fost concepute și animate de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Obiective
+
+      Acest sondaj, împreună cu sondajul [State of JavaScript](https://stateofjs.com/), a fost creat pentru a identifica tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
+      Prin urmare, aceste sondaje se concentrează mai degrabă pe anticiparea a ceea ce va avea loc în următorii câțiva ani decât pe analizarea a ceea ce se bucură acum de succes. Din acest motiv, funcționalitățile și tehnologiile care sunt în prezent cele mai răspândite nu sunt întotdeauna incluse. 
+      În plus, rezultate din sondaj sunt folosite de furnizorii de browsere pentru a prioritiza funcționalitățile și pentru a informa inițiative precum [Interop 2023](https://web.dev/interop-2023/).
+
+      ### Design
+
+      Anul acesta, design-ul sondajului a fost coordonat de [Chen Hui Jing](https://chenhuijing.com/) datorită unui grant de finanțare din partea echipei Google Chrome. Toate întrebările sondajului au fost opționale. 
+
+      ### Audiență
+
+      Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții au fost în mare parte o combinație de respondenți ai sondajelor anterioare (anunțați pe baza unei liste dedicate de email-uri) și trafic din social media. 
+
+      ### Finanțarea proiectului
+
+      Finanțarea acestui proiect provine dintr-o varietate de surse:
+
+      - **Vânzarea de tricouri**. 
+      - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de partenerul nostru [Frontend Masters](https://frontendmasters.com/).
+      - **Grafice sponsorizate**: începând de anul trecut, oricine poate sponsoriza un grafic pentru $10 sau mai mult, iar avatarul lor de Twitter va fi afișat lângă acesta.
+      - **Google**: în acest an, echipa [Google Chrome](https://www.google.com/chrome/) a alocat un buget pentru a o angaja pe Lea să ne ajute cu design-ul sondajului, cât și pentru a mă finanța direct ca sprijin pentru munca pe care o depun. 
+      - **Nijibox**: [Nijibox](https://nijibox.jp/), cu sediul în Japonia, a acceptat de asemenea cu bunăvoință să-mi sponsorizeze eforturile prin care încerc să realizez aceste sondaje anuale mai sustenabile. 
+
+      ### Technical Overview
+
+       Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Codul nostru este [open-source](https://github.com/Devographics/Monorepo/). 
+
+      ### Feedback
+
+      - [Raportează o problemă tehnică](https://github.com/Devographics/Monorepo/issues)
+      - [Fă o sugestie pentru anul viitor](https://github.com/Devographics/surveys/issues/193)
+      - [Alte probleme non-tehnice](https://github.com/Devographics/surveys/issues)
+      - [Alătură-te pe Discord](https://discord.gg/tuWRUWVyJs)
