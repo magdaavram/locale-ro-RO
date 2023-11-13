@@ -257,6 +257,9 @@ translations:
   - key: user_info.source.note
     t: Sursa respondenților este calculată pe baza datelor referrer, a datelor obținute prin URL tracking și a răspunsurilor auto-raportate.
 
+  - key: options.source.other_answers
+    t: Alte surse
+
   - key: user_info.source_by_gender
     t: Sursă după gen
 
@@ -772,6 +775,11 @@ translations:
   - key: charts.facet_responses
     t: "{count} răspunsuri"
 
+  - key: charts.freeform_data
+    t: (răspunsuri libere)
+  - key: charts.insufficient_data
+    t: Date insuficiente
+
   - key: charts.axis_legends.years_of_experience
     t: Ani de experiență
   - key: charts.axis_legends.yearly_salary
@@ -879,10 +887,20 @@ translations:
   - key: charts.no_answer.short
     t: Nici un răspuns
 
+  - key: charts.no_match
+    t: Alte răspunsuri
+  - key: charts.no_match.short
+    t: Alte răspunsuri
+
+  - key: charts.cutoff_answers
+    t: Alte răspunsuri
+  - key: charts.cutoff_answers.short
+    t: Alte răspunsuri
+
   - key: charts.other_answers
-    t: Altele
+    t: Alte răspunsuri
   - key: charts.other_answers.short
-    t: Altele
+    t: Alte răspunsuri
 
   - key: charts.tick.links
     t: Link-uri

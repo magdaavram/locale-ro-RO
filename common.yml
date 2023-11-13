@@ -840,6 +840,17 @@ translations:
   - key: options.industry_sector.unemployed
     t: Neangajat
 
+  - key: options.industry_sector.recruiting
+    t: Recrutare
+  - key: options.industry_sector.agency
+    t: Agenție
+  - key: options.industry_sector.business
+    t: Business
+  - key: options.industry_sector.communication
+    t: Comunicare
+  - key: options.industry_sector.security
+    t: Securitate
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: Documentare

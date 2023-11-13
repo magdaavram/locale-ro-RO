@@ -77,6 +77,11 @@ translations:
     - key: sections.rendering_frameworks.description
       t: Framework-uri axate pe randarea și servirea aplicației
 
+    - key: sections.meta_frameworks.title
+      t: Meta-Frameworks
+    - key: sections.meta_frameworks.description
+      t: Framework-uri axate pe randarea și servirea aplicației
+
     - key: sections.back_end_frameworks.title
       t: Framework-uri back-end
     - key: sections.back_end_frameworks.description
@@ -488,6 +493,16 @@ translations:
     - key: features.dynamic_import
       t: Import dinamic
 
+    - key: features.string_features
+      t: Funcționalități String
+    - key: features.string_features.question
+      t: Pe care dintre aceste funcționalități String le-ai folosit?
+
+    - key: features.array_features
+      t: Funcționalități Array
+    - key: features.array_features.question
+      t: Pe care dintre aceste funcționalități Array le-ai folosit?
+
     # patterns
     - key: patterns.object_oriented_programming
       t: Object-Oriented Programming
@@ -595,6 +610,16 @@ translations:
     - key: tools_others.backend_frameworks.others
       t: Alte framework-uri de back-end
 
+    - key: other_tools.ai_tools
+      t: Instrumente AI
+    - key: other_tools.ai_tools.question
+      t: Pe care dintre următoarele instrumente AI le folosești în mod regulat pentru a scrie cod?
+
+    - key: other_tools.hosting
+      t: Servicii de hosting
+    - key: other_tools.hosting.question
+      t: Pe care dintre următoarele servicii le-ai folosit pentru a găzdui aplicații?
+
     ###########################################################################
     # Usage
     ###########################################################################
@@ -622,6 +647,10 @@ translations:
       t: Ce runtime edge sau serverless folosești în mod regulat?
     - key: tools_others.edge_runtimes.others
       t: Alte runtime-uri Edge
+    - key: other_tools.edge_runtimes
+      aliasFor: tools_others.edge_runtimes
+    - key: other_tools.edge_runtimes.description
+      aliasFor: tools_others.edge_runtimes.description
 
     - key: usage.usage_type
       t: Utilizare JavaScript
