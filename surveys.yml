@@ -362,6 +362,14 @@ translations:
       Sondajul va fi deschis timp de 3 săptămâni, însă răspunsurile completate **în primele 9 zile (până pe 1 octombrie)** vor avea un impact mai mare asupra web-ului 
       deoarece datele preliminare vor fi folosite pentru unele eforturi de prioritizare care au termene limită până atunci.
 
+  - key: general.react2023.survey_intro
+    t: |
+      De îndată ce React a fost introdus, a fost clar că va deveni un lucru mare pentru universul web. 
+      A fost folosit pentru a crea Facebook până la urmă și în ciuda acestui ciudat „JSX", programatorii l-au adoptat rapid. Dar ceea ce e și mai impresionant, comunitatea s-a menținut chiar și cu schimbări majore cum sunt function components și hooks. 
+      Dar acum au trecut 10 ani și noile componente React Server promit să fie cea mai mare schimbare de la... ei bine, de la începuturile React!
+      Se va păstra comunitatea încă o dată? Sau programatorii vor face trecerea la Svelte, Solid sau la altceva?
+      Să aflăm împreună din primul sondaj State of React!
+
   ###########################################################################
   # Survey-Specific FAQs
   ###########################################################################
@@ -493,3 +501,41 @@ translations:
     t: Când vor fi publicate rezultatele?
   - key: faq.results_released_html2023.description
     t: Sondajul este deschis în perioada 19 septembrie - 10 octombrie, iar rezultatele vor fi publicate la scurt timp după închiderea lui.
+
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_react2023.description
+    t: >
+      Toate datele colectate vor fi disponibile pentru oricine își dorește să le consulte. Developerii sau companiile le pot folosi pentru a-și prioritiza obiectivele.
+  - key: faq.survey_goals_react2023
+    t: Care sunt obiectivele sondajului?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Obiectivele sondajului sunt acelea de a măsura gradul de conștientizare și de popularitate al API-urilor React, precum și al librăriilor din ecosistemul React.
+  - key: faq.who_should_take_survey_react2023
+    t: Cine ar trebui să completeze acest sondaj?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Acesta este un sondaj deschis oricui folosește React, fie că o face în mod regulat sau ocazional, ca parte a job-ului, ca student sau pur și simplu ca hobby!
+  - key: faq.how_long_will_survey_take_react2023
+    t: Cât va dura completarea sondajului?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      În funcție de numărul de întrebări la care alegi să răspunzi (toate întrebările sunt opționale), 
+      completarea sondajului poate lua în jur de 15-20 de minute.
+  - key: faq.learn_more_react2023
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_react2023.description
+    t: Poți afla mai multe despre acest sondaj în [articolul nostru de lansare](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+  - key: faq.survey_design_react2023
+    t: Cum a fost conceput acest sondaj?
+  - key: faq.survey_design_react2023.description
+    t: >
+      Acest sondaj a fost conceput cu ajutorul comunității, printr-un [thread deschis de feedback](https://github.com/Devographics/surveys/issues/85).
+  - key: faq.results_released_react2023
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_react2023.description
+    t: Sondajul este deschis în perioada 27 octombrie - 15 noiembrie, iar rezultatele vor fi publicate la scurt timp după închiderea lui.
