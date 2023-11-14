@@ -1,0 +1,569 @@
+locale: ro-RO
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: Ediția din 2022 a sondajului anual despre cele mai noi tendințe din ecosistemul JavaScript.
+
+  - key: general.livestream_announcement
+    t: Te invităm să iei parte la un [livestream special despre rezultatele sondajului](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) pe 22 februarie! (engleză)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2022
+    t: |
+
+      <span class="first-letter">D</span>upă ani de relativă stabilitate, mulți încep acum să pună la îndoială status quo-ul. 
+
+      Noi framework-uri front-end, cum sunt Solid și Qwik, sugerează că React s-ar putea să nu aibă totuși toate răspunsurile, iar pe server Astro, Remix și Next.js (printre altele) ne fac să reconsiderăm cât de mult cod trebuie să livrăm clientului. 
+
+      Vom avea nevoie de toate datele pe care le putem obține dacă vrem să înțelegem toate aceste lucruri. De fapt, anul acesta sondajul a adunat un număr foarte mare de răspunsuri - **39.472** - aproape dublu față de anul precedent! 
+
+      Datorită acestui public nou, e posibil să observi rezultate neașteptate, cum sunt unele funcționalități care scad an de an în termeni de conștientizare sau utilizare. 
+
+      Dar faptul că ne bazăm pe mai multe date poate aduce noi perspective și, de aceea, am dezvoltat două noi moduri de a interacționa cu setul nostru de date: **Exploratorul de date** îți permite să faci referințe încrucișate între două variabile, evidențiind astfel orice rezultate periferice; iar **Filtrele de grafice** îți permit să filtrezi anumite grafice în funcție de salariu, țară, gen și multe alte variabile demografice. 
+
+      De asemenea, am înlocuit categoria „back-end" cu o pagină mai specifică, **Framework-uri de randare** și am adăugat o nouă listă, **Creatori video**, în secțiunea de Resurse. 
+
+      În cele din urmă, întrebările legate de Funcționalități și Librării au și ele acum un popup de **Comentarii** care îți permite să vezi ce cred oamenii de fapt despre elementele menționate în sondaj!
+
+      Cu toate acestea în minte, hai să vedem cum a evoluat JavaScript în 2022!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tricou
+
+  - key: sections.tshirt.description
+    t: |
+      ## Susține sondajul cumpărând tricoul State of JavaScript
+
+      Între calitatea video scăzută, casetele voluminoase și faptul că trebuia să derulezi înapoi, nu sunt prea multe
+      de care să-ți fie dor din era VHS. Dar un lucru care *ne* lipsește sunt imaginile minunate din anii '90 cu care
+      obișnuiau să fie decorate casetele VHS nescrise.
+      
+      Dar acum, grație talentatului Christopher Kirk-Nielsen ne putem bucura cu toții de strălucirea retro, sărbătorind
+      în același timp și dragostea pentru CSS!
+
+  - key: tshirt.about
+    t: Despre tricou
+
+  - key: tshirt.description
+    t: |
+      Folosim un tricou dintr-un material înalt calitativ, foarte moale, care are un croi slim fit, imprimat de 
+      partenerii noștri de la Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Cumpără
+
+  - key: tshirt.price
+    t: $29 + transport
+
+  - key: tshirt.designer.heading
+    t: Despre designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originar din Franța, dar stabilit în prezent în Statele Unite, Chris nu este doar un front-end developer 
+      extraordinar, dar și un ilustrator talentat specializat în vizualuri retro. De fapt, te încurajăm să tragi o 
+      privire și peste [celelalte design-uri de tricou](https://chriskirknielsen.com/designs)!
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      Anul acesta, **39.471** de respondenți au luat parte la sondaj. Pentru a ajuta 
+      la evidențierea diverselor voci și a unor perspective mai profunde, am făcut un efort 
+      special în a oferi noi modalități de a defalca datele noastre.
+
+  - key: sections.features.description
+    t: |
+      JavaScript se poate mișca rapid, dar se pare că programatorii se mișcă încă și mai rapid având în vedere că multe funcționalități relativ noi arată deja niveluri ridicate de adopție.
+
+  - key: sections.technologies.description
+    t: |
+      Rezultatele din acest an indică un grad ridicat de fragmentare în lumea JavaScript. Dar în vreme ce acest lucru poate da uneori dureri de cap, toată concurența care se naște creează un ecosistem foarte dinamic.
+
+  - key: sections.tools_others.description
+    t: |
+      Alegerea unei tehnologii se poate reduce adesea la o serie de decizii grele între 
+      priorități concurente. În acest an am încercat să surprindem acest proces folosind un nou format de întrebare în stil bracket.
+
+  - key: sections.environments.description
+    t: |
+      Accesibilitatea a fost mult timp lăsată la final atunci când vine vorba de dezvoltarea web, dar mulți programatori 
+      își dau seama acum că ar trebui să fie de fapt fundația pe care se sprijină toate celelalte.
+
+  - key: sections.resources.description
+    t: |
+      Evidențierea blog-urilor, a podcast-urilor și a site-urilor a fost un bun început, dar în acest an am decis să facem un pas mai departe 
+      și să prezentăm chiar oamenii care fac parte din comunitatea JavaScript!
+
+  - key: sections.opinions.description
+    t: |
+      Fie că e vorba de punctele slabe care te țin pe loc azi sau de funcționalitățile lipsă pe care speri să le folosești
+      mâine, aceasta a fost șansa ta de a-ți dezvălui și împărtăși nemulțumirile legate de JavaScript!
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Acest grafic ilustrează **rata de retenție** a fiecărei tehnologii în raport cu **numărul total de utilizatori**.
+      Poate fi împărțit în patru cadrane:
+        - **1**: Utilizare scăzută, rată ridicată de retenție. Tehnologii pe care merită să le urmărești.
+        - **2**: Utilizare ridicată, rată ridicată de retenție. Tehnologii sigure pentru adoptare.
+        - **3**: Utilizare scăzută, rată scăzută de retenție. Tehnologii care sunt greu de recomandat în acest moment.
+        - **4**: Utilizare ridicată, rată scăzută de retenție. Dacă încă le folosești, reevaluează aceste tehnologii.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Dacă ești interesat să afli mai multe, [am scris un articol pe blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) care abordează dinamica de gen a sondajului.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      Poți explora întregul set de date obținute din răspunsurile la această întrebare în [acest side project](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      Acest grafic agregă o combinație de referințe, parametri URL și răspunsuri libere. 
+      - State of JS: lista abonaților [State of JS](https://stateofjs.com).
+      - State of CSS: lista abonaților State of CSS; include și `email`, `după email` etc.
+      - Work: include `locul de muncă`, `colegi`, `colegi de muncă` etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Cu o evoluție de **{value}** în 2022, **top-level await** a devenit rapid parte integrală în JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** are abia 2 ani, însă cu o evoluție de **{value}** în ultimul an, deja câștigă teren.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite ocupă primul loc cu o uimitoare rată de retenție de **{value}**!
+
+  - key: award.tool_interest_award.comment
+    t: Cu o rata de interes de **{value}**, Vite ia din nou aurul!
+
+  - key: award.most_write_ins_award.comment
+    t: Multe întrebări au acceptat și răspunsuri deschise, iar cu **{value}** mențiuni, **Astro** a fost cel mai popular element în general.
+
+  - key: award.most_commented_feature_award.comment
+    t: Având **{value}** comentarii, nicio altă funcționalitate nu s-a apropiat măcar de feedback-ul generat de Private Fields.
+
+  - key: award.most_commented_tool_award.comment
+    t: Având **{value}** comentarii, React a arătat că rămâne cea mai „discutată” librărie din zonă.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2022
+    t: |
+      <span class="first-line">JavaScript și TypeScript sunt mai vibrante ca niciodată.</span> 
+
+      Am văzut o continuare a inovațiilor de performanță, multe în reactivitate și hidratare (sau lipsa acestora). De exemplu, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) s-a bazat pe simplitate în ergonomia programatorului și s-a aplecat asupra compilatorului. Solid a explorat [noi abordări ale reactivității](https://www.youtube.com/watch?v=2iK9zzhSKo4), în timp ce Qwik [ne-a schimbat modelul mental cu reluarea](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+
+      Inovația este de asemenea interesantă de observat în soluțiile multi-platformă cum sunt Tauri, Ionic și Flutter, care deschid ușa unor aplicații care se desfășoară pe și mai multe platforme.
+
+      Vedem talente distribuite la nivel global - cum ar fi Nigeria și acum India [care au cea mai mare creștere a programatorilor pe GitHub](https://octoverse.github.com/2022/global-tech-talent). În întreaga lume există proiecte uimitoare cum sunt [Chakra UI](https://chakra-ui.com/) a lui Segun Adebayo sau [Hoppscotch](https://hoppscotch.io/) a lui Liyas Thomas, precum și oameni care sprijină creșterea și învățarea altora, cum e Ada Nduka Oyom care a fondat [SheCodeAfrica](https://shecodeafrica.org/), o organizație non-profit care a ajutat la acreditarea a peste 17 mii de femei din întreaga Africă.
+
+      Când privim la framework-uri consacrate cum sunt React, Angular sau Vue, vedem adesea o scădere a nivelului de satisfacție, iar oamenii se pot întreba ce înseamnă asta pentru viitor. Cred că acest declin este o funcție a instrumentului care este testat în luptă și folosit în producție. Este un semn de maturitate și de apreciere obiectivă a ceea ce pot oferi aceste instrumente. De asemenea, vor învăța din inovarea în ecosistem și vor continua să evolueze.
+
+      În cele din urmă, n-aș putea fi mai fericit să văd prezența absolut răsunătoare a lui Vite în secțiunea de premii pentru al doilea an la rând. Tehnologia de build și serve face pași cu adevărat uriași și noi beneficiem cu toții de pe urma acestui mare efort. Bravo!
+
+  - key: conclusion.js2022.bio
+    t: Director of Engineering and Web Infrastructure, Google
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Alegerea mea pentru 2022: "
+  - key: picks.intro
+    t: Am rugat membrii comunității CSS să împărtășească „alegerea anului” din perspectiva lor
+
+  # https://svelte.dev/blog/announcing-sveltekit-1.0
+  - key: picks.lee_robinson.name
+    t: SvelteKit 1.0
+  - key: picks.lee_robinson.bio
+    t: VP of Developer Experience at Vercel
+  - key: picks.lee_robinson.description
+    t: |
+      După doi ani, SvelteKit este într-un final gata de producție – 
+      și nu duce lipsă de funcționalități uimitoare pentru programatori.
+
+  # - key: picks.vadim_makeev.name
+  #   t: Server-Side Rendering
+  # - key: picks.vadim_makeev.bio
+  #   t: DevRel, Podcaster & Web Standards Advocate
+  # - key: picks.vadim_makeev.description
+  #   t: |
+  #       The time has come to get our priorities straight.
+  #       UX > DX, and it has always been like that. Performance FTW!
+
+  # - key: picks.ben_ilegbodu.name
+  #   t: Lee Robinson
+  # - key: picks.ben_ilegbodu.bio
+  #   t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+  # - key: picks.ben_ilegbodu.description
+  #   t: |
+  #       Lee has been great at shepherding and advocating for Next.js.
+  #       He's helped me a ton with Next and continues to build excitement
+  #       for where it's going
+
+  # - key: picks.shawn_wang.name
+  #   t: Supabase
+  # - key: picks.shawn_wang.bio
+  #   t: Head of DX at Temporal
+  # - key: picks.shawn_wang.description
+  #   t: |
+  #       Supabase is making Postgres accessible to more developers and showing
+  #       everyone how a small focused team can out-ship peers 10x their size.
+
+  # - key: picks.sarah_drasner.name
+  #   t: Pawel Kozlowski
+  # - key: picks.sarah_drasner.bio
+  #   t: Director of Engineering, Core Developer Web at Google
+  # - key: picks.sarah_drasner.description
+  #   t: |
+  #       Pawel Kozlowski is the kind of developer who can be open-minded to different
+  #       approaches with humility and curiosity with the interest of improving things.
+
+  # - key: picks.sara_vieira.name
+  #   t: Paul Henschel
+  # - key: picks.sara_vieira.bio
+  #   t: International Agent of JS Bullshit
+  # - key: picks.sara_vieira.description
+  #   t: |
+  #       Paul's work on animations and ReactThreeFiber
+  #       have made doing any kind of 3D work on the web way easier.
+
+  # - key: picks.mark_erikson.name
+  #   t: Ryan Carniato
+  # - key: picks.mark_erikson.bio
+  #   t: Redux Maintainer
+  # - key: picks.mark_erikson.description
+  #   t: |
+  #       Ryan's reactive JS framework SolidJS hit 1.0,
+  #       and he wrote numerous articles analyzing advanced
+  #       JS framework implementation concepts.
+
+  # - key: picks.alyssa_nicoll.name
+  #   t: BroccoDev's Twitch Stream
+  # - key: picks.alyssa_nicoll.bio
+  #   t: Sr. Developer Advocate at Progress
+  # - key: picks.alyssa_nicoll.description
+  #   t: |
+  #     Mike Brocchi recently started streaming to Twitch. He is a brilliant programmer,
+  #     developer, and most importantly teacher.
+  #     I always have a blast watching his streams and learning from him.
+
+  # - key: picks.michael_jackson.name
+  #   t: esbuild
+  # - key: picks.michael_jackson.bio
+  #   t: Co-founder of Remix
+  # - key: picks.michael_jackson.description
+  #   t: |
+  #     We have been building the Remix compiler on top of esbuild and it
+  #     has definitely raised the bar as far as JS bundlers are concerned.
+  #     It's incredibly fast and the plugin API allows us to do pretty much anything we want.
+
+  # - key: picks.david_khourshid.name
+  #   t: Remix
+  # - key: picks.david_khourshid.bio
+  #   t: Pianist and founder of Stately
+  # - key: picks.david_khourshid.description
+  #   t: |
+  #       Remix is a full-stack web framework that feels old-school, but in a good way,
+  #       by putting you on the path to create fast, complex, and accessible modern web apps.
+
+  # - key: picks.kent_c_dodds.name
+  #   t: Fly.io
+  # - key: picks.kent_c_dodds.bio
+  #   t: Director of Developer Experience, Remix
+  # - key: picks.kent_c_dodds.description
+  #   t: |
+  #       Fly enabled me (a frontend engineer with a distain for DevOps)
+  #       to confidently deploy a real-world, globally-distributed, production-grade
+  #       app.
+
+  # - key: picks.tejas_kumar.name
+  #   t: Joe Haddad
+  # - key: picks.tejas_kumar.bio
+  #   t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+  # - key: picks.tejas_kumar.description
+  #   t: |
+  #       Joe works on Next.js at Vercel and is constantly looking to proudly
+  #       demonstrate its power while actively listening
+  #       to feedback from the community to support them better.
+
+  # - key: picks.wes_bos.name
+  #   t: TC39 Proposals
+  # - key: picks.wes_bos.bio
+  #   t: JavaScript Teacher & Podcast Host
+  # - key: picks.wes_bos.description
+  #   t: |
+  #       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
+
+  # - key: picks.scott_tolinski.name
+  #   t: SvelteKit
+  # - key: picks.scott_tolinski.bio
+  #   t: Creator of Level-Up Tuts, co-host of Syntax
+  # - key: picks.scott_tolinski.description
+  #   t: |
+  #       Svelte Kit provides the amazing developer experience of Svelte with all
+  #       of the modern features of expected from a web platform.
+
+  # https://astro.build/
+  - key: picks.miguel_angel_duran.name
+    t: Astro
+  - key: picks.miguel_angel_duran.bio
+    t: Twitch Coding Streamer & Content Creator
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Astro este un nou generator de site-uri statice. 
+      Zero client JavaScript by default, lazy-loading hydration 
+      și framework-agnostic. Construit cu Vite, este foarte rapid și ușor de utilizat.
+
+  # https://sandpack.codesandbox.io/
+  - key: picks.josh_comeau.name
+    t: Sandpack
+  - key: picks.josh_comeau.bio
+    t: Software developer and educator
+  - key: picks.josh_comeau.description
+    t: |
+      Cei de la CodeSandbox și-au făcut bundler-ul ridicol de puternic open-source 
+      și l-au împachetat într-un code editor de clasă mondială. Un instrument atât de fascinant!
+
+  # https://github.com/tc39/proposal-type-annotations
+  - key: picks.rich_harris.name
+    t: Type Annotations Proposal
+  - key: picks.rich_harris.bio
+    t: Principal Software Engineer, Vercel
+  - key: picks.rich_harris.description
+    t: |
+      Voi nominaliza propunerea de type annotations, care a fost împărtășită lumii în acest an.
+
+  # https://twitter.com/mooeypoo
+  - key: picks.cassidy_williams.name
+    t: Moriel Schottlender
+  - key: picks.cassidy_williams.bio
+    t: CTO at Contenda, Memer and Dreamer
+  - key: picks.cassidy_williams.description
+    t: |
+      Moriel este un programator inspirațional care creează discuții interesante și cu pasiune 
+      despre internaționalizare și accesibilitate, iar unele dintre lucrurile pe care le-a 
+      construit cu Vue sunt atât de grozave încât toată lumea ar trebui să le descopere!
+
+  # https://www.withdiode.com/
+  - key: picks.charlie_gerard.name
+    t: Diode
+  - key: picks.charlie_gerard.bio
+    t: Senior Developer Advocate at Stripe, Author and Creative Technologist
+  - key: picks.charlie_gerard.description
+    t: |
+      Diode este un instrument interactiv pentru crearea și simularea proiectelor hardware în browser. 
+      Asta este cu adevărat interesant, iar interfața construită cu Three.js este grozavă!
+
+  # https://arisa-fukuzaki.dev/
+  - key: picks.alba_silvente.name
+    t: Arisa Fukuzaki
+  - key: picks.alba_silvente.bio
+    t: FrontEnd developer working as DevRel at Storyblok
+  - key: picks.alba_silvente.description
+    t: |
+      Arisa este un hibrid între FrontEnd și Dev Rels, iubitoare de React și a ecosistemului său, 
+      ea se gândește mereu să dea înapoi comunității și contribuie ținând discursuri,
+      workshop-uri și scriind articole pe această temă.
+
+  # https://github.com/statelyai/xstate
+  - key: picks.matt_pocock.name
+    t: XState
+  - key: picks.matt_pocock.bio
+    t: TypeScript educator from the UK, building Total TypeScript.
+  - key: picks.matt_pocock.description
+    t: |
+      Dacă mi s-ar oferi ceva complicat de construit de la zero, 
+      cum e un spreadsheet, WYSIWYG sau o aplicație de video calling, aș folosi XState. 
+      Este singura librărie pe care mă pot baza pentru a construi sisteme complexe.
+
+  # https://beta.reactjs.org/
+  - key: picks.kathryn_grayson_nanz.name
+    t: React Beta Docs
+  - key: picks.kathryn_grayson_nanz.bio
+    t: Developer Advocate at Progress
+  - key: picks.kathryn_grayson_nanz.description
+    t: |
+      Noile documentații React sunt incredibil de bine scrise, accesibile pentru începători  
+      și frumos aranjate. 
+      Documentația bine făcută este unul dintre cele mai grele lucruri de obținut, așa că 
+      acest exemplu fantastic este alegerea mea pentru anul acesta!
+
+  - key: picks.ryan_carniato.name
+    t: Astro
+  - key: picks.ryan_carniato.bio
+    t: Creator of Solid
+  - key: picks.ryan_carniato.description
+    t: |
+      În timp ce Astro a popularizat în ultimii ani ”islands architecture", în 2022 a ajuns la 1.0 și a adus randarea pe server on-demand. Nu a fost niciodată mai ușor să creezi site-uri grozave în timp ce livrezi mai puțin JavaScript.
+
+  - key: picks.theo_browne.name
+    t: tRPC
+  - key: picks.theo_browne.bio
+    t: Youtube Ranter & CEO @Ping.gg
+  - key: picks.theo_browne.description
+    t: |
+      2022 a fost un an mare pentru siguranța fullstack, iar tRPC are cel mai mare merit. tRPC este una dintre acele rare librării care face ca tot ce ai folosit înainte să pară... îngrozitor, sincer. Nu m-am simțit niciodată mai productiv ca inginer full stack.
+
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: This Week In React founder and Docusaurus maintainer
+  - key: picks.sebastien_lorber.description
+    t: |
+      Posibilitatea de a crea video-uri cu React este extraordinară. Putem fi creativi și folosi orice tehnologie web de ultimă generație, nu doar DOM/CSS. Cu ajutorul proiectului GitHub Unwrapped, s-a dovedit că poate scala, randa mii de video-uri și că poate fi un instrument de marketing minunat.
+
+  - key: picks.ben_holmes.name
+    t: Zod
+  - key: picks.ben_holmes.bio
+    t: Open source maintainer at Astro
+  - key: picks.ben_holmes.description
+    t: |
+      Siguranța la runtime a definit anul 2022 odată cu ascensiunea tRPC. 
+      Acum, cu Astro folosind Zod pentru markdown type-safe și cu utilizatorii Remix care aduc Zod în validarea formularelor, 
+      devine un must-have pentru orice programator JavaScript
+
+  - key: picks.tyler_mcginnis.name
+    t: TanStack
+  - key: picks.tyler_mcginnis.bio
+    t: Founder, UI.dev
+  - key: picks.tyler_mcginnis.description
+    t: |
+      Alegerea anului pentru mine este TanStack sau orice altceva fac  
+      Tanner și Dominik.
+
+  - key: picks.shaundai_person.name
+    t: Sarah Drasner
+  - key: picks.shaundai_person.bio
+    t: Senior Software Engineer, Netflix
+  - key: picks.shaundai_person.description
+    t: |
+      Sarah continuă să contribuie în comunitate prin articole de blog, discursuri și, mai recent, prin cartea ei - „Engineering Management for the Rest of Us".
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Aprofundează-ți cunoștințele urmând cursuri moderne de inginerie front-end.
+  - key: sponsors.google_chrome.description
+    t: Mulțumim echipei Google Chrome pentru susținerea muncii noastre.
+  - key: sponsors.renderatl.description
+    t: Aceasta este o conferință de tehnologie axată pe Front-End Engineering.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: |
+      Sondajul State of JS din 2022 a avut loc între 21 noiembrie și 22 decembrie 2022 și a colectat 39.472 de răspunsuri. Sondajul a fost organizat de [Sacha Greif](https://sachagreif.com/) și [Eric Burel](https://www.lbke.fr/), cu ajutorul unei echipe de colaboratori și consultanți open-source. 
+      Logo-ul și tricoul din acest an au fost create de [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Obiectiv
+
+      Acest sondaj a fost creat pentru a identifica tendințe viitoare din ecosistemul dezvoltării web, cu scopul de ajuta developerii să facă alegeri tehnologice. 
+      Prin urmare, sondajul se concentrează mai degrabă pe anticiparea a ceea ce va avea loc în următorii câțiva ani decât pe analizarea a ceea ce se bucură acum de succes, de aceea funcționalitățile și tehnologiile care sunt în prezent cele mai răspândite nu sunt întotdeauna incluse. 
+      De asemenea, acestea ar trebui privite ca un **snapshot al unui anumit grup de developeri**, nefiind menite să vorbească în numele întregului ecosistem. 
+
+      ### Design
+
+      Sondajul a fost creat parțial pe baza sondajului de anul trecut, cu o perioadă deschisă de feedback în care schița acestuia a fost pusă în discuție [pe GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+
+      Toate întrebările sondajului au fost opționale. 
+
+      ### Audiență
+
+      Sondajul a fost accesibil online, iar respondenții nu au fost filtrați sau selectați în niciun fel. Respondenții au fost în mare parte o combinație de respondenți ai sondajelor anterioare (anunțați pe baza unei liste dedicate de email-uri) și trafic din social media. 
+
+      Trebuie menționat că framework-urile, libăriile etc. au fost libere să-și încurajeze comunitatea să participe la sondaj, iar unele dintre ele au profitat de acest avantaj prin bannere, tweet-uri etc. O defalcare detaliată a surselor de trafic este inclusă în graficul „Surse”. 
+
+      ### Reprezentativitate și incluziune
+
+      Deși credem că e important să dăm o voce fiecărei comunități, realitatea este că un sondaj deschis cum e acesta va avea întotdeauna dificultăți în a reprezenta cu succes pe toată lumea, mai ales atunci când operează prin sisteme care au deja propriile biasuri inerente.
+
+      Pentru a contrabalansa acest lucru, am implementat 3 strategii distincte:
+
+      - **Extinderea**: încercăm în permanență să luăm legătura cu diferite organizații (cum sunt cele specializate BIPOC sau LGBTQ ori platformele de predare online) în speranța de a ne diversifica audiența.
+
+      - **Analiza datelor**: prin funcționalități precum fațetele și variantele, încercăm permanent să scoatem în evidență vocea oricărui segment demografic, indiferent cât de puțin ar reprezenta acesta în datele noastre.
+
+      - **Reducerea barierelor**: un sondaj prea lung, inaccesibil, care se încarcă greu, scris doar în limba engleză etc. - toate pot contribui la impunerea unei „taxe de efort” care îi exclude pe cei ce nu-și permit să o plătească. Rezolvarea acestor probleme poate reduce bariera de intrare și, în acest proces, să aducă un public mai divers. 
+
+      ### Finanțarea proiectului
+
+      Finanțarea acestui proiect provine dintr-o varietate de surse:
+
+      - **Vânzarea de tricouri**.
+
+      - **Sponsorizările graficelor**: membrii comunității pot dona pentru sondaj, iar numele lor va fi afișat în raport.  
+      
+      - **Link-uri sponsorizate**: link-urile către resursele recomandate din josul fiecărei pagini sunt furnizate de partenerii noștri [Frontend Masters](https://frontendmasters.com/) și [RenderATL](https://www.renderatl.com/).
+
+      - **Alte finanțări**: în acest an, [Google](https://www.google.com/) și [Nijibox](https://nijibox.jp/) mi-au finanțat munca pentru sondaj în mod direct.
+
+      Orice contribuție sau sponsorizare este foarte apreciată. Aș dori în mod special să lucrez îndeaproape cu mai mulți furnizori de browsere deoarece ei joacă un rol central în ecosistemul web.  
+
+      ### Prezentare tehnică
+
+      Poți găsi o prezentare tehnică detaliată despre cum se desfășoară sondajele [aici](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
+
+      - **Colectarea de date**: custom [Vulcan.js](http://vulcanjs.org/) app.
+
+      - **Stocarea/prelucrarea datelor**: MongoDB & MongoDB Aggregations.
+
+      - **Data API**: Node.js GraphQL API. 
+
+      - **Site-ul cu rezultate**: [Gatsby](https://www.gatsbyjs.com/) React app.
+
+      - **Vizualizarea datelor**: [Nivo](https://nivo.rocks/) React dataviz library. 
+
+      - **Font**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) și [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
