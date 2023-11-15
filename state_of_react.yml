@@ -1,0 +1,660 @@
+locale: ro-RO
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React există de ceva vreme și e clar că a devenit unul dintre framework-urile front-end dominante. 
+
+      Chiar și așa, React încă evoluează într-un ritm rapid, iar comunitatea face tot posibilul să țină pasul.  
+
+      Cu ajutorul sondajului State of React, sperăm să înțelegem această evoluție și să ajutăm developerii să-și găsească drumul prin vastul ecosistem React.
+
+  - key: general.state_of_react.description
+    t: Sondajul anual al developerilor cu privire la ecosistemul React
+
+  - key: features.features_intro_react
+    t: |
+      Bun venit la sondaj! Această primă parte se concentrează pe identificarea  
+      API-urilor React pe care le cunoști și le utilizezi. 
+
+      Apropo, dacă vrei să ne spui mai multe despre oricare dintre alegerile tale, trebuie doar să faci click pe mica pictogramă de „comentariu”!
+
+  - key: tools.tools_intro_react
+    t: |
+      Următoarele secțiuni se concentrează pe **librăriile** și **framework-urile** care  
+      fac parte din ecosistemul React. Spune-ne ce te entuziasmează!
+
+  # sections
+  - key: sections.main_apis.title
+    t: Principalele API-uri
+  - key: sections.main_apis.description
+    t: Funcționalități React stabile
+
+  - key: sections.hooks.title
+    t: Hook-uri
+  - key: sections.hooks.description
+    t: Hook-uri React native
+
+  - key: sections.new_apis.title
+    t: API-uri noi
+  - key: sections.new_apis.description
+    t: Funcționalități nou introduse sau experimentale
+
+  - key: sections.component_libraries.title
+    t: Librării de componente
+  - key: sections.component_libraries.description
+    t: Elementele de bază ale front-end-ului tău
+
+  # - key: sections.data_management.title
+  #   t: Data Management
+  # - key: sections.data_management.description
+  #   t: Loading and managing application data
+
+  - key: sections.state_management.title
+    t: Gestionarea state-ului
+  - key: sections.state_management.description
+    t: Librării pentru managementul state-ului aplicației
+
+  - key: sections.data_loading.title
+    t: Încărcarea datelor
+  - key: sections.data_loading.description
+    t: Utilități pentru încărcarea și gestionarea datelor
+
+  - key: sections.back_end_infrastructure.title
+    t: Back-end & infrastructură
+  - key: sections.back_end_infrastructure.description
+    t: Bundling & servirea aplicației
+
+  # - key: sections.usage.title
+  #   t: Back-End & Infrastructure
+  # - key: sections.usage.description
+  #   t: Bundling & serving your app
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: UI Libraries
+  # - key: sections.ui_libraries.description
+  #   t: Component libraries and other UI toolkits.
+
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Frameworks
+  # - key: sections.meta_frameworks.description
+  #   t: Frameworks that help render and serve your React app
+
+  # - key: sections.testing.title
+  #   t: Testing
+  # - key: sections.testing.description
+  #   t: Testing utilities and libraries
+
+  - key: sections.other_tools.title
+    t: Alte instrumente
+  - key: sections.other_tools.description
+    t: Alte utilități și librării React
+
+  - key: sections.usage_react.title
+    t: Utilizare
+  - key: sections.usage_react.description
+    t: Cum folosești React zi de zi
+
+  - key: tools.data_loading_heading
+    t: Librării de încărcare a datelor
+
+  - key: tools.state_management_heading
+    t: Librării de gestionare a state-ului
+
+  # features
+
+  - key: features.main_apis_pain_points
+    t: Puncte slabe ale API-urilor
+  - key: features.main_apis_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu API-urile menționate mai sus?
+
+  - key: features.hooks_pain_points
+    t: Puncte slabe ale hook-urilor
+  - key: features.hooks_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu hook-urile?
+
+  - key: features.new_apis_pain_points
+    t: Puncte slabe ale API-urilor noi
+  - key: features.new_apis_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu noile API-uri?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, adesea folosit sub sintaxa `<>...</>`, permite gruparea elementelor fără un nod wrapper.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` permite măsurarea programatică a performanței de randare a arborelui React.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` permite identificarea bug-urilor comune ale componentelor chiar de la începutul dezvoltării.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` permite randarea unor copii într-o parte diferită a DOM-ului.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` permite crearea unui context pe care componentele îl pot furniza sau citi.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` îi permite unei componente să expună un nod DOM către componenta părinte cu un ref.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` permite amânarea încărcării codului componentei până când este randat pentru prima dată.
+
+  - key: features.memo.description
+    t: >
+      `memo` permite să dai skip la rerandarea unei componente atunci când prop-urile sale rămân neschimbate.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` permite crearea unui root pentru a afișa componente React în interiorul unui nod DOM al browserului.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` permite afișarea componentelor React în interiorul unui nod DOM al browserului al cărui conținut HTML a fost generat anterior de `react-dom/server`.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` este un hook ce permite memorarea în cache a definiției unei funcții între randări.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` este un hook ce permite citirea și abonarea la contextul unei componente.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` este un hook ce permite etichetarea unui hook personalizat în React DevTools.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` este un hook ce permite amânarea actualizării unei părți din UI.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` este un hook ce permite sincronizarea unei componente cu un sistem extern.
+
+  - key: features.useid.description
+    t: >
+      `useId` este un hook pentru generarea de ID-uri unice care pot fi transmise atributelor de accesibilitate.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` este un hook ce permite memorarea în cache a rezultatului unui calcul între randări.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` este un hook ce permite adăugarea unui reducer la componenta folosită.
+
+  - key: features.useref.description
+    t: >
+      `useRef` este un hook ce permite referențierea unei valori care nu este necesară pentru randare.
+
+  - key: features.usestate.description
+    t: >
+      `useState` este un hook ce permite adăugarea unei variabile în state-ul unei componente.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` este un hook ce permite abonarea la un store extern.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` este un hook ce permite actualizarea state-ului fără a bloca UI-ul.
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` permite afișarea unui fallback până când se finalizează încărcarea copiilor.
+
+  - key: features.use_hook.description
+    t: >
+      `use` este un hook ce permite citirea valorii unei resurse, cum ar fi un Promise sau un context.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` este un hook ce permite actualizarea state-ului fără a bloca UI-ul.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` permite actualizarea state-ului fără a bloca UI-ul.
+
+  - key: features.react_server_components.description
+    t: >
+      Componente ce rulează exclusiv pe server.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` marchează fișierele sursă ale căror componente se execută pe client.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` marchează funcțiile server-side care pot fi apelate din codul client-side.
+
+  - key: features.server_actions.description
+    t: >
+      Soluția built-in React pentru server mutations.
+
+  - key: features.taint_api.description
+    t: >
+      Prevenirea transmiterii unui obiect sau a unei valori către o componentă client.
+
+  - key: features.cache.description
+    t: >
+      `cache` permite memorarea în cache a rezultatului unei interogări sau a unui calcul de date.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` este un hook ce oferă informații despre ultimul formular trimis.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` este un hook ce permite actualizarea state-ului pe baza rezultatului unei acțiuni în formular.
+
+  # tools
+
+  - key: tools.component_libraries_others
+    t: Alte librării
+  - key: tools.component_libraries_others.question
+    t: Ce alte librării de componente ai folosit?
+
+  - key: tools.component_libraries_pain_points
+    t: Puncte slabe ale componentelor
+  - key: tools.component_libraries_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în timp ce ai lucrat cu componente?
+
+  # - key: tools.ui_libraries_happiness
+  #   t: Happiness
+  # - key: tools.ui_libraries_happiness.description
+  #   t: How happy are you with the state of UI libraries?
+
+  - key: tools.state_management_others
+    t: Alte librării de gestionare a state-ului
+  - key: tools.state_management_others.question
+    t: Ce alte librării ai folosit pentru a gestiona state-ul aplicațiilor tale?
+
+  - key: tools.state_management_pain_points
+    t: Puncte slabe ale gestionării state-ului
+  - key: tools.state_management_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu gestionarea state-ului?
+
+  # - key: tools.state_management_happiness
+  #   t: Happiness
+  # - key: tools.state_management_happiness.description
+  #   t: How happy are you with the available state management libraries?
+
+  - key: tools.data_loading_others
+    t: Alte librării de încărcare a datelor
+  - key: tools.data_loading_others.question
+    t: Ce alte librării ai folosit pentru încărcarea datelor?
+
+  - key: tools.data_loading_pain_points
+    t: Puncte slabe ale încărcării datelor
+  - key: tools.data_loading_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu încărcarea datelor?
+
+  # - key: tools.data_loading_happiness
+  #   t: Happiness
+  # - key: tools.data_loading_happiness.description
+  #   t: How happy are you with the state of data loading libraries?
+
+  - key: tools.meta_frameworks_others
+    t: Alte Meta-Frameworks
+  # - key: tools.meta_frameworks_happiness
+  #   t: Happiness
+  # - key: tools.meta_frameworks_happiness.description
+  #   t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.meta_frameworks_heading
+    t: Meta-Frameworks
+
+  - key: tools.other_back_end_tools_heading
+    t: Alte instrumente și servicii back-end
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: Puncte slabe pe back-end
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit în legătură cu back-end-ul și infrastructura?
+
+  - key: other_tools.testing
+    t: Librării de testare
+  - key: other_tools.testing.question
+    t: Ce librării folosești pentru a testa aplicațiile React?
+
+  # - key: tools.testing_happiness
+  #   t: Happiness
+  # - key: tools.testing_happiness.description
+  #   t: How happy are you with the current state of testing libraries?
+
+  - key: other_tools.mobile_development
+    t: Dezvoltare aplicații mobile
+  - key: other_tools.mobile_development.question
+    t: Ce librării folosești pentru dezvoltarea aplicațiilor mobile?
+
+  # - key: tools.mobile_development_others
+  #   t: Other Mobile Development Tools
+  # - key: tools.mobile_development_happiness
+  #   t: Happiness
+  # - key: tools.mobile_development_happiness.description
+  #   t: How happy are you with the current state of mobile development?
+
+  # other tools
+  - key: other_tools.form_libraries
+    t: Librării de formulare
+  # - key: other_tools.form_libraries.description
+  #   t: Libraries for generating and validating forms.
+  - key: other_tools.form_libraries.question
+    t: Ce librării folosești pentru a crea formulare?
+  - key: options.form_libraries.na
+    t: Niciuna
+
+  - key: other_tools.build_tools
+    t: Instrumente pentru build
+  # - key: other_tools.build_tools.description
+  #   t: Build tools and bundlers.
+  - key: other_tools.build_tools.question
+    t: Ce instrumente pentru build și bundlere folosești?
+
+  - key: other_tools.animation_libraries
+    t: Animare
+  # - key: other_tools.animation.description
+  #   t: Libraries to help manage animations and transitions.
+  - key: other_tools.animation_libraries.question
+    t: Ce librării pentru animare folosești?
+
+  - key: other_tools.auth
+    t: Autentificare
+  # - key: other_tools.auth.description
+  #   t: Libraries and services for managing authentication and accounts.
+  - key: other_tools.auth.question
+    t: Ce librării și servicii folosești pentru a gestiona autentificarea?
+
+  - key: other_tools.data_visualization_libraries
+    t: Vizualizarea datelor
+  # - key: other_tools.data_visualization.description
+  #   t: Data visualization and graphics libraries.
+  - key: other_tools.data_visualization_libraries.question
+    t: Ce librării pentru vizualizarea datelor și grafice folosești?
+
+  - key: other_tools.css_tools
+    t: Librării și instrumente CSS
+  # - key: other_tools.css_tools.description
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: other_tools.css_tools.question
+    t: Ce librării sau framework-uri folosești pentru a stiliza aplicațiile React?
+
+  - key: other_tools.other_frontend_frameworks
+    t: Alte framework-uri front-end
+  # - key: other_tools.other_frontend_frameworks.description
+  #   t: >
+  #     Other front-end frameworks
+  - key: other_tools.other_frontend_frameworks.question
+    t: >
+      Ce alte framework-uri front-end folosești?
+
+  - key: other_tools.hosting
+    t: Servicii de găzduire
+  # - key: other_tools.hosting.description
+  #   t: Services you use to host your React apps.
+  - key: other_tools.hosting.question
+    t: Ce servicii folosești pentru a găzdui aplicațiile React?
+
+  - key: other_tools.backend_language
+    t: Limbaje back-end
+  - key: other_tools.backend_language.question
+    t: În ce limbaje sunt scrise aplicațiile back-end pe care le gestionezi?
+
+  - key: other_tools.other_services
+    t: Alte servicii
+  - key: other_tools.other_services.question
+    t: Ce alte servicii folosești pentru aplicațiile React?
+
+  - key: other_tools.validation
+    t: Librării de schematizare și validare
+  - key: other_tools.validation.question
+    t: Ce librării folosești pentru validarea datelor în raport cu un model?
+
+  - key: other_tools.ai_tools
+    t: Instrumente AI
+  - key: other_tools.ai_tools.question
+    t: Ce instrumente sau servicii AI folosești pentru a te ajuta cu scrierea codului React?
+
+  - key: other_tools.renderers
+    t: React Renderers
+  - key: other_tools.renderers.question
+    t: Ce librării folosești pentru a randa React în diferite platforme sau medii?
+
+  - key: other_tools.other_tools
+    t: Alte instrumente
+  - key: other_tools.other_tools.question
+    t: Ce alte instrumente folosești pentru a dezvolta aplicații React?
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (plain, “vanilla” CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Gestionarea rerandării componentelor
+  - key: options.react_pain_points.testing
+    t: Testare
+  - key: options.react_pain_points.data_loading
+    t: Încărcarea datelor și operații asincrone
+  - key: options.react_pain_points.state_management
+    t: Gestionarea state-ului (`useState`, Redux, Context etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Păstrarea unei dimensiuni mici a bundle-urilor
+  - key: options.react_pain_points.server_rendering
+    t: Randare server-side și componente server
+  - key: options.react_pain_points.css_styling
+    t: CSS și stilizare
+  - key: options.react_pain_points.attribute_names
+    t: Nume de atribute „greșite”, cum sunt `className`, `htmlFor` etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Evenimente sintetice
+  - key: options.react_pain_points.ref_management
+    t: Ref management
+  - key: options.react_pain_points.memoization
+    t: Memoization
+  - key: options.react_pain_points.animations
+    t: Animații și tranziții
+  - key: options.react_pain_points.forms
+    t: Formulare
+  - key: options.react_pain_points.typescript
+    t: Lipsa suportului oficial nativ pentru TypeScript
+
+  # usage type
+  - key: usage.react_usage_type
+    t: Utilizare React
+  - key: usage.react_usage_type.question
+    t: În ce context folosești în principal React?
+
+  # react version
+
+  - key: usage.react_version
+    t: Versiune de React
+  - key: usage.react_version.question
+    t: Ce versiune de React folosești în mod regulat?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.react_canary
+    t: Canary
+  - key: options.react_version.not_sure
+    t: Nu sunt sigur(ă)
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Application Patterns
+  - key: usage.js_app_patterns.question
+    t: Pe care dintre următoarele arhitecturi și modele de randare le-ai folosit **în ultimul an**?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Single Page Application (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Aplicații care rulează în totalitate în browser
+  - key: options.js_app_patterns.multiple_page_app
+    t: Multi-Page Application (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Aplicații care rulează în totalitate pe server, cu comportament dinamic minim din partea clientului
+  - key: options.js_app_patterns.static_site_generation
+    t: Static Site Generation (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Conținut static pre-randat, cu sau fără un element dinamic la nivelul clientului
+  - key: options.js_app_patterns.server_side_rendering
+    t: Server-Side Rendering (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Randarea dinamică a conținutului HTML pe server înainte de rehidratarea lui pe client
+  - key: options.js_app_patterns.partial_hydration
+    t: Hidratare parțială
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Hidratarea selectivă a componentelor pe client (ex. React Server Components)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Hidratare progresivă
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Controlarea ordinii în care se face hidratarea componentelor pe client
+  - key: options.js_app_patterns.islands_architecture
+    t: Islands Architecture
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Isolated islands of dynamic behavior with multiple entry points in an otherwise static site (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Îmbunătățiri progresive
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Asigurarea că o aplicație este funcțională chiar și fără JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Generare statică incrementală
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Posibilitatea de a mări sau modifica dinamic un site static chiar și după build-ul inițial (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: Streaming SSR
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Defalcarea conținutului randat de server în părți mai mici transmise în flux
+  - key: options.js_app_patterns.resumability
+    t: Resumability
+  - key: options.js_app_patterns.resumability.description
+    t: Serializarea state-ului framework-ului pe server astfel încât clientul să poată relua execuția fără a duplica executarea codului.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Modificarea HTML-ului randat înainte de a-l trimite la client
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Micro Frontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Design
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: Utilizare React
+  - key: usage.what_do_you_use_react_for.question
+    t: La ce folosești React?
+
+  - key: usage.react_pain_points
+    t: Puncte slabe ale React
+
+  - key: usage.state_of_react
+    t: Grad de mulțumire
+  - key: usage.state_of_react.question
+    t: Cât de multțumit(ă) ești de starea generală a React?
+
+  - key: usage.usage_pain_points
+    t: Alte puncte slabe
+  - key: usage.usage_pain_points.question
+    t: Alte puncte slabe ale React pe care ai dori să le menționezi?
+
+  # new features
+  - key: usage.new_features
+    t: Funcționalități noi
+  - key: usage.new_features.question
+    t: Care dintre aceste funcționalități noi sau viitoare te entuziasmează cel mai mult?
+
+  - key: options.new_features.asset_loading
+    t: Încărcarea asset-urilor
+  - key: options.new_features.asset_loading.description
+    t: Integrarea completă a Suspense cu ciclurile de încărcare ale stylesheet-urilor, fonturilor și imaginilor
+  - key: options.new_features.cache.description
+    t: Un API care ajută la stocarea în cache a datelor.
+  - key: options.new_features_react_forget.description
+    t: Un compilator de reactivitate automat pentru React
+  - key: options.new_features.new_docs
+    t: Documentație nouă
+  - key: options.new_features.new_docs.description
+    t: Site-ul actualizat de documentație al React.
+  - key: options.new_features.offscreen_rendering
+    t: Randare offscreen
+  - key: options.new_features_offscreen_rendering.description
+    t: Randarea ecranelor în background fără alte probleme de performanță.
+  - key: options.new_features.use_hook
+    t: >
+      Hook-ul `use`
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` expune valoarea unei promisiuni, dar poate fi folosit în interiorul componentelor și hook-urilor normale, inclusiv pe client.
+
+  - key: options.new_features.transition_tracing
+    t: Urmărirea tranziției
+  - key: options.new_features.transition_tracing.description
+    t: Detectează când tranzițiile React devin lente și investighează cauza încetinirii lor.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Site-uri statice
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Design systems
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Aplicații web
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Aplicații pentru mobil
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Aplicații desktop
+
+  # resources
+  - key: resources.learning_methods_react
+    t: Metode de învățare
+  - key: resources.learning_methods_react.question
+    t: Ce resurse ai folosit pentru a învăța React?
+
+  - key: resources.blogs_news_magazines_react
+    t: Blog-uri & newslettere
+  - key: resources.blogs_news_magazines_react.question
+    t: Ce blog-uri, reviste sau newslettere consulți pentru a fi la curent cu noutățile din React?
+
+  - key: resources.sites_courses_react
+    t: Site-uri & cursuri
+  - key: resources.sites_courses_react.question
+    t: Ce site-uri sau cursuri ai folosit pentru a învăța React?
+
+  - key: resources.podcasts_react
+    t: Podcast-uri
+  - key: resources.podcasts_react.question
+    t: Ce podcast-uri despre React sau dezvoltare web asculți?
+
+  - key: resources.video_creators_react
+    t: Creatori video
+  - key: resources.video_creators_react.question
+    t: Ce creatori video care abordează teme ca React sau dezvoltarea web urmărești pe YouTube, Twitch etc.?
+
+  - key: resources.people_react
+    t: Persoane
+  - key: resources.people_react.question
+    t: Pe cine citești, urmărești sau vrei să evidențiezi din comunitatea React?
