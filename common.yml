@@ -1342,7 +1342,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: Primele metode de învățare
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Cum ai început procesul de învățare?
   - key: resources.first_steps.others
     t: Alte metode de învățare folosite la început
@@ -1352,7 +1352,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blog-uri și reviste
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Ce blog-uri/reviste/etc. citești?
   - key: resources.blogs_news_magazines.others
     t: Alte blog-uri și reviste
@@ -1364,7 +1364,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Site-uri și cursuri
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Ce site-uri/cursuri/etc. folosești pentru informare?
   - key: resources.sites_courses.others
     t: Alte site-uri și cursuri
@@ -1376,7 +1376,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast-uri
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Ce podcast-uri legate de programare asculți?
   - key: resources.podcasts.others
     t: Alte podcast-uri
@@ -1406,7 +1406,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Alte sondaje
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: La ce alte sondaje dedicate programatorilor mai participi?
   - key: resources.other_surveys.others
     t: Alte sondaje care nu au fost menționate anterior
@@ -1419,7 +1419,7 @@ translations:
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
   - key: user_info.other_surveys.question
-    aliasFor: resources.other_surveys.description
+    aliasFor: resources.other_surveys.question
 
   # video creators
   - key: resources.video_creators
