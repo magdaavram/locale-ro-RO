@@ -27,6 +27,11 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.features.title
+    t: Funcționalități
+  - key: sections.features.description
+    t: Sintaxă, API-uri de browser și alte funcționalități.
+
   - key: sections.syntax.title
     t: Sintaxă
   - key: sections.syntax.description
@@ -493,6 +498,11 @@ translations:
   - key: features.dynamic_import
     t: Import dinamic
 
+  - key: features.syntax_features
+    t: Funcționalități de sintaxă
+  - key: features.syntax_features.question
+    t: Pe care dintre aceste funcționalități de sintaxă le-ai folosit?
+
   - key: features.string_features
     t: Funcționalități String
   - key: features.string_features.question
@@ -502,6 +512,26 @@ translations:
     t: Funcționalități Array
   - key: features.array_features.question
     t: Pe care dintre aceste funcționalități Array le-ai folosit?
+
+  - key: features.async_features
+    t: Funcționalități async
+  - key: features.async_features.question
+    t: Pe care dintre aceste funcționalități async le-ai folosit?
+
+  - key: features.browser_api_features
+    t: API-uri de browser
+  - key: features.browser_api_features.question
+    t: Pe care dintre aceste API-uri de browser le-ai folosit?
+
+  - key: features.language_pain_points
+    t: Puncte slabe ale limbajului
+  - key: features.language_pain_points.question
+    t: Care sunt principalele puncte slabe legate de limbajul JavaScript?
+
+  - key: features.browser_apis_pain_points
+    t: Puncte slabe ale API-urilor de browser
+  - key: features.browser_apis_pain_points.question
+    t: Care sunt principalele puncte slabe legate de API-urile de browser?
 
   # patterns
   - key: patterns.object_oriented_programming
@@ -540,6 +570,77 @@ translations:
     t: >
       Librăriile sunt încărcate din [Best of JS](https://bestofjs.org/). 
       Dacă un proiect lipsește, îl poți [trimite aici](https://github.com/michaelrambeau/bestofjs/issues/new?template=add-a-project-to-best-of-javascript.md).
+
+  # front-end frameworks
+  - key: tools.front_end_frameworks_happiness
+    t: Satisfacția față de framework-urile front-end
+  - key: tools.front_end_frameworks_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a framework-urilor front-end?
+
+  - key: tools.front_end_frameworks_pain_points
+    t: Puncte slabe ale framework-urilor front-end
+  - key: tools.front_end_frameworks_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit la framework-urile front-end?
+
+  # meta-frameworks
+
+  - key: tools.meta_frameworks_happiness
+    t: Satisfacția față de meta-framework-uri
+  - key: tools.meta_frameworks_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a meta-framework-urilor?
+
+  - key: tools.meta_frameworks_pain_points
+    t: Puncte slabe ale meta-framework-urilor
+  - key: tools.meta_frameworks_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit la meta-framework-uri?
+
+  # testing
+
+  - key: tools.testing_happiness
+    t: Satisfacția față de testare
+  - key: tools.testing_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a instrumentelor de testare?
+
+  - key: tools.testing_pain_points
+    t: Puncte slabe ale testării
+  - key: tools.testing_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit la instrumentele de testare?
+
+  # mobile & desktop
+
+  - key: tools.mobile_desktop_happiness
+    t: Satisfacția față de mobil și desktop
+  - key: tools.mobile_desktop_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a instrumentelor pentru mobil și desktop?
+
+  - key: tools.mobile_desktop_pain_points
+    t: Puncte slabe pe mobil și desktop
+  - key: tools.mobile_desktop_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit când ai folosit JavaScript pentru a dezvolta aplicații de mobil și desktop?
+
+  # build tools
+
+  - key: tools.build_tools_happiness
+    t: Satisfacția față de instrumentele de build
+  - key: tools.build_tools_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a instrumentelor de build?
+
+  - key: tools.build_tools_pain_points
+    t: Puncte slabe ale instrumentelor de build
+  - key: tools.build_tools_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit la instrumentele de build?
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_happiness
+    t: Satisfacția față de monorepo
+  - key: tools.monorepo_tools_happiness.question
+    t: Cât de mulțumit(ă) ești de starea generală a instrumentelor monorepo?
+
+  - key: tools.monorepo_tools_pain_points
+    t: Puncte slabe ale monorepo
+  - key: tools.monorepo_tools_pain_points.question
+    t: Care sunt punctele slabe pe care le-ai întâlnit la instrumentele monorepo?
 
   ###########################################################################
   # Other Tools
@@ -632,6 +733,8 @@ translations:
     t: Alte modele de aplicații
 
   - key: usage.what_do_you_use_js_for
+    t: Utilizare JavaScript
+  - key: usage.what_do_you_use_js_for.question
     t: Pentru ce folosești JavaScript?
   - key: usage.what_do_you_use_js_for.others
     t: Alte utilizări ale JavaScript
@@ -714,12 +817,22 @@ translations:
     t: Cât de mulțumit(ă) ești de starea framework-urilor de randare?
 
   - key: happiness.state_of_the_web
+    t: Satisfacția față de tehnologiile web
+  - key: happiness.state_of_the_web.question
     t: Cât de mulțumit(ă) ești de starea generală a tehnologiilor web?
 
   - key: happiness.state_of_js
+    t: Satisfacția față de JavaScript
+  - key: happiness.state_of_js.question
     t: Cât de mulțumit(ă) ești de starea generală a JavaScript?
 
   # Pain Points
+
+  - key: usage.top_js_pain_points
+    aliasFor: opinions.js_pain_points
+  - key: usage.top_js_pain_points.question
+    t: Care dintre aspectele JavaScript îți dau cele mai multe bătăi de cap?
+
   - key: opinions.js_pain_points
     t: Puncte slabe în JavaScript
   - key: opinions.js_pain_points.description
@@ -737,6 +850,12 @@ translations:
     aliasFor: opinions_others.js_pain_points.others
 
   # Missing Features
+
+  - key: usage.top_currently_missing_from_js
+    t: Funcționalități lipsă
+  - key: usage.top_currently_missing_from_js.question
+    aliasFor: opinions.currently_missing_from_js
+
   - key: opinions.currently_missing_from_js
     t: Ce simți că lipsește în JavaScript în acest moment?
   - key: opinions.currently_missing_from_js.description
