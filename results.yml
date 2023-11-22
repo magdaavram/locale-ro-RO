@@ -774,6 +774,13 @@ translations:
     t: Toți respondenții
   - key: charts.facet_responses
     t: "{count} răspunsuri"
+  - key: charts.facet_respondents
+    t: "({count} respondenți)"
+
+  - key: charts.nth_percentile
+    t: "A {percentile}-a percentilă"
+  - key: charts.nth_percentile_value
+    t: "A {percentile}-a percentilă: {value}"
 
   - key: charts.freeform_data
     t: (răspunsuri libere)
@@ -1551,3 +1558,13 @@ translations:
 
   - key: filters.facet.select
     t: Selectează o fațetă…
+
+  - key: dataloader.failed_request
+    t: >
+      O, nu! Solicitarea API a eșuat cu următorul mesaj:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Raportează un bug pentru a ne da de veste despre această problemă și vom face tot posibilul pentru a o 
+      rezolva:
+  - key: dataloader.submit_issue
+    t: Trimite problema
