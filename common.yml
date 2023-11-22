@@ -120,6 +120,8 @@ translations:
     t: Procesare date
   - key: credits.back_end_development
     t: Dezvoltare back-end
+  - key: credits.survey_review
+    t: Revizuirea sondajului
 
   # support
   - key: general.support_from
@@ -1083,6 +1085,8 @@ translations:
     t: >
       Pe o scară de la 1 (foarte nemulțumit(ă)) la 5 (foarte mulțumit(ă)), cât de mulțumit(ă)
       ești de situația generală a lucrurilor, în raport cu opțiunile din lista de mai sus?
+  - key: tools.happiness.question
+    t: Cât de mulțumit(ă) ești de situația generală a lucrurilor în legătură cu opțiunile listate mai jos?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1184,7 +1188,7 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Cum ai auzit despre acest sondaj?
+    t: De unde ai auzit despre acest sondaj?
   - key: user_info.email
     t: Adresa de email
   - key: user_info.email.description
@@ -1365,7 +1369,7 @@ translations:
   - key: resources.sites_courses
     t: Site-uri și cursuri
   - key: resources.sites_courses.question
-    t: Ce site-uri/cursuri/etc. folosești pentru informare?
+    t: Ce site-uri/cursuri/etc. folosești pentru a învăța JavaScript?
   - key: resources.sites_courses.others
     t: Alte site-uri și cursuri
   - key: resources.sites_courses.others.description
@@ -1388,8 +1392,8 @@ translations:
   # people
   - key: resources.people
     t: Persoane
-  - key: resources.people.description
-    t: Persoane pe care le citești, urmărești sau pe care vrei să le aduci în atenția noastră.
+  - key: resources.people.question
+    t: Ce persoane citești, urmărești sau doar vrei să le evidențiezi în comunitatea JavaScript?
   # - key: resources.people.others
   #   t: Alte persoane
   # - key: resources.people.others.description
@@ -1424,8 +1428,8 @@ translations:
   # video creators
   - key: resources.video_creators
     t: Creatori de conținut video
-  - key: resources.video_creators.description
-    t: Creatori pe care îi urmărești pe plaftome dedicate conținutului video, cum sunt YouTube, Twitch, TikTok etc.
+  - key: resources.video_creators.question
+    t: Ce creatori video din programare urmărești (pe platforme ca YouTube, Twitch, TikTok etc.)?
   - key: resources.video_creators.others
     t: Alți creatori de conținut video
   - key: options.video_creators.na
