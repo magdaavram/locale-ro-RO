@@ -245,6 +245,21 @@ translations:
   - key: options.top_js_pain_points.date_management.description
     aliasFor: options.js_pain_points.date_management.description
 
+  - key: options.top_js_pain_points.performance
+    t: Performanță
+  - key: options.top_js_pain_points.performance.description
+    t: Scrierea de cod JavaScript performant și eficient
+
+  - key: options.top_js_pain_points.build_tools
+    t: Instrumente de build
+  - key: options.top_js_pain_points.build_tools.description
+    t: Gestionarea instrumentelor pentru a împacheta codul
+
+  - key: options.top_js_pain_points.typing
+    t: Typing
+  - key: options.top_js_pain_points.typing.description
+    t: Gestionarea și întreținerea tipurilor
+
   - key: options.top_js_pain_points.build_tools
     t: Instrumente de build
   - key: options.top_js_pain_points.typing
@@ -406,11 +421,11 @@ translations:
   - key: options.js_app_patterns.static_site_generation
     t: Static Site Generation (SSG)
   - key: options.js_app_patterns.static_site_generation.description
-    t: Conținut static pre-redat, cu sau fără un element dinamic la nivel de client
+    t: Conținut static pre-randat la momentului build-ului, cu sau fără un element dinamic la nivel de client
   - key: options.js_app_patterns.server_side_rendering
     t: Server-Side Rendering (SSR)
   - key: options.js_app_patterns.server_side_rendering.description
-    t: Redarea dinamică a conținutului HTML pe server înainte de rehidratarea acestuia la nivel de client
+    t: Redarea dinamică a conținutului HTML pe server la cerere, înainte de rehidratarea acestuia la nivel de client
   - key: options.js_app_patterns.partial_hydration
     t: Hidratare parțială
   - key: options.js_app_patterns.partial_hydration.description
@@ -430,7 +445,7 @@ translations:
   - key: options.js_app_patterns.incremental_static_generation
     t: Generare statică incrementală
   - key: options.js_app_patterns.incremental_static_generation.description
-    t: Capacitatea de a mări sau modifica dinamic un site static chiar și după build-ul inițial (Next.js ISR, Gatsby DSG)
+    t: Capacitatea de a mări sau modifica dinamic un site static chiar și după build-ul inițial (Next.js ISR & revalidare la cerere, Gatsby DSG)
   - key: options.js_app_patterns.streaming_ssr
     t: Streaming SSR
   - key: options.js_app_patterns.streaming_ssr.description
@@ -443,6 +458,10 @@ translations:
     t: Redarea Edge
   - key: options.js_app_patterns.edge_rendering.description
     t: Modificarea codului HTML înainte de a-l trimite către client
+  - key: options.js_app_patterns.partial_prerendering
+    t: Pre-randare parțială
+  - key: options.js_app_patterns.partial_prerendering.description
+    t: Randarea unei rute cu încărcare statică, în timp ce unele părți sunt dinamice
 
   # slider
   - key: options.js_ts_balance.0
@@ -719,7 +738,7 @@ translations:
   - key: other_tools.hosting
     t: Servicii de hosting
   - key: other_tools.hosting.question
-    t: Pe care dintre următoarele servicii le-ai folosit pentru a găzdui aplicații?
+    t: Pe care dintre următoarele servicii le-ai folosit pentru a găzdui aplicații JavaScript?
 
   ###########################################################################
   # Usage
