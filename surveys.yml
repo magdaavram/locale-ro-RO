@@ -552,3 +552,45 @@ translations:
 
   - key: general.js2023.survey_intro
     t: >
+      JavaScript și-a început viața drept limbaj pentru browser și apoi a început cucerirea serverului cu Node.js.
+
+      Iar în 2023 se pare că întreg ecosistemul este în sfârșit pregătit să încerce să reducă această diferență. Având funcționalități ca React Server Components, framework-uri ca Solid și Qwik sau meta-framework-uri ca Next.js și Sveltekit, oferirea unui mod mai bun de a furniza cod și date clienților a devenit următorul mare obiectiv în JavaScript.
+
+      Sau ar trebui să spunem TypeScript? În acest moment a devenit greu să le desparți pe cele două, așa că nici măcar să nu încercăm. 
+
+      În schimb, poți completa sondajul pentru a ne ajuta să ne dăm seama ce e nou, ce e vechi și ce ne async/awaits în anii ce urmează!
+
+  - key: faq.data_used_js2023
+    t: Cum vor fi folosite aceste date?
+  - key: faq.data_used_js2023.description
+    t: >
+      Toate datele colectate vor fi făcute publice pentru oricine își dorește să le consulte. Programatorii și companiile le pot folosi pentru a-și prioritiza zonele de interes și obiectivele.
+  - key: faq.survey_goals_js2023
+    t: Care sunt obiectivele sondajului?
+  - key: faq.survey_goals_js2023.description
+    t: >
+      Obiectivele sondajului sunt acelea de a măsura gradele de conștientizare și de popularitate ale funcționalităților și librăriilor JavaScript, cu scopul de a anticipa tendințe viitoare.
+  - key: faq.who_should_take_survey_js2023
+    t: Cine ar trebui să completeze acest sondaj?
+  - key: faq.who_should_take_survey_js2023.description
+    t: >
+      Acesta este un sondaj deschis oricui folosește JavaScript (sau TypeScript), fie în mod regulat sau ocazional, ca parte a job-ului, ca student sau pur și simplu ca hobby!
+  - key: faq.how_long_will_survey_take_js2023
+    t: Cât durează completarea sondajului?
+  - key: faq.how_long_will_survey_take_js2023.description
+    t: >
+      În funcție de numărul de întrebări la care alegi să răspunzi (toate întrebările sunt opționale),  
+      completarea sondajului ar trebui să dureze în jur de 15-20 de minute.
+  - key: faq.learn_more_js2023
+    t: Unde pot afla mai multe?
+  - key: faq.learn_more_js2023.description
+    t: Poți afla mai multe despre acest sondaj în [articolul nostru de lansare](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-1cmh).
+  - key: faq.survey_design_js2023
+    t: Cum a fost conceput acest sondaj?
+  - key: faq.survey_design_js2023.description
+    t: >
+      Acest sondaj a fost conceput cu ajutorul comunității, printr-un [thread deschis de feedback](https://github.com/Devographics/surveys/issues/224).
+  - key: faq.results_released_js2023
+    t: Când vor fi publicate rezultatele?
+  - key: faq.results_released_js2023.description
+    t: Sondajul va fi deschis între 22 noiembrie și 12 decembrie, iar rezultatele vor fi publicate la scurt timp după.
