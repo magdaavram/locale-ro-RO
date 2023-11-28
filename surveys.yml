@@ -238,7 +238,7 @@ translations:
     t: >
       Nu ai niciun element în lista ta de lectură. 
       Încearcă să revii la sondaj și să adaugi funcționalități sau librării care-ți plac 
-      pentru a afla mai multe folosind butonul „+”.
+      folosind butonul „+” pentru a afla mai multe despre acestea.
 
   - key: readinglist.results
     t: >

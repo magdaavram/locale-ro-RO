@@ -203,7 +203,7 @@ translations:
     t: >
       Am obținut un scor de familiaritate de {score} puncte la sondajul #{hashtag} din acest an!
       Am folosit {usage_count} funcționalități și am știut de alte {awareness_count},
-      fapt ce mă plasează în top {rank}% dintre toți respondenții.
+      fapt ce mă plasează în top {rank}% printre toți respondenții.
       Poți obține un scor mai mare? {shareUrl}
   # share
   - key: general.share_subject
